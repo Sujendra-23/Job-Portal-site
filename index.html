@@ -43,7 +43,7 @@
 <div class="meta" id="meta">Loading…</div>
 <input id="search" type="text" placeholder="Filter by company or title…">
 <div class="tabs">
-  <span class="tab active" id="tab-all">All openings</span><span class="tab" id="tab-top">Top companies</span>
+  <span class="tab active" id="tab-ft">Full-time 2027</span><span class="tab" id="tab-intern">Intern / Co-op</span><span class="tab" id="tab-top">Top companies</span>
 </div>
 <div id="days"></div>
 <script>
@@ -110,8 +110,11 @@ async function load(){
     fetch('top_companies.json').then(r=>r.json()).catch(()=>[])
   ]);
   const topSet = new Set(topCompanies);
-  let mode = 'all'; // 'all' | 'top'
-  const visible = () => mode==='top' ? roles.filter(r=>topSet.has(r.company)) : roles;
+  const isIntern = r => /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
+  let mode = 'ft'; // 'ft' | 'intern' | 'top'
+  const visible = () => mode==='top' ? roles.filter(r=>topSet.has(r.company))
+    : mode==='intern' ? roles.filter(isIntern)
+    : roles.filter(r=>!isIntern(r));
   function render(){
     const list = visible();
     // group by posting date, newest first
@@ -138,14 +141,16 @@ async function load(){
       tg.textContent = cell.classList.contains('expanded')?'Show less':'Read more';
     };
   });
-  document.getElementById('meta').textContent = roles.length+' roles across '+dates.length+' days · Last updated October 7, 2026';
+  document.getElementById('meta').textContent = list.length+' roles across '+dates.length+' days · Last updated October 7, 2026';
   applyFilter();
   paintApplied();
   } // end render()
-  document.getElementById('tab-all').onclick = ()=>{ mode='all'; setTab(); render(); };
+  document.getElementById('tab-ft').onclick = ()=>{ mode='ft'; setTab(); render(); };
+  document.getElementById('tab-intern').onclick = ()=>{ mode='intern'; setTab(); render(); };
   document.getElementById('tab-top').onclick = ()=>{ mode='top'; setTab(); render(); };
   function setTab(){
-    document.getElementById('tab-all').classList.toggle('active', mode==='all');
+    document.getElementById('tab-ft').classList.toggle('active', mode==='ft');
+    document.getElementById('tab-intern').classList.toggle('active', mode==='intern');
     document.getElementById('tab-top').classList.toggle('active', mode==='top');
   }
   function applyFilter(){
