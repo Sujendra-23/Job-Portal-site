@@ -43,19 +43,26 @@
 <script>
 const key = r => r.company + '||' + r.title;
 function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
+function decodeHtml(s){
+  const t = document.createElement('textarea');
+  let prev = s || '', out = prev;
+  for(let i=0;i<3;i++){ t.innerHTML = out; out = t.value; if(out===prev) break; prev = out; }
+  return out;
+}
 function fmtDate(iso){
   if(!iso) return 'Date not listed';
   const d = new Date(iso + 'T12:00:00');
   return d.toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
 }
 function rowHtml(r, resumes){
-  const plain = (r.description||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
+  const descHtml = decodeHtml(r.description||'');
+  const plain = descHtml.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   const prev = plain.slice(0,280) + (plain.length>280?'…':'');
   const resumeUrl = resumes[key(r)];
   const hasLong = plain.length > 280;
   return '<tr data-search="'+esc((r.company+' '+r.title).toLowerCase())+'">'+
     '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+'</td>'+
-    '<td class="desc"><span class="preview">'+esc(prev)+'</span><span class="full">'+(r.description||'')+'</span>'+(hasLong?'<br><span class="toggle">Read more</span>':'')+'</td>'+
+    '<td class="desc"><span class="preview">'+esc(prev)+'</span><span class="full">'+descHtml+'</span>'+(hasLong?'<br><span class="toggle">Read more</span>':'')+'</td>'+
     '<td><a class="apply" href="'+esc(r.application_link)+'" target="_blank" rel="noopener">Apply</a></td>'+
     '<td>'+(resumeUrl?'<a class="apply" href="'+esc(resumeUrl)+'" target="_blank" rel="noopener">Resume</a>':'<span class="resume-empty">Not yet generated</span>')+'</td>'+
     '</tr>';
