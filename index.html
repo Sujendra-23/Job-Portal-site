@@ -27,12 +27,18 @@
   .resume-empty { color: #999; font-style: italic; }
   .badge { display: inline-block; font-size: 11px; background: #eef4ff; color: #2456a6; border-radius: 4px; padding: 2px 6px; margin-left: 6px; }
   .today-tag { display: inline-block; font-size: 11px; background: #e6f4ea; color: #137333; border-radius: 4px; padding: 2px 8px; margin-left: 8px; font-weight: 600; }
+  .tabs { margin-bottom: 16px; }
+  .tab { display: inline-block; padding: 8px 18px; font-size: 14px; font-weight: 600; border: 1px solid #ddd; background: #fff; cursor: pointer; border-radius: 6px 6px 0 0; margin-right: 4px; color: #555; }
+  .tab.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
 </style>
 </head>
 <body>
 <h1>Job Portal — New Grad 2027</h1>
 <div class="meta" id="meta">Loading…</div>
 <input id="search" type="text" placeholder="Filter by company or title…">
+<div class="tabs">
+  <span class="tab active" id="tab-all">All openings</span><span class="tab" id="tab-top">Top companies</span>
+</div>
 <div id="days"></div>
 <script>
 const key = r => r.company + '||' + r.title;
@@ -55,18 +61,24 @@ function rowHtml(r, resumes){
     '</tr>';
 }
 async function load(){
-  const [roles, resumes] = await Promise.all([
+  const [roles, resumes, topCompanies] = await Promise.all([
     fetch('roles.json').then(r=>r.json()),
-    fetch('resumes.json').then(r=>r.json()).catch(()=>({}))
+    fetch('resumes.json').then(r=>r.json()).catch(()=>({})),
+    fetch('top_companies.json').then(r=>r.json()).catch(()=>[])
   ]);
-  // group by posting date, newest first
-  const groups = {};
-  roles.forEach(r=>{ const d = r.posting_date || ''; (groups[d] = groups[d] || []).push(r); });
-  const dates = Object.keys(groups).sort().reverse();
-  const todayIso = new Date().toISOString().slice(0,10);
-  const box = document.getElementById('days');
-  box.innerHTML = '';
-  dates.forEach((d,i)=>{
+  const topSet = new Set(topCompanies);
+  let mode = 'all'; // 'all' | 'top'
+  const visible = () => mode==='top' ? roles.filter(r=>topSet.has(r.company)) : roles;
+  function render(){
+    const list = visible();
+    // group by posting date, newest first
+    const groups = {};
+    list.forEach(r=>{ const d = r.posting_date || ''; (groups[d] = groups[d] || []).push(r); });
+    const dates = Object.keys(groups).sort().reverse();
+    const todayIso = new Date().toISOString().slice(0,10);
+    const box = document.getElementById('days');
+    box.innerHTML = '';
+    dates.forEach((d,i)=>{
     const sec = document.createElement('div');
     sec.className = 'day';
     const n = groups[d].length;
@@ -84,8 +96,16 @@ async function load(){
     };
   });
   document.getElementById('meta').textContent = roles.length+' roles across '+dates.length+' days · Last updated October 7, 2026';
-  document.getElementById('search').oninput = e=>{
-    const q = e.target.value.toLowerCase();
+  applyFilter();
+  } // end render()
+  document.getElementById('tab-all').onclick = ()=>{ mode='all'; setTab(); render(); };
+  document.getElementById('tab-top').onclick = ()=>{ mode='top'; setTab(); render(); };
+  function setTab(){
+    document.getElementById('tab-all').classList.toggle('active', mode==='all');
+    document.getElementById('tab-top').classList.toggle('active', mode==='top');
+  }
+  function applyFilter(){
+    const q = document.getElementById('search').value.toLowerCase();
     document.querySelectorAll('#days tr[data-search]').forEach(tr=>{
       tr.style.display = tr.dataset.search.includes(q)?'':'none';
     });
@@ -93,7 +113,9 @@ async function load(){
       const anyVisible = [...sec.querySelectorAll('tr[data-search]')].some(tr=>tr.style.display!=='none');
       sec.style.display = anyVisible?'':'none';
     });
-  };
+  }
+  document.getElementById('search').oninput = applyFilter;
+  render();
 }
 load();
 </script>
