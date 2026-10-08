@@ -228,5 +228,15 @@
   "description": "Cisco Machine Learning Engineer - CTO innovations (Job ID 2026806), San Francisco/San Jose CA, onsite. Early-career: degree completed within past 3 years or expected within next 12 months; Master's with 0 years qualifies. Team: CTO innovations. Application window expected to close 10/11/2026.",
   "degree": "Bachelors/Masters",
   "source": "linkedin_jobs"
+ },
+ {
+  "company": "Tesla",
+  "title": "Internship, AI Hardware RTL Design Engineer, AI Hardware (Winter/Spring 2027)",
+  "location": "Palo Alto, CA",
+  "posting_date": "2026-10-06",
+  "application_link": "https://www.tesla.com/careers/search/job/285089",
+  "description": "Tesla AI Hardware \u2014 RTL design internship (Winter/Spring 2027). The AI Hardware team designs the chips powering Tesla's AI workloads. Interns work on microarchitecture specification and design, writing performance/area/power-efficient RTL for accelerator, memory, and network subsystems, running synthesis, and collaborating cross-functionally with architecture, software, and verification teams. Full-time, 40 hours per week on-site, minimum 12 weeks; expected start January 2027 continuing through the Spring term. Requirements: currently pursuing a degree in Computer Engineering, Electrical Engineering, or a related field, with a graduation date between May 2027 and December 2027; applicants must be actively enrolled students (recent graduates not returning to school should apply for full-time roles). International students: if work authorization is through CPT, consult your school on your ability to work 40 hours per week before applying; you must be able to work 40 hours per week on-site. Tesla participates in the E-Verify Program. No ITAR or U.S.-citizenship requirement stated. (Description summarized from the verified employer posting; season Winter/Spring 2027 stated in title and posting text.)",
+  "degree": "Neutral",
+  "source": "portal_sweep_2026-10-08"
  }
 ]
