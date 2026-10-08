@@ -19,7 +19,12 @@
   th { background: #fafafa; font-weight: 600; }
   tr:last-child td { border-bottom: none; }
   .desc { max-width: 520px; }
-  .desc .full { display: none; }
+  .desc .full { display: none; line-height: 1.55; }
+  .desc.expanded .full { display: block; }
+  .desc .full p { margin: 0 0 10px; }
+  .desc .full h4 { margin: 14px 0 8px; font-size: 14px; }
+  .desc .full ul, .desc .full ol { margin: 0 0 10px; padding-left: 20px; }
+  .desc .full li { margin-bottom: 4px; }
   .desc.expanded .full { display: block; }
   .desc.expanded .preview { display: none; }
   .toggle { color: #0066cc; cursor: pointer; font-size: 13px; }
@@ -50,14 +55,35 @@ function decodeHtml(s){
   for(let i=0;i<3;i++){ t.innerHTML = out; out = t.value; if(out===prev) break; prev = out; }
   return out;
 }
+function mdInline(s){ return s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>'); }
+function formatDesc(raw){
+  const html = decodeHtml(raw || '');
+  if (/<\/?(p|div|ul|ol|li|h[1-6]|br|table)[ >]/i.test(html)) return html; // already HTML: render as-is
+  // plain text -> structured HTML (paragraphs, headings, lists), like the career portal
+  const lines = esc(html).split('\n');
+  let out = '', inList = false, para = [];
+  const flushPara = () => { if(para.length){ out += '<p>' + para.join('<br>') + '</p>'; para = []; } };
+  const closeList = () => { if(inList){ out += '</ul>'; inList = false; } };
+  for(const line of lines){
+    const t = line.trim();
+    if(!t){ flushPara(); closeList(); continue; }
+    const h = t.match(/^(#{1,4})\s+(.*)/);
+    if(h){ flushPara(); closeList(); out += '<h4>' + mdInline(h[2]) + '</h4>'; continue; }
+    const li = t.match(/^([-*•]|\d+[.)])\s+(.*)/);
+    if(li){ flushPara(); if(!inList){ out += '<ul>'; inList = true; } out += '<li>' + mdInline(li[2]) + '</li>'; continue; }
+    closeList(); para.push(mdInline(t));
+  }
+  flushPara(); closeList();
+  return out;
+}
 function fmtDate(iso){
   if(!iso) return 'Date not listed';
   const d = new Date(iso + 'T12:00:00');
   return d.toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
 }
 function rowHtml(r, resumes){
-  const descHtml = decodeHtml(r.description||'');
-  const plain = descHtml.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
+  const descHtml = formatDesc(r.description||'');
+  const plain = decodeHtml(r.description||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   const prev = plain.slice(0,280) + (plain.length>280?'…':'');
   const resumeUrl = resumes[key(r)];
   const rk = key(r);
