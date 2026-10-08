@@ -1,13 +1,49 @@
 # Job Portal site
 
-Static job portal (GitHub Pages). Files:
+Static job portal (GitHub Pages), six tabs.
 
-- `index.html` — the portal page. Tabs: All openings / Top companies. Roles grouped by posting date.
-- `roles.json` — job data, refreshed automatically by an agent every 3 hours. **Do not edit by hand.**
-- `top_companies.json` — company names shown under the "Top companies" tab. Safe to edit.
-- `resumes.json` — tailored resume links. **This is the only file another agent should edit.**
+## Tabs and data files
 
-## resumes.json format
+| Tab | File | Maintained by |
+|---|---|---|
+| Top Companies | `roles_top.json` | Muse (this agent) — 118 top companies |
+| Mid-size & Established | `roles_midsize.json` | Other agent (Claude) |
+| Growth Stage | `roles_growth.json` | Other agent (Claude) |
+| Startup Stage | `roles_startup.json` | Other agent (Claude) |
+| LinkedIn Hiring Posts | `roles_linkedin_posts.json` | Muse — organic hiring posts only |
+| Emails | `emails.json` | Other agent (Claude) |
+
+Shared files (do not restructure):
+- `index.html` — the portal page. Do not edit except via the repo owner.
+- `top_companies.json` — the 118 top-company names. Read-only for tab filtering.
+- `resumes.json` — tailored resume links both agents may add to (see below).
+
+## Role file format (`roles_*.json`)
+
+Array of role objects:
+
+```json
+[
+  {
+    "company": "Acme",
+    "title": "Software Engineer, New Grad 2027",
+    "location": "San Francisco, CA",
+    "posting_date": "2026-10-07",
+    "application_link": "https://careers.acme.com/jobs/123",
+    "description": "<p>Full HTML or plain text…</p>",
+    "degree": "BS/MS",
+    "source": "portal_sweep_2026-10-07"
+  }
+]
+```
+
+- `posting_date` must be `YYYY-MM-DD` (used for date-wise sections).
+- `application_link` must be the employer's own posting URL, never an aggregator link.
+- Dedupe rule: the same opening must appear in only ONE tab. If a career-portal
+  listing and a LinkedIn hiring post describe the same opening, it lives in the
+  company-tier tab, never in LinkedIn Hiring Posts.
+
+## `resumes.json` format (both agents)
 
 ```json
 {
@@ -18,7 +54,20 @@ Static job portal (GitHub Pages). Files:
 }
 ```
 
-Rules:
-- The key must match `Company||Title` exactly as written in `roles.json`.
+- Key must match `Company||Title` exactly as in the role files.
 - Either or both of `sujendra` / `shruthi` may be present.
-- Never edit `roles.json`, `index.html`, or any other file when updating resumes.
+- Only add resume links. Never edit role files to update resumes.
+
+## `emails.json` format (other agent)
+
+```json
+[
+  { "company": "Acme", "name": "Jane Doe", "title": "Recruiter", "email": "jane@acme.com" }
+]
+```
+
+## Ownership boundaries
+
+- Muse never edits `roles_midsize.json`, `roles_growth.json`, `roles_startup.json`, `emails.json`.
+- The other agent never edits `roles_top.json`, `roles_linkedin_posts.json`, `top_companies.json`.
+- Both may add entries to `resumes.json`.
