@@ -14,7 +14,7 @@
   .day-header { font-size: 18px; font-weight: 700; margin: 0 0 2px; }
   .day-sub { color: #666; font-size: 13px; margin-bottom: 8px; }
   .wrap { overflow-x: auto; background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; }
-  table { border-collapse: collapse; width: 100%; min-width: 900px; font-size: 14px; }
+  table { border-collapse: collapse; width: 100%; min-width: 900px; font-size: 14px; table-layout: fixed; }
   th, td { text-align: left; padding: 12px; border-bottom: 1px solid #eee; vertical-align: top; }
   th { background: #fafafa; font-weight: 600; }
   tr:last-child td { border-bottom: none; }
@@ -59,12 +59,15 @@ function rowHtml(r, resumes){
   const plain = descHtml.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   const prev = plain.slice(0,280) + (plain.length>280?'…':'');
   const resumeUrl = resumes[key(r)];
+  const sUrl = typeof resumeUrl === 'string' ? resumeUrl : (resumeUrl||{}).sujendra;
+  const hUrl = (typeof resumeUrl === 'object' && resumeUrl) ? resumeUrl.shruthi : null;
+  const resumeCell = u => '<td>'+(u?'<a class="apply" href="'+esc(u)+'" target="_blank" rel="noopener">Resume</a>':'<span class="resume-empty">Not yet generated</span>')+'</td>';
   const hasLong = plain.length > 280;
   return '<tr data-search="'+esc((r.company+' '+r.title).toLowerCase())+'">'+
     '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+'</td>'+
     '<td class="desc"><span class="preview">'+esc(prev)+'</span><span class="full">'+descHtml+'</span>'+(hasLong?'<br><span class="toggle">Read more</span>':'')+'</td>'+
     '<td><a class="apply" href="'+esc(r.application_link)+'" target="_blank" rel="noopener">Apply</a></td>'+
-    '<td>'+(resumeUrl?'<a class="apply" href="'+esc(resumeUrl)+'" target="_blank" rel="noopener">Resume</a>':'<span class="resume-empty">Not yet generated</span>')+'</td>'+
+    resumeCell(sUrl)+resumeCell(hUrl)+
     '</tr>';
 }
 async function load(){
@@ -91,7 +94,7 @@ async function load(){
     const n = groups[d].length;
     sec.innerHTML = '<div class="day-header">'+esc(fmtDate(d))+(d===todayIso?'<span class="today-tag">Today</span>':'')+'</div>'+
       '<div class="day-sub">'+n+' opening'+(n===1?'':'s')+'</div>'+
-      '<div class="wrap"><table><thead><tr><th>Company</th><th>Job description</th><th>Application link</th><th>Resume</th></tr></thead><tbody>'+
+      '<div class="wrap"><table><colgroup><col style="width:18%"><col style="width:46%"><col style="width:12%"><col style="width:12%"><col style="width:12%"></colgroup><thead><tr><th>Company</th><th>Job description</th><th>Application link</th><th>Sujendra&rsquo;s Resume</th><th>Shruthi&rsquo;s Resume</th></tr></thead><tbody>'+
       groups[d].map(r=>rowHtml(r,resumes)).join('')+'</tbody></table></div>';
     box.appendChild(sec);
   });
