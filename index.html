@@ -10,6 +10,9 @@
   h1 { font-size: 24px; margin: 0 0 4px; }
   .meta { color: #666; font-size: 13px; margin-bottom: 16px; }
   #search { padding: 8px 12px; font-size: 14px; width: 320px; margin-bottom: 16px; border: 1px solid #ddd; border-radius: 6px; }
+  .tabs { margin-bottom: 16px; }
+  .tab { display: inline-block; padding: 8px 18px; font-size: 14px; font-weight: 600; border: 1px solid #ddd; background: #fff; cursor: pointer; border-radius: 6px 6px 0 0; margin-right: 4px; color: #555; }
+  .tab.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
   .day { margin-bottom: 28px; }
   .day-header { font-size: 18px; font-weight: 700; margin: 0 0 2px; }
   .day-sub { color: #666; font-size: 13px; margin-bottom: 8px; }
@@ -21,33 +24,42 @@
   .desc { max-width: 520px; }
   .desc .full { display: none; line-height: 1.55; }
   .desc.expanded .full { display: block; }
+  .desc.expanded .preview { display: none; }
   .desc .full p { margin: 0 0 10px; }
   .desc .full h4 { margin: 14px 0 8px; font-size: 14px; }
   .desc .full ul, .desc .full ol { margin: 0 0 10px; padding-left: 20px; }
   .desc .full li { margin-bottom: 4px; }
-  .desc.expanded .full { display: block; }
-  .desc.expanded .preview { display: none; }
   .toggle { color: #0066cc; cursor: pointer; font-size: 13px; }
   a.apply { color: #0066cc; font-weight: 600; white-space: nowrap; }
+  a.email { color: #0066cc; }
   .resume-empty { color: #999; font-style: italic; }
   .badge { display: inline-block; font-size: 11px; background: #eef4ff; color: #2456a6; border-radius: 4px; padding: 2px 6px; margin-left: 6px; }
+  .type-badge { display: inline-block; font-size: 10px; font-weight: 700; border-radius: 4px; padding: 2px 6px; margin-left: 6px; }
+  .type-ft { background: #e8f0fe; color: #1a56db; }
+  .type-intern { background: #fef3c7; color: #92400e; }
+  .today-tag { display: inline-block; font-size: 11px; background: #e6f4ea; color: #137333; border-radius: 4px; padding: 2px 8px; margin-left: 8px; font-weight: 600; }
   .applied-badge { font-size: 11px; color: #137333; background: #e6f4ea; border-radius: 4px; padding: 3px 6px; margin-top: 6px; display: inline-block; line-height: 1.4; }
   .applied-badge .undo { color: #666; cursor: pointer; text-decoration: underline; margin-left: 4px; }
-  .tabs { margin-bottom: 16px; }
-  .tab { display: inline-block; padding: 8px 18px; font-size: 14px; font-weight: 600; border: 1px solid #ddd; background: #fff; cursor: pointer; border-radius: 6px 6px 0 0; margin-right: 4px; color: #555; }
-  .tab.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+  .empty-tab { color: #888; font-style: italic; padding: 24px; background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; }
 </style>
 </head>
 <body>
 <h1>Job Portal — New Grad 2027</h1>
 <div class="meta" id="meta">Loading…</div>
 <input id="search" type="text" placeholder="Filter by company or title…">
-<div class="tabs">
-  <span class="tab active" id="tab-ft">Full-time 2027</span><span class="tab" id="tab-intern">Intern / Co-op</span><span class="tab" id="tab-top">Top companies</span>
-</div>
-<div id="days"></div>
+<div class="tabs" id="tabs"></div>
+<div id="content"></div>
 <script>
+const TABS = [
+  { id:'top',     label:'Top Companies',            file:'roles_top.json',            kind:'roles'  },
+  { id:'mid',     label:'Mid-size & Established',   file:'roles_midsize.json',        kind:'roles'  },
+  { id:'growth',  label:'Growth Stage',             file:'roles_growth.json',         kind:'roles'  },
+  { id:'startup', label:'Startup Stage',            file:'roles_startup.json',        kind:'roles'  },
+  { id:'liposts', label:'LinkedIn Hiring Posts',    file:'roles_linkedin_posts.json', kind:'roles'  },
+  { id:'emails',  label:'Emails',                   file:'emails.json',               kind:'emails' },
+];
 const key = r => r.company + '||' + r.title;
+const isIntern = r => /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
 function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
 function decodeHtml(s){
   const t = document.createElement('textarea');
@@ -58,8 +70,7 @@ function decodeHtml(s){
 function mdInline(s){ return s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>'); }
 function formatDesc(raw){
   const html = decodeHtml(raw || '');
-  if (/<\/?(p|div|ul|ol|li|h[1-6]|br|table)[ >]/i.test(html)) return html; // already HTML: render as-is
-  // plain text -> structured HTML (paragraphs, headings, lists), like the career portal
+  if (/<\/?(p|div|ul|ol|li|h[1-6]|br|table)[ >]/i.test(html)) return html;
   const lines = esc(html).split('\n');
   let out = '', inList = false, para = [];
   const flushPara = () => { if(para.length){ out += '<p>' + para.join('<br>') + '</p>'; para = []; } };
@@ -81,59 +92,78 @@ function fmtDate(iso){
   const d = new Date(iso + 'T12:00:00');
   return d.toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
 }
-function rowHtml(r, resumes){
+
+let DATA = {};      // tabId -> array
+let RESUMES = {};
+let activeTab = 'top';
+
+function resumeCell(u, person, label, rk){
+  const inner = u
+    ? '<a class="apply resume-link" data-person="'+person+'" data-rkey="'+esc(rk)+'" href="'+esc(u)+'" target="_blank" rel="noopener">Resume</a>'
+    : '<span class="resume-empty">Not yet generated</span>';
+  return '<td><div class="resume-wrap">'+inner+'<div class="applied-badge" data-badge="'+person+'" data-rkey="'+esc(rk)+'" style="display:none">✓ '+label+' clicked on this application <span class="undo" data-person="'+person+'" data-rkey="'+esc(rk)+'">undo</span></div></div></td>';
+}
+function rowHtml(r){
+  const rk = key(r);
   const descHtml = formatDesc(r.description||'');
   const plain = decodeHtml(r.description||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   const prev = plain.slice(0,280) + (plain.length>280?'…':'');
-  const resumeUrl = resumes[key(r)];
-  const rk = key(r);
+  const hasLong = plain.length > 280;
+  const resumeUrl = RESUMES[rk];
   const sUrl = typeof resumeUrl === 'string' ? resumeUrl : (resumeUrl||{}).sujendra;
   const hUrl = (typeof resumeUrl === 'object' && resumeUrl) ? resumeUrl.shruthi : null;
-  const resumeCell = (u, person, label) => {
-    const inner = u
-      ? '<a class="apply resume-link" data-person="'+person+'" data-rkey="'+esc(rk)+'" href="'+esc(u)+'" target="_blank" rel="noopener">Resume</a>'
-      : '<span class="resume-empty">Not yet generated</span>';
-    return '<td><div class="resume-wrap">'+inner+'<div class="applied-badge" data-badge="'+person+'" data-rkey="'+esc(rk)+'" style="display:none">✓ '+label+' clicked on this application <span class="undo" data-person="'+person+'" data-rkey="'+esc(rk)+'">undo</span></div></div></td>';
-  };
-  const hasLong = plain.length > 280;
+  const tb = isIntern(r) ? '<span class="type-badge type-intern">Intern</span>' : '<span class="type-badge type-ft">Full-time</span>';
   return '<tr data-search="'+esc((r.company+' '+r.title).toLowerCase())+'">'+
-    '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+'</td>'+
+    '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span>'+tb+'<br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+'</td>'+
     '<td class="desc"><span class="preview">'+esc(prev)+'</span><span class="full">'+descHtml+'</span>'+(hasLong?'<br><span class="toggle">Read more</span>':'')+'</td>'+
     '<td><a class="apply" href="'+esc(r.application_link)+'" target="_blank" rel="noopener">Apply</a></td>'+
-    resumeCell(sUrl,'sujendra','Sujendra')+resumeCell(hUrl,'shruthi','Shruthi')+
+    resumeCell(sUrl,'sujendra','Sujendra',rk)+resumeCell(hUrl,'shruthi','Shruthi',rk)+
     '</tr>';
 }
-async function load(){
-  const [roles, resumes, topCompanies] = await Promise.all([
-    fetch('roles.json').then(r=>r.json()),
-    fetch('resumes.json').then(r=>r.json()).catch(()=>({})),
-    fetch('top_companies.json').then(r=>r.json()).catch(()=>[])
-  ]);
-  const topSet = new Set(topCompanies);
-  const isIntern = r => /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
-  let mode = 'ft'; // 'ft' | 'intern' | 'top'
-  const visible = () => mode==='top' ? roles.filter(r=>topSet.has(r.company))
-    : mode==='intern' ? roles.filter(isIntern)
-    : roles.filter(r=>!isIntern(r));
-  function render(){
-    const list = visible();
-    // group by posting date, newest first
-    const groups = {};
-    list.forEach(r=>{ const d = r.posting_date || ''; (groups[d] = groups[d] || []).push(r); });
-    const dates = Object.keys(groups).sort().reverse();
-    const todayIso = new Date().toISOString().slice(0,10);
-    const box = document.getElementById('days');
-    box.innerHTML = '';
-    dates.forEach((d,i)=>{
-    const sec = document.createElement('div');
-    sec.className = 'day';
+function renderRoles(roles){
+  const groups = {};
+  roles.forEach(r=>{ const d = r.posting_date || ''; (groups[d] = groups[d] || []).push(r); });
+  const dates = Object.keys(groups).sort().reverse();
+  const todayIso = new Date().toISOString().slice(0,10);
+  let html = '';
+  dates.forEach(d=>{
     const n = groups[d].length;
-    sec.innerHTML = '<div class="day-header">'+esc(fmtDate(d))+(d===todayIso?'<span class="today-tag">Today</span>':'')+'</div>'+
+    html += '<div class="day"><div class="day-header">'+esc(fmtDate(d))+(d===todayIso?'<span class="today-tag">Today</span>':'')+'</div>'+
       '<div class="day-sub">'+n+' opening'+(n===1?'':'s')+'</div>'+
-      '<div class="wrap"><table><colgroup><col style="width:18%"><col style="width:46%"><col style="width:12%"><col style="width:12%"><col style="width:12%"></colgroup><thead><tr><th>Company</th><th>Job description</th><th>Application link</th><th>Sujendra&rsquo;s Resume</th><th>Shruthi&rsquo;s Resume</th></tr></thead><tbody>'+
-      groups[d].map(r=>rowHtml(r,resumes)).join('')+'</tbody></table></div>';
-    box.appendChild(sec);
+      '<div class="wrap"><table><colgroup><col style="width:18%"><col style="width:46%"><col style="width:12%"><col style="width:12%"><col style="width:12%"></colgroup>'+
+      '<thead><tr><th>Company</th><th>Job description</th><th>Application link</th><th>Sujendra&rsquo;s Resume</th><th>Shruthi&rsquo;s Resume</th></tr></thead><tbody>'+
+      groups[d].map(rowHtml).join('')+'</tbody></table></div></div>';
   });
+  return { html: html || '<div class="empty-tab">No openings in this tab yet.</div>', count: roles.length, days: dates.length };
+}
+function renderEmails(contacts){
+  const byCompany = {};
+  contacts.forEach(c=>{ const k = c.company || 'Unknown'; (byCompany[k] = byCompany[k] || []).push(c); });
+  const companies = Object.keys(byCompany).sort();
+  let html = '';
+  companies.forEach(co=>{
+    html += '<div class="day"><div class="day-header">'+esc(co)+'</div>'+
+      '<div class="day-sub">'+byCompany[co].length+' contact'+(byCompany[co].length===1?'':'s')+'</div>'+
+      '<div class="wrap"><table><colgroup><col style="width:25%"><col style="width:35%"><col style="width:40%"></colgroup>'+
+      '<thead><tr><th>Name</th><th>Title</th><th>Email</th></tr></thead><tbody>'+
+      byCompany[co].map(c=>'<tr data-search="'+esc(((c.name||'')+' '+(c.company||'')).toLowerCase())+'"><td><strong>'+esc(c.name||'—')+'</strong></td><td>'+esc(c.title||'—')+'</td><td>'+(c.email?'<a class="email" href="mailto:'+esc(c.email)+'">'+esc(c.email)+'</a>':'<span class="resume-empty">—</span>')+'</td></tr>').join('')+
+      '</tbody></table></div></div>';
+  });
+  return { html: html || '<div class="empty-tab">No contacts yet.</div>', count: contacts.length, days: companies.length };
+}
+
+function render(){
+  const tab = TABS.find(t=>t.id===activeTab);
+  const box = document.getElementById('content');
+  let res;
+  if(tab.kind === 'emails'){
+    res = renderEmails(DATA[activeTab] || []);
+    document.getElementById('meta').textContent = res.count+' contacts across '+res.days+' companies';
+  } else {
+    res = renderRoles(DATA[activeTab] || []);
+    document.getElementById('meta').textContent = res.count+' roles across '+res.days+' days';
+  }
+  box.innerHTML = res.html;
   box.querySelectorAll('.desc .toggle').forEach(tg=>{
     tg.onclick = ()=>{
       const cell = tg.closest('.desc');
@@ -141,57 +171,71 @@ async function load(){
       tg.textContent = cell.classList.contains('expanded')?'Show less':'Read more';
     };
   });
-  document.getElementById('meta').textContent = list.length+' roles across '+dates.length+' days · Last updated October 7, 2026';
-  applyFilter();
   paintApplied();
-  } // end render()
-  document.getElementById('tab-ft').onclick = ()=>{ mode='ft'; setTab(); render(); };
-  document.getElementById('tab-intern').onclick = ()=>{ mode='intern'; setTab(); render(); };
-  document.getElementById('tab-top').onclick = ()=>{ mode='top'; setTab(); render(); };
+  applyFilter();
+}
+
+async function load(){
+  const tabsEl = document.getElementById('tabs');
+  TABS.forEach(t=>{
+    const s = document.createElement('span');
+    s.className = 'tab' + (t.id===activeTab ? ' active' : '');
+    s.id = 'tab-'+t.id;
+    s.textContent = t.label;
+    s.onclick = ()=>{ activeTab = t.id; setTab(); render(); };
+    tabsEl.appendChild(s);
+  });
   function setTab(){
-    document.getElementById('tab-ft').classList.toggle('active', mode==='ft');
-    document.getElementById('tab-intern').classList.toggle('active', mode==='intern');
-    document.getElementById('tab-top').classList.toggle('active', mode==='top');
+    TABS.forEach(t=>document.getElementById('tab-'+t.id).classList.toggle('active', t.id===activeTab));
   }
-  function applyFilter(){
-    const q = document.getElementById('search').value.toLowerCase();
-    document.querySelectorAll('#days tr[data-search]').forEach(tr=>{
-      tr.style.display = tr.dataset.search.includes(q)?'':'none';
-    });
-    document.querySelectorAll('#days .day').forEach(sec=>{
-      const anyVisible = [...sec.querySelectorAll('tr[data-search]')].some(tr=>tr.style.display!=='none');
-      sec.style.display = anyVisible?'':'none';
-    });
-  }
+  window.__setTab = setTab;
+
+  const fetches = TABS.map(t=>fetch(t.file).then(r=>r.json()).catch(()=>[]));
+  const [top, mid, growth, startup, liposts, emails, resumes] = await Promise.all([...fetches, fetch('resumes.json').then(r=>r.json()).catch(()=>({}))]);
+  DATA = { top, mid, growth, startup, liposts, emails };
+  RESUMES = resumes || {};
+
   document.getElementById('search').oninput = applyFilter;
+
   // ---- applied tracking (per-browser, via localStorage) ----
   const LS_KEY = 'jobportal_applied_v1';
-  function getApplied(){ try { return JSON.parse(localStorage.getItem(LS_KEY)||'{}'); } catch(e){ return {}; } }
-  function setApplied(m){ try { localStorage.setItem(LS_KEY, JSON.stringify(m)); } catch(e){} }
-  function paintApplied(){
-    const m = getApplied();
-    document.querySelectorAll('.applied-badge').forEach(b=>{
-      const rk = b.dataset.rkey, p = b.dataset.badge;
-      b.style.display = (m[rk] && m[rk][p]) ? 'inline-block' : 'none';
-    });
-  }
-  document.getElementById('days').addEventListener('click', e=>{
+  window.__getApplied = function(){ try { return JSON.parse(localStorage.getItem(LS_KEY)||'{}'); } catch(e){ return {}; } };
+  window.__setApplied = function(m){ try { localStorage.setItem(LS_KEY, JSON.stringify(m)); } catch(e){} };
+  document.getElementById('content').addEventListener('click', e=>{
     const link = e.target.closest('.resume-link');
     if(link){
       const rk = link.dataset.rkey, p = link.dataset.person;
-      const m = getApplied(); (m[rk] = m[rk]||{})[p] = new Date().toISOString();
-      setApplied(m); paintApplied();
-      return; // let the resume open normally
+      const m = window.__getApplied(); (m[rk] = m[rk]||{})[p] = new Date().toISOString();
+      window.__setApplied(m); paintApplied();
+      return;
     }
     const undo = e.target.closest('.undo');
     if(undo){
       e.preventDefault();
       const rk = undo.dataset.rkey, p = undo.dataset.person;
-      const m = getApplied(); if(m[rk]) delete m[rk][p];
-      setApplied(m); paintApplied();
+      const m = window.__getApplied(); if(m[rk]) delete m[rk][p];
+      window.__setApplied(m); paintApplied();
     }
   });
+
   render();
+}
+function paintApplied(){
+  const m = window.__getApplied ? window.__getApplied() : {};
+  document.querySelectorAll('.applied-badge').forEach(b=>{
+    const rk = b.dataset.rkey, p = b.dataset.badge;
+    b.style.display = (m[rk] && m[rk][p]) ? 'inline-block' : 'none';
+  });
+}
+function applyFilter(){
+  const q = document.getElementById('search').value.toLowerCase();
+  document.querySelectorAll('#content tr[data-search]').forEach(tr=>{
+    tr.style.display = tr.dataset.search.includes(q)?'':'none';
+  });
+  document.querySelectorAll('#content .day').forEach(sec=>{
+    const anyVisible = [...sec.querySelectorAll('tr[data-search]')].some(tr=>tr.style.display!=='none');
+    sec.style.display = anyVisible?'':'none';
+  });
 }
 load();
 </script>
