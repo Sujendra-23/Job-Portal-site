@@ -26,7 +26,8 @@
   a.apply { color: #0066cc; font-weight: 600; white-space: nowrap; }
   .resume-empty { color: #999; font-style: italic; }
   .badge { display: inline-block; font-size: 11px; background: #eef4ff; color: #2456a6; border-radius: 4px; padding: 2px 6px; margin-left: 6px; }
-  .today-tag { display: inline-block; font-size: 11px; background: #e6f4ea; color: #137333; border-radius: 4px; padding: 2px 8px; margin-left: 8px; font-weight: 600; }
+  .applied-badge { font-size: 11px; color: #137333; background: #e6f4ea; border-radius: 4px; padding: 3px 6px; margin-top: 6px; display: inline-block; line-height: 1.4; }
+  .applied-badge .undo { color: #666; cursor: pointer; text-decoration: underline; margin-left: 4px; }
   .tabs { margin-bottom: 16px; }
   .tab { display: inline-block; padding: 8px 18px; font-size: 14px; font-weight: 600; border: 1px solid #ddd; background: #fff; cursor: pointer; border-radius: 6px 6px 0 0; margin-right: 4px; color: #555; }
   .tab.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
@@ -59,15 +60,21 @@ function rowHtml(r, resumes){
   const plain = descHtml.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   const prev = plain.slice(0,280) + (plain.length>280?'…':'');
   const resumeUrl = resumes[key(r)];
+  const rk = key(r);
   const sUrl = typeof resumeUrl === 'string' ? resumeUrl : (resumeUrl||{}).sujendra;
   const hUrl = (typeof resumeUrl === 'object' && resumeUrl) ? resumeUrl.shruthi : null;
-  const resumeCell = u => '<td>'+(u?'<a class="apply" href="'+esc(u)+'" target="_blank" rel="noopener">Resume</a>':'<span class="resume-empty">Not yet generated</span>')+'</td>';
+  const resumeCell = (u, person, label) => {
+    const inner = u
+      ? '<a class="apply resume-link" data-person="'+person+'" data-rkey="'+esc(rk)+'" href="'+esc(u)+'" target="_blank" rel="noopener">Resume</a>'
+      : '<span class="resume-empty">Not yet generated</span>';
+    return '<td><div class="resume-wrap">'+inner+'<div class="applied-badge" data-badge="'+person+'" data-rkey="'+esc(rk)+'" style="display:none">✓ '+label+' clicked on this application <span class="undo" data-person="'+person+'" data-rkey="'+esc(rk)+'">undo</span></div></div></td>';
+  };
   const hasLong = plain.length > 280;
   return '<tr data-search="'+esc((r.company+' '+r.title).toLowerCase())+'">'+
     '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+'</td>'+
     '<td class="desc"><span class="preview">'+esc(prev)+'</span><span class="full">'+descHtml+'</span>'+(hasLong?'<br><span class="toggle">Read more</span>':'')+'</td>'+
     '<td><a class="apply" href="'+esc(r.application_link)+'" target="_blank" rel="noopener">Apply</a></td>'+
-    resumeCell(sUrl)+resumeCell(hUrl)+
+    resumeCell(sUrl,'sujendra','Sujendra')+resumeCell(hUrl,'shruthi','Shruthi')+
     '</tr>';
 }
 async function load(){
@@ -107,6 +114,7 @@ async function load(){
   });
   document.getElementById('meta').textContent = roles.length+' roles across '+dates.length+' days · Last updated October 7, 2026';
   applyFilter();
+  paintApplied();
   } // end render()
   document.getElementById('tab-all').onclick = ()=>{ mode='all'; setTab(); render(); };
   document.getElementById('tab-top').onclick = ()=>{ mode='top'; setTab(); render(); };
@@ -125,6 +133,33 @@ async function load(){
     });
   }
   document.getElementById('search').oninput = applyFilter;
+  // ---- applied tracking (per-browser, via localStorage) ----
+  const LS_KEY = 'jobportal_applied_v1';
+  function getApplied(){ try { return JSON.parse(localStorage.getItem(LS_KEY)||'{}'); } catch(e){ return {}; } }
+  function setApplied(m){ try { localStorage.setItem(LS_KEY, JSON.stringify(m)); } catch(e){} }
+  function paintApplied(){
+    const m = getApplied();
+    document.querySelectorAll('.applied-badge').forEach(b=>{
+      const rk = b.dataset.rkey, p = b.dataset.badge;
+      b.style.display = (m[rk] && m[rk][p]) ? 'inline-block' : 'none';
+    });
+  }
+  document.getElementById('days').addEventListener('click', e=>{
+    const link = e.target.closest('.resume-link');
+    if(link){
+      const rk = link.dataset.rkey, p = link.dataset.person;
+      const m = getApplied(); (m[rk] = m[rk]||{})[p] = new Date().toISOString();
+      setApplied(m); paintApplied();
+      return; // let the resume open normally
+    }
+    const undo = e.target.closest('.undo');
+    if(undo){
+      e.preventDefault();
+      const rk = undo.dataset.rkey, p = undo.dataset.person;
+      const m = getApplied(); if(m[rk]) delete m[rk][p];
+      setApplied(m); paintApplied();
+    }
+  });
   render();
 }
 load();
