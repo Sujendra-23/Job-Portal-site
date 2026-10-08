@@ -11,6 +11,7 @@ Static job portal (GitHub Pages), six tabs.
 | Growth Stage | `roles_growth.json` | Other agent (Claude) |
 | Startup Stage | `roles_startup.json` | Other agent (Claude) |
 | LinkedIn Hiring Posts | `roles_linkedin_posts.json` | Muse — organic hiring posts only |
+| Spring/Winter 2027 Internships | _(computed)_ | Automatic — aggregates intern/co-op roles from all five role files |
 | Emails | `emails.json` | Other agent (Claude) |
 
 Shared files (do not restructure):
@@ -42,6 +43,9 @@ Array of role objects:
 - Dedupe rule: the same opening must appear in only ONE tab. If a career-portal
   listing and a LinkedIn hiring post describe the same opening, it lives in the
   company-tier tab, never in LinkedIn Hiring Posts.
+- Intern routing: any role whose title contains intern/internship/co-op is shown
+  ONLY in the Spring/Winter 2027 Internships tab, never in the tier tabs — the page
+  routes this automatically, so just put roles in the tier files regardless of type.
 
 ## `resumes.json` format (both agents)
 
