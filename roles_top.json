@@ -198,5 +198,15 @@
   "description": "Software Engineering AMTS (College Grad), requisition JR355250, posted 04 October 2026, salary $110,000-$153,000 base. Verified live on salesforce.com 2026-10-08 (Apply Now button). Salesforce's scalable cloud platform; the SWE role covers architecture, design, implementation, and testing of scalable products. Responsibilities: architecting/designing/implementing/testing scalable products, mastering and improving dev process/culture/codebase, building features with engineers/PMs/UX/performance engineers, developing test strategies and automation frameworks, writing unit/functional tests, analyzing/designing test cases and automated suites. 'You're Our Person If': strong CS background, located in North America, professional coding experience, OOP/design fluency, experience in Java/Python/JavaScript/HTML/SQL/C++. No graduation-date window stated; no visa-sponsorship language in the posting (silent). (Faithful summary from the verified employer posting; verbatim full text not retrieved.)",
   "degree": "Unclear",
   "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Snowflake",
+  "title": "Software Engineer - Customer Experience Engineering",
+  "location": "Menlo Park, CA",
+  "posting_date": "2026-10-08",
+  "application_link": "https://careers.snowflake.com/us/en/job/SNCOUS662176BDC1D94EA3B22A9B602CEBA771EXTERNALENUS5CA0FA749E4344688F1C0A3AA0A993EC/Software-Engineer-Customer-Experience-Engineering",
+  "description": "Entry-level Software Engineer on Snowflake's Customer Experience Engineering team (Global Support), building intelligent data applications that surface diagnostic and technical content to help customers resolve issues. Explicitly entry-level with mentorship from a mentor, tech lead, and manager. Responsibilities include implementing well-scoped Java/Python tasks (Kubernetes, Snowpark Container Services), learning the full software lifecycle, owning quality/completeness/customer experience, and participating in dev/test/bug-fix/support rotation. Qualifications: B.S. or M.S. in CS/MIS or equivalent; internship or professional experience a plus; knowledge of modern app design, API design, and performance/scale fundamentals; proficiency in Python, Java, Scala, or Go; software best practices (unit testing, code reviews, design docs); debugging/troubleshooting skills. Base pay $128,000-$184,000 plus bonus and equity. Req ID REQ21135.",
+  "degree": "B.S. or M.S.",
+  "source": "linkedin_jobs_2026-10-08"
  }
 ]
