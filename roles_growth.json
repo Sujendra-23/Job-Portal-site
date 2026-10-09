@@ -1,5 +1,25 @@
 [
  {
+  "company": "Replit",
+  "title": "Software Engineering Intern \u2013 Winter 2027",
+  "location": "Foster City, CA",
+  "posting_date": "2026-10-08",
+  "application_link": "https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea",
+  "description": "",
+  "degree": "Currently pursuing a Bachelor's, Master's, or PhD in Computer Science, Computer Engineering, or related technical field",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Otter.ai",
+  "title": "Software Engineer, Front-End (New Grad)",
+  "location": "Mountain View, CA",
+  "posting_date": "2026-10-07",
+  "application_link": "https://otter.ai/careers?gh_jid=8016078003",
+  "description": "",
+  "degree": "not stated",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
   "company": "Harvey AI",
   "title": "Software Engineer, New Grad (2027)",
   "location": "San Francisco",
@@ -8,6 +28,16 @@
   "description": "WHY HARVEY\n\nAt Harvey, we\u2019re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we\u2019re reshaping how critical knowledge work gets done for decades to come.\n\nThis is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We\u2019re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth \u2014 personal, professional, and financial \u2014 is unmatched.\n\nOur team moves fast, takes ownership, and is deeply committed to the mission \u2014 operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you.\n\nAt Harvey, the future of professional services is being written today \u2014 and we\u2019re just getting started.\n\n\n\n\nROLE OVERVIEW\n\nThe Software Engineer, New Grad joins Harvey's Engineering team, working alongside experienced engineers to build the AI-powered systems that serve the world's leading law firms and enterprises. The team's mission is to deliver secure, intuitive, and high-performance application-layer experiences that turn frontier AI capabilities into real customer value. This role offers an accelerated path to ownership, contributing production code to features spanning retrieval, document intelligence, and workflow automation from day one. It is an opportunity to develop rapidly at the intersection of AI and professional services, with direct exposure to how engineers shape a category-defining product.\n\nWe're currently hiring new grads to start in 2027 across multiple teams and roles, including Frontend, Backend, Full-Stack, Infrastructure, and Applied AI roles. Your interests & experience will be factored into our team matching process, where you\u2019ll have the opportunity to learn about teams across Harvey including Agents, Applied AI, Assistant, Enterprise, Infrastructure, Mobile, Vault and many others.\n\n\n\n\nWHAT YOU'LL DO\n\n - Design, implement, and ship production-level code across the stack while maintaining high quality, reliability, and security standards. You'll use AI-assisted development tools daily, and you\u2019ll own the quality of everything you ship\u2014AI-generated or not.\n\n - Collaborate with cross-functional teams including AI Research, Legal Engineering, Product, and Design to translate problem statements into compelling product experiences.\n\n - Collaborate with your team through code reviews, technical design discussions, and engineering best-practice development alongside senior and staff engineers.\n\n - Experiment with and evaluate cutting-edge LLMs and AI systems, contributing to how Harvey's platform evolves.\n\n - Depending on your team, you could work on retrieval over large document collections, interfaces for collaborating with AI systems, multi-region compute infrastructure, enterprise agents, or secure systems for sensitive client data.\n\n\n\n\nWHAT YOU HAVE\n\n - Bachelor's or Master\u2019s degree in Computer Science, Software Engineering, or a related technical field, graduated either in Winter 2026 - Spring 2027.\n\n - Able to work from our New York or San Francisco office starting in January 2027 and beyond, based on your graduation schedule. Relocation support is available.\n\n - Previous internship experience is required.\n\n - Technical foundation. Strong proficiency in one or more languages (Python, TypeScript/JavaScript, Java, Go, or similar) and solid general computer science knowledge.\n\n - Decisiveness. You have a bias toward action. You've built something start to finish in coursework, a personal project, or a past internship, and you know the difference between a decision you should make yourself and one worth getting feedback on. You'd rather move and correct course than stall.\n\n - Simplicity. You can explain a complex technical idea in plain language, whether or not the person you're explaining it to is an engineer. You look for the simplest solution that works, and you know when added complexity is worth it.\n\n - Job's Not Finished. You aren't satisfied when something merely works. You proactively seek out feedback, act on it, and keep pushing after the assignment is technically complete. Past internship experience at an early-stage startup is a plus.\n\n - AI Forward. Comfortable using AI-assisted development tools such as Claude Code, Codex, Cursor, and curious about building LLMs into your own coding workflow.\n\n\n\n\nCOMPENSATION\n\n$165,000-$181,500\n\n\n\n\nDEPENDING ON YOUR LOCATION, AN APPLICANT PRIVACY NOTICE MAY APPLY TO YOU. YOU CAN FIND ALL OF OUR APPLICANT PRIVACY NOTICES HERE https://harveyai.notion.site/Harvey-Candidate-Privacy-Notices-319ac3fcdd7a803bb807d5094f249922?pvs=74.\n\n#LI-LW1\n\n\n\nHarvey is an equal opportunity employer and does not discriminate on the basis of race, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition, or any other basis protected by law.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made by emailing accommodations@harvey.ai",
   "degree": "Unclear",
   "source": "portal_sweep_2026-10-05"
+ },
+ {
+  "company": "Harvey",
+  "title": "Software Engineer, New Grad (2027)",
+  "location": "New York",
+  "posting_date": "2026-10-02",
+  "application_link": "https://jobs.ashbyhq.com/Harvey/4d8dc9ba-eb86-4d88-af7d-65d2fdaf3fdc",
+  "description": "",
+  "degree": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related technical field, graduated either in Winter 2026 - Spring 2027",
+  "source": "portal_sweep_2026-10-08"
  },
  {
   "company": "Abridge",
@@ -20,13 +50,113 @@
   "source": "portal_sweep_2026-10-05"
  },
  {
-  "company": "Nuro",
-  "title": "New Grad Software Engineer, Routing",
-  "location": "Mountain View, CA (Nuro HQ)",
-  "posting_date": "2026-10-05",
-  "application_link": "https://nuro.ai/careersitem?gh_jid=8248317",
-  "description": "Who We Are\u00a0\n\n \nNuro believes self-driving vehicles are the most immediate and profound opportunity for AI to drive positive change in the physical world. Safer streets, more time for what matters, and easier access to the world around us, that\u2019s why we\u2019re building a universal autonomy platform: self-driving for all roads and all rides.\n \nFounded in 2016, Nuro is a physical AI company developing Level 4 autonomous driving technology for a wide range of vehicles, use cases, and markets. Powered by the Nuro Driver\u2122, our universal autonomy platform enables the global mobility ecosystem to deploy autonomy at scale, from robotaxis and logistics fleets to personal vehicles.\n \nWith years of real-world deployment experience and a flexible, partner-led business model, Nuro is working toward a future where millions of autonomous vehicles powered by our technology help make everyday life safer, easier, and more connected. Nuro has raised over $2B in capital from Uber, NVIDIA, Google, Softbank, Fidelity, T. Rowe Price, and other leading investors.\n \n\nAbout the Role\n\n \nProduct Engineering at Nuro spans the teams that build the software our vehicles, operators, and partners depend on every day, from the on-road experience of the fleet itself to the routing engine that decides where it goes.\n \n \nThe \nOn-Road Experience\n team builds the internal tools and platform systems that Nuro's operations, engineering, and partner teams rely on to manage, monitor, and maintain our autonomous vehicle fleet. This is hands-on product engineering work at the intersection of fleet operations and software infrastructure. The systems you build directly impact user-facing features and how reliably & efficiently Nuro operates vehicles on public roads.\n \nThe \nRouting\n team builds the critical services that determine the routes our robots take to reach their destinations safely and efficiently, along with the simulation tools that shape the company's strategy for robot deployment and business expansion. The team is constantly working towards computing more efficient routes and providing more accurate ETAs.\n \n \nAs a Product Engineer, you'll join one of these teams and help build the products, tools, and services that turn Nuro's autonomy technology into a system people can operate, trust, and rely on.\n \n\nAbout the Work\n\n \n\nOn-Road Experience\n\n \n \nYou will design, build, and ship full-stack applications using React, TypeScript, and modern web development practices.\n \nYou will develop backend services and APIs that integrate with onboard vehicle systems, cloud infrastructure, and external partner platforms.\n \nYou will build tools that enable fleet monitoring, vehicle health tracking, maintenance workflows, and operational decision-making.\n \nYou will contribute to frontend architecture decisions, component libraries, and shared platform patterns used across the org.\n \n \n\nRouting\n\n \n \nYou will build and scale backend systems for the Routing team, including designing microservices, optimizing routing algorithms, and understanding road network graphs.\n \nYou will build software modules written in C++ that operate onboard the vehicle to generate routes, receive live map updates, and interface with motion planning.\n \nYou will build monitoring and analytics infrastructure that supports routing performance and ETA accuracy.\n \nYou will work on scalable traffic management and simulation tools that shape the company's strategy for robot deployment and business expansion.\n \n \n\nBoth Teams\n\n \n \nYou will work closely with Product, UX, Operations, and cross-functional stakeholders to define requirements and deliver new user experiences.\n \nYou will own features end-to-end: scoping, implementation, testing, deployment, and iteration based on user feedback.\n \n \n\nAbout You\n\n \n \nTechnical excellence.\n \n \nYou have a strong foundation in software fundamentals: data structures, algorithms, and either web fundamentals (HTML, CSS, browser APIs) or server-side programming (Go, Java, Python, or C++).\n \nYou have experience (through coursework, internships, or personal projects) building applications with React and TypeScript, or building real-time, server-side systems.\n \nYou understand how to build and consume RESTful or gRPC APIs.\n \nYou are familiar with relational databases (e.g., PostgreSQL) and have some exposure to cloud infrastructure (GCP or AWS).\n \nYou are comfortable working across the stack, and eager to grow into whichever end of it your team needs most.\n \n \nYou have a wide range of technical interests, you love learning new technologies, and you're a quick learner.\n \nYou have a passion for making lives easier for the people who rely on your work, whether that's an operator troubleshooting a vehicle or a rider waiting on an accurate ETA.\n \nYou have the instinct for making the right tradeoffs. You know when it makes sense to move quick-and-dirty versus build the scalable approach, and you're eager to develop that judgment further.\n \nYou care about users. You like working closely with product and design to build the best experience for the people who depend on your work.\n \nYou are a great communicator, and you're excited to collaborate with PMs, UX researchers, other engineers, and cross-functional stakeholders on product requirements and designs.\n \nYou are impact-driven. You care deeply that your work makes a significant impact on the lives of millions of people.\n \n \n\nBonus Points\n\n \n \nFamiliarity with real-time data systems: WebSockets, Pub/Sub, streaming pipelines.\n \nExperience with Protocol Buffers and gRPC, or RPC frameworks like Thrift.\n \nExposure to Kubernetes, CI/CD pipelines, or infrastructure-as-code.\n \nExperience with routing algorithms, map data, or graph data structures.\n \nBackground or coursework in the autonomous vehicle, robotics, logistics, or automotive industry.\n \nExperience working with partner or third-party API integrations.\n \nInterest in frontend platform work: design systems, shared component libraries, and developer tooling.\n \n \n\nMinimum Qualifications\n\n \n \nBachelor's degree in Computer Science or a related field, completed or in progress (new grad / early-career candidates welcome, no professional experience required).\n \n \nAt Nuro, your base pay is one part of your total compensation package. For this position, the reasonably expected base pay range is between $132,300 and $198,450 for the level at which this job has been scoped. Your base pay will depend on several factors, including your experience, qualifications, education, location, and skills. In the event that you are considered for a different level, a higher or lower pay range would apply. This position is also eligible for an annual performance bonus, equity, and a competitive benefits package.\n \n\nAt Nuro, we celebrate differences and are committed to a diverse workplace that fosters inclusion and psychological safety for all employees. Nuro is proud to be an equal opportunity employer and expressly prohibits any form of workplace discrimination based on race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, veteran status, or any other legally protected characteristics. #LI-CD1",
-  "degree": "Unclear",
-  "source": "portal_sweep_2026-10-05"
+  "company": "Notion",
+  "title": "Software Engineer Intern, Mobile (Winter 2027)",
+  "location": "San Francisco, California",
+  "posting_date": "2026-09-24",
+  "application_link": "https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7",
+  "description": "",
+  "degree": "Pursuing a bachelor's or master's degree",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Together AI",
+  "title": "Software Engineer Intern (Winter 2027)",
+  "location": "San Francisco",
+  "posting_date": "2026-09-18",
+  "application_link": "https://job-boards.greenhouse.io/togetherai/jobs/5238031007",
+  "description": "",
+  "degree": "Actively pursuing a degree in Computer Science, Software Engineering, or a related field, earned or expected by Summer 2028",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Together AI",
+  "title": "Software Engineer, New Grad (2027)",
+  "location": "San Francisco",
+  "posting_date": "2026-09-18",
+  "application_link": "https://job-boards.greenhouse.io/togetherai/jobs/5211582007",
+  "description": "",
+  "degree": "Actively pursuing a degree in Computer Science, Software Engineering, or a related field, earned or expected by Summer 2027",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Replit",
+  "title": "Software Engineer - New Grad (2027)",
+  "location": "Foster City, CA",
+  "posting_date": "2026-09-09",
+  "application_link": "https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc",
+  "description": "",
+  "degree": "Recent graduate (2027) with a degree in Computer Science, Computer Engineering, or related field",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Cursor",
+  "title": "Software Engineer, New Grad 2027",
+  "location": "San Francisco",
+  "posting_date": "2026-09-08",
+  "application_link": "https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b",
+  "description": "",
+  "degree": "not stated",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Sierra",
+  "title": "Software Engineer, Agent (New Grad 2027)",
+  "location": "San Francisco, CA",
+  "posting_date": "2026-08-31",
+  "application_link": "https://jobs.ashbyhq.com/Sierra/149f368c-52d5-408f-ba26-ad888f318a00",
+  "description": "",
+  "degree": "not stated",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Notion",
+  "title": "Software Engineer Intern (Winter 2027)",
+  "location": "San Francisco, California",
+  "posting_date": "2026-08-14",
+  "application_link": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+  "description": "",
+  "degree": "Pursuing a bachelor's or master's degree",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "WeRide",
+  "title": "New Grads 2027 - Software Engineer - Perception/Computer Vision",
+  "location": "San Jose, CA",
+  "posting_date": "2026-08-10",
+  "application_link": "https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7",
+  "description": "",
+  "degree": "not stated",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "WeRide",
+  "title": "New Grads 2027 - Software Engineer, Algorithm",
+  "location": "San Jose, CA",
+  "posting_date": "2026-08-10",
+  "application_link": "https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b",
+  "description": "",
+  "degree": "not stated",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Notion",
+  "title": "Software Engineer, Early Career",
+  "location": "San Francisco, California",
+  "posting_date": "2026-07-06",
+  "application_link": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f",
+  "description": "",
+  "degree": "not stated",
+  "source": "portal_sweep_2026-10-08"
+ },
+ {
+  "company": "Sigma Computing",
+  "title": "Software Engineer (New Grad Program)",
+  "location": "San Francisco, CA and New York City, NY",
+  "posting_date": "2026-04-06",
+  "application_link": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690411003",
+  "description": "",
+  "degree": "not stated",
+  "source": "portal_sweep_2026-10-08"
  }
 ]
