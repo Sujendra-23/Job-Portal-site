@@ -208,5 +208,15 @@
   "description": "Embedded Firmware Co-op, Amazon Robotics - Spring 2027 (North Reading, MA). As a member of the Amazon Robotics Firmware team, work on the next generation of robotic systems used throughout Amazon's order fulfillment network: assist the firmware team in writing code, scripts, and tests for current and next generation robotic systems; assist an interdisciplinary team of engineers in execution of product designs from concept to production. Basic Qualifications: 18+ years of age; enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, Systems Engineering, Electrical Engineering, or related discipline; data structures, basic algorithms, OOP; embedded programming language (C, C++, Rust). $109,395/yr (LinkedIn).",
   "degree": "",
   "source": "linkedin_jobs_2026-10-09"
+ },
+ {
+  "company": "Apple",
+  "title": "AI Software Engineer, Apple Cloud AI Platform",
+  "location": "Seattle, WA",
+  "posting_date": "2026-10-01",
+  "application_link": "https://jobs.apple.com/en-us/details/200686380-3337/ai-software-engineer-apple-cloud-ai-platform?team=SFTWR",
+  "description": "Early-career engineer on Apple Cloud AI Platform (role #200686380-3337, Team: Software and Services), which powers ML, AI, and data systems behind intelligent experiences across Apple's consumer products. Builds tools, interfaces, and workflows ML developers and researchers use daily - internal front-end products (React/TypeScript) plus backend services and ML integrations (data ingestion, model evaluation, inference endpoints) - owning features end-to-end alongside senior engineers at Apple scale. Base pay range $122,700-$214,300 plus stock, benefits, and potential relocation/discretionary bonuses. Degree: BS/MS in Computer Science, Software Engineering, or a related field. Minimum qualifications ask for 1+ years of industry experience building production software. Verified live on jobs.apple.com.",
+  "degree": "BS/MS",
+  "source": "linkedin_hiring_posts"
  }
 ]
