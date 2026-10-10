@@ -53,6 +53,7 @@
 const TABS = [
   { id:'ft',     label:'Full-Time 2027',                  kind:'ft' },
   { id:'intern', label:'Spring/Winter 2027 Co-op/Intern', kind:'intern' },
+  { id:'emails', label:'Emails',                          kind:'emails' },
 ];
 // All role files feed both tabs: full-time roles go to the Full-Time tab,
 // intern/co-op roles go to the Internships tab. Never duplicated.
@@ -137,6 +138,22 @@ function renderRoles(roles){
   });
   return { html: html || '<div class="empty-tab">No openings in this tab yet.</div>', count: roles.length, days: dates.length };
 }
+function renderEmails(contacts){
+  const byCompany = {};
+  contacts.forEach(c=>{ const k = c.company || 'Unknown'; (byCompany[k] = byCompany[k] || []).push(c); });
+  const companies = Object.keys(byCompany).sort();
+  let html = '';
+  companies.forEach(co=>{
+    html += '<div class="day"><div class="day-header">'+esc(co)+'</div>'+
+      '<div class="day-sub">'+byCompany[co].length+' contact'+(byCompany[co].length===1?'':'s')+'</div>'+
+      '<div class="wrap"><table><colgroup><col style="width:25%"><col style="width:35%"><col style="width:40%"></colgroup>'+
+      '<thead><tr><th>Name</th><th>Title</th><th>Email</th></tr></thead><tbody>'+
+      byCompany[co].map(c=>'<tr data-search="'+esc(((c.name||'')+' '+(c.company||'')).toLowerCase())+'"><td><strong>'+esc(c.name||'—')+'</strong></td><td>'+esc(c.title||'—')+'</td><td>'+(c.email?'<a class="email" href="mailto:'+esc(c.email)+'">'+esc(c.email)+'</a>':'<span class="resume-empty">—</span>')+'</td></tr>').join('')+
+      '</tbody></table></div></div>';
+  });
+  return { html: html || '<div class="empty-tab">No contacts yet.</div>', count: contacts.length, days: companies.length };
+}
+
 function tabRoles(tab){
   const all = Object.keys(ROLE_FILES).flatMap(id => DATA[id] || []);
   // safety dedupe across files (company+title+location)
@@ -152,10 +169,16 @@ function tabRoles(tab){
 function render(){
   const tab = TABS.find(t=>t.id===activeTab);
   const box = document.getElementById('content');
-  const roles = tabRoles(tab);
-  const res = renderRoles(roles);
-  const noun = tab.kind === 'intern' ? 'internships/co-ops' : 'roles';
-  document.getElementById('meta').textContent = res.count+' '+noun+' across '+res.days+' days';
+  let res;
+  if(tab.kind === 'emails'){
+    res = renderEmails(DATA['emails'] || []);
+    document.getElementById('meta').textContent = res.count+' contacts across '+res.days+' companies';
+  } else {
+    const roles = tabRoles(tab);
+    res = renderRoles(roles);
+    const noun = tab.kind === 'intern' ? 'internships/co-ops' : 'roles';
+    document.getElementById('meta').textContent = res.count+' '+noun+' across '+res.days+' days';
+  }
   box.innerHTML = res.html;
   box.querySelectorAll('.desc .toggle').forEach(tg=>{
     tg.onclick = ()=>{
@@ -185,10 +208,13 @@ async function load(){
 
   const ids = Object.keys(ROLE_FILES);
   const fetches = ids.map(id=>fetch(ROLE_FILES[id]).then(r=>r.json()).catch(()=>[]));
-  const results = await Promise.all([...fetches, fetch('resumes.json').then(r=>r.json()).catch(()=>({}))]);
+  const emailFetch = fetch('emails.json').then(r=>r.json()).catch(()=>[]);
+  const results = await Promise.all([...fetches, emailFetch, fetch('resumes.json').then(r=>r.json()).catch(()=>({}))]);
   RESUMES = results.pop() || {};
+  const EMAILS = results.pop() || [];
   DATA = {};
   ids.forEach((id,i)=>{ DATA[id] = results[i] || []; });
+  DATA['emails'] = EMAILS;
 
   document.getElementById('search').oninput = applyFilter;
 
