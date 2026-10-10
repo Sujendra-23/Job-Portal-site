@@ -51,15 +51,15 @@
 <div id="content"></div>
 <script>
 const TABS = [
-  { id:'top',     label:'Top Companies',            file:'roles_top.json',            kind:'roles', filter:'ft' },
-  { id:'mid',     label:'Mid-size & Established',   file:'roles_midsize.json',        kind:'roles', filter:'ft' },
-  { id:'growth',  label:'Growth Stage',             file:'roles_growth.json',         kind:'roles', filter:'ft' },
-  { id:'startup', label:'Startup Stage',            file:'roles_startup.json',        kind:'roles', filter:'ft' },
-  { id:'liposts', label:'LinkedIn Hiring Posts',    file:'roles_linkedin_posts.json', kind:'roles', filter:'ft' },
-  { id:'intern',  label:'Spring/Winter 2027 Internships', file:null,                  kind:'intern' },
-  { id:'emails',  label:'Emails',                   file:'emails.json',               kind:'emails' },
+  { id:'ft',     label:'Full-Time 2027',                  kind:'ft' },
+  { id:'intern', label:'Spring/Winter 2027 Co-op/Intern', kind:'intern' },
 ];
-// Intern/co-op roles from every tab live ONLY in the Internships tab — never duplicated in tier tabs.
+// All role files feed both tabs: full-time roles go to the Full-Time tab,
+// intern/co-op roles go to the Internships tab. Never duplicated.
+const ROLE_FILES = {
+  top:'roles_top.json', mid:'roles_midsize.json', growth:'roles_growth.json',
+  startup:'roles_startup.json', liposts:'roles_linkedin_posts.json'
+};
 const key = r => r.company + '||' + r.title;
 const isIntern = r => /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
 function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
@@ -97,7 +97,7 @@ function fmtDate(iso){
 
 let DATA = {};      // tabId -> array
 let RESUMES = {};
-let activeTab = 'top';
+let activeTab = 'ft';
 
 function resumeCell(u, person, label, rk){
   const inner = u
@@ -137,42 +137,25 @@ function renderRoles(roles){
   });
   return { html: html || '<div class="empty-tab">No openings in this tab yet.</div>', count: roles.length, days: dates.length };
 }
-function renderEmails(contacts){
-  const byCompany = {};
-  contacts.forEach(c=>{ const k = c.company || 'Unknown'; (byCompany[k] = byCompany[k] || []).push(c); });
-  const companies = Object.keys(byCompany).sort();
-  let html = '';
-  companies.forEach(co=>{
-    html += '<div class="day"><div class="day-header">'+esc(co)+'</div>'+
-      '<div class="day-sub">'+byCompany[co].length+' contact'+(byCompany[co].length===1?'':'s')+'</div>'+
-      '<div class="wrap"><table><colgroup><col style="width:25%"><col style="width:35%"><col style="width:40%"></colgroup>'+
-      '<thead><tr><th>Name</th><th>Title</th><th>Email</th></tr></thead><tbody>'+
-      byCompany[co].map(c=>'<tr data-search="'+esc(((c.name||'')+' '+(c.company||'')).toLowerCase())+'"><td><strong>'+esc(c.name||'—')+'</strong></td><td>'+esc(c.title||'—')+'</td><td>'+(c.email?'<a class="email" href="mailto:'+esc(c.email)+'">'+esc(c.email)+'</a>':'<span class="resume-empty">—</span>')+'</td></tr>').join('')+
-      '</tbody></table></div></div>';
-  });
-  return { html: html || '<div class="empty-tab">No contacts yet.</div>', count: contacts.length, days: companies.length };
-}
-
 function tabRoles(tab){
-  if(tab.kind === 'intern'){
-    return ['top','mid','growth','startup','liposts'].flatMap(id => (DATA[id]||[]).filter(isIntern));
-  }
-  const roles = DATA[tab.id] || [];
-  return tab.filter === 'ft' ? roles.filter(r => !isIntern(r)) : roles;
+  const all = Object.keys(ROLE_FILES).flatMap(id => DATA[id] || []);
+  // safety dedupe across files (company+title+location)
+  const seen = new Set();
+  const uniq = all.filter(r => {
+    const k = (r.company||'') + '||' + (r.title||'') + '||' + (r.location||'');
+    if(seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+  return tab.kind === 'intern' ? uniq.filter(isIntern) : uniq.filter(r => !isIntern(r));
 }
 function render(){
   const tab = TABS.find(t=>t.id===activeTab);
   const box = document.getElementById('content');
-  let res;
-  if(tab.kind === 'emails'){
-    res = renderEmails(DATA[activeTab] || []);
-    document.getElementById('meta').textContent = res.count+' contacts across '+res.days+' companies';
-  } else {
-    const roles = tabRoles(tab);
-    res = renderRoles(roles);
-    const noun = tab.kind === 'intern' ? 'internships' : 'roles';
-    document.getElementById('meta').textContent = res.count+' '+noun+' across '+res.days+' days';
-  }
+  const roles = tabRoles(tab);
+  const res = renderRoles(roles);
+  const noun = tab.kind === 'intern' ? 'internships/co-ops' : 'roles';
+  document.getElementById('meta').textContent = res.count+' '+noun+' across '+res.days+' days';
   box.innerHTML = res.html;
   box.querySelectorAll('.desc .toggle').forEach(tg=>{
     tg.onclick = ()=>{
@@ -200,12 +183,12 @@ async function load(){
   }
   window.__setTab = setTab;
 
-  const withFiles = TABS.filter(t=>t.file);
-  const fetches = withFiles.map(t=>fetch(t.file).then(r=>r.json()).catch(()=>[]));
+  const ids = Object.keys(ROLE_FILES);
+  const fetches = ids.map(id=>fetch(ROLE_FILES[id]).then(r=>r.json()).catch(()=>[]));
   const results = await Promise.all([...fetches, fetch('resumes.json').then(r=>r.json()).catch(()=>({}))]);
   RESUMES = results.pop() || {};
   DATA = {};
-  withFiles.forEach((t,i)=>{ DATA[t.id] = results[i] || []; });
+  ids.forEach((id,i)=>{ DATA[id] = results[i] || []; });
 
   document.getElementById('search').oninput = applyFilter;
 
