@@ -41,6 +41,7 @@
   .applied-badge { font-size: 11px; color: #137333; background: #e6f4ea; border-radius: 4px; padding: 3px 6px; margin-top: 6px; display: inline-block; line-height: 1.4; }
   .applied-badge .undo { color: #666; cursor: pointer; text-decoration: underline; margin-left: 4px; }
   .empty-tab { color: #888; font-style: italic; padding: 24px; background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; }
+  .leads-banner { background: #fff8e1; border: 1px solid #f0d060; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 14px; color: #5a4a00; }
 </style>
 </head>
 <body>
@@ -53,13 +54,16 @@
 const TABS = [
   { id:'ft',     label:'Full-Time 2027',                  kind:'ft' },
   { id:'intern', label:'Spring/Winter 2027 Co-op/Intern', kind:'intern' },
+  { id:'leads',  label:'Unverified Leads',                kind:'leads' },
   { id:'emails', label:'Emails',                          kind:'emails' },
 ];
 // All role files feed both tabs: full-time roles go to the Full-Time tab,
 // intern/co-op roles go to the Internships tab. Never duplicated.
+// roles_unverified.json feeds ONLY the Unverified Leads tab (user verifies himself).
 const ROLE_FILES = {
   top:'roles_top.json', mid:'roles_midsize.json', growth:'roles_growth.json',
-  startup:'roles_startup.json', liposts:'roles_linkedin_posts.json'
+  startup:'roles_startup.json', liposts:'roles_linkedin_posts.json',
+  unverified:'roles_unverified.json'
 };
 const key = r => r.company + '||' + r.title;
 const isIntern = r => /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
@@ -155,7 +159,11 @@ function renderEmails(contacts){
 }
 
 function tabRoles(tab){
-  const all = Object.keys(ROLE_FILES).flatMap(id => DATA[id] || []);
+  // Unverified Leads tab shows ONLY roles_unverified.json, never mixed with verified tabs.
+  if(tab.kind === 'leads'){
+    return (DATA['unverified'] || []).filter(r => r && r.company && r.title);
+  }
+  const all = Object.keys(ROLE_FILES).filter(id => id !== 'unverified').flatMap(id => DATA[id] || []);
   // safety dedupe across files (company+title+location)
   const seen = new Set();
   const uniq = all.filter(r => {
@@ -173,6 +181,11 @@ function render(){
   if(tab.kind === 'emails'){
     res = renderEmails(DATA['emails'] || []);
     document.getElementById('meta').textContent = res.count+' contacts across '+res.days+' companies';
+  } else if(tab.kind === 'leads'){
+    const roles = tabRoles(tab);
+    res = renderRoles(roles);
+    document.getElementById('meta').textContent = res.count+' unverified leads';
+    box.innerHTML = '<div class="leads-banner">These roles were found by the automated sweep but <strong>could not be verified</strong> on the employer\'s posting (verification wall, bot block, or JS-only page). Degree, sponsorship, and clearance language are <strong>unchecked</strong> — read the posting yourself before applying.</div>' + res.html;
   } else {
     const roles = tabRoles(tab);
     res = renderRoles(roles);
