@@ -478,5 +478,35 @@
   "description": "2027-start full-time graduate role on TikTok Data Architecture E-commerce team (Seattle, WA). Minimum qualifications accept Bachelor's/Master's in software development, computer science, computer engineering, or a related technical field. Successful candidates must commit to an onboarding date by end of the year; state availability and graduation date in resume; company technical online assessment follows resume screening.",
   "degree": "Bachelor's or Master's",
   "source": "hourly_board_2026-10-11"
+ },
+ {
+  "company": "ByteDance",
+  "title": "Production System Engineer Graduate (Server Management) - 2027 Start",
+  "location": "New York, NY",
+  "posting_date": "2026-10-11",
+  "application_link": "https://joinbytedance.com/search/7667619805899966725",
+  "description": "ByteDance Production System Engineer Graduate (Server Management) - 2027 Start (Job Code A55465), New York. Graduate-program role in server management / production systems engineering with 2027 start. Degree: Bachelor's or Master's in Computer Science, Computer Engineering, Electrical Engineering, Information Technology or related technical field.",
+  "degree": "Bachelors/Masters",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "Microsoft",
+  "title": "Software Engineer",
+  "location": "United States, Multiple Locations (Remote)",
+  "posting_date": "2026-10-11",
+  "application_link": "https://apply.careers.microsoft.com/careers/job/1970393557027422",
+  "description": "Microsoft Software Engineer, entry-level IC2 (Job number 200060983), United States multiple locations, remote (0 days/week in-office). Entry-level band with learning-oriented responsibilities (AI-assisted development, code review). Typical base pay from $85,400. Posted Oct 09, 2026; applications open on a rolling basis. Standard pre-employment background check only.",
+  "degree": "Bachelors/Masters",
+  "source": "linkedin_jobs"
+ },
+ {
+  "company": "Microsoft",
+  "title": "Software Engineer",
+  "location": "Redmond, WA (3 days/week in-office)",
+  "posting_date": "2026-10-11",
+  "application_link": "https://apply.careers.microsoft.com/careers/job/1970393557037774",
+  "description": "Microsoft Software Engineer, entry-level IC2 (Job number 200061216), Redmond WA, hybrid (3 days/week in-office). Entry-level band; product/service code ownership with on-call component. Typical base pay from $85,400. Posted Oct 09, 2026; applications open on a rolling basis. Standard pre-employment background check only.",
+  "degree": "Bachelors/Masters",
+  "source": "linkedin_jobs"
  }
 ]
