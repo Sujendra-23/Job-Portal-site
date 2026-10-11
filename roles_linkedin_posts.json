@@ -58,5 +58,15 @@
   "description": "Internship, Software Engineer, Information Security (Winter/Spring 2027) \u2014 Tesla, Bellevue, Washington (Intern/Apprentice, Req. ID 281473; Engineering & Information Technology). What to Expect: \"This position is expected to start around January 2027 and continue through the entire Spring term (ending approximately May 2027 or later, if available).\" What You'll Bring: \"Currently pursuing a degree in Computer Science or a related field of study with a graduation date between 2027-2028.\" The posting text contains no visa-sponsorship statement and no eligibility restrictions of any kind (only the standard CPT work-authorization note for international students and E-Verify participation). (Discovered via a Tesla hiring manager's LinkedIn hiring post dated 2026-09-16; verified live on tesla.com/careers 2026-10-11 via read-only browser check. Not previously in the ledger or portal \u2014 routed to the hiring-posts pipeline per the cross-source dedupe rule.)",
   "degree": "Neutral",
   "source": "linkedin_hiring_posts"
+ },
+ {
+  "company": "Palantir",
+  "title": "Forward Deployed Software Engineer, New Grad - Commercial",
+  "location": "Chicago, IL (Hybrid)",
+  "posting_date": "2026-10-11",
+  "application_link": "https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40",
+  "description": "Palantir Forward Deployed Software Engineer, New Grad - Commercial, Chicago IL (Delta / Full-Time / Hybrid). Must be graduating in December 2026 or Spring 2027. Engineering degree preferred (CS, ECE, Math, Software Engineering, Physics, Data Science); no degree-level restriction stated. No clearance or citizenship language. Salary $135,000-$145,000/year.",
+  "degree": "Bachelors/Masters",
+  "source": "linkedin_hiring_posts"
  }
 ]
