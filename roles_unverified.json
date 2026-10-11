@@ -31,16 +31,5 @@
   "description": "Found via community new-grad tracker (vanshb03, posted Oct 06). Amex's Eightfold careers platform is broken in automation (\"Group ID not found: aexp.com\" on every page, attempted twice). Degree, sponsorship, and clearance language are UNVERIFIED. Tracker flagged a possible sponsorship restriction on this row \u2014 read the posting yourself before applying.",
   "verification_blocker": "employer Eightfold platform broken (Group ID not found)",
   "source": "google_discovery_2026-10-11"
- },
- {
-  "application_link": "https://www.citadel.com/careers",
-  "company": "Citadel",
-  "date_added": "2026-10-11",
-  "description": "Found via public new-grad tracker (jobright-ai, Oct 11 refresh). The employer's posting could not be verified from the automation: citadel.com throws a human-verification wall the browser cannot clear (failed Oct 9, Oct 10 x2). Degree language (must accept Bachelor's AND Master's), sponsorship language, and clearance language are UNVERIFIED. Read the posting yourself before applying.",
-  "location": "New York, NY (On Site)",
-  "posting_date": "2026-10-07",
-  "source": "tracker_lead_2026-10-11",
-  "title": "Software Engineer - University Graduate (US)",
-  "verification_blocker": "employer site human-verification wall"
  }
 ]
