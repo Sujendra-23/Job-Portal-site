@@ -1,16 +1,5 @@
 [
  {
-  "application_link": "https://www.citadel.com/careers",
-  "company": "Citadel",
-  "date_added": "2026-10-11",
-  "description": "Found via public new-grad tracker (jobright-ai, Oct 11 refresh). The employer's posting could not be verified from the automation: citadel.com throws a human-verification wall the browser cannot clear (failed Oct 9, Oct 10 x2). Degree language (must accept Bachelor's AND Master's), sponsorship language, and clearance language are UNVERIFIED. Read the posting yourself before applying.",
-  "location": "New York, NY (On Site)",
-  "posting_date": "2026-10-07",
-  "source": "tracker_lead_2026-10-11",
-  "title": "Software Engineer - University Graduate (US)",
-  "verification_blocker": "employer site human-verification wall"
- },
- {
   "application_link": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=cvrve",
   "company": "Citadel Securities",
   "date_added": "2026-10-11",
@@ -20,5 +9,38 @@
   "source": "tracker_lead_2026-10-11",
   "title": "Software Engineer - University Graduate (US)",
   "verification_blocker": "employer site Cloudflare-gated"
+ },
+ {
+  "company": "Zoom",
+  "title": "Software Engineer",
+  "location": "Remote (US)",
+  "posting_date": "Posted Today (2026-10-11)",
+  "date_added": "2026-10-11",
+  "application_link": "https://zoom.wd5.myworkdayjobs.com/Zoom/job/Remote--US/Software-Engineer_R19749-1",
+  "description": "LIVE on Zoom's Workday board (Req R19749, status Open, full-time) \u2014 but the job-description body fails to render across 4 loads (header metadata only; salary min/max blank). Degree, graduation-fit, sponsorship, and clearance checks could not be completed from the employer posting.",
+  "verification_blocker": "Workday description body does not render (JS/rendering issue); aggregator (LinkedIn, posted ~8h ago) shows only title/location.",
+  "source": "linkedin_jobs"
+ },
+ {
+  "company": "American Express",
+  "title": "Software Engineer 1, Technology",
+  "location": "Plantation, FL",
+  "posting_date": "2026-10-06",
+  "date_added": "2026-10-11",
+  "application_link": "https://aexp.eightfold.ai/careers/job/38270703",
+  "description": "Found via community new-grad tracker (vanshb03, posted Oct 06). Amex's Eightfold careers platform is broken in automation (\"Group ID not found: aexp.com\" on every page, attempted twice). Degree, sponsorship, and clearance language are UNVERIFIED. Tracker flagged a possible sponsorship restriction on this row \u2014 read the posting yourself before applying.",
+  "verification_blocker": "employer Eightfold platform broken (Group ID not found)",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "application_link": "https://www.citadel.com/careers",
+  "company": "Citadel",
+  "date_added": "2026-10-11",
+  "description": "Found via public new-grad tracker (jobright-ai, Oct 11 refresh). The employer's posting could not be verified from the automation: citadel.com throws a human-verification wall the browser cannot clear (failed Oct 9, Oct 10 x2). Degree language (must accept Bachelor's AND Master's), sponsorship language, and clearance language are UNVERIFIED. Read the posting yourself before applying.",
+  "location": "New York, NY (On Site)",
+  "posting_date": "2026-10-07",
+  "source": "tracker_lead_2026-10-11",
+  "title": "Software Engineer - University Graduate (US)",
+  "verification_blocker": "employer site human-verification wall"
  }
 ]
