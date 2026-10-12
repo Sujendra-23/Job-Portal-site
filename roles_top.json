@@ -801,5 +801,16 @@
   "description": "System Development Engineer I, Enterprise Productivity (Job ID 10575985, Amazon Data Services, Inc.), Seattle, WA; base salary $99,100-$160,000 annually plus sign-on payments and RSUs. You will improve the development, testing, deployment, and operations of the systems your team depends on: design and deliver software, tooling, and automation that raise reliability, efficiency, and performance across the product development lifecycle; troubleshoot and resolve system failures across hardware, software, and operating environments and implement lasting fixes; write well-tested, maintainable code with peer design and code reviews; develop monitoring metrics and automated solutions that reduce manual effort and improve system resilience; collaborate on documentation, runbooks, and operational processes, including evaluating generative AI tooling to augment productivity. Basic qualifications: experience programming with at least one modern language (C++, C#, Java, Python, Golang, PowerShell, Ruby); experience with automation tooling for building, testing, releasing, or monitoring. Preferred: Python proficiency; experience with highly concurrent, high-throughput distributed systems. The posting states no degree requirement and does not mention immigration or visa sponsorship.",
   "degree": "Not stated in posting (not bachelor's-only)",
   "source": "hourly_board_2026-10-12"
+ },
+ {
+  "company": "HPE",
+  "title": "Graduate Systems/Software Engineer I",
+  "location": "Bloomington, MN",
+  "date_added": "2026-10-12",
+  "posting_date": "",
+  "application_link": "https://careers.hpe.com/us/en/job/1213439/Graduate-Systems-Software-Engineer-I",
+  "description": "Graduate Systems/Software Engineer I (Req 1213439), Bloomington, Minnesota 55425-2640 \u2014 Hybrid, on average 2 days/week from an HPE office. HPE new-grad systems software role (tagged #grads): designs, develops, troubleshoots and debugs software programs for software enhancements and new products, including operating systems, compilers, networking, databases and Internet-related tools. Education and Experience Required: Bachelor's or Master's degree in Computer Science, Information Systems, or equivalent. Typically 0-2 years experience. Base pay range USD 73,900-170,800 (Minnesota). Sponsorship not stated in posting text; no clearance-related language appears in the posting.",
+  "degree": "BS/MS",
+  "source": "hourly_board_2026-10-12"
  }
 ]
