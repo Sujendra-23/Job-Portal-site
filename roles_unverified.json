@@ -31,5 +31,60 @@
   "description": "Found via community new-grad tracker (vanshb03, posted Oct 06). Amex's Eightfold careers platform is broken in automation (\"Group ID not found: aexp.com\" on every page, attempted twice). Degree, sponsorship, and clearance language are UNVERIFIED. Tracker flagged a possible sponsorship restriction on this row \u2014 read the posting yourself before applying.",
   "verification_blocker": "employer Eightfold platform broken (Group ID not found)",
   "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "Charles Schwab",
+  "title": "2027 Technology Intern - Site Reliability Engineering",
+  "location": "Austin, TX",
+  "posting_date": "2026-08-29",
+  "date_added": "2026-10-11",
+  "application_link": "https://career-schwab.icims.com/jobs/126229/2027-technology-intern---site-reliability-engineering/job",
+  "description": "LEAD (unverified): Google-indexed 2027 Technology Intern posting. Internship season (Spring vs Summer 2027) is not stated in the indexed snippet; SRE is in the SWE title families. May-2027 graduation fit, degree requirement, and sponsorship language are all unverified.",
+  "verification_blocker": "Schwab iCIMS tenant (career-schwab.icims.com) is WAF-blocked from the sandbox; the employer posting cannot be loaded to verify season.",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "Charles Schwab",
+  "title": "2027 Technology Intern - Data Engineering",
+  "location": "Austin, TX",
+  "posting_date": "2026-08-29",
+  "date_added": "2026-10-11",
+  "application_link": "https://www.linkedin.com/jobs/view/technology-2027-intern-data-engineering-at-charles-schwab-4458826112",
+  "description": "LEAD (unverified): Google-indexed 2027 Technology Intern posting (LinkedIn mirror). Internship season not stated in the indexed snippet; Data Engineering is in the title families. Graduation fit, degree, and sponsorship unverified.",
+  "verification_blocker": "Schwab iCIMS tenant is WAF-blocked from the sandbox; employer posting cannot be loaded to verify season.",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "Charles Schwab",
+  "title": "Technology 2027 Intern - AI & CyberSecurity",
+  "location": "Austin, TX",
+  "posting_date": "indexed 2026-10-11",
+  "date_added": "2026-10-11",
+  "application_link": "https://www.linkedin.com/jobs/view/technology-2027-intern-ai-cybersecurity-at-charles-schwab-4473444405",
+  "description": "LEAD (unverified): Google-indexed 2027 Technology Intern posting (LinkedIn mirror). Internship season not stated; AI/CyberSecurity intern in SWE-adjacent families. Graduation fit, degree, and sponsorship unverified.",
+  "verification_blocker": "Schwab iCIMS tenant is WAF-blocked from the sandbox; employer posting cannot be loaded to verify season.",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "Citi (attribution unconfirmed)",
+  "title": "Software Engineer Graduate (Transaction Platform) - 2027 Start",
+  "location": "San Jose, CA",
+  "posting_date": "posted Oct 4, 2026 (aggregator)",
+  "date_added": "2026-10-11",
+  "application_link": "https://jobsearcher.com/search?occ=310%2C17-2112.00%2C15-1252.00&ind=3323%2C3325%2C4244%2C8113%2C334519&sen=junior&date=14d&page=21",
+  "description": "WEAK LEAD (unverified): company attribution is uncertain from the jobsearcher.com aggregator snippet. Snippet mentions 'Regular Bachelor/Master Grad' which would fit the degree rule if attribution confirms. Nothing employer-verified.",
+  "verification_blocker": "No employer posting link available; company attribution needs confirmation before any verification.",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "LPL Financial",
+  "title": "New Grad 2027 - Data Engineer",
+  "location": "Fort Mill, SC",
+  "posting_date": "~1 month ago (Jobright)",
+  "date_added": "2026-10-11",
+  "application_link": "https://jobright.ai/jobs/info/6a7b7bfbb933773d16be7b02",
+  "description": "LEAD (unverified): Jobright-listed new-grad Data Engineer (full-time). Note: the sibling 'New Grad 2027 - Software Engineer' posting was found dead on LPL's employer site earlier today, so this variant may also be stale. Degree and sponsorship unverified.",
+  "verification_blocker": "lpl.com is Cloudflare-blocked from both sandbox and live browser; the employer posting cannot be loaded.",
+  "source": "jobright"
  }
 ]
