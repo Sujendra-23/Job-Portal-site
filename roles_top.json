@@ -878,5 +878,16 @@
   "description": "Tesla Winter/Spring 2027 internship (Palo Alto, CA; Req. ID 282598; on-site Intern/Apprentice). Program starts around January 2027 and continues through the Spring term (~May 2027). Open to students actively enrolled pursuing Computer Science, Computer Engineering, or related field with graduation date May 2027-May 2028. Sponsorship not stated in posting text.",
   "degree": "",
   "source": "google_discovery_2026-10-12"
+ },
+ {
+  "company": "SkyWest Airlines",
+  "title": "Software Engineer",
+  "location": "St. George, UT",
+  "date_added": "2026-10-12",
+  "posting_date": "",
+  "application_link": "https://jobs.skywest.com/skywest-airlines/jobs/17382?lang=en-us",
+  "description": "SkyWest Airlines (req 17382) \u2014 full-time Software Engineer, Information Technology, St. George, Utah. Web and .NET MAUI mobile application development, relational database and SQL Server design (schemas, complex queries, stored procedures), requirements gathering, design reviews, testing/debugging/troubleshooting, collaboration with IT security, and use of AI-assisted development tools. Requirements are competency-based (C#, Visual Studio, ASP.NET/.NET MAUI/Blazor/MVC, SQL Server); Microsoft certification preferred but not required. The posting states no education/degree requirement, sponsorship is not stated in posting text, and no visa, work-authorization, or restricted-eligibility language appears. Posting date not shown on the page; close date listed as 10/26/2026. No salary range shown.",
+  "degree": "No education/degree requirement stated in posting",
+  "source": "hourly_board_2026-10-12"
  }
 ]
