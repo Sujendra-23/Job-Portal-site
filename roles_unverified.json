@@ -86,5 +86,16 @@
   "description": "LEAD (unverified): Jobright-listed new-grad Data Engineer (full-time). Note: the sibling 'New Grad 2027 - Software Engineer' posting was found dead on LPL's employer site earlier today, so this variant may also be stale. Degree and sponsorship unverified.",
   "verification_blocker": "lpl.com is Cloudflare-blocked from both sandbox and live browser; the employer posting cannot be loaded.",
   "source": "jobright"
+ },
+ {
+  "company": "American Express",
+  "title": "Campus Undergraduate Full-Time Engineer - 2027 Software Engineer I, Enterprise Technology Services",
+  "location": "New York NY / Phoenix AZ / Charlotte NC",
+  "posting_date": "",
+  "date_added": "2026-10-11",
+  "application_link": "https://www.aexp.jobs",
+  "description": "Seen on LinkedIn Jobs (~2 weeks old listings, $78,000-$124,750 salary range shown). Employer verification blocked: aexp.jobs failed with DNS_PROBE_FINISHED_NXDOMAIN from the verification browser on repeated attempts; no employer page could be loaded, so degree acceptance (Bachelor's vs Bachelor's+Master's) and sponsorship language are unconfirmed.",
+  "verification_blocker": "aexp.jobs unreachable (DNS failure) from verification browser",
+  "source": "portal_sweep_2026-10-11"
  }
 ]
