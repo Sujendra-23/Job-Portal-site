@@ -97,5 +97,49 @@
   "description": "Seen on LinkedIn Jobs (~2 weeks old listings, $78,000-$124,750 salary range shown). Employer verification blocked: aexp.jobs failed with DNS_PROBE_FINISHED_NXDOMAIN from the verification browser on repeated attempts; no employer page could be loaded, so degree acceptance (Bachelor's vs Bachelor's+Master's) and sponsorship language are unconfirmed.",
   "verification_blocker": "aexp.jobs unreachable (DNS failure) from verification browser",
   "source": "portal_sweep_2026-10-11"
+ },
+ {
+  "company": "Cisco",
+  "title": "Software Engineer II (Full Time) - United States",
+  "location": "United States",
+  "posting_date": "",
+  "date_added": "2026-10-12",
+  "application_link": "https://www.linkedin.com/posts/shreyapothuganti_cisco-newgrad-softwareengineer-activity-7511293552929193984-zukr",
+  "description": "Posted by Cisco University Talent Partner Shreya Pothuganti as a new-grad hire ('hiring for multiple New Grad Software Engineer roles'; poster notes 'II' is Cisco's new-grad level). Post ~2 weeks old, reposted ~2 days ago. No listing found on Cisco's own career portal (careers.cisco.com) 2026-10-12 \u2014 exists only in the LinkedIn post. Degree, sponsorship, and clearance unchecked.",
+  "verification_blocker": "No employer posting exists; role found only in recruiter LinkedIn post.",
+  "source": "linkedin_hiring_posts"
+ },
+ {
+  "company": "Cisco",
+  "title": "Software Engineer Compiler II (Full Time) - United States",
+  "location": "United States",
+  "posting_date": "",
+  "date_added": "2026-10-12",
+  "application_link": "https://www.linkedin.com/posts/shreyapothuganti_cisco-newgrad-softwareengineer-activity-7511293552929193984-zukr",
+  "description": "Posted by Cisco University Talent Partner Shreya Pothuganti as a new-grad hire (same post as above). No listing found on Cisco's own career portal 2026-10-12 \u2014 exists only in the LinkedIn post. Degree, sponsorship, and clearance unchecked.",
+  "verification_blocker": "No employer posting exists; role found only in recruiter LinkedIn post.",
+  "source": "linkedin_hiring_posts"
+ },
+ {
+  "company": "ServiceNow",
+  "title": "Machine Learning Engineer",
+  "location": "Santa Clara, CA",
+  "posting_date": "",
+  "date_added": "2026-10-12",
+  "application_link": "https://jobs.smartrecruiters.com/ServiceNow/744000152540769-machine-learning-engineer?oga=true",
+  "description": "Surfaced on new-grad trackers (tar-ive, harrycodingnow) with posted ~2026-10-07. SmartRecruiters page could not be loaded for verification (DataDome bot check unsolvable). New-grad fit, degree, sponsorship, and clearance unchecked.",
+  "verification_blocker": "DataDome 'Slide right to secure your access' bot check on jobs.smartrecruiters.com; visual solver could not capture the protected widget (2 attempts incl. reload).",
+  "source": "google_discovery_2026-10-12"
+ },
+ {
+  "company": "ServiceNow",
+  "title": "Software Engineer - Applicant Tracking Systems",
+  "location": "West Palm Beach, FL",
+  "posting_date": "",
+  "date_added": "2026-10-12",
+  "application_link": "https://jobs.smartrecruiters.com/servicenow/744000150776289",
+  "description": "Surfaced on new-grad trackers with posted 2026-09-21. SmartRecruiters page could not be loaded for verification (DataDome bot check unsolvable). New-grad fit, degree, sponsorship, and clearance unchecked.",
+  "verification_blocker": "DataDome 'Slide right to secure your access' bot check on jobs.smartrecruiters.com; visual solver could not capture the protected widget (2 attempts incl. reload).",
+  "source": "google_discovery_2026-10-12"
  }
 ]
