@@ -242,17 +242,6 @@
   "source": "portal_sweep_2026-10-05"
  },
  {
-  "company": "Cisco",
-  "title": "Machine Learning Engineer - CTO innovations",
-  "location": "San Francisco, CA / San Jose, CA",
-  "date_added": "2026-10-07",
-  "posting_date": "2026-10-07",
-  "application_link": "https://careers.cisco.com/global/en/job/2026806/Machine-Learning-Engineer-CTO-innovations",
-  "description": "Cisco Machine Learning Engineer - CTO innovations (Job ID 2026806), San Francisco/San Jose CA, onsite. Early-career: degree completed within past 3 years or expected within next 12 months; Master's with 0 years qualifies. Team: CTO innovations. Application window expected to close 10/11/2026.",
-  "degree": "Bachelors/Masters",
-  "source": "linkedin_jobs"
- },
- {
   "company": "Otter.ai",
   "title": "Software Engineer, Front-End (New Grad)",
   "location": "Mountain View, CA",
@@ -268,7 +257,7 @@
   "title": "Internship, AI Hardware RTL Design Engineer, AI Hardware (Winter/Spring 2027)",
   "location": "Palo Alto, CA",
   "date_added": "2026-10-06",
-  "posting_date": "2026-10-06",
+  "posting_date": "",
   "application_link": "https://www.tesla.com/careers/search/job/285089",
   "description": "Internship, AI Hardware RTL Design Engineer, AI Hardware (Winter/Spring 2027)\n\nJob Category: Tesla AI\nLocation: Palo Alto, California\nReq. ID: 285089\nJob Type: Intern/Apprentice\n\nWhat to Expect\n\nConsider before submitting an application:\n\nThis position is expected to start January 2027 and continue through Spring term (ending approximately April 2026). We ask for a minimum of 12 weeks, full-time (40 hours/week) and on-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full-time positions, not internships.\n\nInternational Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on-site. Many students will be limited to part-time during the academic year.\n\nThe Internship Recruiting Team is driven by the passion to recognize and develop emerging talent. Our year-round program places the best students in positions where they will grow technically, professionally, and personally through their experience working closely with their Manager, Mentor, and team. We are dedicated to providing an experience that allows the intern to experience life at Tesla by including them in projects that are critical to their team's success.\n\nMultiple Locations Possible: Palo Alto, CA; Austin, TX\n\nWhat You'll Do\n- Micro-architecture specification and design\n- Deliver Performance, Area and Power-efficient RTL design\n- Specification, microarchitecture, and RTL design of accelerators, memory and network subsystems\n- Work with the architecture and software teams to achieve design targets\n- Balance performance, power, safety, and cost requirements\n- Trade-off functional, physical and performance requirements\n- Work with cross-functional teams, including implementation, verification, and performance engineers\n- Design for synthesis\n\nWhat You'll Bring\n- Currently pursuing a degree in Computer Engineering, Electrical Engineering, or a related field with a graduation date between May 2027 - December 2027\n- High performance (low latency, high bandwidth) design techniques\n- Area and power-efficient complex RTL design\n- Low power microarchitecture techniques\n- Verilog RTL logic design\n- Experience with simulators and waveform debug tools\n- Knowledge of logic design principles, including timing and power implications\n- Experience with IEEE floating point is a plus\n- Experience with high speed SERDES or SOC design is a plus\n\nCompensation and Benefits\n\nBenefits - As a full-time Tesla Intern, you will be eligible for:\n- Medical plans > plan options with $0 payroll deduction\n- Family-building, fertility, adoption and surrogacy benefits\n- Dental (including orthodontic coverage) and vision plans\n- Company Paid (Health Savings Account) HSA Contribution when enrolled in the High Deductible Medical Plan with HSA\n- Healthcare and Dependent Care Flexible Spending Accounts (FSA)\n- 401(k), Employee Stock Purchase Plans, and other financial benefits\n- Company Paid Basic Life, AD&D, and short-term disability insurance\n- Employee Assistance Program\n- Sick and Vacation time, and Paid Holidays\n- Back-up childcare and parenting support resources\n- Commuter benefits\n- Employee discounts and perks program\n\nExpected Compensation: $20.00 - $65.00 + benefits\n\nTesla is an Equal Opportunity employer. Tesla participates in the E-Verify Program.",
   "degree": "Neutral",
