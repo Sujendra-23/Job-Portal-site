@@ -174,5 +174,17 @@
   "description": "Found via LinkedIn Jobs new-grad search on 2026-10-12 (posted ~56 min before scan; \"Verified job\"). The official Aptos Workday portal currently lists only 6 jobs and the only \"Software Developer L1\" is in the Bangalore office \u2014 no US Software Developer L1 is posted. The LinkedIn JD mentions Python, FastAPI, GenAI, AWS and \"1-2 years experience preferred\"; no degree, sponsorship, or clearance language is visible on LinkedIn. Canonical degree/sponsorship/clearance language is UNVERIFIED. Read the posting yourself before applying.",
   "verification_blocker": "not present on official employer portal (portal itself loads fine)",
   "source": "hourly_board_2026-10-12"
+ },
+ {
+  "company": "Cary Street Partners",
+  "title": "Application Developer, Automation & AI Engineer",
+  "location": "Richmond, VA (on-site)",
+  "posting_date": "",
+  "date_added": "2026-10-12",
+  "application_link": "https://www.linkedin.com/jobs/view/4477498017/",
+  "description": "LinkedIn card seen ~1h before check (2026-10-12). Employer careers page lists 'Full Stack Developer, Automation & AI Engineer' in Richmond, but clicking through to the Paylocity ATS job detail (JobId 1563) lands on a 'Job Not Found' page \u2014 posting deactivated/removed from the employer's ATS, so degree/sponsorship/clearance could not be checked. Best known link is the LinkedIn listing.",
+  "verification_blocker": "Employer ATS posting deactivated (Paylocity 'Job Not Found'); not verifiable as accepting applications",
+  "source": "hourly_board_2026-10-12",
+  "status": "lead_unverified"
  }
 ]
