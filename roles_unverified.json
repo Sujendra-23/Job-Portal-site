@@ -186,5 +186,16 @@
   "verification_blocker": "Employer ATS posting deactivated (Paylocity 'Job Not Found'); not verifiable as accepting applications",
   "source": "hourly_board_2026-10-12",
   "status": "lead_unverified"
+ },
+ {
+  "company": "IBM",
+  "title": "AI Foundations - Software Engineer - Research Internship 2027",
+  "location": "Multiple US locations (New York; also Research Engineer R&D Internship 2027 at Yorktown Heights & Cambridge seen on jobsearcher.com)",
+  "posting_date": "",
+  "date_added": "2026-10-12",
+  "application_link": "https://www.wayup.com/s/internships/it/new-york/",
+  "description": "Found via google discovery 14:37 run on WayUp New York IT internship list (IBM, multiple locations). No employer URL surfaced; season (Spring/Winter vs Summer 2027) not stated in the search-visible text, so it cannot be employer-verified. Related IBM research R&D Internship 2027 (Yorktown Heights/Cambridge) listed Oct 12 on jobsearcher.com, also without employer URL.",
+  "verification_blocker": "no employer URL surfaced via search; season unverifiable from search-visible text",
+  "source": "google_discovery_2026-10-12"
  }
 ]
