@@ -141,5 +141,38 @@
   "description": "Surfaced on new-grad trackers with posted 2026-09-21. SmartRecruiters page could not be loaded for verification (DataDome bot check unsolvable). New-grad fit, degree, sponsorship, and clearance unchecked.",
   "verification_blocker": "DataDome 'Slide right to secure your access' bot check on jobs.smartrecruiters.com; visual solver could not capture the protected widget (2 attempts incl. reload).",
   "source": "google_discovery_2026-10-12"
+ },
+ {
+  "company": "Brillio",
+  "title": "AI Engineer",
+  "location": "Coppell, TX",
+  "posting_date": "",
+  "date_added": "2026-10-12",
+  "application_link": "https://careers.brillio.com",
+  "description": "Found via LinkedIn Jobs new-grad search on 2026-10-12. The employer site (careers.brillio.com) is fully browsable but lists NO \"AI Engineer\" posting in Coppell, TX \u2014 the closest match is \"AI Engineer / Forward Deployed Engineer - R01572121\" in New York. The LinkedIn listing may be a repost, a removed posting, or listed under a different title. Degree language, sponsorship language, and clearance language are UNVERIFIED. Read the posting yourself before applying.",
+  "verification_blocker": "no matching posting on employer careers site (site itself is browsable)",
+  "source": "hourly_board_2026-10-12"
+ },
+ {
+  "company": "Tekgaru",
+  "title": "Junior Software Engineer",
+  "location": "Boca Raton, FL",
+  "posting_date": "",
+  "date_added": "2026-10-12",
+  "application_link": "https://tekgaru.com/career",
+  "description": "Found via LinkedIn Jobs new-grad search on 2026-10-12. Tekgaru publishes no individual job listings \u2014 tekgaru.com/career is a generic page with only an email contact form, and no Google-indexed employer posting for this role exists. Degree language, sponsorship language, and clearance language are UNVERIFIED. Read the posting yourself before applying.",
+  "verification_blocker": "employer publishes no job listings (careers page is a contact form)",
+  "source": "hourly_board_2026-10-12"
+ },
+ {
+  "company": "Aptos Retail",
+  "title": "Software Developer L1",
+  "location": "Elkhart County, IN",
+  "posting_date": "2026-10-12",
+  "date_added": "2026-10-12",
+  "application_link": "https://www.linkedin.com/jobs/search-results/?currentJobId=4478559418",
+  "description": "Found via LinkedIn Jobs new-grad search on 2026-10-12 (posted ~56 min before scan; \"Verified job\"). The official Aptos Workday portal currently lists only 6 jobs and the only \"Software Developer L1\" is in the Bangalore office \u2014 no US Software Developer L1 is posted. The LinkedIn JD mentions Python, FastAPI, GenAI, AWS and \"1-2 years experience preferred\"; no degree, sponsorship, or clearance language is visible on LinkedIn. Canonical degree/sponsorship/clearance language is UNVERIFIED. Read the posting yourself before applying.",
+  "verification_blocker": "not present on official employer portal (portal itself loads fine)",
+  "source": "hourly_board_2026-10-12"
  }
 ]
