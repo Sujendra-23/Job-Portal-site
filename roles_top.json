@@ -790,5 +790,16 @@
   "description": "Employer posting verified live 2026-10-12 (careers.blueyonder.com, Job ID 263328, Product Development, Full time, \"Apply Now\" accepting applications). Location stated: Dallas, TX (Hybrid Role). Salary range shown: $85,788 - $108,212. The posting lists no degree/education requirement and does not mention immigration or visa sponsorship.",
   "degree": "not stated",
   "source": "hourly_board_2026-10-12"
+ },
+ {
+  "company": "Amazon",
+  "title": "System Development Engineer I, Enterprise Productivity",
+  "location": "Seattle, WA",
+  "date_added": "2026-10-12",
+  "posting_date": "2026-10-12",
+  "application_link": "https://www.amazon.jobs/en/jobs/10575985/system-development-engineer-i-enterprise-productivity",
+  "description": "System Development Engineer I, Enterprise Productivity (Job ID 10575985, Amazon Data Services, Inc.), Seattle, WA; base salary $99,100-$160,000 annually plus sign-on payments and RSUs. You will improve the development, testing, deployment, and operations of the systems your team depends on: design and deliver software, tooling, and automation that raise reliability, efficiency, and performance across the product development lifecycle; troubleshoot and resolve system failures across hardware, software, and operating environments and implement lasting fixes; write well-tested, maintainable code with peer design and code reviews; develop monitoring metrics and automated solutions that reduce manual effort and improve system resilience; collaborate on documentation, runbooks, and operational processes, including evaluating generative AI tooling to augment productivity. Basic qualifications: experience programming with at least one modern language (C++, C#, Java, Python, Golang, PowerShell, Ruby); experience with automation tooling for building, testing, releasing, or monitoring. Preferred: Python proficiency; experience with highly concurrent, high-throughput distributed systems. The posting states no degree requirement and does not mention immigration or visa sponsorship.",
+  "degree": "Not stated in posting (not bachelor's-only)",
+  "source": "hourly_board_2026-10-12"
  }
 ]
