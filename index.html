@@ -119,16 +119,21 @@ function rowHtml(r){
   const resumeUrl = RESUMES[rk];
   const sUrl = typeof resumeUrl === 'string' ? resumeUrl : (resumeUrl||{}).sujendra;
   const hUrl = (typeof resumeUrl === 'object' && resumeUrl) ? resumeUrl.shruthi : null;
+  const postedLine = r.posting_date
+    ? '<br><span style="color:#888;font-size:12px">Posted: '+esc(fmtDate(r.posting_date))+'</span>'
+    : '<br><span style="color:#aaa;font-size:12px">Posted date not shown</span>';
   return '<tr data-search="'+esc((r.company+' '+r.title).toLowerCase())+'">'+
-    '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+'</td>'+
+    '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+postedLine+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+'</td>'+
     '<td class="desc"><span class="preview">'+esc(prev)+'</span><span class="full">'+descHtml+'</span>'+(hasLong?'<br><span class="toggle">Read more</span>':'')+'</td>'+
     '<td><a class="apply" href="'+esc(r.application_link)+'" target="_blank" rel="noopener">Apply</a></td>'+
     resumeCell(sUrl,'sujendra','Sujendra',rk)+resumeCell(hUrl,'shruthi','Shruthi',rk)+
     '</tr>';
 }
 function renderRoles(roles){
+  // Group by DISCOVERY date (date_added) per user rule 2026-10-10 — this is
+  // always known and honest. posting_date is shown per-role when verified.
   const groups = {};
-  roles.forEach(r=>{ const d = r.posting_date || ''; (groups[d] = groups[d] || []).push(r); });
+  roles.forEach(r=>{ const d = r.date_added || r.posting_date || ''; (groups[d] = groups[d] || []).push(r); });
   const dates = Object.keys(groups).sort().reverse();
   const todayIso = new Date().toISOString().slice(0,10);
   let html = '';
