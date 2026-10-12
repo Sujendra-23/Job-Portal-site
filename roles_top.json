@@ -638,5 +638,25 @@
   "description": "Employer-verified live 2026-10-11 (jobs.nvidia.com, requisition JR2027337; applications accepted at least until October 15, 2026). Full-time New College Grad role in DL Kernel Libraries, Santa Clara CA. Note: intro paragraph has a copy-paste quirk ('We're looking for Software Engineer Interns') but the requisition is a full-time new-grad role. The posting does not state immigration sponsorship terms; no security-clearance language found.",
   "degree": "Bachelor's or Master's",
   "source": "linkedin_jobs"
+ },
+ {
+  "company": "Tesla",
+  "title": "Internship, Software Integration Engineer, AI Platforms (Winter/Spring 2027)",
+  "location": "Palo Alto, CA",
+  "posting_date": "2026-10-11",
+  "application_link": "https://www.tesla.com/careers/search/job/internship-software-integration-engineer-ai-platforms-winter-spring-2027-277009",
+  "description": "Tesla - Internship, Software Integration Engineer, AI Platforms (Winter/Spring 2027), Palo Alto, CA, Req ID 277009. Found via Google discovery and verified live on tesla.com 2026-10-11. Season explicitly stated: expected to start January 2027 and continue through the spring term (ending approximately May 2027 or later, if available). Graduation: currently pursuing a degree with graduation date between May 2027 - May 2028; for actively enrolled students. Degree level not specified in posting (Neutral). Does not state immigration or visa sponsorship terms (notes CPT consultation for international students only). No clearance-related requirements. Expected compensation $125,000 + benefits.",
+  "degree": "Neutral",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "TikTok",
+  "title": "Backend Software Engineer Graduate (Feed Safety) - 2027 Start",
+  "location": "Seattle, WA",
+  "posting_date": "2026-10-11",
+  "application_link": "https://careers.tiktok.com/resume/7663028952600807733/apply",
+  "description": "TikTok - Backend Software Engineer Graduate (Feed Safety) - 2027 Start, Seattle, WA, Job Code A164945. Found via Jobright (~1h old listing) and verified live on lifeattiktok.com 2026-10-11. Program label: Bachelor/Master Graduate - 2027 Start. Graduation: must be able to commit to an onboarding date by end of year; state availability and graduation date in resume. Degree accepts Bachelor's and Master's ('Bachelor's or above degree in computer science or a related discipline'). Does not state immigration or visa sponsorship terms. No clearance-related requirements. Base salary $121,600-$243,200 (Seattle). Candidates may apply to a maximum of two positions globally; rolling review.",
+  "degree": "Bachelor's or Master's",
+  "source": "jobright"
  }
 ]
