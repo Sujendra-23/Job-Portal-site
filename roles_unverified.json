@@ -329,5 +329,16 @@
   "description": "TikTok graduate new-grad posting (\"Machine Learning Engineer Graduate (Commercial AI-CRM and Transaction) - 2027 Start\", San Jose, CA, on-site) found as an Oct-13 row in the jobright-ai 2026-Engineering-New-Grad tracker. ML title + Graduate + 2027 Start markers - in scope. Degree, sponsorship, and clearance language are UNVERIFIED (needs the employer posting). NOTE: jobright tracker dates have shown re-scrape behavior this week, so Oct-13 may not be the true posting date.",
   "verification_blocker": "Employer posting not loadable from the automated environment: careers.tiktok.com API redirects to lifeattiktok.com/api/v1/job_posting/list which returns HTTP 200 with an empty body; lifeattiktok.com search results render client-side (no job data in server HTML); jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
   "source": "hourly_board_2026-10-13"
+ },
+ {
+  "company": "Power3 Solutions",
+  "title": "Entry Level Software Engineer 0",
+  "location": "Annapolis Junction, MD, United States",
+  "posting_date": "Oct 13 (Jobright tracker; employer posting date unknown)",
+  "date_added": "2026-10-13",
+  "application_link": "https://jobright.ai/jobs/info/6ace3bfd4391691a335ab5a2",
+  "description": "Found via Jobright new-grad GitHub tracker (new Oct 13 row, first surfaced ~08:46 PDT). SWE title with Entry Level marker; US location. Could not be employer-verified: Jobright detail page returns 403 from sandbox and shows a Cloudflare human-verification challenge in the live browser (not solved). Power3's own site (power3.com/careers) loads but lists no job postings \u2014 Power3 is an HR/cleared-recruiting consulting firm specializing in cleared technical recruiting, so this may be a government-client role that requires a security clearance (which would kill it per the clearance rule). Degree acceptance (BS+MS), sponsorship language, posting date, and clearance language are all UNVERIFIED. Company careers page: https://power3.com/careers. Read the posting yourself before applying.",
+  "verification_blocker": "employer site human-verification wall (Cloudflare challenge on Jobright detail page; 403 from automation; no posting found on power3.com)",
+  "source": "hourly_board_2026-10-13"
  }
 ]
