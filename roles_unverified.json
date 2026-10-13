@@ -340,38 +340,5 @@
   "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13, tagged New Grad / Early Career, Mountain View CA. Employer careers live on the id.me domain, which could not be loaded, so degree, sponsorship, clearance, and liveness are unverified. Best available link is the tracker deep-link above; official careers at id.me/careers (same blocked domain).",
   "verification_blocker": "employer site human-verification wall (Cloudflare Turnstile on the id.me root domain; careers page is on the same blocked domain)",
   "source": "hourly_board_2026-10-13"
- },
- {
-  "company": "General Atomics Aeronautical Systems",
-  "title": "Associate Software Developer",
-  "location": "Poway, CA",
-  "posting_date": "Oct 13 (Jobright tracker)",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobright.ai/jobs/info/6ace8970ba99f15ef4125923",
-  "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13 (Poway, CA). Confirmed LIVE on the employer's own careers site (ga-careers.com, req 57010BR, listed in 'Most recent jobs posted'). The full posting description (degree, sponsorship, clearance) could not be read: the job detail renders inside a JS-driven BrassRing board that does not return content to script fetches. Defense employer; third-party trackers of this same posting note US-citizenship and DoD-clearance language and no sponsorship - treat degree/sponsorship/clearance as UNVERIFIED.",
-  "verification_blocker": "employer posting detail is JS-rendered (BrassRing board); script fetch returns no description content",
-  "source": "hourly_board_2026-10-13"
- },
- {
-  "company": "AMERICAN SYSTEMS",
-  "title": "NAVAIR Software Engineer/Developer",
-  "location": "California, MD",
-  "posting_date": "Oct 13 (Jobright tracker)",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobright.ai/jobs/info/6ace7ff1a0453f9ba624900e",
-  "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13 (California, MD). Employer careers portal (careers-americansystems.icims.com, iCIMS) is JS-driven and the posting detail could not be loaded via script; a third-party listing for the same title/location exists. Defense contractor NAVAIR role - degree, sponsorship, clearance, and liveness are UNVERIFIED.",
-  "verification_blocker": "employer posting detail is JS-rendered (iCIMS board); script fetch returns no description content",
-  "source": "hourly_board_2026-10-13"
- },
- {
-  "company": "ACT",
-  "title": "Infrastructure Engineer I",
-  "location": "Remote, United States",
-  "posting_date": "Oct 13 (Jobright tracker)",
-  "date_added": "2026-10-13",
-  "application_link": "https://www.act.org/content/act/en/careers-at-act.html?keywords=Infrastructure+Engineer+I&jobId=80b8b59f-35e3-c67d-de80-11061225a2df",
-  "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13 (Remote, US). The employer posting page on act.org (jobId 80b8b59f-35e3-c67d-de80-11061225a2df) was reached in a live browser but the job detail is JS-rendered and script fetches return only the generic careers page - degree, sponsorship, clearance, posting date, and liveness are UNVERIFIED.",
-  "verification_blocker": "employer posting detail is JS-rendered; script fetch returns only the generic careers page",
-  "source": "hourly_board_2026-10-13"
  }
 ]
