@@ -318,5 +318,16 @@
   "description": "Blue Origin new-grad posting (\"Aerospace Systems Engineer I - Early Career & New Graduate Rotation (2027 Starts)\", Greater Seattle Area) found as an Oct-13 row in the jobright-ai 2026-Engineering-New-Grad tracker. NOTE: this is a systems-engineering (aerospace) role, not a software role - fit for a SWE search is marginal. Blue Origin is a space/defense employer; degree, sponsorship/immigration, and any citizenship-related language are UNVERIFIED and must be checked on the employer posting before applying (student-visa relevant).",
   "verification_blocker": "blueorigin.com careers sits behind a Vercel Security Checkpoint (HTTP 429 bot challenge) from the automated environment; jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
   "source": "hourly_board_2026-10-13"
+ },
+ {
+  "company": "TikTok",
+  "title": "Machine Learning Engineer Graduate (Commercial AI-CRM and Transaction) - 2027 Start",
+  "location": "San Jose, CA, United States",
+  "posting_date": "Oct 13 (per jobright-ai tracker)",
+  "date_added": "2026-10-13",
+  "application_link": "https://jobright.ai/jobs/info/6a473afb4f64ba41dcb564cb",
+  "description": "TikTok graduate new-grad posting (\"Machine Learning Engineer Graduate (Commercial AI-CRM and Transaction) - 2027 Start\", San Jose, CA, on-site) found as an Oct-13 row in the jobright-ai 2026-Engineering-New-Grad tracker. ML title + Graduate + 2027 Start markers - in scope. Degree, sponsorship, and clearance language are UNVERIFIED (needs the employer posting). NOTE: jobright tracker dates have shown re-scrape behavior this week, so Oct-13 may not be the true posting date.",
+  "verification_blocker": "Employer posting not loadable from the automated environment: careers.tiktok.com API redirects to lifeattiktok.com/api/v1/job_posting/list which returns HTTP 200 with an empty body; lifeattiktok.com search results render client-side (no job data in server HTML); jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
+  "source": "hourly_board_2026-10-13"
  }
 ]
