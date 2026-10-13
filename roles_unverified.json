@@ -148,9 +148,9 @@
   "location": "Richmond, VA (on-site)",
   "posting_date": "",
   "date_added": "2026-10-12",
-  "application_link": "https://www.linkedin.com/jobs/view/4477498017/",
-  "description": "LinkedIn card seen ~1h before check (2026-10-12). Employer careers page lists 'Full Stack Developer, Automation & AI Engineer' in Richmond, but clicking through to the Paylocity ATS job detail (JobId 1563) lands on a 'Job Not Found' page \u2014 posting deactivated/removed from the employer's ATS, so degree/sponsorship/clearance could not be checked. Best known link is the LinkedIn listing.",
-  "verification_blocker": "Employer ATS posting deactivated (Paylocity 'Job Not Found'); not verifiable as accepting applications",
+  "application_link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4512852",
+  "description": "LinkedIn card seen ~1h before check (2026-10-12). The old Paylocity ATS link (JobId 1563) showed 'Job Not Found', but the role is LIVE again on the employer's careers page (carystreetpartners.com/careers, checked 2026-10-13) under the title 'Full Stack Developer, Automation & AI Engineer' in Richmond, VA, with a new Paylocity posting (Details/4512852). Degree, sponsorship, and clearance language are UNVERIFIED (Paylocity detail page is client-rendered; needs live browser). Read the posting yourself before applying.",
+  "verification_blocker": "New employer ATS link found 2026-10-13 (Details/4512852); Paylocity detail page needs live-browser render to check degree/sponsorship/clearance",
   "source": "hourly_board_2026-10-12",
   "status": "lead_unverified"
  },
@@ -328,6 +328,17 @@
   "application_link": "https://taxrise.com/careers",
   "description": "Jobright 2026-Software-Engineer-New-Grad tracker sighted \"Junior Software Developer\", Irvine CA, Date Posted Oct 13 (https://jobright.ai/jobs/info/6ace6cd84391691a335ac772). Title passes title family + entry marker (\"Junior\"), US location. Employer careers page (taxrise.com/careers) loads fine but lists no engineering roles at all (only Client Care, People Ops, Sales, Tax Specialist, Resolution Account Manager) \u2014 the posting may have been pulled or never listed. Degree/sponsorship/clearance unchecked. User verifies.",
   "verification_blocker": "posting not listed on taxrise.com/careers during read-only live-browser check 2026-10-13 (site loads; job search for \"Junior Software Developer\" and \"Developer\" returned no matches; no engineering department listed)",
+  "source": "hourly_board_2026-10-13"
+ },
+ {
+  "company": "ID.me",
+  "title": "Software Engineer II, Developer Portal (New Grad / Early Career)",
+  "location": "Mountain View, CA",
+  "posting_date": "Oct 13 (Jobright tracker)",
+  "date_added": "2026-10-13",
+  "application_link": "https://jobright.ai/jobs/info/6ace74b14391691a335ac995",
+  "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13, tagged New Grad / Early Career, Mountain View CA. Employer careers live on the id.me domain, which could not be loaded, so degree, sponsorship, clearance, and liveness are unverified. Best available link is the tracker deep-link above; official careers at id.me/careers (same blocked domain).",
+  "verification_blocker": "employer site human-verification wall (Cloudflare Turnstile on the id.me root domain; careers page is on the same blocked domain)",
   "source": "hourly_board_2026-10-13"
  }
 ]
