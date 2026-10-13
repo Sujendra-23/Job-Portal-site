@@ -966,5 +966,16 @@
   "description": "Microsoft 'Software Engineering - Commercial Engineering & AI (CEAI)' (Job number 200041565), Redmond WA, full-time entry-level Software Engineering IC2 (3 days/week in-office). The CEAI/SPAI org builds AI-native systems transforming Microsoft's commercial and sales ecosystem: understanding sales workflows, rapid proof-of-concept prototyping, shipping production-quality AI features and services, cross-team integration, telemetry-driven reliability, and responsible AI. Pay range shown: Software Engineering IC2, USD $85,400-$168,100 per year (U.S.; $111,100-$183,700 for SF Bay Area/NYC metro). Degree: Bachelor's Degree in Computer Science or related technical discipline with proven coding experience OR equivalent experience (required); Master's Degree in Computer Science or related technical field named in preferred qualifications. Sponsorship not stated in posting text. No clearance-related language. Minimum qualifications set no year threshold; 2+ years technical engineering experience appears only as one alternative preferred-qualification path.",
   "degree": "Bachelor's required + Master's preferred (both explicit)",
   "source": "browser_rotation"
+ },
+ {
+  "company": "Glasslake",
+  "title": "Software Engineer - Frontend",
+  "location": "San Francisco, CA",
+  "date_added": "2026-10-12",
+  "posting_date": "",
+  "application_link": "https://jobs.ashbyhq.com/Glasslake/2be433a3-bb91-4d62-9a6b-a4a703236da2",
+  "description": "Glasslake (formerly Luzid) - Software Engineer - Frontend, San Francisco, CA (hybrid per employer page; LinkedIn lists on-site). Full-time, Product & Engineering. Found via LinkedIn Jobs 2026-10-12 (LinkedIn card '1 day ago') and verified live on jobs.ashbyhq.com/Glasslake 2026-10-12. Glasslake builds an agentic orchestration platform for SAP delivery; team from Stanford, Meta, Two Sigma, Microsoft, NASA. Frontend-focused role: own product outcomes end-to-end, ship core interfaces, design for real usage (loading/empty/error/recovery, accessibility), build durable component APIs, optimize performance. Requirements are qualitative only (deep frontend fundamentals in JS/TS, HTML/CSS; UX judgment; ownership) \u2014 no degree requirement stated, no required years of experience. Sponsorship not stated in posting text. No clearance-related language and no US-citizen/PR restriction. No posting date shown on employer page; no salary shown.",
+  "degree": "",
+  "source": "linkedin_jobs"
  }
 ]
