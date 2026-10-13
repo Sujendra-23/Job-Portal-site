@@ -188,17 +188,6 @@
   "status": "lead_unverified"
  },
  {
-  "company": "IBM",
-  "title": "AI Foundations - Software Engineer - Research Internship 2027",
-  "location": "Multiple US locations (New York; also Research Engineer R&D Internship 2027 at Yorktown Heights & Cambridge seen on jobsearcher.com)",
-  "posting_date": "2026-09-21",
-  "date_added": "2026-10-12",
-  "application_link": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Software-Engineer-Research-Internship-2027/131307",
-  "description": "VERIFY UPDATE (2026-10-12, checked live on careers.ibm.com): posting is OPEN and accepting applications (two live Apply now buttons; no closed banner). Employer states Date posted: 21-Sep-2026. SEASON: not stated anywhere in the employer posting (title 'Research Internship 2027'; Employment type: Co-Op (Fixed Term)) \u2014 cannot confirm a January-June 2027 window, so it fails the Spring/Winter-only rule. DEGREE: 'Required education: High School Diploma/GED' \u2014 does not explicitly accept Bachelor's+Master's. SPONSORSHIP: not stated; closest language is compliance with fair employment practices on citizenship/immigration status. CLEARANCE: no clearance language. Locations: Yorktown Heights NY / Cambridge MA / San Jose CA, onsite. Note: posting text says it was anticipated to remain posted 15 days (~Oct 6), but it is still live today.",
-  "verification_blocker": "season not stated in employer posting (fails Spring/Winter-only rule); degree language not BS/MS",
-  "source": "google_discovery_2026-10-12"
- },
- {
   "company": "Regeneron",
   "title": "Assoc IOPS AI Engineer",
   "location": "Troy, NY, United States",
@@ -351,5 +340,16 @@
   "description": "Third-party report (eufindwork) had this live on careers.arm.com as of 2026-10-10, Austin TX, graduate-category posting. Read-only live-browser check 2026-10-13 could not find it: exact-title 'Graduate Software Engineer' postings exist only in Budapest and Munich; the only graduate-category Austin posting is 'Graduate Applications Engineer' (different title). Stale tracker data or title drift suspected. Degree/sponsorship/clearance unchecked.",
   "verification_blocker": "posting not found on employer's own careers site (careers.arm.com) during read-only live-browser check 2026-10-13; no employer application URL for the Austin posting",
   "source": "google_discovery_2026-10-13"
+ },
+ {
+  "company": "Justworks",
+  "title": "Associate Software Engineer, Frontend",
+  "location": "New York, NY",
+  "posting_date": "",
+  "date_added": "2026-10-13",
+  "application_link": "https://www.justworks.com/careers",
+  "description": "Jobright 2026-Software-Engineer-New-Grad tracker sighted \"Associate Software Engineer, Frontend\", New York NY, Date Posted Oct 13 (https://jobright.ai/jobs/info/6ace5d05680c80c8753bc37e). Title passes title family + entry marker (\"Associate\"), US location. Degree/sponsorship/clearance unchecked.",
+  "verification_blocker": "www.justworks.com/careers serves a Cloudflare \"Verify you are human\" challenge that never cleared during read-only live-browser check 2026-10-13 (checkbox clicked 3x, challenge kept resetting); posting could not be verified from sandbox",
+  "source": "hourly_board_2026-10-13"
  }
 ]
