@@ -1,16 +1,5 @@
 [
  {
-  "application_link": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=cvrve",
-  "company": "Citadel Securities",
-  "date_added": "2026-10-11",
-  "description": "Found via public new-grad tracker (vanshb03, Jul 05 entry). The employer's posting could not be verified from the automation: site is Cloudflare-gated. Degree language, sponsorship language, and clearance language are UNVERIFIED. Note: tracker entry is ~3 months old and the posting may be stale. Read the posting yourself before applying.",
-  "location": "Miami, FL / New York, NY",
-  "posting_date": "2026-07-05",
-  "source": "tracker_lead_2026-10-11",
-  "title": "Software Engineer - University Graduate (US)",
-  "verification_blocker": "employer site Cloudflare-gated"
- },
- {
   "company": "Zoom",
   "title": "Software Engineer",
   "location": "Remote (US)",
@@ -119,28 +108,6 @@
   "description": "Posted by Cisco University Talent Partner Shreya Pothuganti as a new-grad hire (same post as above). No listing found on Cisco's own career portal 2026-10-12 \u2014 exists only in the LinkedIn post. Degree, sponsorship, and clearance unchecked.",
   "verification_blocker": "No employer posting exists; role found only in recruiter LinkedIn post.",
   "source": "linkedin_hiring_posts"
- },
- {
-  "company": "ServiceNow",
-  "title": "Machine Learning Engineer",
-  "location": "Santa Clara, CA",
-  "posting_date": "",
-  "date_added": "2026-10-12",
-  "application_link": "https://jobs.smartrecruiters.com/ServiceNow/744000152540769-machine-learning-engineer?oga=true",
-  "description": "Surfaced on new-grad trackers (tar-ive, harrycodingnow) with posted ~2026-10-07. SmartRecruiters page could not be loaded for verification (DataDome bot check unsolvable). New-grad fit, degree, sponsorship, and clearance unchecked.",
-  "verification_blocker": "DataDome 'Slide right to secure your access' bot check on jobs.smartrecruiters.com; visual solver could not capture the protected widget (2 attempts incl. reload).",
-  "source": "google_discovery_2026-10-12"
- },
- {
-  "company": "ServiceNow",
-  "title": "Software Engineer - Applicant Tracking Systems",
-  "location": "West Palm Beach, FL",
-  "posting_date": "",
-  "date_added": "2026-10-12",
-  "application_link": "https://jobs.smartrecruiters.com/servicenow/744000150776289",
-  "description": "Surfaced on new-grad trackers with posted 2026-09-21. SmartRecruiters page could not be loaded for verification (DataDome bot check unsolvable). New-grad fit, degree, sponsorship, and clearance unchecked.",
-  "verification_blocker": "DataDome 'Slide right to secure your access' bot check on jobs.smartrecruiters.com; visual solver could not capture the protected widget (2 attempts incl. reload).",
-  "source": "google_discovery_2026-10-12"
  },
  {
   "company": "Brillio",
@@ -350,6 +317,17 @@
   "application_link": "https://www.justworks.com/careers",
   "description": "Jobright 2026-Software-Engineer-New-Grad tracker sighted \"Associate Software Engineer, Frontend\", New York NY, Date Posted Oct 13 (https://jobright.ai/jobs/info/6ace5d05680c80c8753bc37e). Title passes title family + entry marker (\"Associate\"), US location. Degree/sponsorship/clearance unchecked.",
   "verification_blocker": "www.justworks.com/careers serves a Cloudflare \"Verify you are human\" challenge that never cleared during read-only live-browser check 2026-10-13 (checkbox clicked 3x, challenge kept resetting); posting could not be verified from sandbox",
+  "source": "hourly_board_2026-10-13"
+ },
+ {
+  "company": "TaxRise",
+  "title": "Junior Software Developer",
+  "location": "Irvine, CA",
+  "posting_date": "Oct 13",
+  "date_added": "2026-10-13",
+  "application_link": "https://taxrise.com/careers",
+  "description": "Jobright 2026-Software-Engineer-New-Grad tracker sighted \"Junior Software Developer\", Irvine CA, Date Posted Oct 13 (https://jobright.ai/jobs/info/6ace6cd84391691a335ac772). Title passes title family + entry marker (\"Junior\"), US location. Employer careers page (taxrise.com/careers) loads fine but lists no engineering roles at all (only Client Care, People Ops, Sales, Tax Specialist, Resolution Account Manager) \u2014 the posting may have been pulled or never listed. Degree/sponsorship/clearance unchecked. User verifies.",
+  "verification_blocker": "posting not listed on taxrise.com/careers during read-only live-browser check 2026-10-13 (site loads; job search for \"Junior Software Developer\" and \"Developer\" returned no matches; no engineering department listed)",
   "source": "hourly_board_2026-10-13"
  }
 ]
