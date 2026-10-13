@@ -955,5 +955,16 @@
   "description": "Graduate research role for 2027 start on the E-Commerce Recommendation Region team (Technology), Seattle, WA (Job Code A82297A). Base salary range $121,600-$243,200 annually plus discretionary bonuses/incentives and RSUs. Work spans recommendation/search/ads research: ML and math foundations, Python/C++ and PyTorch coding, plus experience in LLMs, RL, causal inference, optimization, multimodal learning, or AI agents; driving open-ended problems to measurable results. Degree: completing or recently completed Bachelor's in CS, EE, Mathematics, Statistics or related (minimum); Master's preferred. Sponsorship not stated in posting text; the posting does not mention immigration or visa sponsorship. Onboarding by end of year (state availability and graduation date in resume); max two positions per applicant; applications reviewed on a rolling basis; early application encouraged.",
   "degree": "BS+MS accepted (Bachelor's minimum, Master's preferred)",
   "source": "tar-ive"
+ },
+ {
+  "company": "Microsoft",
+  "title": "Software Engineering - Commercial Engineering & AI (CEAI)",
+  "location": "Redmond, WA",
+  "date_added": "2026-10-12",
+  "posting_date": "2026-10-06",
+  "application_link": "https://apply.careers.microsoft.com/careers/job?pid=1970393556914839",
+  "description": "Microsoft 'Software Engineering - Commercial Engineering & AI (CEAI)' (Job number 200041565), Redmond WA, full-time entry-level Software Engineering IC2 (3 days/week in-office). The CEAI/SPAI org builds AI-native systems transforming Microsoft's commercial and sales ecosystem: understanding sales workflows, rapid proof-of-concept prototyping, shipping production-quality AI features and services, cross-team integration, telemetry-driven reliability, and responsible AI. Pay range shown: Software Engineering IC2, USD $85,400-$168,100 per year (U.S.; $111,100-$183,700 for SF Bay Area/NYC metro). Degree: Bachelor's Degree in Computer Science or related technical discipline with proven coding experience OR equivalent experience (required); Master's Degree in Computer Science or related technical field named in preferred qualifications. Sponsorship not stated in posting text. No clearance-related language. Minimum qualifications set no year threshold; 2+ years technical engineering experience appears only as one alternative preferred-qualification path.",
+  "degree": "Bachelor's required + Master's preferred (both explicit)",
+  "source": "browser_rotation"
  }
 ]
