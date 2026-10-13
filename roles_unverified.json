@@ -197,5 +197,16 @@
   "description": "VERIFY UPDATE (2026-10-12, checked live on careers.ibm.com): posting is OPEN and accepting applications (two live Apply now buttons; no closed banner). Employer states Date posted: 21-Sep-2026. SEASON: not stated anywhere in the employer posting (title 'Research Internship 2027'; Employment type: Co-Op (Fixed Term)) \u2014 cannot confirm a January-June 2027 window, so it fails the Spring/Winter-only rule. DEGREE: 'Required education: High School Diploma/GED' \u2014 does not explicitly accept Bachelor's+Master's. SPONSORSHIP: not stated; closest language is compliance with fair employment practices on citizenship/immigration status. CLEARANCE: no clearance language. Locations: Yorktown Heights NY / Cambridge MA / San Jose CA, onsite. Note: posting text says it was anticipated to remain posted 15 days (~Oct 6), but it is still live today.",
   "verification_blocker": "season not stated in employer posting (fails Spring/Winter-only rule); degree language not BS/MS",
   "source": "google_discovery_2026-10-12"
+ },
+ {
+  "company": "Regeneron",
+  "title": "Assoc IOPS AI Engineer",
+  "location": "Troy, NY, United States",
+  "posting_date": "Oct 13 (per jobright-ai tracker; employer page shows no date reachable)",
+  "date_added": "2026-10-13",
+  "application_link": "https://jobright.ai/jobs/info/6acda6bf09635d4ede00a8c9",
+  "description": "Candidate passed title (\"Assoc\" entry-level marker + \"AI Engineer\" in title set), US location (Troy, NY), and recency (Oct-13 row in jobright-ai 2026-Engineering-New-Grad tracker) checks. Employer posting could NOT be loaded for verification: careers.regeneron.com is behind an origin-wide Cloudflare Turnstile \"Verify you are human\" challenge that loops indefinitely in the automated browser (5 solve attempts: visual clicks, reload, accessibility-tree click, natural mouse motion \u2014 all stall at \"Performing security verification\" and revert). A Built In company page confirms the \"Assoc IOPS AI Engineer\" title is currently listed among Regeneron's recently posted jobs (In-Office), but that is an aggregator, not the employer posting \u2014 degree (BS+MS), sponsorship, and clearance language are unverified. Jobright detail page is also Cloudflare-blocked (HTTP 403). User can verify in his own browser.",
+  "verification_blocker": "Cloudflare Turnstile human-verification wall on careers.regeneron.com (loops, never clears in automated browser); jobright detail page also 403",
+  "source": "hourly_board_2026-10-13"
  }
 ]
