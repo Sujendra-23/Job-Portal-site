@@ -340,5 +340,16 @@
   "description": "Found via Jobright new-grad GitHub tracker (new Oct 13 row, first surfaced ~08:46 PDT). SWE title with Entry Level marker; US location. Could not be employer-verified: Jobright detail page returns 403 from sandbox and shows a Cloudflare human-verification challenge in the live browser (not solved). Power3's own site (power3.com/careers) loads but lists no job postings \u2014 Power3 is an HR/cleared-recruiting consulting firm specializing in cleared technical recruiting, so this may be a government-client role that requires a security clearance (which would kill it per the clearance rule). Degree acceptance (BS+MS), sponsorship language, posting date, and clearance language are all UNVERIFIED. Company careers page: https://power3.com/careers. Read the posting yourself before applying.",
   "verification_blocker": "employer site human-verification wall (Cloudflare challenge on Jobright detail page; 403 from automation; no posting found on power3.com)",
   "source": "hourly_board_2026-10-13"
+ },
+ {
+  "company": "Arm",
+  "title": "Graduate Software Engineer",
+  "location": "Austin, TX",
+  "posting_date": "",
+  "date_added": "2026-10-13",
+  "application_link": "https://careers.arm.com/category/graduate-jobs/34601/8097056/1",
+  "description": "Third-party report (eufindwork) had this live on careers.arm.com as of 2026-10-10, Austin TX, graduate-category posting. Read-only live-browser check 2026-10-13 could not find it: exact-title 'Graduate Software Engineer' postings exist only in Budapest and Munich; the only graduate-category Austin posting is 'Graduate Applications Engineer' (different title). Stale tracker data or title drift suspected. Degree/sponsorship/clearance unchecked.",
+  "verification_blocker": "posting not found on employer's own careers site (careers.arm.com) during read-only live-browser check 2026-10-13; no employer application URL for the Austin posting",
+  "source": "google_discovery_2026-10-13"
  }
 ]
