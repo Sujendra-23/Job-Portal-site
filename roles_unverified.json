@@ -340,5 +340,16 @@
   "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13, tagged New Grad / Early Career, Mountain View CA. Employer careers live on the id.me domain, which could not be loaded, so degree, sponsorship, clearance, and liveness are unverified. Best available link is the tracker deep-link above; official careers at id.me/careers (same blocked domain).",
   "verification_blocker": "employer site human-verification wall (Cloudflare Turnstile on the id.me root domain; careers page is on the same blocked domain)",
   "source": "hourly_board_2026-10-13"
+ },
+ {
+  "company": "Uber",
+  "title": "Software Engineer I",
+  "location": "Seattle, WA",
+  "posting_date": "",
+  "date_added": "2026-10-13",
+  "application_link": "https://jobs.uber.com/en/jobs/160017",
+  "description": "Surfaced via Google discovery from jobs.uber.com. Whether this 'Software Engineer I' posting is genuinely new-grad/entry-level is UNCONFIRMED \u2014 the employer page could not be loaded for verification.",
+  "verification_blocker": "Cloudflare 'Verify you are human' challenge wall on jobs.uber.com (not bypassed per policy).",
+  "source": "google_discovery_2026-10-13"
  }
 ]
