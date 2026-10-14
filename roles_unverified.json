@@ -350,5 +350,27 @@
   "description": "Nokia Federal Solutions posting: advertises a 'fresh graduate' opening but also demands a 'proven technical leader'; U.S. government/defense work (federal solutions). Contradictory requirements and clearance-adjacent employer; not verifiable as a clean new-grad opening.",
   "verification_blocker": "contradictory requirements (fresh graduate vs proven technical leader); federal/defense work likely clearance-adjacent",
   "source": "google_discovery_2026-10-14"
+ },
+ {
+  "company": "Charles Schwab",
+  "title": "Java Developer (Entry Level)",
+  "location": "Austin, TX, USA",
+  "posting_date": "",
+  "date_added": "2026-10-14",
+  "application_link": "https://career-schwab.icims.com/jobs/search?ss=1&searchKeyword=java+developer",
+  "description": "Weak lead from Google discovery leg (2026-10-14): web-search hit for an entry-level Java Developer posting in Austin on Schwab's careers board (career-schwab.icims.com). Employer posting not yet verified \u2014 board is JS-rendered (not script-readable) and the live-browser verification attempt was interrupted by infrastructure before completing. Degree, sponsorship, and clearance language unchecked.",
+  "verification_blocker": "employer board JS-rendered; browser verification interrupted before completion",
+  "source": "google_discovery_2026-10-14"
+ },
+ {
+  "company": "Charles Schwab",
+  "title": "Software Development Engineer",
+  "location": "Austin, TX, USA",
+  "posting_date": "",
+  "date_added": "2026-10-14",
+  "application_link": "https://career-schwab.icims.com/jobs/search?ss=1&searchKeyword=software+development+engineer",
+  "description": "Weak lead from Google discovery leg (2026-10-14): web-search hit for a Software Development Engineer posting in Austin on Schwab's careers board (career-schwab.icims.com). Employer posting not yet verified \u2014 board is JS-rendered (not script-readable) and the live-browser verification attempt was interrupted by infrastructure before completing. Degree, sponsorship, and clearance language unchecked.",
+  "verification_blocker": "employer board JS-rendered; browser verification interrupted before completion",
+  "source": "google_discovery_2026-10-14"
  }
 ]
