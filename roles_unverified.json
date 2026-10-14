@@ -286,17 +286,6 @@
   "source": "hourly_board_2026-10-13"
  },
  {
-  "company": "ID.me",
-  "title": "Software Engineer II, Developer Portal (New Grad / Early Career)",
-  "location": "Mountain View, CA",
-  "posting_date": "Oct 13 (Jobright tracker)",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobright.ai/jobs/info/6ace74b14391691a335ac995",
-  "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13, tagged New Grad / Early Career, Mountain View CA. Employer careers live on the id.me domain, which could not be loaded, so degree, sponsorship, clearance, and liveness are unverified. Best available link is the tracker deep-link above; official careers at id.me/careers (same blocked domain).",
-  "verification_blocker": "employer site human-verification wall (Cloudflare Turnstile on the id.me root domain; careers page is on the same blocked domain)",
-  "source": "hourly_board_2026-10-13"
- },
- {
   "company": "Uber",
   "title": "Software Engineer I - Container Platform",
   "location": "Sunnyvale, CA",
@@ -350,5 +339,16 @@
   "description": "Software Engineer I (Remote, listed Akron OH) surfaced via Jobright 2026-10-14. Specific posting not locatable on signetjewelers.com corporate careers from sandbox. Degree/sponsorship unchecked.",
   "verification_blocker": "posting not locatable on employer careers site",
   "source": "hourly_board_2026-10-14"
+ },
+ {
+  "company": "Nokia",
+  "title": "AI / ML Engineer (Nokia Federal Solutions)",
+  "location": "Chantilly, VA",
+  "posting_date": "",
+  "date_added": "2026-10-14",
+  "application_link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4429904",
+  "description": "Nokia Federal Solutions posting: advertises a 'fresh graduate' opening but also demands a 'proven technical leader'; U.S. government/defense work (federal solutions). Contradictory requirements and clearance-adjacent employer; not verifiable as a clean new-grad opening.",
+  "verification_blocker": "contradictory requirements (fresh graduate vs proven technical leader); federal/defense work likely clearance-adjacent",
+  "source": "google_discovery_2026-10-14"
  }
 ]
