@@ -1241,5 +1241,16 @@
   "description": "Software Engineer II, Developer Portal (New Grad / Early Career), Mountain View CA onsite 5 days/week. Early-career role for engineers 0-2 years into their career; build and scale ID.me's developer portal and public API platform. Backend primarily Java (Spring Boot) plus legacy Ruby; frontend Next.js/React/TypeScript. Pay range $122,000-$157,000 (Mountain View). Degree: Bachelor's or Master's in CS/CE or related field (or equivalent practical experience) - accepts both. Sponsorship: does not mention immigration or visa sponsorship. Employer-verified live on job-boards.greenhouse.io/idme (job 8011089003) 2026-10-14.",
   "degree": "BS/MS",
   "source": "jobright"
+ },
+ {
+  "company": "TikTok",
+  "title": "Backend Software Engineer Graduate (Data Ecosystem) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-14",
+  "posting_date": "",
+  "application_link": "https://lifeattiktok.com/search/7685769994391832837",
+  "description": "Backend Software Engineer Graduate, Data Ecosystem team (offline data storage for TikTok's recommendation system, 1B+ users). Responsibilities: design/implement offline and real-time data architecture for large-scale recommendation systems; flexible, scalable storage system and computation model; troubleshoot production systems; build distributed systems (offline/online storage, batch and stream processing). Minimum: Bachelor's in CS or related with 3+ years experience building scalable systems; proficiency in Spark/Flink at source-code level; deep understanding of Hudi/Iceberg/DeltaLake; HDFS and Parquet/ORC familiarity; data warehousing modeling; Java/C++/Scala proficiency. Preferred: currently pursuing a Master's in CS or related. Salary $128,000-$316,800 base + bonuses/RSUs. Candidates may apply to a maximum of two TikTok positions globally; applications reviewed on a rolling basis. Posting requires committing to an onboarding date by the end of the year. Posting date not shown on employer page (tracker reports 2026-10-14). Sponsorship is not stated in the posting text; no clearance-related language appears.",
+  "degree": "BS/MS",
+  "source": "hourly_board_2026-10-14"
  }
 ]
