@@ -307,5 +307,16 @@
   "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13, tagged New Grad / Early Career, Mountain View CA. Employer careers live on the id.me domain, which could not be loaded, so degree, sponsorship, clearance, and liveness are unverified. Best available link is the tracker deep-link above; official careers at id.me/careers (same blocked domain).",
   "verification_blocker": "employer site human-verification wall (Cloudflare Turnstile on the id.me root domain; careers page is on the same blocked domain)",
   "source": "hourly_board_2026-10-13"
+ },
+ {
+  "company": "Uber",
+  "title": "Software Engineer I - Container Platform",
+  "location": "Sunnyvale, CA",
+  "posting_date": "",
+  "date_added": "2026-10-14",
+  "application_link": "",
+  "description": "Surfaced via Google discovery leg (luisfork tracker, Sep 12). No resolvable employer posting URL from script access (jobs.uber.com script-blocked). Distinct from the ledgered Uber \"Software Engineer I\" lead (jobs.uber.com/en/jobs/160017). New-grad marker unknown; not employer-verified.",
+  "verification_blocker": "no resolvable employer posting link (jobs.uber.com script-blocked from sandbox)",
+  "source": "google_discovery_2026-10-14"
  }
 ]
