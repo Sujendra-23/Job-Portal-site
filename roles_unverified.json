@@ -232,17 +232,6 @@
   "source": "google_discovery_2026-10-13"
  },
  {
-  "company": "TikTok",
-  "title": "Self-Built Engineer Graduate (CDN Platform) - 2027 Start",
-  "location": "San Jose, CA, United States",
-  "posting_date": "Oct 13 (per jobright-ai tracker; same link was a Sep-14 tracker row - likely a re-scrape of an older posting)",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobright.ai/jobs/info/6a83c46c9b859b2277670aa6",
-  "description": "TikTok graduate new-grad posting (\"Self-Built Engineer Graduate (CDN Platform) - 2027 Start\", San Jose, CA, on-site) found as an Oct-13 row in the jobright-ai 2026-Software-Engineer-New-Grad tracker. NOTE: the same tracker link appeared as a Sep-14 row, and a Ladders mirror (crawled ~2 days ago) shows the Seattle version \"Posted 4 days ago\" (job code A228301) - the Oct-13 date looks like a tracker re-scrape, so the underlying posting is older. Aggregator mirrors (Ladders) show the full JD: CDN platform development/operations/documentation work; minimum qualifications mention a Bachelor's in CS/SE/EE or related (whether a Master's is also accepted is NOT confirmed - needs the employer posting); salary $121,600-$243,200 on the Seattle mirror. Degree, sponsorship, and clearance language are unverified.",
-  "verification_blocker": "Employer posting not loadable from the automated environment: careers.tiktok.com API redirects to lifeattiktok.com/api/v1/job_posting/list which returns HTTP 200 with an empty body; lifeattiktok.com search results render client-side (no job data in server HTML); jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
-  "source": "hourly_board_2026-10-13"
- },
- {
   "company": "Blue Origin",
   "title": "Software Development Engineer I - Early Career (2027 Starts)",
   "location": "Greater Seattle Area, United States",
@@ -254,17 +243,6 @@
   "source": "hourly_board_2026-10-13"
  },
  {
-  "company": "TikTok",
-  "title": "Solutions Engineer Graduate (Advertisement Team) - 2027 Start",
-  "location": "San Jose, CA, United States",
-  "posting_date": "Oct 13 (per jobright-ai tracker; same link was a Sep-14 tracker row - likely a re-scrape of an older posting)",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobright.ai/jobs/info/6a83a8493eeac101cfaa1199",
-  "description": "TikTok graduate new-grad posting (\"Solutions Engineer Graduate (Advertisement Team) - 2027 Start\", San Jose, CA, on-site; job code A76760A) found as an Oct-13 row in the jobright-ai 2026-Software-Engineer-New-Grad tracker. NOTE: the same tracker link appeared as a Sep-14 row - the Oct-13 date looks like a tracker re-scrape. This is a customer-facing solutions role (partner with sales, build customized Ads solutions with engineering teams), not a pure SWE role. Aggregator mirrors (Ladders/Dice/SimplyHired) show: Bachelor's in CS or related, recent graduates accepted (whether a Master's is also accepted is NOT confirmed - needs the employer posting); $128K-$256K salary band on mirrors. Degree, sponsorship, and clearance language are unverified.",
-  "verification_blocker": "Employer posting not loadable from the automated environment: careers.tiktok.com API redirects to lifeattiktok.com/api/v1/job_posting/list which returns HTTP 200 with an empty body; lifeattiktok.com search results render client-side (no job data in server HTML); jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
-  "source": "hourly_board_2026-10-13"
- },
- {
   "company": "Blue Origin",
   "title": "Aerospace Systems Engineer I \u2013 Early Career & New Graduate Rotation (2027 Starts)",
   "location": "Greater Seattle Area, United States",
@@ -273,17 +251,6 @@
   "application_link": "https://jobright.ai/jobs/info/6a963206f28891320e860af3",
   "description": "Blue Origin new-grad posting (\"Aerospace Systems Engineer I - Early Career & New Graduate Rotation (2027 Starts)\", Greater Seattle Area) found as an Oct-13 row in the jobright-ai 2026-Engineering-New-Grad tracker. NOTE: this is a systems-engineering (aerospace) role, not a software role - fit for a SWE search is marginal. Blue Origin is a space/defense employer; degree, sponsorship/immigration, and any citizenship-related language are UNVERIFIED and must be checked on the employer posting before applying (student-visa relevant).",
   "verification_blocker": "blueorigin.com careers sits behind a Vercel Security Checkpoint (HTTP 429 bot challenge) from the automated environment; jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
-  "source": "hourly_board_2026-10-13"
- },
- {
-  "company": "TikTok",
-  "title": "Machine Learning Engineer Graduate (Commercial AI-CRM and Transaction) - 2027 Start",
-  "location": "San Jose, CA, United States",
-  "posting_date": "Oct 13 (per jobright-ai tracker)",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobright.ai/jobs/info/6a473afb4f64ba41dcb564cb",
-  "description": "TikTok graduate new-grad posting (\"Machine Learning Engineer Graduate (Commercial AI-CRM and Transaction) - 2027 Start\", San Jose, CA, on-site) found as an Oct-13 row in the jobright-ai 2026-Engineering-New-Grad tracker. ML title + Graduate + 2027 Start markers - in scope. Degree, sponsorship, and clearance language are UNVERIFIED (needs the employer posting). NOTE: jobright tracker dates have shown re-scrape behavior this week, so Oct-13 may not be the true posting date.",
-  "verification_blocker": "Employer posting not loadable from the automated environment: careers.tiktok.com API redirects to lifeattiktok.com/api/v1/job_posting/list which returns HTTP 200 with an empty body; lifeattiktok.com search results render client-side (no job data in server HTML); jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
   "source": "hourly_board_2026-10-13"
  },
  {
@@ -340,16 +307,5 @@
   "description": "Surfaced on the Jobright 2026-Software-Engineer-New-Grad tracker on Oct 13, tagged New Grad / Early Career, Mountain View CA. Employer careers live on the id.me domain, which could not be loaded, so degree, sponsorship, clearance, and liveness are unverified. Best available link is the tracker deep-link above; official careers at id.me/careers (same blocked domain).",
   "verification_blocker": "employer site human-verification wall (Cloudflare Turnstile on the id.me root domain; careers page is on the same blocked domain)",
   "source": "hourly_board_2026-10-13"
- },
- {
-  "company": "Uber",
-  "title": "Software Engineer I",
-  "location": "Seattle, WA",
-  "posting_date": "",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobs.uber.com/en/jobs/160017",
-  "description": "Surfaced via Google discovery from jobs.uber.com. Whether this 'Software Engineer I' posting is genuinely new-grad/entry-level is UNCONFIRMED \u2014 the employer page could not be loaded for verification.",
-  "verification_blocker": "Cloudflare 'Verify you are human' challenge wall on jobs.uber.com (not bypassed per policy).",
-  "source": "google_discovery_2026-10-13"
  }
 ]
