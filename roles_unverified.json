@@ -372,5 +372,17 @@
   "description": "Weak lead from Google discovery leg (2026-10-14): web-search hit for a Software Development Engineer posting in Austin on Schwab's careers board (career-schwab.icims.com). Employer posting not yet verified \u2014 board is JS-rendered (not script-readable) and the live-browser verification attempt was interrupted by infrastructure before completing. Degree, sponsorship, and clearance language unchecked.",
   "verification_blocker": "employer board JS-rendered; browser verification interrupted before completion",
   "source": "google_discovery_2026-10-14"
+ },
+ {
+  "company": "Tech Jobs for Good (aggregator \u2014 actual employer not identified)",
+  "title": "Software Engineer (Early Career)",
+  "location": "United States (Remote)",
+  "posting_date": "2026-10-15",
+  "date_added": "2026-10-15",
+  "application_link": "https://jobright.ai/jobs/info/6ad0f91f3d3a5aa909b36829?utm_campaign=Software%20Engineering&utm_source=1103",
+  "description": "Jobright 2026-software-engineer-new-grad README (master branch), Oct-15 row: \"Software Engineer (Early Career)\", Remote, United States. Listing company shown as \"Tech Jobs for Good\" (techjobsforgood.com), a nonprofit-tech job board \u2014 not the actual employer. Title carries an Early Career marker and passes the SWE-family title/location/recency filters; degree, sponsorship, and clearance status unknown.",
+  "verification_blocker": "employer not identified on aggregator row; Jobright detail page hit a human-verification (Cloudflare-style) security challenge in both the sandbox fetch and the live browser (task abandoned the challenge per no-approval rule)",
+  "source": "hourly_board_2026-10-15",
+  "status": "lead_unverified"
  }
 ]
