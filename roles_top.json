@@ -1252,5 +1252,16 @@
   "description": "Backend Software Engineer Graduate, Data Ecosystem team (offline data storage for TikTok's recommendation system, 1B+ users). Responsibilities: design/implement offline and real-time data architecture for large-scale recommendation systems; flexible, scalable storage system and computation model; troubleshoot production systems; build distributed systems (offline/online storage, batch and stream processing). Minimum: Bachelor's in CS or related with 3+ years experience building scalable systems; proficiency in Spark/Flink at source-code level; deep understanding of Hudi/Iceberg/DeltaLake; HDFS and Parquet/ORC familiarity; data warehousing modeling; Java/C++/Scala proficiency. Preferred: currently pursuing a Master's in CS or related. Salary $128,000-$316,800 base + bonuses/RSUs. Candidates may apply to a maximum of two TikTok positions globally; applications reviewed on a rolling basis. Posting requires committing to an onboarding date by the end of the year. Posting date not shown on employer page (tracker reports 2026-10-14). Sponsorship is not stated in the posting text; no clearance-related language appears.",
   "degree": "BS/MS",
   "source": "hourly_board_2026-10-14"
+ },
+ {
+  "company": "SirenOpt",
+  "title": "Software Engineer (Early Career) \u2013 C++ & Systems",
+  "location": "San Leandro, CA",
+  "date_added": "2026-10-14",
+  "posting_date": "",
+  "application_link": "https://job-boards.greenhouse.io/sirenopt/jobs/4452002009",
+  "description": "Early-career software engineer at SirenOpt (San Leandro, CA; on-site) focused on C++ and systems. 0-2 years professional software development experience required; internships, co-ops, research, and substantial personal or open-source projects count. Sponsorship is not stated in the posting text; no clearance-related language. Verified live on SirenOpt's Greenhouse board (flagged \"New\") 2026-10-14. Posting date not shown on employer page.",
+  "degree": "BS/MS",
+  "source": "hourly_board_2026-10-14"
  }
 ]
