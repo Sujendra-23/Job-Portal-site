@@ -318,5 +318,16 @@
   "description": "Jobright 2026-software-engineer-new-grad README (master branch), Oct-15 row: 'OLED Software & Systems Engineering Co-op', Rochester, NY (on-site). Title fits co-op scope (software & systems engineering), but the employer's own posting could not be read for verification: OLEDWorks posts open US positions on an ADP Workforce Now board (workforcenow.adp.com iframe), which renders no extractable content from script/browser reads. No co-op term / Jan-Jun 2027 season window could be established from the tracker row; degree, sponsorship, and clearance language all unchecked. User to verify season (Spring/Winter 2027 only) and posting before pursuing.",
   "verification_blocker": "employer board is ADP Workforce Now JS iframe - no extractable content; co-op term not stated in tracker row",
   "source": "hourly_board_2026-10-15"
+ },
+ {
+  "company": "SIG",
+  "title": "Quantitative Strategy Developer - New Grad",
+  "location": "Bala Cynwyd, PA",
+  "posting_date": "",
+  "date_added": "2026-10-16",
+  "application_link": "https://www.techcareers.com/job/e-susquehanna-international-group-jobs.html",
+  "description": "Susquehanna new-grad quant-developer role re-surfaced by Google-discovery leg 2026-10-16 (techcareers.com crawl). Title passes SWE/quant-dev scope. Employer JD not obtainable: careers-sig.icims.com board search returns JS app shell with no job data from scripts; techcareers apply redirect goes through appcast.io click tracking (401 from sandbox). Prior triage 2026-10-05 (excluded_description_unavailable) predates the Unverified Leads pipeline.",
+  "verification_blocker": "SIG careers portal is JS-gated; no canonical employer posting URL isolated; sponsorship/degree/clearance unchecked.",
+  "source": "google_discovery_2026-10-16"
  }
 ]
