@@ -1747,5 +1747,16 @@
   "description": "AI & Infrastructure Engineering intern on CFS's AI team (Lever board, verified live 2026-10-15). Duties: first-line support for employees using AI tools (help build/version applications, repo and file-management best practices, unstick AI-implementation issues); AI tooling onboarding (license requests via Service Catalog, GitHub and AI tool access setup, marketplace plugin publishing guidance); develop/maintain internal AI applications (scoped features, automated tests, turn recurring questions into training content/documentation); meet business teams to document AI usage, identify use cases, and coach individuals toward self-sufficient AI development. Desired skills: Python backend development; Git/GitHub workflows; AI coding tools with project rules/skills/custom agents; LLM APIs (tool use, structured outputs, prompt/context management); building or deploying an MCP server; agent frameworks and observability/evaluation tooling; RAG fundamentals (embeddings, vector stores); Docker and Linux basics; auth concepts (SSO, role-based access); strong communication with non-technical teams; security and data-handling awareness. Logistics: Devens, MA, on-site; 26-week Spring 2027 internship; 40-50 hours/week; intern handles own transportation and housing; $25-$32/hr for BS interns, $35-$38/hr for MS/PhD interns. Eligibility: currently enrolled college students, all levels of schooling from bachelor's degree to PhD. Posting states: 'Interns must be authorized to work in the United States for any employer.' Posting date provenance: employer's Lever page shows no publish date; the role appeared on LinkedIn Jobs ~1 hour before verification (card age) and was listed as posted 'today' by an independent aggregator the same day (2026-10-15). Season note: title states 'Spring 2027'; the posting does not list explicit start/end dates, only '26 week internship'.",
   "degree": "BS/MS",
   "source": "hourly_board_2026-10-15"
+ },
+ {
+  "company": "Hydromenta Systems",
+  "title": "Entry-Level Engineer",
+  "location": "Georgia, US (Remote)",
+  "date_added": "2026-10-15",
+  "posting_date": "2026-10-15",
+  "application_link": "https://www.linkedin.com/jobs/view/entry-level-engineer-at-hydromenta-systems-4479863091/",
+  "description": "Entry-level full-time engineering role (Georgia, US, remote), verified live 2026-10-15 via its LinkedIn posting - employer site hydromentasystems.com has no careers/jobs page; applications are collected through LinkedIn Easy Apply (working apply button confirmed). This is a live repost of a frequently-reposted listing (older versions now closed). Six engineering tracks: Control, Design, Energy, Software Engineer (software development/programming for projects and infrastructure support for enterprise software in Client and Web environments), Systems, and Telecommunications. Tech stack: CAD, SolidWorks, Revit, Python, SCADA, MATLAB, VHDL, or similar. Note: submission is conditional on profile evaluation by the company's AI system. The posting does not mention immigration or visa sponsorship anywhere in its text; no clearance-related language appears.",
+  "degree": "BS/MS",
+  "source": "hourly_board_2026-10-15"
  }
 ]
