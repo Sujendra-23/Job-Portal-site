@@ -329,5 +329,16 @@
   "description": "Susquehanna new-grad quant-developer role re-surfaced by Google-discovery leg 2026-10-16 (techcareers.com crawl). Title passes SWE/quant-dev scope. Employer JD not obtainable: careers-sig.icims.com board search returns JS app shell with no job data from scripts; techcareers apply redirect goes through appcast.io click tracking (401 from sandbox). Prior triage 2026-10-05 (excluded_description_unavailable) predates the Unverified Leads pipeline.",
   "verification_blocker": "SIG careers portal is JS-gated; no canonical employer posting URL isolated; sponsorship/degree/clearance unchecked.",
   "source": "google_discovery_2026-10-16"
+ },
+ {
+  "company": "Northrop Grumman",
+  "title": "2027 Associate Embedded Software Engineer - Pathways Program - Baltimore MD",
+  "location": "Baltimore, MD",
+  "posting_date": "2026-10-16 (tracker)",
+  "date_added": "2026-10-16",
+  "application_link": "https://northropgrumman.jobs/jobs/",
+  "description": "New-grad embedded SWE role (Baltimore MD, Pathways Program, tracker-dated 2026-10-16) surfaced by coconight01 2027 tracker; tracker deep-link https://jobright.ai/jobs/info/6ad2598d83ada13a9da05506 (bot-blocked, cannot consult). Employer portal northropgrumman.jobs loaded normally; exhaustive searches ('Associate Embedded Software Engineer Pathways' + Baltimore, 'Embedded Software Engineer' Baltimore 23 results, 'Associate Embedded Software Engineer' nationwide 41 results) found no matching posting \u2014 only '2027 Digital Engineer - Pathways Program - Baltimore MD' and '2027 Associate Digital Engineer - Pathways Program - Baltimore MD'. Posting likely removed/filled or title changed. Degree/sponsorship/clearance unverified.",
+  "verification_blocker": "Employer posting not found on official portal (northropgrumman.jobs) after full search; aggregator deep-link bot-blocked.",
+  "source": "hourly_board_2026-10-16"
  }
 ]
