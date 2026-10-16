@@ -176,17 +176,6 @@
   "source": "hourly_board_2026-10-13"
  },
  {
-  "company": "Arm",
-  "title": "Graduate Software Engineer",
-  "location": "Austin, TX",
-  "posting_date": "",
-  "date_added": "2026-10-13",
-  "application_link": "https://careers.arm.com/category/graduate-jobs/34601/8097056/1",
-  "description": "Third-party report (eufindwork) had this live on careers.arm.com as of 2026-10-10, Austin TX, graduate-category posting. Read-only live-browser check 2026-10-13 could not find it: exact-title 'Graduate Software Engineer' postings exist only in Budapest and Munich; the only graduate-category Austin posting is 'Graduate Applications Engineer' (different title). Stale tracker data or title drift suspected. Degree/sponsorship/clearance unchecked.",
-  "verification_blocker": "posting not found on employer's own careers site (careers.arm.com) during read-only live-browser check 2026-10-13; no employer application URL for the Austin posting",
-  "source": "google_discovery_2026-10-13"
- },
- {
   "company": "Justworks",
   "title": "Associate Software Engineer, Frontend",
   "location": "New York, NY",
@@ -296,17 +285,6 @@
   "verification_blocker": "employer not identified on aggregator row; Jobright detail page hit a human-verification (Cloudflare-style) security challenge in both the sandbox fetch and the live browser (task abandoned the challenge per no-approval rule)",
   "source": "hourly_board_2026-10-15",
   "status": "lead_unverified"
- },
- {
-  "company": "North Carolina Department of Agriculture and Consumer Services",
-  "title": "Software Engineer Co-Op",
-  "location": "Boston, MA, United States",
-  "posting_date": "Oct 15",
-  "date_added": "2026-10-15",
-  "application_link": "https://jobright.ai/jobs/info/6ad14652a4f99fef81943491",
-  "description": "Jobright 2026-software-engineer-new-grad README (master branch), Oct-15 row: 'Software Engineer Co-Op', Boston, MA. Title fits the co-op scope, but the employer posting could not be located or verified: the agency (ncagr.gov, Raleigh NC) posts jobs on governmentjobs.com and no 'Software Engineer Co-Op' posting exists there; the Boston MA location is implausible for an NC state agency (other NCDA&CS rows in the same feed also carry impossible locations like Anchorage AK and DeLand FL), so this row is likely a Jobright/aggregator data artifact. No Jan-Jun 2027 season window could be established; degree/sponsorship/clearance unchecked. Jobright detail pages are Cloudflare-Turnstile-blocked from script/browser reads.",
-  "verification_blocker": "employer posting not found / likely aggregator data artifact; Jobright detail pages Cloudflare-blocked",
-  "source": "hourly_board_2026-10-15"
  },
  {
   "company": "OLEDWorks",
