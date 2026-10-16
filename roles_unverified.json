@@ -1,16 +1,5 @@
 [
  {
-  "company": "Zoom",
-  "title": "Software Engineer",
-  "location": "Remote (US)",
-  "posting_date": "Posted Today (2026-10-11)",
-  "date_added": "2026-10-11",
-  "application_link": "https://zoom.wd5.myworkdayjobs.com/Zoom/job/Remote--US/Software-Engineer_R19749-1",
-  "description": "LIVE on Zoom's Workday board (Req R19749, status Open, full-time) \u2014 but the job-description body fails to render across 4 loads (header metadata only; salary min/max blank). Degree, graduation-fit, sponsorship, and clearance checks could not be completed from the employer posting.",
-  "verification_blocker": "Workday description body does not render (JS/rendering issue); aggregator (LinkedIn, posted ~8h ago) shows only title/location.",
-  "source": "linkedin_jobs"
- },
- {
   "company": "American Express",
   "title": "Software Engineer 1, Technology",
   "location": "Plantation, FL",
@@ -273,17 +262,6 @@
   "description": "Software Engineer I (Remote, listed Akron OH) surfaced via Jobright 2026-10-14. Specific posting not locatable on signetjewelers.com corporate careers from sandbox. Degree/sponsorship unchecked.",
   "verification_blocker": "posting not locatable on employer careers site",
   "source": "hourly_board_2026-10-14"
- },
- {
-  "company": "Nokia",
-  "title": "AI / ML Engineer (Nokia Federal Solutions)",
-  "location": "Chantilly, VA",
-  "posting_date": "",
-  "date_added": "2026-10-14",
-  "application_link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4429904",
-  "description": "Nokia Federal Solutions posting: advertises a 'fresh graduate' opening but also demands a 'proven technical leader'; U.S. government/defense work (federal solutions). Contradictory requirements and clearance-adjacent employer; not verifiable as a clean new-grad opening.",
-  "verification_blocker": "contradictory requirements (fresh graduate vs proven technical leader); federal/defense work likely clearance-adjacent",
-  "source": "google_discovery_2026-10-14"
  },
  {
   "company": "Charles Schwab",
