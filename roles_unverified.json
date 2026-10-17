@@ -307,5 +307,38 @@
   "description": "Susquehanna new-grad quant-developer role re-surfaced by Google-discovery leg 2026-10-16 (techcareers.com crawl). Title passes SWE/quant-dev scope. Employer JD not obtainable: careers-sig.icims.com board search returns JS app shell with no job data from scripts; techcareers apply redirect goes through appcast.io click tracking (401 from sandbox). Prior triage 2026-10-05 (excluded_description_unavailable) predates the Unverified Leads pipeline.",
   "verification_blocker": "SIG careers portal is JS-gated; no canonical employer posting URL isolated; sponsorship/degree/clearance unchecked.",
   "source": "google_discovery_2026-10-16"
+ },
+ {
+  "company": "Lockheed Martin",
+  "title": "A/AI Machine Learning Engineering Asc - Early Career",
+  "location": "King of Prussia, PA",
+  "posting_date": "2026-10-16",
+  "date_added": "2026-10-17",
+  "application_link": "https://www.lockheedmartinjobs.com/",
+  "description": "Early-career ML engineering role found via Jobright new-grad tracker (Oct 16 row). Employer careers site (lockheedmartinjobs.com) is not script-accessible (search redirects to 404 from sandbox). Degree, sponsorship, and clearance language are UNVERIFIED. Note: Lockheed is a defense contractor; this role family very likely requires US citizenship and/or security clearance - check before pursuing.",
+  "verification_blocker": "employer careers site not script-accessible (bot-gated)",
+  "source": "hourly_board_2026-10-17"
+ },
+ {
+  "company": "UNCOMN",
+  "title": "Software/Cloud Generalist 1-2 (Junior/Associate-Level)",
+  "location": "Scott AFB, Illinois",
+  "posting_date": "2026-10-16",
+  "date_added": "2026-10-17",
+  "application_link": "https://www.uncomn.com/careers",
+  "description": "Junior/associate-level software/cloud role found via Jobright engineering tracker (Oct 16 row). UNCOMN is a defense/cyber contractor and the role is at Scott Air Force Base. Employer posting could not be loaded for verification from scripts. Degree, sponsorship, and clearance language are UNVERIFIED - clearance is highly likely given the defense context.",
+  "verification_blocker": "employer posting not script-accessible; defense contractor context",
+  "source": "hourly_board_2026-10-17"
+ },
+ {
+  "company": "Fedstack",
+  "title": "Entry Level Software Developer (AI Native)",
+  "location": "Washington, DC / Arlington, VA",
+  "posting_date": "2026-10-16",
+  "date_added": "2026-10-17",
+  "application_link": "https://www.fedstack.com/",
+  "description": "Entry-level software developer role found via Jobright engineering tracker (Oct 16 row). Fedstack is a federal IT staffing firm. Employer posting could not be loaded for verification from scripts. Degree, sponsorship, and clearance language are UNVERIFIED - clearance or citizenship requirement is likely given the federal staffing context.",
+  "verification_blocker": "employer posting not script-accessible; federal-staffing context",
+  "source": "hourly_board_2026-10-17"
  }
 ]
