@@ -1846,5 +1846,16 @@
   "description": "Graduate C++ Developer (2027 Incoming Graduate, Full-Time), Chicago, IL (on-site; $125K-$200K base salary range stated). Verified live 2026-10-17 on the employer's Greenhouse board (job 8631086002). Proprietary trading firm; role covers the high-frequency trading system \u2014 implementing, testing and deploying trading system features and tools, monitoring low-latency performance, and working with traders and developers on optimizations. Requires 1+ industry internships working in C++, C++ data structures, low-level systems, STL/Boost, Linux, git. Degree: student completing a bachelor's, master's, or PhD in CS/Engineering or a related field, graduating in 2027 by August 2027. Sponsorship not stated in posting text; no citizenship or clearance-related language appears in the posting. Employer first published 2026-07-17 (Greenhouse); do not announce as a fresh find.",
   "degree": "BS/MS/PhD",
   "source": "jobright"
+ },
+ {
+  "company": "TikTok",
+  "title": "(General Hire)Machine Learning Engineer Graduate (TikTok Recommendation) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-17",
+  "posting_date": "",
+  "application_link": "https://lifeattiktok.com/search/7663389745178757429",
+  "description": "(General Hire)Machine Learning Engineer Graduate (TikTok Recommendation) - 2027 Start, San Jose, CA (Job Code A238379, $128k-$316k base salary range stated). Verified live on lifeattiktok.com 2026-10-17. Recommendation algorithm team \u2014 building and optimizing production recommendation models end to end. Degree: individuals completing or recently completed a Bachelor's/Master's degree in computer science or a related discipline (no Preferred-Master's line). Requires C++/Python, ML/DL framework experience (PyTorch/TensorFlow). Sponsorship not stated in posting text; no citizenship or clearance-related language appears in the posting. Onboarding by end of year; max two global applications; rolling review. Employer page shows no publication date.",
+  "degree": "BS/MS",
+  "source": "jobright"
  }
 ]
