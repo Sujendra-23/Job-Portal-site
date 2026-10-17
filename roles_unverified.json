@@ -329,16 +329,5 @@
   "description": "Junior/associate-level software/cloud role found via Jobright engineering tracker (Oct 16 row). UNCOMN is a defense/cyber contractor and the role is at Scott Air Force Base. Employer posting could not be loaded for verification from scripts. Degree, sponsorship, and clearance language are UNVERIFIED - clearance is highly likely given the defense context.",
   "verification_blocker": "employer posting not script-accessible; defense contractor context",
   "source": "hourly_board_2026-10-17"
- },
- {
-  "company": "Fedstack",
-  "title": "Entry Level Software Developer (AI Native)",
-  "location": "Washington, DC / Arlington, VA",
-  "posting_date": "2026-10-16",
-  "date_added": "2026-10-17",
-  "application_link": "https://www.fedstack.com/",
-  "description": "Entry-level software developer role found via Jobright engineering tracker (Oct 16 row). Fedstack is a federal IT staffing firm. Employer posting could not be loaded for verification from scripts. Degree, sponsorship, and clearance language are UNVERIFIED - clearance or citizenship requirement is likely given the federal staffing context.",
-  "verification_blocker": "employer posting not script-accessible; federal-staffing context",
-  "source": "hourly_board_2026-10-17"
  }
 ]
