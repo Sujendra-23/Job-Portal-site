@@ -1890,5 +1890,16 @@
   "description": "Data Engineer Graduate (Data Platform - Global Live) - 2027 Start, San Jose, CA (Job Code A09639A). Verified live on lifeattiktok.com 2026-10-18. Data Platform Global Live team: real-time and offline data warehouses for TikTok LIVE, data assets, big-data and LLM business solutions. Builds/optimizes large-scale data platform systems. Degree: individuals completing or recently completed a Bachelor's degree in Computer Science, Computing Engineering, or related (minimum); Master's in same fields (preferred). Requires data-solution experience, problem-solving/analytical skills, data-warehousing understanding, SQL/Python coding. Sponsorship not stated in posting text; does not mention immigration or visa sponsorship; no clearance-related language. Onboarding by end of year; max two global applications; rolling review. Salary range $128,000-$316,800. Employer page shows no publication date.",
   "degree": "BS/MS",
   "source": "jobright"
+ },
+ {
+  "company": "ByteDance",
+  "title": "Visual Generation & Multimodal Evaluation Machine Learning Engineer Graduate (AML-Ark-US) - 2027 Start",
+  "location": "Seattle, WA",
+  "date_added": "2026-10-18",
+  "posting_date": "",
+  "application_link": "https://joinbytedance.com/search/7672392998189959429",
+  "description": "Machine Learning Engineer Graduate (AML-Ark-US) - 2027 Start (Job Code A198350B), Seattle. Applied Machine Learning team working on visual generation and multimodal evaluation: modern visual-generation model stacks (including diffusion-based models and post-training), visual generation benchmarks and evaluation frameworks, agent frameworks applied to creative workflows, and large-scale video data infrastructure. Minimum: individuals completing or recently completed a Bachelor's or Master's in CS, AI, ML, Computer Vision, or related field. Preferred: publications at top-tier vision/ML venues (NeurIPS, ICML, CVPR, ICCV, ECCV), hands-on visual-generation experience. No clearance-related language appears in the posting.",
+  "degree": "Bachelor's and Master's (both explicitly accepted in one Minimum line)",
+  "source": "hourly_board_2026-10-18"
  }
 ]
