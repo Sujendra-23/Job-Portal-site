@@ -55,17 +55,6 @@
   "source": "jobright"
  },
  {
-  "company": "American Express",
-  "title": "Campus Undergraduate Full-Time Engineer - 2027 Software Engineer I, Enterprise Technology Services",
-  "location": "New York NY / Phoenix AZ / Charlotte NC",
-  "posting_date": "",
-  "date_added": "2026-10-11",
-  "application_link": "https://www.aexp.jobs",
-  "description": "Seen on LinkedIn Jobs (~2 weeks old listings, $78,000-$124,750 salary range shown). Employer verification blocked: aexp.jobs failed with DNS_PROBE_FINISHED_NXDOMAIN from the verification browser on repeated attempts; no employer page could be loaded, so degree acceptance (Bachelor's vs Bachelor's+Master's) and sponsorship language are unconfirmed.",
-  "verification_blocker": "aexp.jobs unreachable (DNS failure) from verification browser",
-  "source": "portal_sweep_2026-10-11"
- },
- {
   "company": "Cisco",
   "title": "Software Engineer II (Full Time) - United States",
   "location": "United States",
@@ -195,28 +184,6 @@
   "application_link": "",
   "description": "Surfaced via Google discovery leg (luisfork tracker, Sep 12). No resolvable employer posting URL from script access (jobs.uber.com script-blocked). Distinct from the ledgered Uber \"Software Engineer I\" lead (jobs.uber.com/en/jobs/160017). New-grad marker unknown; not employer-verified.",
   "verification_blocker": "no resolvable employer posting link (jobs.uber.com script-blocked from sandbox)",
-  "source": "google_discovery_2026-10-14"
- },
- {
-  "company": "IBM",
-  "title": "Associate Data Scientist 2027 - AI & Data Analytics",
-  "location": "New York, NY, United States",
-  "posting_date": "",
-  "date_added": "2026-10-14",
-  "application_link": "https://careers.ibm.com/",
-  "description": "Tracker lead (posted ~2026-10-08). Could not be verified: careers.ibm.com served a persistent 'Site temporarily unavailable' block during this run's verification window, so degree/sponsorship/clearance language is unchecked. Verify on the employer's posting before applying.",
-  "verification_blocker": "site temporarily unavailable (bot-block) during 2026-10-14 verification",
-  "source": "google_discovery_2026-10-14"
- },
- {
-  "company": "IBM",
-  "title": "Cost & Asset Optimization - Data Science Analyst 2027",
-  "location": "Poughkeepsie, NY, United States",
-  "posting_date": "",
-  "date_added": "2026-10-14",
-  "application_link": "https://careers.ibm.com/",
-  "description": "Tracker lead (posted ~2026-10-08). Could not be verified: careers.ibm.com served a persistent 'Site temporarily unavailable' block during this run's verification window, so degree/sponsorship/clearance language is unchecked. Verify on the employer's posting before applying.",
-  "verification_blocker": "site temporarily unavailable (bot-block) during 2026-10-14 verification",
   "source": "google_discovery_2026-10-14"
  },
  {
