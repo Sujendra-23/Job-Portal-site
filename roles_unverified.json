@@ -12,17 +12,6 @@
  },
  {
   "company": "Charles Schwab",
-  "title": "2027 Technology Intern - Site Reliability Engineering",
-  "location": "Austin, TX",
-  "posting_date": "2026-08-29",
-  "date_added": "2026-10-11",
-  "application_link": "https://career-schwab.icims.com/jobs/126229/2027-technology-intern---site-reliability-engineering/job",
-  "description": "LEAD (unverified): Google-indexed 2027 Technology Intern posting. Internship season (Spring vs Summer 2027) is not stated in the indexed snippet; SRE is in the SWE title families. May-2027 graduation fit, degree requirement, and sponsorship language are all unverified.",
-  "verification_blocker": "Schwab iCIMS tenant (career-schwab.icims.com) is WAF-blocked from the sandbox; the employer posting cannot be loaded to verify season.",
-  "source": "google_discovery_2026-10-11"
- },
- {
-  "company": "Charles Schwab",
   "title": "2027 Technology Intern - Data Engineering",
   "location": "Austin, TX",
   "posting_date": "2026-08-29",
@@ -329,5 +318,16 @@
   "description": "Junior/associate-level software/cloud role found via Jobright engineering tracker (Oct 16 row). UNCOMN is a defense/cyber contractor and the role is at Scott Air Force Base. Employer posting could not be loaded for verification from scripts. Degree, sponsorship, and clearance language are UNVERIFIED - clearance is highly likely given the defense context.",
   "verification_blocker": "employer posting not script-accessible; defense contractor context",
   "source": "hourly_board_2026-10-17"
+ },
+ {
+  "company": "AMD",
+  "title": "2027 Undergrad Software Engineer Intern",
+  "location": "Austin, TX, United States",
+  "posting_date": "",
+  "date_added": "2026-10-17",
+  "application_link": "https://campus-amd.icims.com/jobs/90947/job",
+  "description": "Tracker lead (coconight01, posted 2026-08-21). Employer verification blocked: AMD retired the campus-amd.icims.com board \u2014 every posting /job URL now renders a \"careers site has moved\" notice (checked 2026-10-17). Season unverified: a search leg found a same-titled AMD 2027 posting offering Spring/Summer (Jan 25-Aug 13, 2027) and Summer/Fall co-op terms only \u2014 no Jan-Jun Spring/Winter 2027 window \u2014 which would fail the season rule if this is the same requisition. Degree/sponsorship/clearance unchecked.",
+  "verification_blocker": "AMD campus-iCIMS board retired (\"careers site has moved\" on all /job URLs)",
+  "source": "google_discovery_2026-10-17"
  }
 ]
