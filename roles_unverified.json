@@ -307,5 +307,16 @@
   "description": "Found on Jobright 2026 new-grad README (row dated Oct 18, added within the last hour). Title targets OPT candidates only. The employer's own careers board (tetrahed.com/careers -- all 9 pages, 113 positions reviewed plus site search) does NOT list this posting; most board postings date to 2024. TETRAHED INC is an Austin, TX IT services/staffing firm (contactus@tetrahed.com). Degree, sponsorship, and clearance language are UNVERIFIED -- read the posting yourself before applying. Same posting appears as multi-location sub-rows for Washington DC, Colorado, Washington state, California, and Washington DC (variant) -- 6 Jobright rows, one posting.",
   "verification_blocker": "posting not found on employer's own careers site (tetrahed.com/careers fully reviewed)",
   "source": "hourly_board_2026-10-19"
+ },
+ {
+  "company": "World Pediatrics",
+  "title": "Junior Data Engineer",
+  "location": "Richmond, VA, United States",
+  "posting_date": "Oct 19 (Jobright README)",
+  "date_added": "2026-10-19",
+  "application_link": "https://jobright.ai/jobs/info/6ad61a8a54bbabbab06f46dd?utm_campaign=Engineering%20and%20Development&utm_source=1103",
+  "description": "Found on Jobright 2026-Engineering-New-Grad README (row dated Oct 19). Junior Data Engineer, Richmond VA. The employer's own careers infrastructure is broken: the worldpediatrics.org 'Work for Us' link returns a 404 and the site's own search returned 'Nothing Found' for 'Junior Data Engineer' / 'Data Engineer' / 'careers'. No employer application URL, degree block, sponsorship, or clearance language could be read. Degree, sponsorship, and clearance language are UNVERIFIED -- read the posting yourself before applying.",
+  "verification_blocker": "employer's 'Work for Us' careers link returns 404; site search finds no posting",
+  "source": "hourly_board_2026-10-19"
  }
 ]
