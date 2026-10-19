@@ -307,27 +307,5 @@
   "description": "Found on Jobright 2026 new-grad README (row dated Oct 18, added within the last hour). Title targets OPT candidates only. The employer's own careers board (tetrahed.com/careers -- all 9 pages, 113 positions reviewed plus site search) does NOT list this posting; most board postings date to 2024. TETRAHED INC is an Austin, TX IT services/staffing firm (contactus@tetrahed.com). Degree, sponsorship, and clearance language are UNVERIFIED -- read the posting yourself before applying. Same posting appears as multi-location sub-rows for Washington DC, Colorado, Washington state, California, and Washington DC (variant) -- 6 Jobright rows, one posting.",
   "verification_blocker": "posting not found on employer's own careers site (tetrahed.com/careers fully reviewed)",
   "source": "hourly_board_2026-10-19"
- },
- {
-  "company": "ByteDance",
-  "title": "Research Scientist Graduate (Multimedia Streaming) - 2027 Start (PhD)",
-  "location": "San Diego, CA",
-  "posting_date": "",
-  "date_added": "2026-10-19",
-  "application_link": "tracker https://jobright.ai (no joinbytedance.com hit)",
-  "description": "Candidate from community new-grad tracker (posted Aug 2026). not found on joinbytedance.com after site search + Google site: queries; related Intern version exists in San Diego but no Graduate posting. Title carries (PhD) marker; degree block could not be read.",
-  "verification_blocker": "not found on joinbytedance.com after site search + Google site: queries; related Intern version exists in San Diego but no Graduate posting",
-  "source": "google_discovery_2026-10-19"
- },
- {
-  "company": "ByteDance",
-  "title": "Research Scientist Graduate (Infrastructure System Lab) - 2027 Start (PhD)",
-  "location": "San Jose, CA",
-  "posting_date": "",
-  "date_added": "2026-10-19",
-  "application_link": "tracker https://jobright.ai (no joinbytedance.com hit)",
-  "description": "Candidate from community new-grad tracker (posted Aug 2026). not found on joinbytedance.com after site search + Google site: queries. Title carries (PhD) marker; degree block could not be read.",
-  "verification_blocker": "not found on joinbytedance.com after site search + Google site: queries",
-  "source": "google_discovery_2026-10-19"
  }
 ]
