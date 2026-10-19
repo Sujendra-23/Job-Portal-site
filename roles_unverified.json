@@ -287,28 +287,6 @@
   "source": "google_discovery_2026-10-17"
  },
  {
-  "company": "Boston Consulting Group",
-  "title": "AI Software Engineer, Campus, United States - BCG X",
-  "location": "United States (multiple: Boston, LA, Seattle, SF, Manhattan Beach, Dallas, Miami, Brooklyn, NY, Pittsburgh, Washington, Chicago per mirror)",
-  "posting_date": "",
-  "date_added": "2026-10-18",
-  "application_link": "https://careers.outforundergrad.org/companies/boston-consulting-group-2/jobs/39513145-ai-software-engineer-campus-united-states-bcg-x",
-  "description": "Google-discovery lead 2026-10-18 (mirror crawled ~9h before discovery). Cannot be employer-verified: the posting does NOT exist on careers.bcg.com (site-wide Campus keyword search = 8 results, none matching; BCG X company filter = 128 jobs, no AI Software Engineer Campus among them, under either sort). Possibly removed/filled, school-gated, or mirror data stale. Sibling US campus posting (Forward Deployed AI Engineer, Internship, Campus, US - BCG X, job 59702) IS live and reads Master's/PhD-oriented (\"Ideal for students pursuing a Master's or PhD\"), so degree fit is uncertain for this sibling role. Degree, sponsorship, posting date, and May-2027 graduation fit all unverifiable on the employer site.",
-  "verification_blocker": "Posting absent from official careers.bcg.com (searched Campus keyword + BCG X company filter, both sorts); mirror-only evidence.",
-  "source": "google_discovery_2026-10-18"
- },
- {
-  "company": "TETRAHED INC",
-  "title": "Jr. Software Engineer - Full Time - (Strictly OPT Candidates Only)",
-  "location": "Virginia, United States",
-  "posting_date": "Oct 18 (Jobright README)",
-  "date_added": "2026-10-19",
-  "application_link": "https://jobright.ai/jobs/info/6ad5b739f04335fc70ede5b1",
-  "description": "Found on Jobright 2026 new-grad README (row dated Oct 18, added within the last hour). Title targets OPT candidates only. The employer's own careers board (tetrahed.com/careers -- all 9 pages, 113 positions reviewed plus site search) does NOT list this posting; most board postings date to 2024. TETRAHED INC is an Austin, TX IT services/staffing firm (contactus@tetrahed.com). Degree, sponsorship, and clearance language are UNVERIFIED -- read the posting yourself before applying. Same posting appears as multi-location sub-rows for Washington DC, Colorado, Washington state, California, and Washington DC (variant) -- 6 Jobright rows, one posting.",
-  "verification_blocker": "posting not found on employer's own careers site (tetrahed.com/careers fully reviewed)",
-  "source": "hourly_board_2026-10-19"
- },
- {
   "company": "World Pediatrics",
   "title": "Junior Data Engineer",
   "location": "Richmond, VA, United States",
@@ -317,6 +295,17 @@
   "application_link": "https://jobright.ai/jobs/info/6ad61a8a54bbabbab06f46dd?utm_campaign=Engineering%20and%20Development&utm_source=1103",
   "description": "Found on Jobright 2026-Engineering-New-Grad README (row dated Oct 19). Junior Data Engineer, Richmond VA. The employer's own careers infrastructure is broken: the worldpediatrics.org 'Work for Us' link returns a 404 and the site's own search returned 'Nothing Found' for 'Junior Data Engineer' / 'Data Engineer' / 'careers'. No employer application URL, degree block, sponsorship, or clearance language could be read. Degree, sponsorship, and clearance language are UNVERIFIED -- read the posting yourself before applying.",
   "verification_blocker": "employer's 'Work for Us' careers link returns 404; site search finds no posting",
+  "source": "hourly_board_2026-10-19"
+ },
+ {
+  "company": "TETRAHED INC",
+  "title": "Jr. Software Engineer - Full Time - (Strictly OPT Candidates Only)",
+  "location": "Virginia, United States; Washington, DC, United States; Colorado, United States; Washington, United States; California, United States; Washington, District of Columbia, United States",
+  "posting_date": "Oct 18 (Jobright README)",
+  "date_added": "2026-10-19",
+  "application_link": "https://jobright.ai/jobs/info/6ad5b739f04335fc70ede5b1",
+  "description": "Found on Jobright 2026 new-grad README (row dated Oct 18, added within the last hour). Title targets OPT candidates only. The employer's own careers board (tetrahed.com/careers -- all 9 pages, 113 positions reviewed plus site search) does NOT list this posting; most board postings date to 2024. TETRAHED INC is an Austin, TX IT services/staffing firm (contactus@tetrahed.com). Degree, sponsorship, and clearance language are UNVERIFIED -- read the posting yourself before applying. Same posting appears as multi-location sub-rows for Washington DC, Colorado, Washington state, California, and Washington DC (variant) -- 6 Jobright rows, one posting. All 6 Jobright sub-row links preserved: https://jobright.ai/jobs/info/6ad5b739f04335fc70ede5b1 | https://jobright.ai/jobs/info/6ad5b72c810010ec72f60fc9 | https://jobright.ai/jobs/info/6ad5b72c83ada13a9da0edd1 | https://jobright.ai/jobs/info/6ad5b72aebd52f378af908d3 | https://jobright.ai/jobs/info/6ad5b725ebd52f378af908d1 | https://jobright.ai/jobs/info/6ad5b722ebd52f378af908d0",
+  "verification_blocker": "posting not found on employer's own careers site (tetrahed.com/careers fully reviewed)",
   "source": "hourly_board_2026-10-19"
  }
 ]
