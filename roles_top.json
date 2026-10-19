@@ -1879,5 +1879,27 @@
   "description": "Full-time new-graduate data engineering role on the Monetization Data team (2027 Start graduate track; Employment Type: Regular, not an internship). US-based (San Jose, CA, on site). Base salary range shown: $128,000 - $256,000 annually. The posting does not mention immigration or visa sponsorship, and no clearance-related language appears in the posting.",
   "degree": "Bachelor's or Master's",
   "source": "hourly_board_2026-10-18"
+ },
+ {
+  "company": "Tesla",
+  "title": "Internship, Factory Firmware Integration Engineer, Energy Engineering (Winter/Spring 2027)",
+  "location": "Buffalo, NY",
+  "date_added": "2026-10-18",
+  "posting_date": "",
+  "application_link": "https://www.tesla.com/careers/search/job/internship-factory-firmware-integration-engineer-energy-engineering-winter-spring-2027-283630",
+  "description": "Internship, Factory Firmware Integration Engineer, Energy Engineering (Winter/Spring 2027) \u2014 Tesla Energy, Buffalo, NY (Intern/Apprentice, Req. ID 283630; live, verified 2026-10-18). Term: expected to start January 2027 and continue through the entire Winter/Spring term; minimum 12 weeks, full-time 40 hours/week, on-site at the Buffalo, NY GFNY factory. What You'll Do: write and debug Go and Python software used to test Energy products on the factory line (station automation and tester integration); flash, provision, and test Tesla Energy products at high volume; author in-process and end-of-line test specifications; analyze production test data for yield, cycle time, and fail signatures; debug failing units on the floor using CAN analyzers, Linux/device logs, oscilloscopes, power supplies and loads; help bring up production-line and off-line EOL regression testers. What You'll Bring: Currently pursuing a degree in Electrical Engineering, Computer Engineering, Computer Science or a related field. Pay band listed: $20.00-$50.00 + benefits for all levels. International Students: If your work authorization is through CPT, please consult your school before applying; you must be able to work 40 hours per week. Tesla participates in the E-Verify Program.",
+  "degree": "Currently pursuing a degree in Electrical Engineering, Computer Engineering, Computer Science or a related field",
+  "source": "google_discovery_2026-10-18"
+ },
+ {
+  "company": "Goldman Sachs",
+  "title": "2027 | Americas | New York City Area | Engineering | New Analyst",
+  "location": "New York, NY",
+  "date_added": "2026-10-18",
+  "posting_date": "",
+  "application_link": "https://higher.gs.com/roles/171569",
+  "description": "2027 New Analyst Program, Engineering Division, New York, NY (Analyst corporate title). Verified live on higher.gs.com 2026-10-13. Open to final year undergraduate and graduate students (2027 cohort). Sponsorship not stated in posting text; no citizenship or clearance-related language appears in the posting. Application cap: up to 4 business/location combinations per recruiting year; additional applications auto-withdrawn. Employer page shows no publication date.",
+  "degree": "BS/MS",
+  "source": "google_discovery_2026-10-18"
  }
 ]
