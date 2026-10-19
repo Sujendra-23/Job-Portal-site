@@ -296,5 +296,16 @@
   "description": "Google-discovery lead 2026-10-18 (mirror crawled ~9h before discovery). Cannot be employer-verified: the posting does NOT exist on careers.bcg.com (site-wide Campus keyword search = 8 results, none matching; BCG X company filter = 128 jobs, no AI Software Engineer Campus among them, under either sort). Possibly removed/filled, school-gated, or mirror data stale. Sibling US campus posting (Forward Deployed AI Engineer, Internship, Campus, US - BCG X, job 59702) IS live and reads Master's/PhD-oriented (\"Ideal for students pursuing a Master's or PhD\"), so degree fit is uncertain for this sibling role. Degree, sponsorship, posting date, and May-2027 graduation fit all unverifiable on the employer site.",
   "verification_blocker": "Posting absent from official careers.bcg.com (searched Campus keyword + BCG X company filter, both sorts); mirror-only evidence.",
   "source": "google_discovery_2026-10-18"
+ },
+ {
+  "company": "TETRAHED INC",
+  "title": "Jr. Software Engineer - Full Time - (Strictly OPT Candidates Only)",
+  "location": "Virginia, United States",
+  "posting_date": "Oct 18 (Jobright README)",
+  "date_added": "2026-10-19",
+  "application_link": "https://jobright.ai/jobs/info/6ad5b739f04335fc70ede5b1",
+  "description": "Found on Jobright 2026 new-grad README (row dated Oct 18, added within the last hour). Title targets OPT candidates only. The employer's own careers board (tetrahed.com/careers -- all 9 pages, 113 positions reviewed plus site search) does NOT list this posting; most board postings date to 2024. TETRAHED INC is an Austin, TX IT services/staffing firm (contactus@tetrahed.com). Degree, sponsorship, and clearance language are UNVERIFIED -- read the posting yourself before applying.",
+  "verification_blocker": "posting not found on employer's own careers site (tetrahed.com/careers fully reviewed)",
+  "source": "hourly_board_2026-10-19"
  }
 ]
