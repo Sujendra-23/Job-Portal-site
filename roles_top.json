@@ -1901,5 +1901,49 @@
   "description": "<p><b>Software Engineer Graduate (Search) - 2027 Start</b> | TikTok USDS Joint Venture LLC | San Jose, CA | Regular, R&amp;D | Future Talent 2027 - Bachelor/Master Graduates | Job ID A237365A</p>\n<p><b>About the team:</b> The USDS Search Team is responsible for building and owning TikTok's search engine. You will build a full-stack search engine system combining information retrieval technology with modern machine learning methods (NLP, CV, recommender systems). Culture of self-direction, intellectual curiosity, openness, and problem-solving.</p>\n<p><b>Role details:</b> Graduates pursue bold ideas and tackle complex challenges. Successful candidates must commit to an onboarding date by the end of the year; state your availability and graduation date clearly in your resume. Maximum of two positions per candidate (considered in order applied; limit applies company-wide). Applications reviewed on a rolling basis.</p>\n<p><b>Responsibilities:</b> (1) Optimize search quality for the best user search experience; (2) combine product objectives with modern machine learning and information retrieval techniques to improve search quality and perception; (3) build core systems and algorithms development including query understanding, result ranking, query recommendation, and system reliability.</p>\n<p><b>Minimum Qualifications:</b> Individuals completing or recently completed a Bachelor's/Master's degree in Computer Science, Engineering, Math, Statistics, or a related discipline; experience developing and implementing large-scale consumer-facing services/products and/or building backend services for large-scale consumer-facing applications; proficiency in C/C++, Python, Java, or Golang; effective team communication and collaboration skills.</p>\n<p><b>Preferred Qualifications:</b> Working knowledge in search, recommendation, ranking, ads, or similar domains; working knowledge in machine learning, deep learning, backend, large-scale systems, data science, or full-stack; experience with Big Data frameworks (Hadoop, Spark, Flink).</p>\n<p><b>Compensation:</b> Base salary range $122,574 - $187,200 annually (San Jose); eligible for discretionary bonuses/incentives and restricted stock units. Benefits: day-one medical/dental/vision, 401(k) with company match, paid parental leave, disability and life insurance, 10 paid holidays, 10 paid sick days, 17 days Paid Personal Time.</p>\n<p><b>About USDS:</b> TikTok USDS Joint Venture LLC is dedicated to the safety and security of U.S. users; established in compliance with the Executive Order signed September 25, 2025; operates a data privacy and cybersecurity program; shifting to fully in-person schedule up to 5 days a week.</p>\n<p><b>Visa sponsorship:</b> sponsorship not stated in posting text (verified: no visa, sponsorship, or work-authorization language anywhere in the posting).</p>",
   "degree": "Bachelor's/ Master's degree in Computer Science, Engineering, Math, Statistics, or a related discipline",
   "source": "jobright"
+ },
+ {
+  "company": "ByteDance",
+  "title": "Agent Evaluation & Evolution Machine Learning Engineer Graduate (AML-Ark-US) - 2027 Start",
+  "location": "Seattle, WA",
+  "date_added": "2026-10-19",
+  "posting_date": "",
+  "application_link": "https://joinbytedance.com/search/7672391016194066693",
+  "description": "Agent Evaluation & Evolution Machine Learning Engineer Graduate (AML-Ark-US) - 2027 Start, Seattle WA. Degree: completing or recently completed a Bachelor's/Master's in Computer Science, Artificial Intelligence, Machine Learning, Data Science, or a related field. Hands-on experience with LLM-based systems (agents, tool calling, retrieval, multi-agent systems); strong Python. Salary $121,600-$243,200. Sponsorship not stated in posting text. 2027 Start; onboarding by end of the year; candidates may apply to a maximum of two positions.",
+  "degree": "",
+  "source": "google_discovery_2026-10-19"
+ },
+ {
+  "company": "ByteDance",
+  "title": "Site Reliability Graduate (Data Infrastructure) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-19",
+  "posting_date": "",
+  "application_link": "https://joinbytedance.com/search/7675096204766054709",
+  "description": "Site Reliability Graduate (Data Infrastructure) - 2027 Start, San Jose CA. Degree: completing or recently completed a Bachelor's in CS/Computing Engineering (Master's preferred). Scripting (Python/Bash/Go), Linux, networking; Docker/Kubernetes and data stores a plus. Sponsorship not stated in posting text. 2027 Start; onboarding by end of the year.",
+  "degree": "",
+  "source": "google_discovery_2026-10-19"
+ },
+ {
+  "company": "ByteDance",
+  "title": "Product Security Engineer Graduate (Security BP) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-19",
+  "posting_date": "",
+  "application_link": "https://joinbytedance.com/search/7668636404159858997",
+  "description": "Product Security Engineer Graduate (Security BP) - 2027 Start, San Jose CA. Degree: completing or recently completed a Bachelor's/Master's in CS/CE/EE or related discipline. Security engineering experience (design review, threat modeling, mitigation development); code review in JS/Go/Python/Java/C++/Rust. Sponsorship not stated in posting text. 2027 Start; onboarding by end of the year.",
+  "degree": "",
+  "source": "google_discovery_2026-10-19"
+ },
+ {
+  "company": "ByteDance",
+  "title": "Network Engineer Graduate (Physical Network Infra) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-19",
+  "posting_date": "",
+  "application_link": "https://joinbytedance.com/search/7670285027366291717",
+  "description": "Network Engineer Graduate (Physical Network Infra) - 2027 Start, San Jose CA. Degree: completing or recently completed a Bachelor's or Master's in Software Development/CS/CE or related discipline. Network fundamentals (OSI, TCP/IP, OSPF/ISIS/BGP, SNMP); hands-on with Cisco/Arista/Juniper devices. Sponsorship not stated in posting text. 2027 Start; onboarding by end of the year.",
+  "degree": "",
+  "source": "google_discovery_2026-10-19"
  }
 ]
