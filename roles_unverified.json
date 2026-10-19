@@ -307,5 +307,16 @@
   "description": "Found on Jobright 2026 new-grad README (row dated Oct 18, added within the last hour). Title targets OPT candidates only. The employer's own careers board (tetrahed.com/careers -- all 9 pages, 113 positions reviewed plus site search) does NOT list this posting; most board postings date to 2024. TETRAHED INC is an Austin, TX IT services/staffing firm (contactus@tetrahed.com). Degree, sponsorship, and clearance language are UNVERIFIED -- read the posting yourself before applying. Same posting appears as multi-location sub-rows for Washington DC, Colorado, Washington state, California, and Washington DC (variant) -- 6 Jobright rows, one posting. All 6 Jobright sub-row links preserved: https://jobright.ai/jobs/info/6ad5b739f04335fc70ede5b1 | https://jobright.ai/jobs/info/6ad5b72c810010ec72f60fc9 | https://jobright.ai/jobs/info/6ad5b72c83ada13a9da0edd1 | https://jobright.ai/jobs/info/6ad5b72aebd52f378af908d3 | https://jobright.ai/jobs/info/6ad5b725ebd52f378af908d1 | https://jobright.ai/jobs/info/6ad5b722ebd52f378af908d0",
   "verification_blocker": "posting not found on employer's own careers site (tetrahed.com/careers fully reviewed)",
   "source": "hourly_board_2026-10-19"
+ },
+ {
+  "company": "Credence",
+  "title": "Cloud Platform Engineer- Entry Level",
+  "location": "McLean, VA, United States",
+  "posting_date": "Oct 19 (Jobright README)",
+  "date_added": "2026-10-19",
+  "application_link": "https://jobright.ai/jobs/info/6ad68562950ef68d5183ae37?utm_campaign=Engineering%20and%20Development&utm_source=1103",
+  "description": "Entry-level cloud platform role at defense contractor Credence Management Solutions (McLean VA). Could not verify: employer posting not found on Credence's official job board (jobs.localjobnetwork.com) \u2014 aggregator reposts only. Credence's sibling cloud postings require clearability, so employer text must be checked before applying.",
+  "verification_blocker": "employer posting not found on official job board (aggregator reposts only)",
+  "source": "hourly_board_2026-10-19"
  }
 ]
