@@ -265,17 +265,6 @@
   "source": "google_discovery_2026-10-16"
  },
  {
-  "company": "Lockheed Martin",
-  "title": "A/AI Machine Learning Engineering Asc - Early Career",
-  "location": "King of Prussia, PA",
-  "posting_date": "2026-10-16",
-  "date_added": "2026-10-17",
-  "application_link": "https://www.lockheedmartinjobs.com/",
-  "description": "Early-career ML engineering role found via Jobright new-grad tracker (Oct 16 row). Employer careers site (lockheedmartinjobs.com) is not script-accessible (search redirects to 404 from sandbox). Degree, sponsorship, and clearance language are UNVERIFIED. Note: Lockheed is a defense contractor; this role family very likely requires US citizenship and/or security clearance - check before pursuing.",
-  "verification_blocker": "employer careers site not script-accessible (bot-gated)",
-  "source": "hourly_board_2026-10-17"
- },
- {
   "company": "UNCOMN",
   "title": "Software/Cloud Generalist 1-2 (Junior/Associate-Level)",
   "location": "Scott AFB, Illinois",
@@ -296,5 +285,27 @@
   "description": "Tracker lead (coconight01, posted 2026-08-21). Employer verification blocked: AMD retired the campus-amd.icims.com board \u2014 every posting /job URL now renders a \"careers site has moved\" notice (checked 2026-10-17). Season unverified: a search leg found a same-titled AMD 2027 posting offering Spring/Summer (Jan 25-Aug 13, 2027) and Summer/Fall co-op terms only \u2014 no Jan-Jun Spring/Winter 2027 window \u2014 which would fail the season rule if this is the same requisition. Degree/sponsorship/clearance unchecked.",
   "verification_blocker": "AMD campus-iCIMS board retired (\"careers site has moved\" on all /job URLs)",
   "source": "google_discovery_2026-10-17"
+ },
+ {
+  "company": "IBM",
+  "title": "Data Engineer Intern 2027",
+  "location": "Dallas, TX",
+  "posting_date": "",
+  "date_added": "2026-10-18",
+  "application_link": "",
+  "description": "Seen only on peerlist aggregate list (google discovery 17:37 run); no employer URL available and no season stated. Season must be explicit Spring/Winter 2027 to qualify; could not be verified from scripts.",
+  "verification_blocker": "No employer posting URL found via search; peerlist listing only; IBM campus portal is JS-gated from scripts.",
+  "source": "google_discovery_2026-10-18"
+ },
+ {
+  "company": "SIG",
+  "title": "Software Engineering Intern (Winter 2027)",
+  "location": "Multiple Locations (US, per wayup)",
+  "posting_date": "",
+  "date_added": "2026-10-18",
+  "application_link": "https://careers-sig.icims.com/jobs/search?ss=1&searchKeyword=Software%20Engineering%20Internship",
+  "description": "Seen on wayup.com aggregate list (\"Multiple Locations\", crawled ~2 days ago) as \"Software Engineering Intern (Winter 2027)\". wayup.com search is login-walled so the listing page could not be viewed; SIG's canonical portal (careers-sig.icims.com) shows only Summer 2027 internships - no Winter 2027 SWE intern posting exists there. Listing may be stale/removed, or a wayup-only posting. Season \"Winter 2027\" stated on aggregator only, not employer text.",
+  "verification_blocker": "wayup.com requires sign-in to view listings (login wall); SIG canonical portal has no such posting.",
+  "source": "google_discovery_2026-10-18"
  }
 ]
