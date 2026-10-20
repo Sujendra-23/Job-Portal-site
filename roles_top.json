@@ -2011,5 +2011,16 @@
   "description": "Software Development Engineer, Early Career - 2027 (US) \u2014 Job ID: 10583340 (Amazon.jobs). Applications accepted on an ongoing basis.\n\nAt Amazon, your career doesn't follow a straight line. You'll build products and services that reach millions, working with world-class tools and global platforms at extraordinary scale \u2014 moving fast, experimenting, and launching solutions that matter.\n\nKey job responsibilities: collaborate with cross-disciplinary Amazonians to design, build, and operate innovative products and services; break down complex, ambiguous problems into well-defined components; contribute to design and development of scalable, reliable services (distributed-systems scope varies by team); conduct code reviews; write technical documentation; use GenAI/AI-powered development tools with critical validation of AI-generated code; write clean, maintainable code; work in agile/CI/CD with on-call operational responsibilities; monitor, troubleshoot, and resolve production issues.\n\nBasic qualifications: 18 years or older; experience with at least one general-purpose programming language (Java, Python, C++, C#, Go, Rust, TypeScript); data-structure implementation, basic algorithm development and/or object-oriented design; experience using AI-assisted development tools; currently has, or is in the process of obtaining a bachelor's or master's degree in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields.\n\nPreferred qualifications: previous technical internship(s) or demonstrated project experience; AI dev-productivity tools; cloud platforms (preferably AWS); SQL and NoSQL databases; open-source contributions; version control; debugging complex systems; quick learning; SDLC familiarity; strong problem-solving and communication skills.\n\nLocations: Arlington VA; Austin TX; Boston MA; Denver CO; Detroit MI; Madison WI; Minneapolis MN; Santa Clara CA; Seattle WA. Starting pay: $128,700/yr (all listed cities except Santa Clara), $148,100/yr (Santa Clara CA).\n\nDegree: posting explicitly accepts bachelor's or master's (BS/MS). Sponsorship: sponsorship not stated in posting text.",
   "degree": "BS/MS",
   "source": "hourly_board_2026-10-19"
+ },
+ {
+  "company": "TikTok",
+  "title": "Data Engineer Graduate (Data Platfrom TikTok BP) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-20",
+  "posting_date": "2026-09-07",
+  "application_link": "https://lifeattiktok.com/search/7681779180341709109",
+  "description": "Full-time new-graduate data engineering role on the TikTok BP data platform team (2027 Start graduate track; Employment Type: Regular, job code A116322). US-based (San Jose, on site). Base salary range shown: $128,000 - $316,800 annually. Builds and optimizes large-scale data platforms; big-data tech (Hadoop/Spark/Flink/Kafka etc.), data ingestion/integration, ETL and data modeling. The posting does not mention immigration or visa sponsorship, and no clearance-related language appears in the posting.",
+  "degree": "Bachelor's or Master's",
+  "source": "hourly_board_2026-10-20"
  }
 ]
