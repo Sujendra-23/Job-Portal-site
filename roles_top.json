@@ -2011,5 +2011,16 @@
   "description": "Full-time new-graduate data engineering role on the TikTok BP data platform team (2027 Start graduate track; Employment Type: Regular, job code A116322). US-based (San Jose, on site). Base salary range shown: $128,000 - $316,800 annually. Builds and optimizes large-scale data platforms; big-data tech (Hadoop/Spark/Flink/Kafka etc.), data ingestion/integration, ETL and data modeling. The posting does not mention immigration or visa sponsorship, and no clearance-related language appears in the posting.",
   "degree": "Bachelor's or Master's",
   "source": "hourly_board_2026-10-20"
+ },
+ {
+  "company": "ServiceNow",
+  "title": "Associate Software Engineer, Core Infrastructure - Moveworks",
+  "location": "Mountain View, California, United States",
+  "date_added": "2026-10-20",
+  "posting_date": "2026-02-04",
+  "application_link": "https://careers.servicenow.com/jobs/744000107369741/associate-software-engineer-core-infrastructure-moveworks/",
+  "description": "Associate Software Engineer on the Core Infrastructure team for Moveworks (ServiceNow's AI assistant platform). Mountain View, Required in Office. Closely work with machine learning, search, product, data, and frontend teams to understand infrastructure needs, influence the infrastructure roadmap, and lead as well as execute on projects. Architect and build core infrastructure and foundational functionalities: distributed key value store, schema-less data store, authentication and authorization, event streaming, distributed configuration management and hot reloading, rate limiting and circuit breaking, feature flags and A/B testing, traffic capture and replay. Improve observability and reliability via distributed logging, tracing, monitoring, and alerting infrastructure. Qualifications: experience designing, building, shipping, and maintaining backend distributed systems; familiarity with Python/Golang/Java/C++; experience with containers/Docker and cloud infrastructure (AWS/GCP/Azure); experience with Kafka, Elasticsearch/Opensearch, Istio. BS+ in computer science or a related field. Sponsorship not stated in posting text. No clearance-related language appears in the posting. Posted February 04, 2026 (JB0070812).",
+  "degree": "BS+",
+  "source": "jobright"
  }
 ]
