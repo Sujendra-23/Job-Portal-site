@@ -2022,5 +2022,16 @@
   "description": "Associate Software Engineer on the Core Infrastructure team for Moveworks (ServiceNow's AI assistant platform). Mountain View, Required in Office. Closely work with machine learning, search, product, data, and frontend teams to understand infrastructure needs, influence the infrastructure roadmap, and lead as well as execute on projects. Architect and build core infrastructure and foundational functionalities: distributed key value store, schema-less data store, authentication and authorization, event streaming, distributed configuration management and hot reloading, rate limiting and circuit breaking, feature flags and A/B testing, traffic capture and replay. Improve observability and reliability via distributed logging, tracing, monitoring, and alerting infrastructure. Qualifications: experience designing, building, shipping, and maintaining backend distributed systems; familiarity with Python/Golang/Java/C++; experience with containers/Docker and cloud infrastructure (AWS/GCP/Azure); experience with Kafka, Elasticsearch/Opensearch, Istio. BS+ in computer science or a related field. Sponsorship not stated in posting text. No clearance-related language appears in the posting. Posted February 04, 2026 (JB0070812).",
   "degree": "BS+",
   "source": "jobright"
+ },
+ {
+  "company": "SIG",
+  "title": "Quantitative Strategy Developer - New Grad",
+  "location": "Bala Cynwyd, PA",
+  "date_added": "2026-10-20",
+  "posting_date": "",
+  "application_link": "https://careers.sig.com/jobs/11321?lang=en-us",
+  "description": "SIG (Susquehanna International Group) - Quantitative Strategy Developer - New Grad. Bala Cynwyd (Philadelphia Area), PA. Technology - Software Engineering. Full-time role with August 2027 start. Degree requirement: graduating with a bachelor's or master's degree in computer science, computer engineering, mathematics, or a closely related STEM discipline, with intention to graduate and begin full-time employment by August 2027. The posting does not mention immigration or visa sponsorship, and contains no clearance-related language. Verified live on SIG's own careers portal (careers.sig.com) on 2026-10-20.",
+  "degree": "",
+  "source": "google_discovery_2026-10-16"
  }
 ]
