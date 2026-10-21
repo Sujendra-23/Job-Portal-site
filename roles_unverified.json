@@ -55,28 +55,6 @@
   "source": "jobright"
  },
  {
-  "company": "Cisco",
-  "title": "Software Engineer II (Full Time) - United States",
-  "location": "United States",
-  "posting_date": "",
-  "date_added": "2026-10-12",
-  "application_link": "https://www.linkedin.com/posts/shreyapothuganti_cisco-newgrad-softwareengineer-activity-7511293552929193984-zukr",
-  "description": "Posted by Cisco University Talent Partner Shreya Pothuganti as a new-grad hire ('hiring for multiple New Grad Software Engineer roles'; poster notes 'II' is Cisco's new-grad level). Post ~2 weeks old, reposted ~2 days ago. No listing found on Cisco's own career portal (careers.cisco.com) 2026-10-12 \u2014 exists only in the LinkedIn post. Degree, sponsorship, and clearance unchecked.",
-  "verification_blocker": "No employer posting exists; role found only in recruiter LinkedIn post.",
-  "source": "linkedin_hiring_posts"
- },
- {
-  "company": "Cisco",
-  "title": "Software Engineer Compiler II (Full Time) - United States",
-  "location": "United States",
-  "posting_date": "",
-  "date_added": "2026-10-12",
-  "application_link": "https://www.linkedin.com/posts/shreyapothuganti_cisco-newgrad-softwareengineer-activity-7511293552929193984-zukr",
-  "description": "Posted by Cisco University Talent Partner Shreya Pothuganti as a new-grad hire (same post as above). No listing found on Cisco's own career portal 2026-10-12 \u2014 exists only in the LinkedIn post. Degree, sponsorship, and clearance unchecked.",
-  "verification_blocker": "No employer posting exists; role found only in recruiter LinkedIn post.",
-  "source": "linkedin_hiring_posts"
- },
- {
   "company": "Brillio",
   "title": "AI Engineer",
   "location": "Coppell, TX",
@@ -121,28 +99,6 @@
   "source": "hourly_board_2026-10-13"
  },
  {
-  "company": "Blue Origin",
-  "title": "Software Development Engineer I - Early Career (2027 Starts)",
-  "location": "Greater Seattle Area, United States",
-  "posting_date": "Oct 13 (per jobright-ai tracker)",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobright.ai/jobs/info/6a963207cabc9f6703e1ca74",
-  "description": "Blue Origin new-grad posting (\"Software Development Engineer I - Early Career (2027 Starts)\", Greater Seattle Area) found as an Oct-13 row in the jobright-ai 2026-Engineering-New-Grad tracker. SDE I with Early Career and 2027-start markers - squarely in SWE new-grad scope. Blue Origin is a space/defense employer; degree, sponsorship/immigration, and any citizenship-related language are UNVERIFIED and must be checked on the employer posting before applying (student-visa relevant).",
-  "verification_blocker": "blueorigin.com careers sits behind a Vercel Security Checkpoint (HTTP 429 bot challenge) from the automated environment; jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
-  "source": "hourly_board_2026-10-13"
- },
- {
-  "company": "Blue Origin",
-  "title": "Aerospace Systems Engineer I \u2013 Early Career & New Graduate Rotation (2027 Starts)",
-  "location": "Greater Seattle Area, United States",
-  "posting_date": "Oct 13 (per jobright-ai tracker)",
-  "date_added": "2026-10-13",
-  "application_link": "https://jobright.ai/jobs/info/6a963206f28891320e860af3",
-  "description": "Blue Origin new-grad posting (\"Aerospace Systems Engineer I - Early Career & New Graduate Rotation (2027 Starts)\", Greater Seattle Area) found as an Oct-13 row in the jobright-ai 2026-Engineering-New-Grad tracker. NOTE: this is a systems-engineering (aerospace) role, not a software role - fit for a SWE search is marginal. Blue Origin is a space/defense employer; degree, sponsorship/immigration, and any citizenship-related language are UNVERIFIED and must be checked on the employer posting before applying (student-visa relevant).",
-  "verification_blocker": "blueorigin.com careers sits behind a Vercel Security Checkpoint (HTTP 429 bot challenge) from the automated environment; jobright.ai detail page is Cloudflare-blocked (HTTP 403).",
-  "source": "hourly_board_2026-10-13"
- },
- {
   "company": "Power3 Solutions",
   "title": "Entry Level Software Engineer 0",
   "location": "Annapolis Junction, MD, United States",
@@ -151,17 +107,6 @@
   "application_link": "https://jobright.ai/jobs/info/6ace3bfd4391691a335ab5a2",
   "description": "Found via Jobright new-grad GitHub tracker (new Oct 13 row, first surfaced ~08:46 PDT). SWE title with Entry Level marker; US location. Could not be employer-verified: Jobright detail page returns 403 from sandbox and shows a Cloudflare human-verification challenge in the live browser (not solved). Power3's own site (power3.com/careers) loads but lists no job postings \u2014 Power3 is an HR/cleared-recruiting consulting firm specializing in cleared technical recruiting, so this may be a government-client role that requires a security clearance (which would kill it per the clearance rule). Degree acceptance (BS+MS), sponsorship language, posting date, and clearance language are all UNVERIFIED. Company careers page: https://power3.com/careers. Read the posting yourself before applying.",
   "verification_blocker": "employer site human-verification wall (Cloudflare challenge on Jobright detail page; 403 from automation; no posting found on power3.com)",
-  "source": "hourly_board_2026-10-13"
- },
- {
-  "company": "Justworks",
-  "title": "Associate Software Engineer, Frontend",
-  "location": "New York, NY",
-  "posting_date": "",
-  "date_added": "2026-10-13",
-  "application_link": "https://www.justworks.com/careers",
-  "description": "Jobright 2026-Software-Engineer-New-Grad tracker sighted \"Associate Software Engineer, Frontend\", New York NY, Date Posted Oct 13 (https://jobright.ai/jobs/info/6ace5d05680c80c8753bc37e). Title passes title family + entry marker (\"Associate\"), US location. Degree/sponsorship/clearance unchecked.",
-  "verification_blocker": "www.justworks.com/careers serves a Cloudflare \"Verify you are human\" challenge that never cleared during read-only live-browser check 2026-10-13 (checkbox clicked 3x, challenge kept resetting); posting could not be verified from sandbox",
   "source": "hourly_board_2026-10-13"
  },
  {
@@ -174,17 +119,6 @@
   "description": "Jobright 2026-Software-Engineer-New-Grad tracker sighted \"Junior Software Developer\", Irvine CA, Date Posted Oct 13 (https://jobright.ai/jobs/info/6ace6cd84391691a335ac772). Title passes title family + entry marker (\"Junior\"), US location. Employer careers page (taxrise.com/careers) loads fine but lists no engineering roles at all (only Client Care, People Ops, Sales, Tax Specialist, Resolution Account Manager) \u2014 the posting may have been pulled or never listed. Degree/sponsorship/clearance unchecked. User verifies.",
   "verification_blocker": "posting not listed on taxrise.com/careers during read-only live-browser check 2026-10-13 (site loads; job search for \"Junior Software Developer\" and \"Developer\" returned no matches; no engineering department listed)",
   "source": "hourly_board_2026-10-13"
- },
- {
-  "company": "Uber",
-  "title": "Software Engineer I - Container Platform",
-  "location": "Sunnyvale, CA",
-  "posting_date": "",
-  "date_added": "2026-10-14",
-  "application_link": "",
-  "description": "Surfaced via Google discovery leg (luisfork tracker, Sep 12). No resolvable employer posting URL from script access (jobs.uber.com script-blocked). Distinct from the ledgered Uber \"Software Engineer I\" lead (jobs.uber.com/en/jobs/160017). New-grad marker unknown; not employer-verified.",
-  "verification_blocker": "no resolvable employer posting link (jobs.uber.com script-blocked from sandbox)",
-  "source": "google_discovery_2026-10-14"
  },
  {
   "company": "AV",
@@ -252,17 +186,6 @@
   "description": "Jobright 2026-software-engineer-new-grad README (master branch), Oct-15 row: 'OLED Software & Systems Engineering Co-op', Rochester, NY (on-site). Title fits co-op scope (software & systems engineering), but the employer's own posting could not be read for verification: OLEDWorks posts open US positions on an ADP Workforce Now board (workforcenow.adp.com iframe), which renders no extractable content from script/browser reads. No co-op term / Jan-Jun 2027 season window could be established from the tracker row; degree, sponsorship, and clearance language all unchecked. User to verify season (Spring/Winter 2027 only) and posting before pursuing.",
   "verification_blocker": "employer board is ADP Workforce Now JS iframe - no extractable content; co-op term not stated in tracker row",
   "source": "hourly_board_2026-10-15"
- },
- {
-  "company": "SIG",
-  "title": "Quantitative Strategy Developer - New Grad",
-  "location": "Bala Cynwyd, PA",
-  "posting_date": "",
-  "date_added": "2026-10-16",
-  "application_link": "https://www.techcareers.com/job/e-susquehanna-international-group-jobs.html",
-  "description": "Susquehanna new-grad quant-developer role re-surfaced by Google-discovery leg 2026-10-16 (techcareers.com crawl). Title passes SWE/quant-dev scope. Employer JD not obtainable: careers-sig.icims.com board search returns JS app shell with no job data from scripts; techcareers apply redirect goes through appcast.io click tracking (401 from sandbox). Prior triage 2026-10-05 (excluded_description_unavailable) predates the Unverified Leads pipeline.",
-  "verification_blocker": "SIG careers portal is JS-gated; no canonical employer posting URL isolated; sponsorship/degree/clearance unchecked.",
-  "source": "google_discovery_2026-10-16"
  },
  {
   "company": "UNCOMN",
