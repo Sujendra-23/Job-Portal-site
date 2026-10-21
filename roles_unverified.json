@@ -241,5 +241,16 @@
   "description": "Entry-level cloud platform role at defense contractor Credence Management Solutions (McLean VA). Could not verify: employer posting not found on Credence's official job board (jobs.localjobnetwork.com) \u2014 aggregator reposts only. Credence's sibling cloud postings require clearability, so employer text must be checked before applying.",
   "verification_blocker": "employer posting not found on official job board (aggregator reposts only)",
   "source": "hourly_board_2026-10-19"
+ },
+ {
+  "company": "Citadel Securities",
+  "title": "Software Engineer - Intern (US)",
+  "location": "Miami, FL + 1 other",
+  "posting_date": "",
+  "date_added": "2026-10-21",
+  "application_link": "https://www.citadelsecurities.com/careers/open-opportunities/",
+  "description": "Google-indexed employer posting (\"Software Engineer - Intern (US)\", Miami FL + 1 other; Google showed \"posted 2 days ago\"). Season, degree requirements, and sponsorship language unverified.",
+  "verification_blocker": "Employer jobs board offline for scheduled maintenance on 2026-10-21 (checked 11:40, 11:41, 11:42, 11:45 PDT): open-opportunities page showed only a maintenance notice; detail URLs redirected into it. Legacy Greenhouse board citadelsecurities is inactive (page no longer active).",
+  "source": "browser_rotation"
  }
 ]
