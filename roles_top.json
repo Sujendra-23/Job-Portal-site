@@ -2055,5 +2055,38 @@
   "description": "SIG (Susquehanna International Group) - Trading System Engineer - New Grad. Bala Cynwyd (Philadelphia Area), PA, on-site. Technology - Software Engineering. New-grad systems engineering role requiring a bachelor's or master's degree in computer science (or related field) with intention to graduate and begin full-time employment by August 2027. The posting does not mention immigration or visa sponsorship, and contains no clearance-related language. Verified live on SIG's own careers portal (careers.sig.com) on 2026-10-20; previously excluded 2026-10-05 as description-unavailable (JS-gated board), now fully read.",
   "degree": "",
   "source": "google_discovery_2026-10-20"
+ },
+ {
+  "company": "TikTok",
+  "title": "Backend Software Engineer Graduate (Business Governance) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-21",
+  "posting_date": "",
+  "application_link": "https://lifeattiktok.com/search/7663042453461600517",
+  "description": "2027-start full-time graduate backend role on the Business Governance team (San Jose, CA). Distributed server-side systems: RPC, message queues, link tracking and service governance; big data stack (Spark, Flink, ClickHouse, HBase); C++, Python or Java. Sponsorship not stated in posting text; no clearance-related language.",
+  "degree": "Bachelor's or Master's",
+  "source": "hourly_board_2026-10-21"
+ },
+ {
+  "company": "TikTok",
+  "title": "Backend Software Engineer Graduate (Emerging Products & AI Safety) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-21",
+  "posting_date": "",
+  "application_link": "https://lifeattiktok.com/search/7663036952090347829",
+  "description": "2027-start full-time graduate backend role on Emerging Products & AI Safety (San Jose, CA). Distributed server-side systems: RPC, message queues, link tracking and service governance; big data stack (Spark, Flink, ClickHouse, HBase); C++, Python or Java. Sponsorship not stated in posting text; no clearance-related language.",
+  "degree": "Bachelor's or Master's",
+  "source": "hourly_board_2026-10-21"
+ },
+ {
+  "company": "TikTok",
+  "title": "Data Engineer Graduate (Data Platform Global Live) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-21",
+  "posting_date": "",
+  "application_link": "https://lifeattiktok.com/search/7678120538997098805",
+  "description": "2027-start full-time graduate data engineering role on Data Platform Global Live (San Jose, CA). Data warehousing and data-system construction; SQL and Python; translating business needs into technical solutions and data metrics. Degree block: Minimum Bachelor's, Preferred Master's. Sponsorship not stated in posting text; no clearance-related language.",
+  "degree": "Bachelor's or Master's",
+  "source": "hourly_board_2026-10-21"
  }
 ]
