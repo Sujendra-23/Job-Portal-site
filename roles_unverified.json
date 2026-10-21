@@ -252,5 +252,16 @@
   "description": "Google-indexed employer posting (\"Software Engineer - Intern (US)\", Miami FL + 1 other; Google showed \"posted 2 days ago\"). Season, degree requirements, and sponsorship language unverified.",
   "verification_blocker": "Employer jobs board offline for scheduled maintenance on 2026-10-21 (checked 11:40, 11:41, 11:42, 11:45 PDT): open-opportunities page showed only a maintenance notice; detail URLs redirected into it. Legacy Greenhouse board citadelsecurities is inactive (page no longer active).",
   "source": "browser_rotation"
+ },
+ {
+  "company": "IBM",
+  "title": "Entry Level AI Software Engineer",
+  "location": "Poughkeepsie, NY, United States",
+  "posting_date": "",
+  "date_added": "2026-10-21",
+  "application_link": "https://jobright.ai/jobs/info/6ad9229b950ef68d5184e671",
+  "description": "Jobright-surfaced 'Entry Level AI Software Engineer' (Poughkeepsie, NY, United States). Employer posting not located on ibm.com/careers (live browser search 2026-10-21 returned ~2,190 results; exact-title posting not found). Third-party mirrors (career.io/careerbuilder) of the Durham posting show 'Preferred Education: Bachelor's Degree' \u2014 if accurate to the employer text it fails the degree filter (Bachelor's-only). Degree, sponsorship, and clearance unverified.",
+  "verification_blocker": "Employer posting not locatable on IBM careers site via live browser search (city-level location filter unavailable; exact title not found in results).",
+  "source": "hourly_board_2026-10-21"
  }
 ]
