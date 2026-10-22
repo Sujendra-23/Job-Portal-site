@@ -175,5 +175,16 @@
   "description": "Jobright-surfaced 'Entry Level AI Software Engineer' at 2 locations (Poughkeepsie NY: jobright.ai/jobs/info/6ad9229b950ef68d5184e671; Durham NC: jobright.ai/jobs/info/6ad9228f67bec1d0d9c83a41). Employer posting not located on ibm.com/careers (live browser search 2026-10-21 returned ~2,190 results; exact-title posting not found). Third-party mirrors (career.io/careerbuilder) of the Durham posting show 'Preferred Education: Bachelor's Degree' \u2014 if accurate to the employer text it fails the degree filter (Bachelor's-only). Degree, sponsorship, and clearance unverified.",
   "verification_blocker": "Employer posting not locatable on IBM careers site via live browser search (city-level location filter unavailable; exact title not found in results).",
   "source": "hourly_board_2026-10-21"
+ },
+ {
+  "company": "Sanofi",
+  "title": "2027 Spring Co-op Machine Learning AI, Cambridge, MA",
+  "location": "Cambridge, MA, United States",
+  "posting_date": "2026-10-21",
+  "date_added": "2026-10-21",
+  "application_link": "https://jobright.ai/jobs/info/6ad9940667bec1d0d9c86bf7",
+  "description": "Jobright eng-README truly-new row (diff vs 21:46 snapshots; 'Oct 21'). Jobright company cell named 'BioSpace' (a life-science job board), not the employer \u2014 true employer resolved as Sanofi via web search: '2027 Spring Co-op Machine Learning AI, Cambridge, MA' is listed on Sanofi's own jobs.sanofi.com (search crawl ~1 day old). Spring 2027 co-op, Cambridge MA on-site, ML/AI focus. Mirrors quote $47-$60/hr. Degree requirement (must accept Bachelor's AND Master's), visa sponsorship language, security-clearance language, and the Jan-Jun 2027 timing window are UNCHECKED \u2014 user to verify. Sanofi co-op search page: https://jobs.sanofi.com/en/search_jobs/Co-op/2649/1",
+  "verification_blocker": "Live-browser verification stalled: browser task accepted but produced zero activity for 6+ minutes (detached run, no user to approve browser navigation). jobs.sanofi.com loads via text fetch, but the specific posting page could not be opened read-only this run to read the canonical description.",
+  "source": "hourly_board_2026-10-21"
  }
 ]
