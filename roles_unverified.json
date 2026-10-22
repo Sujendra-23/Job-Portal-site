@@ -11,39 +11,6 @@
   "source": "google_discovery_2026-10-11"
  },
  {
-  "company": "Charles Schwab",
-  "title": "2027 Technology Intern - Data Engineering",
-  "location": "Austin, TX",
-  "posting_date": "2026-08-29",
-  "date_added": "2026-10-11",
-  "application_link": "https://www.linkedin.com/jobs/view/technology-2027-intern-data-engineering-at-charles-schwab-4458826112",
-  "description": "LEAD (unverified): Google-indexed 2027 Technology Intern posting (LinkedIn mirror). Internship season not stated in the indexed snippet; Data Engineering is in the title families. Graduation fit, degree, and sponsorship unverified.",
-  "verification_blocker": "Schwab iCIMS tenant is WAF-blocked from the sandbox; employer posting cannot be loaded to verify season.",
-  "source": "google_discovery_2026-10-11"
- },
- {
-  "company": "Charles Schwab",
-  "title": "Technology 2027 Intern - AI & CyberSecurity",
-  "location": "Austin, TX",
-  "posting_date": "indexed 2026-10-11",
-  "date_added": "2026-10-11",
-  "application_link": "https://www.linkedin.com/jobs/view/technology-2027-intern-ai-cybersecurity-at-charles-schwab-4473444405",
-  "description": "LEAD (unverified): Google-indexed 2027 Technology Intern posting (LinkedIn mirror). Internship season not stated; AI/CyberSecurity intern in SWE-adjacent families. Graduation fit, degree, and sponsorship unverified.",
-  "verification_blocker": "Schwab iCIMS tenant is WAF-blocked from the sandbox; employer posting cannot be loaded to verify season.",
-  "source": "google_discovery_2026-10-11"
- },
- {
-  "company": "Citi (attribution unconfirmed)",
-  "title": "Software Engineer Graduate (Transaction Platform) - 2027 Start",
-  "location": "San Jose, CA",
-  "posting_date": "posted Oct 4, 2026 (aggregator)",
-  "date_added": "2026-10-11",
-  "application_link": "https://jobsearcher.com/search?occ=310%2C17-2112.00%2C15-1252.00&ind=3323%2C3325%2C4244%2C8113%2C334519&sen=junior&date=14d&page=21",
-  "description": "WEAK LEAD (unverified): company attribution is uncertain from the jobsearcher.com aggregator snippet. Snippet mentions 'Regular Bachelor/Master Grad' which would fit the degree rule if attribution confirms. Nothing employer-verified.",
-  "verification_blocker": "No employer posting link available; company attribution needs confirmation before any verification.",
-  "source": "google_discovery_2026-10-11"
- },
- {
   "company": "LPL Financial",
   "title": "New Grad 2027 - Data Engineer",
   "location": "Fort Mill, SC",
@@ -141,28 +108,6 @@
   "description": "Software Engineer I (Remote, listed Akron OH) surfaced via Jobright 2026-10-14. Specific posting not locatable on signetjewelers.com corporate careers from sandbox. Degree/sponsorship unchecked.",
   "verification_blocker": "posting not locatable on employer careers site",
   "source": "hourly_board_2026-10-14"
- },
- {
-  "company": "Charles Schwab",
-  "title": "Java Developer (Entry Level)",
-  "location": "Austin, TX, USA",
-  "posting_date": "",
-  "date_added": "2026-10-14",
-  "application_link": "https://career-schwab.icims.com/jobs/search?ss=1&searchKeyword=java+developer",
-  "description": "Weak lead from Google discovery leg (2026-10-14): web-search hit for an entry-level Java Developer posting in Austin on Schwab's careers board (career-schwab.icims.com). Employer posting not yet verified \u2014 board is JS-rendered (not script-readable) and the live-browser verification attempt was interrupted by infrastructure before completing. Degree, sponsorship, and clearance language unchecked.",
-  "verification_blocker": "employer board JS-rendered; browser verification interrupted before completion",
-  "source": "google_discovery_2026-10-14"
- },
- {
-  "company": "Charles Schwab",
-  "title": "Software Development Engineer",
-  "location": "Austin, TX, USA",
-  "posting_date": "",
-  "date_added": "2026-10-14",
-  "application_link": "https://career-schwab.icims.com/jobs/search?ss=1&searchKeyword=software+development+engineer",
-  "description": "Weak lead from Google discovery leg (2026-10-14): web-search hit for a Software Development Engineer posting in Austin on Schwab's careers board (career-schwab.icims.com). Employer posting not yet verified \u2014 board is JS-rendered (not script-readable) and the live-browser verification attempt was interrupted by infrastructure before completing. Degree, sponsorship, and clearance language unchecked.",
-  "verification_blocker": "employer board JS-rendered; browser verification interrupted before completion",
-  "source": "google_discovery_2026-10-14"
  },
  {
   "company": "Tech Jobs for Good (aggregator \u2014 actual employer not identified)",
