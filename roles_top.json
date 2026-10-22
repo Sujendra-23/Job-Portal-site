@@ -2143,5 +2143,16 @@
   "description": "2027 New College Graduate full-time role (JR-2604055; Santa Clara, CA and Richardson, TX). Salary $72,000 - $141,700. Bridges ML capabilities and scalable software production: build, optimize, test, and deploy AI models (LLM, computer vision, predictive) in an AI platform; profile and optimize inference latency/memory/throughput; design maintainable software components and APIs using AI-assisted dev tools; own technical documentation. Requires PyTorch or TensorFlow experience, strong OOP fundamentals, GitLab/GitHub version control, English fluency; 3.0+ GPA. Preferred: internships/co-ops, leadership, low-level/high-performance programming (kernels, systems, accelerators), AWS exposure. Degree block: 'Graduating with a Bachelor's, Master's, or PhD in Computer Science, Computer Engineering, Data Science or related field from an accredited degree program.' Sponsorship: sponsorship not stated in posting text. No clearance-related language.",
   "degree": "Bachelor's, Master's, or PhD",
   "source": "hourly_board_2026-10-21"
+ },
+ {
+  "company": "NVIDIA",
+  "title": "System Software Engineer - GPU Power and Performance Management",
+  "location": "Santa Clara, CA",
+  "date_added": "2026-10-21",
+  "posting_date": "",
+  "application_link": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/System-Software-Engineer---GPU-Power-and-Performance-Management_JR2026396",
+  "description": "System Software Engineer - GPU Power and Performance Management, Santa Clara, CA (requisition JR2026396). Verified live on nvidia.wd5.myworkdayjobs.com 2026-10-21. Salary bands $124,000-$195,500 (Level 2) and $152,000-$241,500 (Level 3). Experience: '2+ years of relevant industry experience, or strong coursework, internship, co-op, or project experience in system software' \u2014 new-grad accessible. Applications accepted at least until October 3, 2026 (posting remains live). Sponsorship not stated in posting text; no clearance-related language appears in the posting. Discovered via LinkedIn Jobs (card dated 14h); employer page shows no publication date (shows 'Posted 23 Days Ago').",
+  "degree": "BS/MS",
+  "source": "linkedin_jobs"
  }
 ]
