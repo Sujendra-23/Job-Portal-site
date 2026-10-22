@@ -186,5 +186,16 @@
   "description": "Jobright eng-README truly-new row (diff vs 21:46 snapshots; 'Oct 21'). Jobright company cell named 'BioSpace' (a life-science job board), not the employer \u2014 true employer resolved as Sanofi via web search: '2027 Spring Co-op Machine Learning AI, Cambridge, MA' is listed on Sanofi's own jobs.sanofi.com (search crawl ~1 day old). Spring 2027 co-op, Cambridge MA on-site, ML/AI focus. Mirrors quote $47-$60/hr. Degree requirement (must accept Bachelor's AND Master's), visa sponsorship language, security-clearance language, and the Jan-Jun 2027 timing window are UNCHECKED \u2014 user to verify. Sanofi co-op search page: https://jobs.sanofi.com/en/search_jobs/Co-op/2649/1",
   "verification_blocker": "Live-browser verification stalled: browser task accepted but produced zero activity for 6+ minutes (detached run, no user to approve browser navigation). jobs.sanofi.com loads via text fetch, but the specific posting page could not be opened read-only this run to read the canonical description.",
   "source": "hourly_board_2026-10-21"
+ },
+ {
+  "company": "Citi",
+  "title": "Software Engineer \u2013 C11 Tampa",
+  "location": "Tampa, FL",
+  "posting_date": "",
+  "date_added": "2026-10-22",
+  "application_link": "https://builtin.com/job/software-engineer-c11-tampa/4659965",
+  "description": "Built In listing: 'We are looking for entry-level full-stack software engineers\u2026 Required Qualifications: 0-2 years of experience as a Software Engineer'. Location Tampa, FL. Degree, sponsorship, clearance, and live status UNVERIFIED \u2014 the employer's own jobs.citi.com soft-blocks bot access (pages render blank, never load content; verified 2026-10-22 via live browser check).",
+  "verification_blocker": "jobs.citi.com soft bot-block: pages return blank, never-rendering views; employer posting could not be loaded read-only",
+  "source": "google_discovery_2026-10-21"
  }
 ]
