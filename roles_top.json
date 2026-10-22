@@ -2055,5 +2055,16 @@
   "description": "Entry-level full-time Software Engineer (Req ENTRY001846, Dubuque, IA 52001, category Emb Sys Eng Dev/Test). Pay range $65,000-$90,000, commensurate with experience. Degree block accepts Bachelor's or Master's. Requirements include C/C++ experience, strong mathematical/analytical problem-solving, and communication skills. Sponsorship: sponsorship not stated in posting text. No clearance-related language.",
   "degree": "Bachelor's or Master's",
   "source": "hourly_board_2026-10-22"
+ },
+ {
+  "company": "Zus Health",
+  "title": "Platform Software Engineering Co-op",
+  "location": "Boston, MA, United States",
+  "date_added": "2026-10-22",
+  "posting_date": "",
+  "application_link": "https://jobs.ashbyhq.com/zus-health/ec0f1de8-c589-4637-b3f8-4a87dd06882a/application",
+  "description": "Platform Software Engineering Co-op (Boston, MA, $28/hour, full-time) on Zus's Platform team building the data services that power applications: large-scale data pipelines on AWS (ECS Fargate, Lambda, DynamoDB, S3) and RESTful services used internally and externally; Go is the team's language of choice. Boston-area candidates willing to join the office or regularly meet with a local mentor. Season window on posting: 'Able to work on a co-op from January through June' (fits Jan-Jun 2027). Degree: no degree requirement stated in posting (not bachelor's-only). Sponsorship: sponsorship not stated in posting text. No clearance-related language.",
+  "degree": "Not stated in posting (not bachelor's-only)",
+  "source": "hourly_board_2026-10-22"
  }
 ]
