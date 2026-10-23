@@ -859,5 +859,16 @@
   "description": "Employer verification blocked: Employer page is live (HTTP 200, title + pay-transparency render) but the JD body is JS-gated and does not render in text fetch. A sibling 2026-Start posting ('Software Engineer/Mobile Engineer Graduate (Monetization Technology - Ads Core Demonstration) - 2026 Start (BS/MS)') shows 'a Bachelor's/ Master's degree' in one requirement, but that text is not attributable to this 2027 posting. Degree, s | Tracker first-seen 2026-08-03.",
   "verification_blocker": "Employer page is live (HTTP 200, title + pay-transparency render) but the JD body is JS-gated and does not render in text fetch. A sibling 2026-Start posting ('Software Engineer/Mobile Engineer Graduate (Monetization Technology - Ads Core Demonstration) - 2026 Start (BS/MS)') shows 'a Bachelor's/ Ma",
   "source": "google_discovery_2026-10-23"
+ },
+ {
+  "company": "Palantir Technologies",
+  "title": "Forward Deployed Software Engineer - US Government",
+  "location": "San Diego, CA",
+  "posting_date": "",
+  "date_added": "2026-10-23",
+  "application_link": "https://jobright.ai/jobs/info/6a56ce6ce9b77f668bd65ce2",
+  "description": "Jobright card (posted ~19 hours ago): Palantir Technologies, 'Forward Deployed Software Engineer - US Government', San Diego CA, full-time, onsite, entry level, $135K-$200K/yr, <25 applicants. Card differs from earlier DC/NY 'New Grad - US Government' cards. Employer page could not be loaded for verification; degree/sponsorship/clearance language UNCHECKED.",
+  "verification_blocker": "Palantir job board did not load listings during the 05:37 run's employer verification (read-only browser task). 'US Government' designation suggests possible citizenship/clearance requirements, but the employer text was not readable \u2014 needs manual check.",
+  "source": "jobright"
  }
 ]
