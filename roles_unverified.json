@@ -197,5 +197,49 @@
   "description": "Built In listing: 'We are looking for entry-level full-stack software engineers\u2026 Required Qualifications: 0-2 years of experience as a Software Engineer'. Location Tampa, FL. Degree, sponsorship, clearance, and live status UNVERIFIED \u2014 the employer's own jobs.citi.com soft-blocks bot access (pages render blank, never load content; verified 2026-10-22 via live browser check).",
   "verification_blocker": "jobs.citi.com soft bot-block: pages return blank, never-rendering views; employer posting could not be loaded read-only",
   "source": "google_discovery_2026-10-21"
+ },
+ {
+  "company": "IBM",
+  "title": "AI/ML Engineer Spring Co-op 2027",
+  "location": "San Jose, CA, US",
+  "posting_date": "",
+  "date_added": "2026-10-22",
+  "application_link": "https://opportunitiesfeed.com/2026/10/07/engineer-spring-co-op/",
+  "description": "Spring 2027 AI/ML co-op (16 weeks) found via google_discovery. Employer posting could not be loaded: 2 live-browser verification attempts stalled on IBM careers pages. Aggregator copy warns visa sponsorship will NOT be provided - likely excluded on verification.",
+  "verification_blocker": "browser verification stalled twice (IBM Avature/careers page would not render); no employer description read",
+  "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "Two Sigma",
+  "title": "AI Research Scientist - New Grad (Campus Full-Time)",
+  "location": "New York, NY, US",
+  "posting_date": "2026-08-05",
+  "date_added": "2026-10-22",
+  "application_link": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-AI-Research-Scientist-Campus-Full-Time/13671",
+  "description": "New-grad campus full-time AI research scientist (ML family) from tar-ive tracker. JS-only portal page: description not extractable via scripts; 2 live-browser verification attempts stalled.",
+  "verification_blocker": "JS-only portal page would not render description; browser verification stalled twice",
+  "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "The Walt Disney Company",
+  "title": "Decision Science Product Engineering Graduate Associate, Spring 2027",
+  "location": "Lake Buena Vista, FL, US",
+  "posting_date": "2026-10-01",
+  "date_added": "2026-10-22",
+  "application_link": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Lake-Buena-Vista-FL-USA/Decision-Science-Product-Engineering-Graduate-Associate--Spring-2027_10160002-2",
+  "description": "Spring 2027 graduate associate (product engineering, data/SWE-adjacent) from tar-ive tracker; zapply mirror also active. Disney Workday CXS errors from scripts; 2 live-browser verification attempts stalled.",
+  "verification_blocker": "Workday detail page would not render; browser verification stalled twice",
+  "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "American Express",
+  "title": "Campus Undergraduate Full-Time Analyst - 2027 Data Engineer I, Enterprise Technology Services",
+  "location": "Phoenix, AZ, US",
+  "posting_date": "2026-10-22",
+  "date_added": "2026-10-22",
+  "application_link": "https://www.careers.americanexpress.com/",
+  "description": "2027 campus full-time Data Engineer I from coconight01 tracker. 2 live-browser verification attempts stalled. Amex 2027 campus family carries explicit no-sponsorship on employer text (\"the company will not pursue visa sponsorship for these positions\", req 26013254) - likely excluded on verification.",
+  "verification_blocker": "browser verification stalled twice; Amex campus pages slow to render",
+  "source": "google_discovery_2026-10-22"
  }
 ]
