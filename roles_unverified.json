@@ -867,8 +867,8 @@
   "posting_date": "",
   "date_added": "2026-10-23",
   "application_link": "https://jobright.ai/jobs/info/6a56ce6ce9b77f668bd65ce2",
-  "description": "Jobright card (posted ~19 hours ago): Palantir Technologies, 'Forward Deployed Software Engineer - US Government', San Diego CA, full-time, onsite, entry level, $135K-$200K/yr, <25 applicants. Card differs from earlier DC/NY 'New Grad - US Government' cards. Employer page could not be loaded for verification; degree/sponsorship/clearance language UNCHECKED.",
-  "verification_blocker": "Palantir job board did not load listings during the 05:37 run's employer verification (read-only browser task). 'US Government' designation suggests possible citizenship/clearance requirements, but the employer text was not readable \u2014 needs manual check.",
+  "description": "Jobright card posted ~19h ago; employer board did not load; added to leads_unverified.json for manual check. Earlier DC/NY 'New Grad - US Government' card was 3 months old.",
+  "verification_blocker": "",
   "source": "jobright"
  },
  {
@@ -878,8 +878,8 @@
   "posting_date": "Oct 23",
   "date_added": "2026-10-23",
   "application_link": "https://jobright.ai/jobs/info/6ada6a6303d2da7528914d50?utm_campaign=Software%20Engineering&utm_source=1103",
-  "description": "Found via the Jobright README table (new-grad tracker leg, Oct 23). Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
-  "verification_blocker": "employer site unreachable from all routes (DNS NXDOMAIN + CloudFront 403 + empty server reply)",
+  "description": "Jobright table lead; employer verification impossible from our routes. User to verify in portal. Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
+  "verification_blocker": "employer site unreachable (DNS NXDOMAIN + CloudFront 403 + empty server reply); routed to Unverified Leads",
   "source": "hourly_board_2026-10-23"
  },
  {
@@ -888,9 +888,9 @@
   "location": "Littleton, CO, United States",
   "posting_date": "Oct 23",
   "date_added": "2026-10-23",
-  "application_link": "https://jobright.ai/jobs/info/6ada2e9503d2da7528914d50?utm_campaign=Engineering%20and%20Development&utm_source=1103",
-  "description": "Found via the Jobright README table (new-grad tracker leg, Oct 23). Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
-  "verification_blocker": "employer site unreachable from all routes (DNS NXDOMAIN + CloudFront 403 + empty server reply)",
+  "application_link": "https://jobright.ai/jobs/info/6ada2e9503d2da7528912744?utm_campaign=Engineering%20and%20Development&utm_source=1103",
+  "description": "Jobright table lead; employer verification impossible from our routes. User to verify in portal. Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
+  "verification_blocker": "employer site unreachable (DNS NXDOMAIN + CloudFront 403 + empty server reply); routed to Unverified Leads",
   "source": "hourly_board_2026-10-23"
  },
  {
@@ -900,8 +900,8 @@
   "posting_date": "Oct 23",
   "date_added": "2026-10-23",
   "application_link": "https://jobright.ai/jobs/info/6adab0e83a69033df225b5fd?utm_campaign=Engineering%20and%20Development&utm_source=1103",
-  "description": "Found via the Jobright README table (new-grad tracker leg, Oct 23). Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
-  "verification_blocker": "employer site unreachable from all routes (DNS NXDOMAIN + CloudFront 403 + empty server reply)",
+  "description": "Jobright table lead; employer verification impossible from our routes. User to verify in portal. Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
+  "verification_blocker": "employer site unreachable (DNS NXDOMAIN + CloudFront 403 + empty server reply); routed to Unverified Leads",
   "source": "hourly_board_2026-10-23"
  }
 ]
