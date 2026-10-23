@@ -241,5 +241,71 @@
   "description": "2027 campus full-time Data Engineer I from coconight01 tracker. 2 live-browser verification attempts stalled. Amex 2027 campus family carries explicit no-sponsorship on employer text (\"the company will not pursue visa sponsorship for these positions\", req 26013254) - likely excluded on verification.",
   "verification_blocker": "browser verification stalled twice; Amex campus pages slow to render",
   "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "AMD",
+  "title": "2027 Masters Compiler Engineering Intern/Co-op",
+  "location": "Austin, TX, United States",
+  "posting_date": "2026-09-01",
+  "date_added": "2026-10-22",
+  "application_link": "https://campus-amd.icims.com/jobs/91867/login",
+  "description": "2027 intern/co-op from coconight01 tracker (tracker-posted 2026-09-01). Mirrors show season options 'Spring/Summer Co-op Jan 25-Aug 13 2027' / 'Summer Internship' / 'Summer/Fall Co-op' - the co-op window runs past June, so season fit for the portal's Jan-June rule is uncertain. User to verify season + degree/sponsorship.",
+  "verification_blocker": "campus-amd.icims.com board RETIRED ('careers site has moved' on all /job URLs); employer posting not loadable for verification",
+  "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "AMD",
+  "title": "2027 Undergrad Compiler Engineering Intern/Co-op",
+  "location": "Austin, TX, United States",
+  "posting_date": "2026-09-01",
+  "date_added": "2026-10-22",
+  "application_link": "https://campus-amd.icims.com/jobs/91864/login",
+  "description": "2027 intern/co-op from coconight01 tracker (tracker-posted 2026-09-01). Mirrors show season options 'Spring/Summer Co-op Jan 25-Aug 13 2027' / 'Summer Internship' / 'Summer/Fall Co-op' - the co-op window runs past June, so season fit for the portal's Jan-June rule is uncertain. User to verify season + degree/sponsorship.",
+  "verification_blocker": "campus-amd.icims.com board RETIRED ('careers site has moved' on all /job URLs); employer posting not loadable for verification",
+  "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "AMD",
+  "title": "2027 Masters Machine Learning (ML)/AI Intern/Co-op",
+  "location": "Austin, TX, United States",
+  "posting_date": "2026-08-21",
+  "date_added": "2026-10-22",
+  "application_link": "https://campus-amd.icims.com/jobs/91181/login",
+  "description": "2027 intern/co-op from coconight01 tracker (tracker-posted 2026-08-21). Mirrors show season options 'Spring/Summer Co-op Jan 25-Aug 13 2027' / 'Summer Internship' / 'Summer/Fall Co-op' - the co-op window runs past June, so season fit for the portal's Jan-June rule is uncertain. User to verify season + degree/sponsorship.",
+  "verification_blocker": "campus-amd.icims.com board RETIRED ('careers site has moved' on all /job URLs); employer posting not loadable for verification",
+  "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "AMD",
+  "title": "2027 Undergrad Machine Learning (ML)/AI Intern/Co-op",
+  "location": "Austin, TX, United States",
+  "posting_date": "2026-08-21",
+  "date_added": "2026-10-22",
+  "application_link": "https://campus-amd.icims.com/jobs/91170/login",
+  "description": "2027 intern/co-op from coconight01 tracker (tracker-posted 2026-08-21). Mirrors show season options 'Spring/Summer Co-op Jan 25-Aug 13 2027' / 'Summer Internship' / 'Summer/Fall Co-op' - the co-op window runs past June, so season fit for the portal's Jan-June rule is uncertain. User to verify season + degree/sponsorship.",
+  "verification_blocker": "campus-amd.icims.com board RETIRED ('careers site has moved' on all /job URLs); employer posting not loadable for verification",
+  "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "AMD",
+  "title": "2027 Masters Software Test Engineering Intern/Co-op",
+  "location": "Austin, TX, United States",
+  "posting_date": "2026-08-25",
+  "date_added": "2026-10-22",
+  "application_link": "https://campus-amd.icims.com/jobs/91477/login",
+  "description": "2027 intern/co-op from coconight01 tracker (tracker-posted 2026-08-25). Mirrors show season options 'Spring/Summer Co-op Jan 25-Aug 13 2027' / 'Summer Internship' / 'Summer/Fall Co-op' - the co-op window runs past June, so season fit for the portal's Jan-June rule is uncertain. User to verify season + degree/sponsorship.",
+  "verification_blocker": "campus-amd.icims.com board RETIRED ('careers site has moved' on all /job URLs); employer posting not loadable for verification",
+  "source": "google_discovery_2026-10-22"
+ },
+ {
+  "company": "AMD",
+  "title": "2027 Undergrad Software Test Engineering Intern/Co-op",
+  "location": "San Jose, CA, United States",
+  "posting_date": "2026-08-25",
+  "date_added": "2026-10-22",
+  "application_link": "https://campus-amd.icims.com/jobs/91448/login",
+  "description": "2027 intern/co-op from coconight01 tracker (tracker-posted 2026-08-25). Mirrors show season options 'Spring/Summer Co-op Jan 25-Aug 13 2027' / 'Summer Internship' / 'Summer/Fall Co-op' - the co-op window runs past June, so season fit for the portal's Jan-June rule is uncertain. User to verify season + degree/sponsorship.",
+  "verification_blocker": "campus-amd.icims.com board RETIRED ('careers site has moved' on all /job URLs); employer posting not loadable for verification",
+  "source": "google_discovery_2026-10-22"
  }
 ]
