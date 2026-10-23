@@ -111,17 +111,6 @@
   "source": "hourly_board_2026-10-17"
  },
  {
-  "company": "AMD",
-  "title": "2027 Undergrad Software Engineer Intern",
-  "location": "Austin, TX, United States",
-  "posting_date": "",
-  "date_added": "2026-10-17",
-  "application_link": "https://campus-amd.icims.com/jobs/90947/job",
-  "description": "Tracker lead (coconight01, posted 2026-08-21). Employer verification blocked: AMD retired the campus-amd.icims.com board \u2014 every posting /job URL now renders a \"careers site has moved\" notice (checked 2026-10-17). Season unverified: a search leg found a same-titled AMD 2027 posting offering Spring/Summer (Jan 25-Aug 13, 2027) and Summer/Fall co-op terms only \u2014 no Jan-Jun Spring/Winter 2027 window \u2014 which would fail the season rule if this is the same requisition. Degree/sponsorship/clearance unchecked.",
-  "verification_blocker": "AMD campus-iCIMS board retired (\"careers site has moved\" on all /job URLs)",
-  "source": "google_discovery_2026-10-17"
- },
- {
   "company": "World Pediatrics",
   "title": "Junior Data Engineer",
   "location": "Richmond, VA, United States",
@@ -244,14 +233,26 @@
  },
  {
   "company": "AMD",
-  "title": "2027 Masters Compiler Engineering Intern/Co-op",
+  "title": "2027 Undergrad Software Engineer Intern",
   "location": "Austin, TX, United States",
+  "posting_date": "",
+  "date_added": "2026-10-17",
+  "application_link": "https://campus-amd.icims.com/jobs/90947/job",
+  "description": "Tracker lead (coconight01, posted 2026-08-21). Employer verification blocked: AMD retired the campus-amd.icims.com board \u2014 every posting /job URL now renders a \"careers site has moved\" notice (checked 2026-10-17). Season unverified: a search leg found a same-titled AMD 2027 posting offering Spring/Summer (Jan 25-Aug 13, 2027) and Summer/Fall co-op terms only \u2014 no Jan-Jun Spring/Winter 2027 window \u2014 which would fail the season rule if this is the same requisition. Degree/sponsorship/clearance unchecked.",
+  "verification_blocker": "AMD campus-iCIMS board retired (\"careers site has moved\" on all /job URLs)",
+  "source": "google_discovery_2026-10-17"
+ },
+ {
+  "company": "AMD",
+  "title": "2027 Masters Compiler Engineering Intern/Co-op",
+  "location": "Austin, TX, United States | San Jose, CA, United States",
   "posting_date": "2026-09-01",
   "date_added": "2026-10-22",
-  "application_link": "https://campus-amd.icims.com/jobs/91867/login",
+  "application_link": "https://campus-amd.icims.com/jobs/91866/login",
   "description": "2027 intern/co-op from coconight01 tracker (tracker-posted 2026-09-01). Mirrors show season options 'Spring/Summer Co-op Jan 25-Aug 13 2027' / 'Summer Internship' / 'Summer/Fall Co-op' - the co-op window runs past June, so season fit for the portal's Jan-June rule is uncertain. User to verify season + degree/sponsorship.",
   "verification_blocker": "campus-amd.icims.com board RETIRED ('careers site has moved' on all /job URLs); employer posting not loadable for verification",
-  "source": "google_discovery_2026-10-22"
+  "source": "google_discovery_2026-10-22",
+  "note": "Consolidated 2 location variants into one lead; all links preserved. https://campus-amd.icims.com/jobs/91866/login; https://campus-amd.icims.com/jobs/91867/login"
  },
  {
   "company": "AMD",
@@ -300,12 +301,13 @@
  {
   "company": "AMD",
   "title": "2027 Undergrad Software Test Engineering Intern/Co-op",
-  "location": "San Jose, CA, United States",
+  "location": "Austin, TX, United States | San Jose, CA, United States",
   "posting_date": "2026-08-25",
   "date_added": "2026-10-22",
   "application_link": "https://campus-amd.icims.com/jobs/91448/login",
   "description": "2027 intern/co-op from coconight01 tracker (tracker-posted 2026-08-25). Mirrors show season options 'Spring/Summer Co-op Jan 25-Aug 13 2027' / 'Summer Internship' / 'Summer/Fall Co-op' - the co-op window runs past June, so season fit for the portal's Jan-June rule is uncertain. User to verify season + degree/sponsorship.",
   "verification_blocker": "campus-amd.icims.com board RETIRED ('careers site has moved' on all /job URLs); employer posting not loadable for verification",
-  "source": "google_discovery_2026-10-22"
+  "source": "google_discovery_2026-10-22",
+  "note": "Consolidated 2 location variants into one lead; all links preserved. https://campus-amd.icims.com/jobs/91448/login; https://campus-amd.icims.com/jobs/91451/login"
  }
 ]
