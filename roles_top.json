@@ -2066,5 +2066,27 @@
   "description": "Roblox [2027] Software Engineer, Early Career (San Mateo, CA; ID 37483). New-grad full-time role on the employer careers site. Early-career engineers join with supportive mentorship and ship features to millions of daily users; responsibilities span architecture discussions, system design, investigating cutting-edge technologies (including ML frameworks and LLMs), and designing/coding/testing features end to end. Onsite at the San Mateo headquarters (Tue/Wed/Thu, optional Mon/Fri). Listed annual base pay $153,000. Degree requirement (verbatim from employer page): 'Pursuing or in possession of an undergraduate/graduate degree in computer science, engineering, a related technical field, or an equivalent practical experience.' Sponsorship: not stated as a refusal in posting text \u2014 the only immigration sentence is a conditional disclaimer ('may not be able to ... at this time'), which does not trigger the explicit-no-sponsorship rule. No years-of-experience requirement stated. No posting/publication date shown on the employer page. (Verified on careers.roblox.com 2026-10-23; corrects the 2026-10-20 excluded_no_sponsorship reading.)",
   "degree": "Bachelor's or Master's",
   "source": "jobright"
+ },
+ {
+  "company": "TikTok",
+  "title": "Software Engineer/Mobile Engineer Graduate - Ads Core Demonstration - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-23",
+  "posting_date": "",
+  "application_link": "https://lifeattiktok.com/search/7668701834807101749",
+  "description": "TikTok - Software Engineer/Mobile Engineer Graduate (Ads Core Demonstration) - 2027 Start, San Jose, CA, Job Code A87393. Verified live on lifeattiktok.com 2026-10-23; full posting text read. SWE/Mobile graduate role on the Ads Core Demonstration team. Graduation: must be able to commit to an onboarding date by end of year; state availability and graduation date in resume. Degree accepts Bachelor's and Master's (\"Bachelor's/ Master's degree in Computer Science or a related discipline\"). Does not mention immigration or visa sponsorship. No clearance-related language. Base salary $128,000-$256,000 (San Jose). Candidates may apply to a maximum of two positions globally (company + affiliates); rolling review.",
+  "degree": "Bachelor's or Master's",
+  "source": "unverified-leads verification 2026-10-23"
+ },
+ {
+  "company": "ByteDance",
+  "title": "Large Language Model Training System Engineer Graduate (Applied Machine Learning) - 2027 Start",
+  "location": "San Jose, CA",
+  "date_added": "2026-10-24",
+  "posting_date": "",
+  "application_link": "https://joinbytedance.com/search/7667685712993650997",
+  "description": "ByteDance - Large Language Model Training System Engineer Graduate (Applied Machine Learning) - 2027 Start, San Jose, CA, Job Code A231925. Verified live on joinbytedance.com 2026-10-24; full posting text read. Technology team, Regular employment. Develop the Volcano Ark training system for serverless large-model post-training including SFT and RL; design elastic, multi-tenant training solutions across multiple data centers and heterogeneous hardware to improve throughput and stability; design reinforcement-learning systems and user-friendly RL training interfaces. Minimum qualifications include proficiency in Python, Rust, or C++ and experience in training-framework design or training-system optimization. Degree accepts Bachelor's and Master's (\"Individuals who are completing or have recently completed a Bachelor's or Master's degree in Computer Science or a related discipline.\"). Does not mention immigration or visa sponsorship. No clearance-related language. Base salary $128,000-$256,000 (San Jose).",
+  "degree": "Bachelor's or Master's",
+  "source": "hourly_board_2026-10-24"
  }
 ]
