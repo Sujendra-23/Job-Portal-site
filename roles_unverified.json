@@ -166,17 +166,6 @@
   "source": "hourly_board_2026-10-21"
  },
  {
-  "company": "Sanofi",
-  "title": "2027 Spring Co-op Machine Learning AI, Cambridge, MA",
-  "location": "Cambridge, MA, United States",
-  "posting_date": "2026-10-21",
-  "date_added": "2026-10-21",
-  "application_link": "https://jobright.ai/jobs/info/6ad9940667bec1d0d9c86bf7",
-  "description": "Jobright eng-README truly-new row (diff vs 21:46 snapshots; 'Oct 21'). Jobright company cell named 'BioSpace' (a life-science job board), not the employer \u2014 true employer resolved as Sanofi via web search: '2027 Spring Co-op Machine Learning AI, Cambridge, MA' is listed on Sanofi's own jobs.sanofi.com (search crawl ~1 day old). Spring 2027 co-op, Cambridge MA on-site, ML/AI focus. Mirrors quote $47-$60/hr. Degree requirement (must accept Bachelor's AND Master's), visa sponsorship language, security-clearance language, and the Jan-Jun 2027 timing window are UNCHECKED \u2014 user to verify. Sanofi co-op search page: https://jobs.sanofi.com/en/search_jobs/Co-op/2649/1",
-  "verification_blocker": "Live-browser verification stalled: browser task accepted but produced zero activity for 6+ minutes (detached run, no user to approve browser navigation). jobs.sanofi.com loads via text fetch, but the specific posting page could not be opened read-only this run to read the canonical description.",
-  "source": "hourly_board_2026-10-21"
- },
- {
   "company": "Citi",
   "title": "Software Engineer \u2013 C11 Tampa",
   "location": "Tampa, FL",
@@ -186,17 +175,6 @@
   "description": "Built In listing: 'We are looking for entry-level full-stack software engineers\u2026 Required Qualifications: 0-2 years of experience as a Software Engineer'. Location Tampa, FL. Degree, sponsorship, clearance, and live status UNVERIFIED \u2014 the employer's own jobs.citi.com soft-blocks bot access (pages render blank, never load content; verified 2026-10-22 via live browser check).",
   "verification_blocker": "jobs.citi.com soft bot-block: pages return blank, never-rendering views; employer posting could not be loaded read-only",
   "source": "google_discovery_2026-10-21"
- },
- {
-  "company": "IBM",
-  "title": "AI/ML Engineer Spring Co-op 2027",
-  "location": "San Jose, CA, US",
-  "posting_date": "",
-  "date_added": "2026-10-22",
-  "application_link": "https://opportunitiesfeed.com/2026/10/07/engineer-spring-co-op/",
-  "description": "Spring 2027 AI/ML co-op (16 weeks) found via google_discovery. Employer posting could not be loaded: 2 live-browser verification attempts stalled on IBM careers pages. Aggregator copy warns visa sponsorship will NOT be provided - likely excluded on verification.",
-  "verification_blocker": "browser verification stalled twice (IBM Avature/careers page would not render); no employer description read",
-  "source": "google_discovery_2026-10-22"
  },
  {
   "company": "Two Sigma",
@@ -210,17 +188,6 @@
   "source": "google_discovery_2026-10-22"
  },
  {
-  "company": "The Walt Disney Company",
-  "title": "Decision Science Product Engineering Graduate Associate, Spring 2027",
-  "location": "Lake Buena Vista, FL, US",
-  "posting_date": "2026-10-01",
-  "date_added": "2026-10-22",
-  "application_link": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Lake-Buena-Vista-FL-USA/Decision-Science-Product-Engineering-Graduate-Associate--Spring-2027_10160002-2",
-  "description": "Spring 2027 graduate associate (product engineering, data/SWE-adjacent) from tar-ive tracker; zapply mirror also active. Disney Workday CXS errors from scripts; 2 live-browser verification attempts stalled.",
-  "verification_blocker": "Workday detail page would not render; browser verification stalled twice",
-  "source": "google_discovery_2026-10-22"
- },
- {
   "company": "American Express",
   "title": "Campus Undergraduate Full-Time Analyst - 2027 Data Engineer I, Enterprise Technology Services",
   "location": "Phoenix, AZ, US",
@@ -228,7 +195,7 @@
   "date_added": "2026-10-22",
   "application_link": "https://www.careers.americanexpress.com/",
   "description": "2027 campus full-time Data Engineer I from coconight01 tracker. 2 live-browser verification attempts stalled. Amex 2027 campus family carries explicit no-sponsorship on employer text (\"the company will not pursue visa sponsorship for these positions\", req 26013254) - likely excluded on verification.",
-  "verification_blocker": "browser verification stalled twice; Amex campus pages slow to render",
+  "verification_blocker": "browser verification stalled twice; Amex campus pages slow to render UPDATE 2026-10-23: read-only browser check blocked \u2014 careers.americanexpress.com requires explicit user approval to browse and the background approval was denied; no site content rendered. Needs user-side check.",
   "source": "google_discovery_2026-10-22"
  },
  {
@@ -312,17 +279,6 @@
  },
  {
   "company": "ByteDance",
-  "title": "AI Systems Engineer Graduate - AI Code Infrastructure-Agentic Ops US - 2027 Start",
-  "location": "San Jose, CA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7665989305914984709",
-  "description": "Employer verification blocked: Employer page (lifeattiktok) loads but the full job description including degree requirement is JS-rendered and does not appear in text extraction (only pay-transparency/company boilerplate returned). SNHU university career feed confirms posting live: San Jose, recruitment began 2026-09-08, expires 2026-12-08. Degree requirement could not be established -> lead_unverified. | Tracker first-seen 2026-08-11.",
-  "verification_blocker": "Employer page (lifeattiktok) loads but the full job description including degree requirement is JS-rendered and does not appear in text extraction (only pay-transparency/company boilerplate returned). SNHU university career feed confirms posting live: San Jose, recruitment began 2026-09-08, expires ",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
   "title": "Machine Learning Engineer Graduate (E-Commerce Recommendation Live) - 2027 Start",
   "location": "San Jose, CA",
   "posting_date": "",
@@ -330,17 +286,6 @@
   "application_link": "https://jobright.ai/jobs/info/6a73f26c8dc3d52d8eda1e04",
   "description": "Employer verification blocked: No employer (lifeattiktok/joinbytedance) URL surfaced in search; the lifeattiktok text-extraction path returns only boilerplate so the degree block is not retrievable here. jobright.ai aggregator page 403-blocked from this environment. SNHU university career feed confirms the San Jose posting live (recruitment began 2026-09-10, expires 2026-12-10). Degree requirement unverifiable -> lead_unverifie | Tracker first-seen 2026-08-06.",
   "verification_blocker": "No employer (lifeattiktok/joinbytedance) URL surfaced in search; the lifeattiktok text-extraction path returns only boilerplate so the degree block is not retrievable here. jobright.ai aggregator page 403-blocked from this environment. SNHU university career feed confirms the San Jose posting live (",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
-  "title": "Machine Learning Engineer Graduate - Ads Signal & Measurement - 2027 Start",
-  "location": "San Jose, CA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7669700358734170373",
-  "description": "Employer verification blocked: Employer page (lifeattiktok) loads but the full job description including degree requirement is JS-rendered and absent from text extraction (only pay-transparency/company boilerplate returned). The only verbatim mirror found (ladders) is for the distinct 'Software Engineer Graduate (Ads Signal & Measurement)' role, not this ML variant. Degree requirement unverifiable -> lead_unverified. | Tracker first-seen 2026-08-05.",
-  "verification_blocker": "Employer page (lifeattiktok) loads but the full job description including degree requirement is JS-rendered and absent from text extraction (only pay-transparency/company boilerplate returned). The only verbatim mirror found (ladders) is for the distinct 'Software Engineer Graduate (Ads Signal & Mea",
   "source": "google_discovery_2026-10-23"
  },
  {
@@ -367,17 +312,6 @@
  },
  {
   "company": "ByteDance",
-  "title": "Machine Learning Engineer Graduate - E-Commerce Recommendation Live - 2027 Start",
-  "location": "Seattle, WA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7670285949553707317",
-  "description": "Employer verification blocked: Employer page (lifeattiktok) loads but the full job description including degree requirement is JS-rendered and absent from text extraction (only pay-transparency/company boilerplate returned). SNHU university career feed confirms a San Jose sibling posting of this exact title live (recruitment began 2026-09-10, expires 2026-12-10). Degree requirement unverifiable -> lead_unverified. | Tracker first-seen 2026-08-06.",
-  "verification_blocker": "Employer page (lifeattiktok) loads but the full job description including degree requirement is JS-rendered and absent from text extraction (only pay-transparency/company boilerplate returned). SNHU university career feed confirms a San Jose sibling posting of this exact title live (recruitment bega",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
   "title": "Machine Learning Engineer Graduate (E-Commerce User Growth) - 2027 Start",
   "location": "Seattle, WA",
   "posting_date": "",
@@ -385,28 +319,6 @@
   "application_link": "https://jobright.ai/jobs/info/6ac7e21151a1b3e4219ef2dd",
   "description": "Employer verification blocked: TikTok's own job feed (themuse) lists this exact title live, posted Oct 9 (San Jose); an independent tracker rates the Oct-8 posting as bachelor's/master's accepted. However the only full verbatim employer-text mirror available is the Singapore variant (Job Code A164463A: 'Bachelor's degree or Master's degree'), not the US posting, and the lifeattiktok text-extraction path returns only boilerplate | Tracker first-seen 2026-10-08.",
   "verification_blocker": "TikTok's own job feed (themuse) lists this exact title live, posted Oct 9 (San Jose); an independent tracker rates the Oct-8 posting as bachelor's/master's accepted. However the only full verbatim employer-text mirror available is the Singapore variant (Job Code A164463A: 'Bachelor's degree or Maste",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
-  "title": "Machine Learning Engineer Graduate (Ads Signal & Measurement) - 2027 Start",
-  "location": "San Jose, CA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://jobright.ai/jobs/info/6a71a40ecb96192a36849994",
-  "description": "Employer verification blocked: No employer (lifeattiktok/joinbytedance) posting URL surfaced in search for this exact ML-variant title and no verbatim mirror of its description exists. jobright.ai aggregator page 403-blocked from this environment. The verbatim mirror found covers only the distinct 'Software Engineer Graduate (Ads Signal & Measurement)' role. Employer content unverifiable -> lead_unverified. | Tracker first-seen 2026-09-30.",
-  "verification_blocker": "No employer (lifeattiktok/joinbytedance) posting URL surfaced in search for this exact ML-variant title and no verbatim mirror of its description exists. jobright.ai aggregator page 403-blocked from this environment. The verbatim mirror found covers only the distinct 'Software Engineer Graduate (Ads",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
-  "title": "General Hire Machine Learning Engineer Graduate - Performance Monetization - 2027 Start",
-  "location": "San Jose, CA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7669691374918011141",
-  "description": "Employer verification blocked: Employer page live (exact title + $128K-$256K pay band shown) but qualifications/degree/location sections absent from text fetch on both attempts (partial JS render). Degree, sponsorship, and clearance status unreadable; needs live-browser check. | Tracker first-seen 2026-08-05.",
-  "verification_blocker": "Employer page live (exact title + $128K-$256K pay band shown) but qualifications/degree/location sections absent from text fetch on both attempts (partial JS render). Degree, sponsorship, and clearance status unreadable; needs live-browser check.",
   "source": "google_discovery_2026-10-23"
  },
  {
@@ -554,17 +466,6 @@
  },
  {
   "company": "ByteDance",
-  "title": "Machine Learning Engineer Graduate - E-Commerce Recommendation Video - 2027 Start",
-  "location": "Seattle, WA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7678145401619237173",
-  "description": "Employer verification blocked: Employer page live (title renders; $121.6k-$243.2k Seattle band) but JD body/qualifications are JS-rendered and absent from text extraction. Degree requirement unverified: the exact 'Video' variant's degree text was not found in mirrors after multiple searches (sibling E-Commerce Recommendation variants use mixed templates, so nothing attributable). Needs live-browser check of the degree block. No | Tracker first-seen 2026-08-28.",
-  "verification_blocker": "Employer page live (title renders; $121.6k-$243.2k Seattle band) but JD body/qualifications are JS-rendered and absent from text extraction. Degree requirement unverified: the exact 'Video' variant's degree text was not found in mirrors after multiple searches (sibling E-Commerce Recommendation vari",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
   "title": "Machine Learning Engineer Graduate (E-Commerce Governance) - 2027 Start",
   "location": "San Jose, CA, United States",
   "posting_date": "",
@@ -572,17 +473,6 @@
   "application_link": "https://jobright.ai/jobs/info/6a82c73a9b859b227766afaa",
   "description": "Employer verification blocked: No employer URL found via exact-title search. The Seattle sibling posting (identical title, verbatim employer-JD mirror on theladders, crawled 2026-10-21) uses Minimum: Bachelor's with Master's only under Preferred Qualifications, which fails the strict rule; the San Jose variant very likely shares the template but was not directly confirmed. Likely excluded_degree once the employer URL is recover | Tracker first-seen 2026-08-17.",
   "verification_blocker": "No employer URL found via exact-title search. The Seattle sibling posting (identical title, verbatim employer-JD mirror on theladders, crawled 2026-10-21) uses Minimum: Bachelor's with Master's only under Preferred Qualifications, which fails the strict rule; the San Jose variant very likely shares ",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
-  "title": "AI Engineer Graduate - Client Arch - 2027 Start",
-  "location": "San Jose, CA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7664978367107713333",
-  "description": "Employer verification blocked: Employer page live (title renders; $128k-$256k San Jose band) but JD body/qualifications are JS-rendered and absent from text extraction. Role corroborated by SNHU career board (San Jose, Job Code A13341, recruitment began 2026-08-25). Degree requirement unverified after multiple searches -> needs live-browser check of the degree block. No clearance-related language in visible text. | Tracker first-seen 2026-08-05.",
-  "verification_blocker": "Employer page live (title renders; $128k-$256k San Jose band) but JD body/qualifications are JS-rendered and absent from text extraction. Role corroborated by SNHU career board (San Jose, Job Code A13341, recruitment began 2026-08-25). Degree requirement unverified after multiple searches -> needs l",
   "source": "google_discovery_2026-10-23"
  },
  {
@@ -708,17 +598,6 @@
  },
  {
   "company": "ByteDance",
-  "title": "Backend Software Engineer Graduate - Global E-commerce - 2027 Start",
-  "location": "Seattle, WA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7668827379083823413",
-  "description": "Employer verification blocked: Employer posting live (title and $121.6K-$243.2K pay band render) but JD body is JS-gated and degree text is not extractable via text fetch. Degree, sponsorship, and clearance-related language not verifiable; needs live-browser read of the employer posting. | Tracker first-seen 2026-08-04.",
-  "verification_blocker": "Employer posting live (title and $121.6K-$243.2K pay band render) but JD body is JS-gated and degree text is not extractable via text fetch. Degree, sponsorship, and clearance-related language not verifiable; needs live-browser read of the employer posting.",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
   "title": "Software Engineer Graduate (Ads Delivery) - 2027 Start",
   "location": "San Jose, CA",
   "posting_date": "",
@@ -796,28 +675,6 @@
  },
  {
   "company": "ByteDance",
-  "title": "Fullstack Software Engineer Graduate - Global E-commerce - 2027 Start",
-  "location": "Seattle, WA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7668828193675036981",
-  "description": "Employer verification blocked: Employer page is live (HTTP 200, title + pay-transparency render) but the JD body is JS-gated and does not render in text fetch. No aggregator mirror carrying this exact posting's qualification text was found. Degree, sponsorship, and posting-date status unverifiable read-only; no clearance-related language in rendered text; needs live-browser check. | Tracker first-seen 2026-08-25.",
-  "verification_blocker": "Employer page is live (HTTP 200, title + pay-transparency render) but the JD body is JS-gated and does not render in text fetch. No aggregator mirror carrying this exact posting's qualification text was found. Degree, sponsorship, and posting-date status unverifiable read-only; no clearance-related ",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
-  "title": "Software Engineer Graduate (Global CRM) - 2027 Start",
-  "location": "San Jose, CA, United States",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7668554579301124357",
-  "description": "Employer verification blocked: Employer URL found via exact-title search (lifeattiktok.com/search/7668554579301124357); page is live with title + pay-transparency rendered, but the JD body is JS-gated and does not render in text fetch. No aggregator mirror carrying this exact posting's qualification text was found. Degree, sponsorship, and posting-date status unverifiable read-only; no clearance-related language in rendered tex | Tracker first-seen 2026-08-06.",
-  "verification_blocker": "Employer URL found via exact-title search (lifeattiktok.com/search/7668554579301124357); page is live with title + pay-transparency rendered, but the JD body is JS-gated and does not render in text fetch. No aggregator mirror carrying this exact posting's qualification text was found. Degree, sponso",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
   "title": "Mobile Software Engineer Graduate - Global E-commerce - 2027 Start",
   "location": "San Jose, CA",
   "posting_date": "",
@@ -848,60 +705,5 @@
   "description": "Employer verification blocked: No employer URL found via exact-title search; employer board is JS-gated. Mirrors conflict and none matches this exact title: a fresh simplify.jobs 'Frontend Software Engineer Graduate @ TikTok' mirror shows Bachelor's-only (would fail), while a glassdoor 'Frontend Software Engineer Graduate (TikTok Foundation) - 2027 Start (BS/MS)' mirror shows 'Undergraduate/Master' in one requirement (would pas | Tracker first-seen 2026-08-04.",
   "verification_blocker": "No employer URL found via exact-title search; employer board is JS-gated. Mirrors conflict and none matches this exact title: a fresh simplify.jobs 'Frontend Software Engineer Graduate @ TikTok' mirror shows Bachelor's-only (would fail), while a glassdoor 'Frontend Software Engineer Graduate (TikTok",
   "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "ByteDance",
-  "title": "Software Engineer/Mobile Engineer Graduate - Ads Core Demonstration - 2027 Start",
-  "location": "San Jose, CA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://lifeattiktok.com/search/7668701834807101749",
-  "description": "Employer verification blocked: Employer page is live (HTTP 200, title + pay-transparency render) but the JD body is JS-gated and does not render in text fetch. A sibling 2026-Start posting ('Software Engineer/Mobile Engineer Graduate (Monetization Technology - Ads Core Demonstration) - 2026 Start (BS/MS)') shows 'a Bachelor's/ Master's degree' in one requirement, but that text is not attributable to this 2027 posting. Degree, s | Tracker first-seen 2026-08-03.",
-  "verification_blocker": "Employer page is live (HTTP 200, title + pay-transparency render) but the JD body is JS-gated and does not render in text fetch. A sibling 2026-Start posting ('Software Engineer/Mobile Engineer Graduate (Monetization Technology - Ads Core Demonstration) - 2026 Start (BS/MS)') shows 'a Bachelor's/ Ma",
-  "source": "google_discovery_2026-10-23"
- },
- {
-  "company": "Palantir Technologies",
-  "title": "Forward Deployed Software Engineer - US Government",
-  "location": "San Diego, CA",
-  "posting_date": "",
-  "date_added": "2026-10-23",
-  "application_link": "https://jobright.ai/jobs/info/6a56ce6ce9b77f668bd65ce2",
-  "description": "Jobright card posted ~19h ago; employer board did not load; added to leads_unverified.json for manual check. Earlier DC/NY 'New Grad - US Government' card was 3 months old.",
-  "verification_blocker": "",
-  "source": "jobright"
- },
- {
-  "company": "Lockheed Martin",
-  "title": "Software Engineer (Combat Systems DevSecOps) - Early Career",
-  "location": "Mount Laurel, NJ, United States",
-  "posting_date": "Oct 23",
-  "date_added": "2026-10-23",
-  "application_link": "https://jobright.ai/jobs/info/6ada6a6303d2da7528914d50?utm_campaign=Software%20Engineering&utm_source=1103",
-  "description": "Jobright table lead; employer verification impossible from our routes. User to verify in portal. Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
-  "verification_blocker": "employer site unreachable (DNS NXDOMAIN + CloudFront 403 + empty server reply); routed to Unverified Leads",
-  "source": "hourly_board_2026-10-23"
- },
- {
-  "company": "Lockheed Martin",
-  "title": "A/AI Machine Learning Engineering - Early Career",
-  "location": "Littleton, CO, United States",
-  "posting_date": "Oct 23",
-  "date_added": "2026-10-23",
-  "application_link": "https://jobright.ai/jobs/info/6ada2e9503d2da7528912744?utm_campaign=Engineering%20and%20Development&utm_source=1103",
-  "description": "Jobright table lead; employer verification impossible from our routes. User to verify in portal. Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
-  "verification_blocker": "employer site unreachable (DNS NXDOMAIN + CloudFront 403 + empty server reply); routed to Unverified Leads",
-  "source": "hourly_board_2026-10-23"
- },
- {
-  "company": "Lockheed Martin",
-  "title": "Systems Engineer - Integration and Test - Early Career",
-  "location": "Fort Worth, TX, United States",
-  "posting_date": "Oct 23",
-  "date_added": "2026-10-23",
-  "application_link": "https://jobright.ai/jobs/info/6adab0e83a69033df225b5fd?utm_campaign=Engineering%20and%20Development&utm_source=1103",
-  "description": "Jobright table lead; employer verification impossible from our routes. User to verify in portal. Lockheed Martin's own careers portal is unreachable from our network routes: jobs.lockheedmartin.com and careers.lockheedmartin.com fail DNS resolution (NXDOMAIN on two separate browser routes), www.lockheedmartin.com returns a CloudFront 403 'Request blocked' wall with no challenge UI, and the sandbox route gets an empty reply from the server (curl exit 52). No posting could be read on the employer's own site \u2014 live status, degree quote, sponsorship, and clearance language are all unverified. Note: Lockheed postings frequently carry security-clearance language (any clearance mention excludes the role per the standing student-visa rule), so the degree/clearance/sponsorship filters could NOT be applied here.",
-  "verification_blocker": "employer site unreachable (DNS NXDOMAIN + CloudFront 403 + empty server reply); routed to Unverified Leads",
-  "source": "hourly_board_2026-10-23"
  }
 ]
