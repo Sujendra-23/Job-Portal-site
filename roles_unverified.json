@@ -177,17 +177,6 @@
   "source": "google_discovery_2026-10-21"
  },
  {
-  "company": "Two Sigma",
-  "title": "AI Research Scientist - New Grad (Campus Full-Time)",
-  "location": "New York, NY, US",
-  "posting_date": "2026-08-05",
-  "date_added": "2026-10-22",
-  "application_link": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-AI-Research-Scientist-Campus-Full-Time/13671",
-  "description": "New-grad campus full-time AI research scientist (ML family) from tar-ive tracker. JS-only portal page: description not extractable via scripts; 2 live-browser verification attempts stalled.",
-  "verification_blocker": "JS-only portal page would not render description; browser verification stalled twice",
-  "source": "google_discovery_2026-10-22"
- },
- {
   "company": "American Express",
   "title": "Campus Undergraduate Full-Time Analyst - 2027 Data Engineer I, Enterprise Technology Services",
   "location": "Phoenix, AZ, US",
@@ -672,5 +661,16 @@
   "description": "Employer verification blocked: No employer URL found via exact-title search; employer board is JS-gated. Mirrors conflict and none matches this exact title: a fresh simplify.jobs 'Frontend Software Engineer Graduate @ TikTok' mirror shows Bachelor's-only (would fail), while a glassdoor 'Frontend Software Engineer Graduate (TikTok Foundation) - 2027 Start (BS/MS)' mirror shows 'Undergraduate/Master' in one requirement (would pas | Tracker first-seen 2026-08-04.",
   "verification_blocker": "No employer URL found via exact-title search; employer board is JS-gated. Mirrors conflict and none matches this exact title: a fresh simplify.jobs 'Frontend Software Engineer Graduate @ TikTok' mirror shows Bachelor's-only (would fail), while a glassdoor 'Frontend Software Engineer Graduate (TikTok",
   "source": "google_discovery_2026-10-23"
+ },
+ {
+  "company": "GSK",
+  "title": "Winter Co-op/Compbio-ML Scientist",
+  "location": "Cambridge, MA, United States",
+  "posting_date": "Oct 26",
+  "date_added": "2026-10-26",
+  "application_link": "https://jobright.ai/jobs/info/6adf9d9b9e3e874dbfbae42f",
+  "description": "Winter co-op surfaced 2026-10-26 on the Jobright Engineering New-Grad tracker (Cambridge, MA). Employer verification NOT completed: GSK's own careers site (jobs.gsk.com) loaded normally but its search returned 0 results for 'Compbio-ML', 'Winter Co-op', 'Winter', 'Compbio' and 'Coop', and the Cambridge location filter showed only 6 unrelated roles; the Jobright detail page confirms title/company/location but exposes no employer job ID and no jobs.gsk.com link (its Apply button opens a Jobright sign-up modal). Degree requirement, co-op season window, sponsorship and clearance language are all UNCHECKED \u2014 verify on the employer posting before applying.",
+  "verification_blocker": "Employer posting not found in GSK's own careers-site search (jobs.gsk.com); Jobright detail page exposes no employer application link or job ID",
+  "source": "hourly_board_2026-10-26"
  }
 ]
