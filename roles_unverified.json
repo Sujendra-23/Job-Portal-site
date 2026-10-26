@@ -672,5 +672,16 @@
   "description": "Winter co-op surfaced 2026-10-26 on the Jobright Engineering New-Grad tracker (Cambridge, MA). Employer verification NOT completed: GSK's own careers site (jobs.gsk.com) loaded normally but its search returned 0 results for 'Compbio-ML', 'Winter Co-op', 'Winter', 'Compbio' and 'Coop', and the Cambridge location filter showed only 6 unrelated roles; the Jobright detail page confirms title/company/location but exposes no employer job ID and no jobs.gsk.com link (its Apply button opens a Jobright sign-up modal). Degree requirement, co-op season window, sponsorship and clearance language are all UNCHECKED \u2014 verify on the employer posting before applying.",
   "verification_blocker": "Employer posting not found in GSK's own careers-site search (jobs.gsk.com); Jobright detail page exposes no employer application link or job ID",
   "source": "hourly_board_2026-10-26"
+ },
+ {
+  "company": "Serco",
+  "title": "Entry-Level Software Engineer",
+  "location": "Maryland Heights, MO, United States",
+  "posting_date": "Oct 26",
+  "date_added": "2026-10-26",
+  "application_link": "https://jobright.ai/jobs/info/6adbe87c0a4cc7090f975a97",
+  "description": "Jobright new-grad listing (Oct 26) for an entry-level SWE role in Maryland Heights, MO. Employer posting could not be loaded: the Jobright detail page is behind a persistent Cloudflare human-verification wall (all challenge attempts reset without navigating), and a direct search of Serco North America careers (careers.serco-na.com) found no Maryland Heights/St. Louis match among its 503 jobs. Degree, sponsorship, and clearance language are unchecked \u2014 user to verify.",
+  "verification_blocker": "Jobright human-verification (Cloudflare) wall \u2014 employer page not reached",
+  "source": "hourly_board_2026-10-26"
  }
 ]
