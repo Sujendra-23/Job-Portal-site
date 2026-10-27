@@ -696,14 +696,14 @@
   "source": "hourly_board_2026-10-26"
  },
  {
-  "company": "AL FARAH CONTRACTING & GENERAL TRANSPORT COMPANY -L.L.C - O.P.C",
-  "title": "Software Engineer -Entry-Level (Network Focus)",
-  "location": "Reston, VA, United States",
+  "company": "Viasat",
+  "title": "Embedded Software Engineer, Early Career",
+  "location": "Marlborough, MA, United States",
   "posting_date": "Oct 27",
   "date_added": "2026-10-27",
-  "application_link": "https://jobright.ai/jobs/info/6ae113841f9d9308370a776b?utm_campaign=Software%20Engineering&utm_source=1103",
-  "description": "Surfaced by Jobright 2026-10-27 as a new entry-level network-focus software role in Reston, VA. Employer verification 2026-10-27: the Jobright info page itself sits behind a security challenge in the live browser, so no employer posting could be identified or loaded - no degree quote, sponsorship or clearance language verified. Employer name (a contracting/general-transport LLC/O.P.C) does not match a known software employer careers portal. User to verify.",
-  "verification_blocker": "Jobright info page behind security challenge; employer posting not identified",
+  "application_link": "https://jobright.ai/jobs/info/6ae11cc667c31ab3489a0a96",
+  "description": "Surfaced 2026-10-27 on the Jobright Software Engineering New-Grad tracker as a new Early Career Embedded Software Engineer role in Marlborough, MA. Employer verification NOT completed: Viasat's own careers site (careers.viasat.com) returned HTTP 403 Forbidden in the live browser on two attempts (default session and a fresh session, ~4:49-4:50 PM PDT 2026-10-27), so no employer posting, requisition ID, posting date, degree quote, sponsorship or clearance language could be read. The 403 does not prove the posting is removed \u2014 only that it could not be reached from this browser. Degree, sponsorship, and clearance language are UNCHECKED \u2014 verify on the employer posting before applying.",
+  "verification_blocker": "Employer careers site HTTP 403 (careers.viasat.com) on two live-browser attempts \u2014 employer page not reached",
   "source": "hourly_board_2026-10-27"
  }
 ]
