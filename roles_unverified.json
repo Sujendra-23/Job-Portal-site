@@ -683,5 +683,16 @@
   "description": "Jobright new-grad listing (Oct 26) for an entry-level SWE role in Maryland Heights, MO. Employer posting could not be loaded: the Jobright detail page is behind a persistent Cloudflare human-verification wall (all challenge attempts reset without navigating), and a direct search of Serco North America careers (careers.serco-na.com) found no Maryland Heights/St. Louis match among its 503 jobs. Degree, sponsorship, and clearance language are unchecked \u2014 user to verify.",
   "verification_blocker": "Jobright human-verification (Cloudflare) wall \u2014 employer page not reached",
   "source": "hourly_board_2026-10-26"
+ },
+ {
+  "company": "Travelport",
+  "title": "Entry-Level Software Engineer",
+  "location": "Maryland Heights, MO, United States",
+  "posting_date": "Oct 26",
+  "date_added": "2026-10-26",
+  "application_link": "https://jobright.ai/jobs/info/6adbf2ea46a8cabdc1ff5c8f?utm_campaign=Software%20Engineering&utm_source=1103",
+  "description": "Surfaced by Jobright 2026-10-26 as a new entry-level software role in Maryland Heights, MO. Employer verification 2026-10-26: Travelport's careers page and Oracle jobs portal (17 open jobs) both loaded, but no posting titled Entry-Level Software Engineer in Maryland Heights, MO was found; keyword search returned only 'ZTPF SOFTWARE DEVELOPMENT ENGINEER' (Remote, US, posted 10/26/2026). No employer URL, posting date, degree quote, sponsorship or clearance language could be verified. User to verify.",
+  "verification_blocker": "employer portal loaded but no matching posting found (not a load wall or bot block)",
+  "source": "hourly_board_2026-10-26"
  }
 ]
