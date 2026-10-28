@@ -694,16 +694,5 @@
   "description": "Surfaced by Jobright 2026-10-26 as a new entry-level software role in Maryland Heights, MO. Employer verification 2026-10-26: Travelport's careers page and Oracle jobs portal (17 open jobs) both loaded, but no posting titled Entry-Level Software Engineer in Maryland Heights, MO was found; keyword search returned only 'ZTPF SOFTWARE DEVELOPMENT ENGINEER' (Remote, US, posted 10/26/2026). No employer URL, posting date, degree quote, sponsorship or clearance language could be verified. User to verify.",
   "verification_blocker": "employer portal loaded but no matching posting found (not a load wall or bot block)",
   "source": "hourly_board_2026-10-26"
- },
- {
-  "company": "Viasat",
-  "title": "Embedded Software Engineer, Early Career",
-  "location": "Marlborough, MA, United States",
-  "posting_date": "Oct 27",
-  "date_added": "2026-10-27",
-  "application_link": "https://jobright.ai/jobs/info/6ae11cc667c31ab3489a0a96",
-  "description": "Surfaced 2026-10-27 on the Jobright Software Engineering New-Grad tracker as a new Early Career Embedded Software Engineer role in Marlborough, MA. Employer verification NOT completed: Viasat's own careers site (careers.viasat.com) returned HTTP 403 Forbidden in the live browser on two attempts (default session and a fresh session, ~4:49-4:50 PM PDT 2026-10-27), so no employer posting, requisition ID, posting date, degree quote, sponsorship or clearance language could be read. The 403 does not prove the posting is removed \u2014 only that it could not be reached from this browser. Degree, sponsorship, and clearance language are UNCHECKED \u2014 verify on the employer posting before applying.",
-  "verification_blocker": "Employer careers site HTTP 403 (careers.viasat.com) on two live-browser attempts \u2014 employer page not reached",
-  "source": "hourly_board_2026-10-27"
  }
 ]
