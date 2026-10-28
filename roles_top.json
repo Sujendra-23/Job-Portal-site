@@ -2099,5 +2099,16 @@
   "description": "Graduate Deep Learning Researcher at IMC Trading (New York, US), verified live 2026-10-24 on IMC's Greenhouse board. Graduate research role in deep learning. Degree requirement: PhD, Master's or Bachelor's degree (completed to start full time in February or August 2027, or currently in a postdoctoral position) in Computer Science, Machine Learning, Artificial Intelligence, Mathematics, Statistics, Engineering, or a related quantitative field \u2014 accepts both Bachelor's and Master's. The August 2027 start fits a May 2027 graduation. Posting text does not state a sponsorship policy; the application form asks about sponsorship needs.",
   "degree": "Bachelor's, Master's or PhD",
   "source": "google_discovery_2026-10-24"
+ },
+ {
+  "company": "NVIDIA",
+  "title": "Deep Learning Performance Architect - New College Grad 2027",
+  "location": "Santa Clara, California, United States",
+  "date_added": "2026-10-27",
+  "posting_date": "2026-10-27",
+  "application_link": "https://jobs.nvidia.com/careers?query=Deep+Learning+Performance+Architect&start=0&pid=893398399837&sort_by=relevance",
+  "description": "New College Grad 2027 role on NVIDIA's GPU compute architecture and performance engineering team (Santa Clara; req JR2028177). Pre-silicon performance and system-level modeling, data-supported architecture exploration, and GPU microarchitecture improvement for LLM inference, agentic AI, and other generative AI workloads. Build or improve pre-silicon performance models, develop correlation methodologies, study GPU microarchitecture and system-level effects on end-to-end performance, identify bottlenecks across model execution, kernels, data movement, and system behavior, and collaborate with kernel, hardware, and framework teams. Requires good C++ and Python skills, basic understanding of modern deep learning models such as Transformers or LLMs, and exposure through coursework, research, internships, or projects to computer architecture, parallel programming, or performance analysis. Base salary $124,000-$195,500 for Level 2 and $152,000-$241,500 for Level 3, plus equity and benefits. Applications accepted at least until October 31, 2026.",
+  "degree": "BS/MS",
+  "source": "linkedin_jobs"
  }
 ]
