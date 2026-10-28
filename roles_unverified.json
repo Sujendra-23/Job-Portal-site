@@ -694,5 +694,16 @@
   "description": "Surfaced by Jobright 2026-10-26 as a new entry-level software role in Maryland Heights, MO. Employer verification 2026-10-26: Travelport's careers page and Oracle jobs portal (17 open jobs) both loaded, but no posting titled Entry-Level Software Engineer in Maryland Heights, MO was found; keyword search returned only 'ZTPF SOFTWARE DEVELOPMENT ENGINEER' (Remote, US, posted 10/26/2026). No employer URL, posting date, degree quote, sponsorship or clearance language could be verified. User to verify.",
   "verification_blocker": "employer portal loaded but no matching posting found (not a load wall or bot block)",
   "source": "hourly_board_2026-10-26"
+ },
+ {
+  "company": "MFS Investment Management",
+  "title": "Spring 2027 Systems Engineering - Cloud Technologies Co-Op (January - June)",
+  "location": "Boston, MA, United States",
+  "posting_date": "Oct 28",
+  "date_added": "2026-10-28",
+  "application_link": "https://jobright.ai/jobs/info/6ac5775a372c01f6cd739e4b",
+  "description": "Spring 2027 co-op, January-June, hybrid, $21-$25/hr. Cloud Technologies team: hybrid/cloud tech in an enterprise environment, Azure and Microsoft 365. UNVERIFIED: employer posting could not be loaded (Jobright exposes no MFS careers URL; its Apply button opens a Jobright sign-up dialog; search found no MFS employer posting). Caveats for user verification: aggregator description states no degree requirement (degree silence would fail the strict BS+MS rule if the employer text matches); Indeed lists this same role as posted 21 days ago, so the Jobright \"2 hours ago\" stamp may be a re-listing date, not the employer publish date. No sponsorship or clearance language in the aggregator text.",
+  "verification_blocker": "employer posting not reachable: no MFS careers URL on Jobright page; Apply gated behind Jobright sign-up",
+  "source": "hourly_board_2026-10-28"
  }
 ]
