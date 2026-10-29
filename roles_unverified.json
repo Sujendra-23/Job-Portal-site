@@ -696,14 +696,14 @@
   "source": "hourly_board_2026-10-26"
  },
  {
-  "company": "MFS Investment Management",
-  "title": "Spring 2027 Systems Engineering - Cloud Technologies Co-Op (January - June)",
-  "location": "Boston, MA, United States",
-  "posting_date": "Oct 28",
-  "date_added": "2026-10-28",
-  "application_link": "https://jobright.ai/jobs/info/6ac5775a372c01f6cd739e4b",
-  "description": "Spring 2027 co-op, January-June, hybrid, $21-$25/hr. Cloud Technologies team: hybrid/cloud tech in an enterprise environment, Azure and Microsoft 365. UNVERIFIED: employer posting could not be loaded (Jobright exposes no MFS careers URL; its Apply button opens a Jobright sign-up dialog; search found no MFS employer posting). Caveats for user verification: aggregator description states no degree requirement (degree silence would fail the strict BS+MS rule if the employer text matches); Indeed lists this same role as posted 21 days ago, so the Jobright \"2 hours ago\" stamp may be a re-listing date, not the employer publish date. No sponsorship or clearance language in the aggregator text.",
-  "verification_blocker": "employer posting not reachable: no MFS careers URL on Jobright page; Apply gated behind Jobright sign-up",
-  "source": "hourly_board_2026-10-28"
+  "company": "Lockheed Martin",
+  "title": "A/AI Machine Learning Engineer - Early Career",
+  "location": "King of Prussia, PA, United States",
+  "posting_date": "Oct 29",
+  "date_added": "2026-10-29",
+  "application_link": "https://lockheedmartin.eightfold.ai/careers/job/996477303406?domain=lockheedmartin.com",
+  "description": "New Jobright commit row (Oct 29). Employer posting confirmed live on Lockheed Martin's eightfold board (job 996477303406, title matches) but the full description text did not render for verification in this run, so the degree requirement, clearance status, and sponsorship terms could not be checked. Prior same-family Lockheed A/AI early-career postings in Littleton, CO were clearance-excluded, but this King of Prussia requisition is a different posting and was not assumed to match. Aggregator link: https://jobright.ai/jobs/info/6ae256a0de23f466ec8c53ed",
+  "verification_blocker": "employer eightfold posting loads (title confirmed) but the full description text did not render for verification in this run",
+  "source": "hourly_board_2026-10-29"
  }
 ]
