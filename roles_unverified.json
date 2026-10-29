@@ -694,16 +694,5 @@
   "description": "Surfaced by Jobright 2026-10-26 as a new entry-level software role in Maryland Heights, MO. Employer verification 2026-10-26: Travelport's careers page and Oracle jobs portal (17 open jobs) both loaded, but no posting titled Entry-Level Software Engineer in Maryland Heights, MO was found; keyword search returned only 'ZTPF SOFTWARE DEVELOPMENT ENGINEER' (Remote, US, posted 10/26/2026). No employer URL, posting date, degree quote, sponsorship or clearance language could be verified. User to verify.",
   "verification_blocker": "employer portal loaded but no matching posting found (not a load wall or bot block)",
   "source": "hourly_board_2026-10-26"
- },
- {
-  "company": "Lockheed Martin",
-  "title": "A/AI Machine Learning Engineer - Early Career",
-  "location": "King of Prussia, PA, United States",
-  "posting_date": "Oct 29",
-  "date_added": "2026-10-29",
-  "application_link": "https://lockheedmartin.eightfold.ai/careers/job/996477303406?domain=lockheedmartin.com",
-  "description": "New Jobright commit row (Oct 29). Employer posting confirmed live on Lockheed Martin's eightfold board (job 996477303406, title matches) but the full description text did not render for verification in this run, so the degree requirement, clearance status, and sponsorship terms could not be checked. Prior same-family Lockheed A/AI early-career postings in Littleton, CO were clearance-excluded, but this King of Prussia requisition is a different posting and was not assumed to match. Aggregator link: https://jobright.ai/jobs/info/6ae256a0de23f466ec8c53ed",
-  "verification_blocker": "employer eightfold posting loads (title confirmed) but the full description text did not render for verification in this run",
-  "source": "hourly_board_2026-10-29"
  }
 ]
