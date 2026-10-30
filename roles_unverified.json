@@ -696,14 +696,14 @@
   "source": "hourly_board_2026-10-26"
  },
  {
-  "company": "Hendler Family Brewing Co.",
-  "title": "Software Engineering and IT Co-Op",
-  "location": "Framingham, MA, United States",
-  "posting_date": "",
+  "company": "Nokia",
+  "title": "Software Engineer Co-op",
+  "location": "Murray Hill, NJ, United States",
+  "posting_date": "Oct 30",
   "date_added": "2026-10-30",
-  "application_link": "https://hendler-family-brewing-co.r365hire.com/j/036oh93",
-  "description": "Employer posting could not be loaded for verification: the employer's ATS page returns a bare 403 Forbidden (also on the ATS home page and the employer's site embed). Syndicated listings (Jobright/LinkedIn/Indeed, active 2026-10-30) describe a Jan-May 2027 flexible co-op, hybrid 3 days onsite in Framingham, $20-23/hr, on the Data team (React/TypeScript/SQL/PostgreSQL, SAP Business One). Syndicated text suggests Bachelor's-enrollment wording; degree fit, sponsorship, and posting date are NOT employer-verified - user to verify on the employer page once it loads.",
-  "verification_blocker": "employer site 403 Forbidden (r365hire.com ATS)",
+  "application_link": "https://jobright.ai/jobs/info/6ae50b60c3139b475b5b8695",
+  "description": "Jobright Engineering-new-grad row dated Oct 30 (Hybrid, Murray Hill NJ). Employer posting could not be loaded for verification this run: Jobright info page returned 403 to text fetch and two live-browser verification attempts closed without a result. Co-op season (must fit Jan-Jun 2027) and degree wording unverified.",
+  "verification_blocker": "Jobright page 403 to text fetch; live-browser verification produced no result in this run",
   "source": "hourly_board_2026-10-30"
  }
 ]
