@@ -694,16 +694,5 @@
   "description": "Surfaced by Jobright 2026-10-26 as a new entry-level software role in Maryland Heights, MO. Employer verification 2026-10-26: Travelport's careers page and Oracle jobs portal (17 open jobs) both loaded, but no posting titled Entry-Level Software Engineer in Maryland Heights, MO was found; keyword search returned only 'ZTPF SOFTWARE DEVELOPMENT ENGINEER' (Remote, US, posted 10/26/2026). No employer URL, posting date, degree quote, sponsorship or clearance language could be verified. User to verify.",
   "verification_blocker": "employer portal loaded but no matching posting found (not a load wall or bot block)",
   "source": "hourly_board_2026-10-26"
- },
- {
-  "company": "Nokia",
-  "title": "Software Engineer Co-op",
-  "location": "Murray Hill, NJ, United States",
-  "posting_date": "Oct 30",
-  "date_added": "2026-10-30",
-  "application_link": "https://jobright.ai/jobs/info/6ae50b60c3139b475b5b8695",
-  "description": "Jobright Engineering-new-grad row dated Oct 30 (Hybrid, Murray Hill NJ). Employer posting could not be loaded for verification this run: Jobright info page returned 403 to text fetch and two live-browser verification attempts closed without a result. Co-op season (must fit Jan-Jun 2027) and degree wording unverified.",
-  "verification_blocker": "Jobright page 403 to text fetch; live-browser verification produced no result in this run",
-  "source": "hourly_board_2026-10-30"
  }
 ]
