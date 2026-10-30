@@ -694,5 +694,16 @@
   "description": "Surfaced by Jobright 2026-10-26 as a new entry-level software role in Maryland Heights, MO. Employer verification 2026-10-26: Travelport's careers page and Oracle jobs portal (17 open jobs) both loaded, but no posting titled Entry-Level Software Engineer in Maryland Heights, MO was found; keyword search returned only 'ZTPF SOFTWARE DEVELOPMENT ENGINEER' (Remote, US, posted 10/26/2026). No employer URL, posting date, degree quote, sponsorship or clearance language could be verified. User to verify.",
   "verification_blocker": "employer portal loaded but no matching posting found (not a load wall or bot block)",
   "source": "hourly_board_2026-10-26"
+ },
+ {
+  "company": "Hendler Family Brewing Co.",
+  "title": "Software Engineering and IT Co-Op",
+  "location": "Framingham, MA, United States",
+  "posting_date": "",
+  "date_added": "2026-10-30",
+  "application_link": "https://hendler-family-brewing-co.r365hire.com/j/036oh93",
+  "description": "Employer posting could not be loaded for verification: the employer's ATS page returns a bare 403 Forbidden (also on the ATS home page and the employer's site embed). Syndicated listings (Jobright/LinkedIn/Indeed, active 2026-10-30) describe a Jan-May 2027 flexible co-op, hybrid 3 days onsite in Framingham, $20-23/hr, on the Data team (React/TypeScript/SQL/PostgreSQL, SAP Business One). Syndicated text suggests Bachelor's-enrollment wording; degree fit, sponsorship, and posting date are NOT employer-verified - user to verify on the employer page once it loads.",
+  "verification_blocker": "employer site 403 Forbidden (r365hire.com ATS)",
+  "source": "hourly_board_2026-10-30"
  }
 ]
