@@ -694,5 +694,16 @@
   "description": "Surfaced by Jobright 2026-10-26 as a new entry-level software role in Maryland Heights, MO. Employer verification 2026-10-26: Travelport's careers page and Oracle jobs portal (17 open jobs) both loaded, but no posting titled Entry-Level Software Engineer in Maryland Heights, MO was found; keyword search returned only 'ZTPF SOFTWARE DEVELOPMENT ENGINEER' (Remote, US, posted 10/26/2026). No employer URL, posting date, degree quote, sponsorship or clearance language could be verified. User to verify.",
   "verification_blocker": "employer portal loaded but no matching posting found (not a load wall or bot block)",
   "source": "hourly_board_2026-10-26"
+ },
+ {
+  "company": "CrowdStrike",
+  "title": "Engineer 1",
+  "location": "Not stated in listing",
+  "posting_date": "",
+  "date_added": "2026-10-30",
+  "application_link": "https://simplify.jobs/p/ad86e15b-b254-43b5-b437-355893991349/Engineer-1",
+  "description": "SDE role on the Falcon Host sensor team (Windows/Linux/Mac sensor agent), surfaced via Simplify search 2026-10-30. Employer verification 2026-10-30 blocked: crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers redirects immediately to crowdstrike.com careers page in both script and live-browser attempts (bot wall, no CAPTCHA shown). Mirror text (NOT employer-verified) flags: 'B.S. Degree in related field' (Bachelor's-only signal), 1-3 years experience shipping major features, and no explicit new-grad/entry-level marker in the title. Location not shown in the listing.",
+  "verification_blocker": "CrowdStrike Workday redirects to main careers page (bot wall) from sandbox and live browser; posting could not be loaded.",
+  "source": "google_discovery_2026-10-30"
  }
 ]
