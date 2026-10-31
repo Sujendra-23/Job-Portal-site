@@ -2308,5 +2308,16 @@
   "description": "Software Development Engineer (Database) Early Career - 2027 (US), Job ID 10593902 (Amazon.jobs). Build, design and operate database-focused products and services at scale: collaborate with cross-disciplinary teams, break down ambiguous problems, contribute to scalable reliable services, conduct code reviews, write technical documentation, and use GenAI/AI-assisted development tools with critical validation. Basic qualifications: 18+, experience with at least one general-purpose language (Java, Python, C++, C#, Go, Rust, TypeScript), data structures/algorithms/OO design, AI-assisted development tools, and currently has or is in the process of obtaining a bachelor's or master's degree in CS, Computer Engineering, Data Science, Information Systems, or related STEM fields. Preferred: prior technical internship/project experience, AWS, SQL/NoSQL database systems. Starting pay: $129,000/yr (Austin, Boston, Redmond, Seattle), $148,400/yr (East Palo Alto). Degree: posting explicitly accepts bachelor's or master's (BS/MS). Sponsorship: sponsorship not stated in posting text. Verified live on amazon.jobs 2026-10-30; employer page shows no publication date (vansh tracker dated it within the last 2 hours of the 16:46 run).",
   "degree": "BS/MS",
   "source": "hourly_board_2026-10-30"
+ },
+ {
+  "company": "Tesla",
+  "title": "Internship, Distributed Systems Software Engineer, Energy Engineering (Winter/Spring 2027)",
+  "location": "Palo Alto, CA",
+  "date_added": "2026-10-31",
+  "posting_date": "",
+  "application_link": "https://www.tesla.com/careers/search/job/internship-distributed-systems-software-engineer-energy-engineering-winter-spring-2027-285508",
+  "description": "Internship, Distributed Systems Software Engineer, Energy Engineering (Winter/Spring 2027)\n\nLocation: Palo Alto, CA\nReq. ID: 285508\nJob Type: Intern/Apprentice\n\nWhat to Expect\n\nThis position is expected to start January 2027 and continue through the entire Winter/Spring term (i.e through April/May 2027) or into Summer 2027 if available. Minimum 12 weeks, full-time (40 hours/week), on-site.\n\nDegree: Currently pursuing a degree in Computer Science, Engineering, or related field\n\nPreferred: Experience with Rust and DuckDB preferred\n\nWork authorization: sponsorship not stated in posting text. The posting's International Students paragraph addresses CPT work authorization only. Tesla participates in the E-Verify Program.\n\nSecurity: no clearance-related language appears in the posting.",
+  "degree": "Neutral",
+  "source": "linkedin_jobs"
  }
 ]
