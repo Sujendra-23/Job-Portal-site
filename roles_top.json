@@ -2319,5 +2319,16 @@
   "description": "Internship, Distributed Systems Software Engineer, Energy Engineering (Winter/Spring 2027)\n\nLocation: Palo Alto, CA\nReq. ID: 285508\nJob Type: Intern/Apprentice\n\nWhat to Expect\n\nThis position is expected to start January 2027 and continue through the entire Winter/Spring term (i.e through April/May 2027) or into Summer 2027 if available. Minimum 12 weeks, full-time (40 hours/week), on-site.\n\nDegree: Currently pursuing a degree in Computer Science, Engineering, or related field\n\nPreferred: Experience with Rust and DuckDB preferred\n\nWork authorization: sponsorship not stated in posting text. The posting's International Students paragraph addresses CPT work authorization only. Tesla participates in the E-Verify Program.\n\nSecurity: no clearance-related language appears in the posting.",
   "degree": "Neutral",
   "source": "linkedin_jobs"
+ },
+ {
+  "company": "Zipline",
+  "title": "Software Engineer Intern (Spring 2027)",
+  "location": "South San Francisco, CA",
+  "date_added": "2026-10-31",
+  "posting_date": "",
+  "application_link": "https://www.zipline.com/open-roles/7907191003?gh_jid=7907191003",
+  "description": "Zipline - Software Engineer Intern (Spring 2027), South San Francisco, CA. Originally delivered 2026-09-30; restored 2026-10-31 after falling out of roles.json, re-verified live on Zipline's Greenhouse board 2026-10-31 (board first published 2026-08-20; board page shows no calendar posting date, so posting_date left empty). Season: Spring 2027 interns hosted January 2027 - April 2027, full-time, in-person at South San Francisco office. Work: technical ownership of features across consumer mobile and web apps; React Native mobile codebase or backend services in Python and Go. Requirements: must have completed the second year of undergraduate studies; Masters and PhD students also eligible. Sponsorship not stated in posting text. No clearance-related language.",
+  "degree": "BS/MS",
+  "source": "portal_sweep_2026-10-31"
  }
 ]
