@@ -144,17 +144,6 @@
   "source": "hourly_board_2026-10-19"
  },
  {
-  "company": "Citadel Securities",
-  "title": "Software Engineer - Intern (US)",
-  "location": "Miami, FL + 1 other",
-  "posting_date": "",
-  "date_added": "2026-10-21",
-  "application_link": "https://www.citadelsecurities.com/careers/open-opportunities/",
-  "description": "Google-indexed employer posting (\"Software Engineer - Intern (US)\", Miami FL + 1 other; Google showed \"posted 2 days ago\"). Season, degree requirements, and sponsorship language unverified.",
-  "verification_blocker": "Employer jobs board offline for scheduled maintenance on 2026-10-21 (checked 11:40, 11:41, 11:42, 11:45 PDT): open-opportunities page showed only a maintenance notice; detail URLs redirected into it. Legacy Greenhouse board citadelsecurities is inactive (page no longer active).",
-  "source": "browser_rotation"
- },
- {
   "company": "IBM",
   "title": "Entry Level AI Software Engineer",
   "location": "Poughkeepsie, NY; Durham, NC",
@@ -705,16 +694,5 @@
   "description": "SDE role on the Falcon Host sensor team (Windows/Linux/Mac sensor agent), surfaced via Simplify search 2026-10-30. Employer verification 2026-10-30 blocked: crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers redirects immediately to crowdstrike.com careers page in both script and live-browser attempts (bot wall, no CAPTCHA shown). Mirror text (NOT employer-verified) flags: 'B.S. Degree in related field' (Bachelor's-only signal), 1-3 years experience shipping major features, and no explicit new-grad/entry-level marker in the title. Location not shown in the listing.",
   "verification_blocker": "CrowdStrike Workday redirects to main careers page (bot wall) from sandbox and live browser; posting could not be loaded.",
   "source": "google_discovery_2026-10-30"
- },
- {
-  "company": "HPE (University)",
-  "title": "Software Engineering Intern",
-  "location": "Sunnyvale, California, United States",
-  "posting_date": "2026-10-30",
-  "date_added": "2026-10-30",
-  "application_link": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214146?s=gh-new-grad-software-engineering-jobs-2027",
-  "description": "Aggregator (zapplyjobs, req 1214146 via HPE Workday jobsathpe) lists Software Engineering Intern, Sunnyvale CA, sponsor-flagged. Employer posting could NOT be verified: HPE Workday returns its maintenance/unavailable page from scripts and from a fresh page fetch (2026-10-31 06:55 UTC). Season (Spring/Winter vs Summer 2027), degree requirement, posting date, sponsorship and clearance language are all UNVERIFIED \u2014 aggregator mirrors of HPE SWE-intern postings show conflicting degree texts across requisitions, so req 1214146 itself must be checked when Workday recovers. Note: the same req appeared in the prior hour's zapply feed, so treat the aggregator \"1h\" age as a re-list age, not a confirmed publish date.",
-  "verification_blocker": "employer site unavailable (HPE Workday maintenance page)",
-  "source": "hourly_board_2026-10-30"
  }
 ]
