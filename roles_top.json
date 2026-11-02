@@ -2330,5 +2330,27 @@
   "description": "Zipline - Software Engineer Intern (Spring 2027), South San Francisco, CA. Originally delivered 2026-09-30; restored 2026-10-31 after falling out of roles.json, re-verified live on Zipline's Greenhouse board 2026-10-31 (board first published 2026-08-20; board page shows no calendar posting date, so posting_date left empty). Season: Spring 2027 interns hosted January 2027 - April 2027, full-time, in-person at South San Francisco office. Work: technical ownership of features across consumer mobile and web apps; React Native mobile codebase or backend services in Python and Go. Requirements: must have completed the second year of undergraduate studies; Masters and PhD students also eligible. Sponsorship not stated in posting text. No clearance-related language.",
   "degree": "BS/MS",
   "source": "portal_sweep_2026-10-31"
+ },
+ {
+  "company": "Applied Materials",
+  "title": "2027 Engineer Development Rotation Program - Systems Engineer I New College Grad - BS or MS (Gloucester, MA)",
+  "location": "Gloucester, MA",
+  "date_added": "2026-11-02",
+  "posting_date": "",
+  "application_link": "https://careers.appliedmaterials.com/careers?query=2027+Engineer+Development+Rotation+Program+-+Systems+Engineer+I+New+College+Grad&start=0&pid=790317704779&sort_by=relevance",
+  "description": "Applied Materials 2027 Engineer Development Rotation Program - Systems Engineer I, New College Grad, Gloucester, MA (hybrid, 2+ days on-site; program begins summer 2027). Full-time new-graduate rotation role. Degree: graduating with a Bachelor's (or Master's) degree in Physics, Electrical Engineering, Mechanical Engineering, Systems Engineering or related field; intended for students expected to graduate in 2026/2027. Sponsorship not stated in posting text. No clearance-related language. Employer page shows only a relative 'Posted 3 months ago' label, so no calendar posting date is recorded.",
+  "degree": "BS/MS",
+  "source": "hourly_board_2026-11-02"
+ },
+ {
+  "company": "Verkada",
+  "title": "Backend Software Engineer - University Graduate 2027",
+  "location": "San Mateo, CA",
+  "date_added": "2026-11-02",
+  "posting_date": "",
+  "application_link": "https://job-boards.greenhouse.io/verkada/jobs/5280545007",
+  "description": "Verkada Backend Software Engineer - University Graduate 2027, San Mateo, CA (on-site at HQ). Full-time new-graduate backend role for students graduating in 2027; pay range $145,000-$175,000 base for San Mateo HQ plus $25,000 cost-of-living addition for San Mateo-based staff. Degree: BS/MS in Computer Science or similar technical field. Sponsorship offered for this role. No clearance-related language. Employer page shows only a 'New' badge, so no calendar posting date is recorded.",
+  "degree": "BS/MS",
+  "source": "hourly_board_2026-11-02"
  }
 ]
