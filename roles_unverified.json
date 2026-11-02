@@ -694,16 +694,5 @@
   "description": "SDE role on the Falcon Host sensor team (Windows/Linux/Mac sensor agent), surfaced via Simplify search 2026-10-30. Employer verification 2026-10-30 blocked: crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers redirects immediately to crowdstrike.com careers page in both script and live-browser attempts (bot wall, no CAPTCHA shown). Mirror text (NOT employer-verified) flags: 'B.S. Degree in related field' (Bachelor's-only signal), 1-3 years experience shipping major features, and no explicit new-grad/entry-level marker in the title. Location not shown in the listing.",
   "verification_blocker": "CrowdStrike Workday redirects to main careers page (bot wall) from sandbox and live browser; posting could not be loaded.",
   "source": "google_discovery_2026-10-30"
- },
- {
-  "company": "Susquehanna International Group",
-  "title": "Software Developer, Market Data",
-  "location": "Bala-Cynwyd, PA",
-  "posting_date": "",
-  "date_added": "2026-11-02",
-  "application_link": "https://www.linkedin.com/jobs/view/4429492458/",
-  "description": "Found via LinkedIn Jobs (Entry level + past 24 hours) Nov 2, 2026. US software-developer role at SIG's Bala-Cynwyd office, but the employer's own posting could not be loaded for verification: careers.sig.com returned 403 Forbidden in the live browser on both the job-search URL and the home page. Degree, sponsorship, clearance, and new-grad eligibility are unchecked. A related Oct 11 ledger row ('Software Developer | Market Data | Libraries & Tools', no link) may or may not be the same opening.",
-  "verification_blocker": "careers.sig.com 403 Forbidden (live browser, Nov 2, 2026); block not bypassed",
-  "source": "linkedin_jobs"
  }
 ]
