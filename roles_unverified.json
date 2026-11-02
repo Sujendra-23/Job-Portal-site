@@ -694,16 +694,5 @@
   "description": "SDE role on the Falcon Host sensor team (Windows/Linux/Mac sensor agent), surfaced via Simplify search 2026-10-30. Employer verification 2026-10-30 blocked: crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers redirects immediately to crowdstrike.com careers page in both script and live-browser attempts (bot wall, no CAPTCHA shown). Mirror text (NOT employer-verified) flags: 'B.S. Degree in related field' (Bachelor's-only signal), 1-3 years experience shipping major features, and no explicit new-grad/entry-level marker in the title. Location not shown in the listing.",
   "verification_blocker": "CrowdStrike Workday redirects to main careers page (bot wall) from sandbox and live browser; posting could not be loaded.",
   "source": "google_discovery_2026-10-30"
- },
- {
-  "company": "Davidson Technologies",
-  "title": "Entry-Level Systems Engineer - Woburn, MA",
-  "location": "Woburn, MA, United States",
-  "posting_date": "Oct 31",
-  "date_added": "2026-11-01",
-  "application_link": "https://jobright.ai/jobs/info/6ae7bd21bad9293a40a42f49",
-  "description": "Jobright Engineering README truly-new row (posted Oct 31 per Jobright). Employer verification blocked: Jobright info page returns 403 / live-browser security challenge, and the employer ApplicantPro posting for the exact \"Entry-Level\" title could not be located (older Woburn \"Junior Systems Engineer\" posting requires 5-8 yrs; a stale applicantpro ID now resolves to a different role). Davidson is a missile-defense contractor; clearance/citizenship and degree wording still unchecked - user to verify.",
-  "verification_blocker": "employer posting not locatable this run; Jobright detail page bot-walled",
-  "source": "hourly_board_2026-11-01"
  }
 ]
