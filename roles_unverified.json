@@ -694,5 +694,16 @@
   "description": "SDE role on the Falcon Host sensor team (Windows/Linux/Mac sensor agent), surfaced via Simplify search 2026-10-30. Employer verification 2026-10-30 blocked: crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers redirects immediately to crowdstrike.com careers page in both script and live-browser attempts (bot wall, no CAPTCHA shown). Mirror text (NOT employer-verified) flags: 'B.S. Degree in related field' (Bachelor's-only signal), 1-3 years experience shipping major features, and no explicit new-grad/entry-level marker in the title. Location not shown in the listing.",
   "verification_blocker": "CrowdStrike Workday redirects to main careers page (bot wall) from sandbox and live browser; posting could not be loaded.",
   "source": "google_discovery_2026-10-30"
+ },
+ {
+  "company": "Lockheed Martin",
+  "title": "Systems Engineering - Early Career",
+  "location": "Palmdale, CA, United States",
+  "posting_date": "Nov 05",
+  "date_added": "2026-11-05",
+  "application_link": "https://jobright.ai/jobs/info/6aed2a3ea2661405dc2c99af",
+  "description": "Early-career Systems Engineering role (On Site, Palmdale CA) surfaced via Jobright Engineering New Grad README 2026-11-05. Employer verification 2026-11-05 blocked: the Jobright info page returns HTTP 403 from scripts and sits behind a Jobright security challenge in the live browser (challenge never cleared; browser window closed without a read). No employer application URL or requisition number is exposed \u2014 Jobright's Apply button is a sign-up wall, not an employer link. Lockheed's Eightfold board API also 403s from scripts. Web search found no exact mirror of this Palmdale posting. Context only (NOT verified for this posting): other Palmdale ADP early-career Lockheed roles carry government-security-clearance language, and the same title family was clearance-excluded at Liverpool NY (2026-10-13) and King of Prussia (2026-10-22) \u2014 degree/sponsorship/clearance for THIS posting are unchecked.",
+  "verification_blocker": "Jobright info page security challenge (human-verification wall) in live browser; HTTP 403 from scripts; employer link/req not exposed",
+  "source": "hourly_board_2026-11-05"
  }
 ]
