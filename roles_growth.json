@@ -130,16 +130,6 @@
   "source": "portal_sweep_2026-10-14"
  },
  {
-  "company": "Cursor",
-  "title": "Software Engineer, New Grad 2027",
-  "location": "San Francisco",
-  "posting_date": "2026-09-08",
-  "application_link": "https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b",
-  "description": "Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n About the Role\n We're hiring new grad engineers to join SpaceXAI software engineering teams. You'll own real product work on the surfaces our users live in every day: Grok Bot, Cloud Agents, Cursor and the systems underneath.\n You will design, build, and ship delightful and bulletproof products and systems that engineers love to use every day. This role values a strong attention to details, first principles reasoning, and great taste. That means picking up concrete problems, driving them end to end (UI through a bit of backend when needed), and raising the bar on taste and correctness while you move fast.\n You'll work alongside a small, talent-dense team with high ownership and little hierarchy. Strong fundamentals matter. So does judgment about when to use AI tools as leverage without giving up correctness.\n\n You may be a fit if: \n You're graduating in Spring 2027 (CS, software engineering, computer engineering, or a related technical field).\n\n You've already built something great \u2014 an app, OSS, or shipped product we can open and review ( required ).\n\n You blend strong engineering and AI tools as leverage without giving up correctness.\n\n You learn fast, take ownership, and have already done something meaningfully hard early (internships or equivalent industry experience welcome).\n\n Sample projects include:\n Adding a small UI improvement so AI-generated code or PRs are easier to read and review\n\n Turning a teammate\u2019s rough idea into a working prototype over a few days, then iterating based on feedback\n\n Shipping a contained feature (frontend + a bit of backend), then fixing bugs and making it feel smoother after people use it\n\n Applying\n If there appears to be a fit, we'll reach out to schedule 2\u20133 short technicals. After, we'll schedule an onsite in our office, where you'll work on a small project, discuss ideas, and meet the team.\n In your application, please share an example of an exceptional technical project or product feature you've built that best demonstrates your technical capabilities (GitHub, live app, OSS, or shipped product).",
-  "degree": "not stated",
-  "source": "portal_sweep_2026-10-08"
- },
- {
   "company": "Sierra",
   "title": "Software Engineer, Agent (New Grad 2027)",
   "location": "San Francisco, CA",
