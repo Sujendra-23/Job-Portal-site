@@ -716,5 +716,93 @@
   "description": "Google discovery leg 2026-10-13 (eufindwork reported it live on careers.arm.com 2026-10-10, Austin TX). 2026-10-13 live-browser check on careers.arm.com could NOT find an Austin 'Graduate Software Engineer' posting - exact-title hits exist only in Budapest and Munich; the only graduate-category Austin posting is 'Graduate Applications Engineer' (different title). Possible stale tracker data or title drift. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified.",
   "verification_blocker": "Employer page could not confirm an Austin 'Graduate Software Engineer' posting on 2026-10-13 live-browser check (title drift or stale tracker data).",
   "source": "google_discovery_2026-10-13"
+ },
+ {
+  "company": "Charles Schwab",
+  "title": "2027 Technology Intern - Site Reliability Engineering",
+  "location": "",
+  "posting_date": "2026-08-29",
+  "date_added": "2026-10-11",
+  "application_link": "https://career-schwab.icims.com/jobs/126229/2027-technology-intern---site-reliability-engineering/job",
+  "description": "Season unverified; iCIMS WAF-blocked. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified (same class as the Arm restore, 01:37 run).",
+  "verification_blocker": "Season unverified; iCIMS WAF-blocked.",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "Citi (attribution unconfirmed)",
+  "title": "Software Engineer Graduate (Transaction Platform) - 2027 Start",
+  "location": "",
+  "posting_date": "posted Oct 4, 2026 (aggregator)",
+  "date_added": "2026-10-11",
+  "application_link": "https://jobsearcher.com/search?occ=310%2C17-2112.00%2C15-1252.00&ind=3323%2C3325%2C4244%2C8113%2C334519&sen=junior&date=14d&page=21",
+  "description": "Weak lead: attribution uncertain. Aggregator reported posted Oct 4, 2026. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified (same class as the Arm restore, 01:37 run).",
+  "verification_blocker": "Attribution uncertain (weak lead).",
+  "source": "google_discovery_2026-10-11"
+ },
+ {
+  "company": "Justworks",
+  "title": "Associate Software Engineer, Frontend",
+  "location": "New York, NY",
+  "posting_date": "Oct 13",
+  "date_added": "2026-10-13",
+  "application_link": "https://www.justworks.com/careers",
+  "description": "jobright-ai 2026-Software-Engineer-New-Grad tracker, Date Posted Oct 13; routed to Unverified Leads (portal). Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified (same class as the Arm restore, 01:37 run).",
+  "verification_blocker": "Employer posting could not be verified from the tracker link (company careers page only).",
+  "source": "hourly_board_2026-10-13"
+ },
+ {
+  "company": "Uber",
+  "title": "Software Engineer I",
+  "location": "",
+  "posting_date": "",
+  "date_added": "2026-10-13",
+  "application_link": "https://jobs.uber.com/en/jobs/160017",
+  "description": "jobs.uber.com blocked by Cloudflare challenge; new-grad fit unconfirmed; user to verify. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified (same class as the Arm restore, 01:37 run).",
+  "verification_blocker": "jobs.uber.com blocked by Cloudflare challenge; new-grad fit unconfirmed.",
+  "source": "portal_sweep_2026-10-13"
+ },
+ {
+  "company": "North Carolina Department of Agriculture and Consumer Services",
+  "title": "Software Engineer Co-Op",
+  "location": "Boston, MA, United States",
+  "posting_date": "Oct 15",
+  "date_added": "2026-10-15",
+  "application_link": "https://jobright.ai/jobs/info/6ad14652a4f99fef81943491",
+  "description": "Jobright-sourced co-op lead; employer verification not completed. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified (same class as the Arm restore, 01:37 run).",
+  "verification_blocker": "Employer posting not verified from the Jobright link.",
+  "source": "hourly_board_2026-10-15"
+ },
+ {
+  "company": "Boston Consulting Group",
+  "title": "AI Software Engineer, Campus, United States - BCG X",
+  "location": "United States (multiple)",
+  "posting_date": "",
+  "date_added": "2026-10-18",
+  "application_link": "https://careers.outforundergrad.org/companies/boston-consulting-group-2/jobs/39513145-ai-software-engineer-campus-united-states-bcg-x",
+  "description": "Employer verification blocked: posting not on careers.bcg.com (removed/filled, school-gated, or stale mirror). Routed to Unverified Leads tab for user verification. Sibling 59702 is live but Master's/PhD-oriented. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified (same class as the Arm restore, 01:37 run).",
+  "verification_blocker": "Posting not found on careers.bcg.com (removed/filled, school-gated, or stale mirror).",
+  "source": "portal_sweep_2026-10-18"
+ },
+ {
+  "company": "Sanofi",
+  "title": "2027 Spring Co-op Machine Learning AI, Cambridge, MA",
+  "location": "Cambridge, MA, United States",
+  "posting_date": "Oct 21",
+  "date_added": "2026-10-21",
+  "application_link": "https://jobright.ai/jobs/info/6ad9940667bec1d0d9c86bf7?utm_campaign=Engineering%20and%20Development&utm_source=1103",
+  "description": "Jobright company cell named 'BioSpace' (job board), not the employer - true employer Sanofi resolved via web search. Routed to Unverified Leads; user verifies. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified (same class as the Arm restore, 01:37 run).",
+  "verification_blocker": "Live-browser verification stalled: browser task accepted but produced zero activity for 6+ minutes (detached run, no user to approve browser navigation). jobs.sanofi.com loads via text fetch, but the specific posting page could not be opened read-only this run to read the canonical description.",
+  "source": "hourly_board_2026-10-21"
+ },
+ {
+  "company": "AL FARAH CONTRACTING & GENERAL TRANSPORT COMPANY -L.L.C - O.P.C",
+  "title": "Software Engineer -Entry-Level (Network Focus)",
+  "location": "Reston, VA, United States",
+  "posting_date": "Oct 27",
+  "date_added": "2026-10-27",
+  "application_link": "https://jobright.ai/jobs/info/6ae113841f9d9308370a776b?utm_campaign=Software%20Engineering&utm_source=1103",
+  "description": "Jobright-sourced entry-level lead, Reston VA; employer verification not completed. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified (same class as the Arm restore, 01:37 run).",
+  "verification_blocker": "Employer posting not verified from the Jobright link.",
+  "source": "hourly_board_2026-10-27"
  }
 ]
