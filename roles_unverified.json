@@ -705,5 +705,16 @@
   "description": "Early-career Systems Engineering role (On Site, Palmdale CA) surfaced via Jobright Engineering New Grad README 2026-11-05. Employer verification 2026-11-05 blocked: the Jobright info page returns HTTP 403 from scripts and sits behind a Jobright security challenge in the live browser (challenge never cleared; browser window closed without a read). No employer application URL or requisition number is exposed \u2014 Jobright's Apply button is a sign-up wall, not an employer link. Lockheed's Eightfold board API also 403s from scripts. Web search found no exact mirror of this Palmdale posting. Context only (NOT verified for this posting): other Palmdale ADP early-career Lockheed roles carry government-security-clearance language, and the same title family was clearance-excluded at Liverpool NY (2026-10-13) and King of Prussia (2026-10-22) \u2014 degree/sponsorship/clearance for THIS posting are unchecked.",
   "verification_blocker": "Jobright info page security challenge (human-verification wall) in live browser; HTTP 403 from scripts; employer link/req not exposed",
   "source": "hourly_board_2026-11-05"
+ },
+ {
+  "company": "Arm",
+  "title": "Graduate Software Engineer",
+  "location": "Austin, TX, United States",
+  "posting_date": "",
+  "date_added": "2026-10-13",
+  "application_link": "https://careers.arm.com/category/graduate-jobs/34601/8097056/1",
+  "description": "Google discovery leg 2026-10-13 (eufindwork reported it live on careers.arm.com 2026-10-10, Austin TX). 2026-10-13 live-browser check on careers.arm.com could NOT find an Austin 'Graduate Software Engineer' posting - exact-title hits exist only in Budapest and Munich; the only graduate-category Austin posting is 'Graduate Applications Engineer' (different title). Possible stale tracker data or title drift. Restored 2026-11-11 after the lead was found missing from leads_unverified.json though the ledger still holds it as lead_unverified.",
+  "verification_blocker": "Employer page could not confirm an Austin 'Graduate Software Engineer' posting on 2026-10-13 live-browser check (title drift or stale tracker data).",
+  "source": "google_discovery_2026-10-13"
  }
 ]
