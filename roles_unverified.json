@@ -815,5 +815,16 @@
   "description": "Found via Google discovery leg 2026-11-10. Employer page confirmed live on tesla.com (title + Palo Alto seen in live browser); posting states Jan 2027 start through Spring term ending ~May 2027; req 282250, Intern/Apprentice. International-student CPT language present; no sponsorship or clearance language in the portion retrieved. Full description including degree requirements could NOT be read - live-browser verification ended on a lease renewal failure before the qualifications section loaded. Degree, sponsorship, and clearance language are UNVERIFIED. Read the posting yourself before applying.",
   "verification_blocker": "employer page partially loaded in live browser (title + location confirmed); full description including degree requirements not retrievable - verification task ended on a lease renewal failure",
   "source": "google_discovery_2026-11-10"
+ },
+ {
+  "company": "PremierAgile Consulting Private Limited",
+  "title": "New Grad Software Engineer 2027: Build Fast, Reliable Systems",
+  "location": "United States",
+  "posting_date": "2026-11-12",
+  "date_added": "2026-11-12",
+  "application_link": "https://www.jobleads.com/us/job/new-grad-software-engineer-2027-build-fast-reliable-systems--united-states--e0877277e1d2ade665497616259ba39e7",
+  "description": "Aggregator-only (JobLeads) listing; no employer posting could be found or loaded for verification. JobLeads exposes no employer application link or careers link (only its own apply flow). premieragile.com is an Agile/Scrum training and certification company (India + Austin TX office) with no Careers/Jobs section; site search for careers/jobs/hiring returns only blog articles. The aggregator description itself does not match the named employer: responsibilities are SingleStore database work ('Improve fault tolerance of SingleStore clusters', 'Accelerate SQL query performance using techniques like SIMD and LLVM codeGen', 'Write search and costing modules for the query optimizer'), and that wording surfaces no matching job posting anywhere \u2014 employer attribution looks unreliable/misattributed. Aggregator-only text (NOT employer-verified): education 'B.S. Degree in Computer Science, Electrical Engineering, Computer Engineering, or related discipline' (Bachelor's-only); title targets new grads 2027 ('Students graduating in 2026/2027'); sponsorship not stated in posting text; no clearance-related language; salary USD 120,000-180,000, On-site, Full time. Posting date unverified: aggregator shows only '14 days+' while a Google snippet for the same listing said '5 days ago'. Aggregator description is truncated mid-sentence.",
+  "verification_blocker": "no employer posting found \u2014 JobLeads exposes no employer link; premieragile.com has no careers section; description (SingleStore DB work) does not match the named employer (Agile training company)",
+  "source": "hourly_board_2026-11-12"
  }
 ]
