@@ -2638,5 +2638,16 @@
   "description": "Tesla - Internship, Software Developer, Integration Tools (Winter/Spring 2027), Palo Alto, CA, Req ID 284924. Verified live on tesla.com 2026-11-15 (Apply button present). Season explicitly stated: expected to start January 2027 and continue through the Winter/Spring term (through April/May 2027). Graduation: currently pursuing a degree with graduation between May 2027 - May 2028; for actively enrolled students. Degree level not specified in posting (Neutral). Does not state immigration or visa sponsorship terms (notes CPT consultation for international students only). No clearance-related requirements.",
   "degree": "Neutral",
   "source": "linkedin_jobs"
+ },
+ {
+  "company": "Apple",
+  "title": "Software Development Engineer, Test Tooling",
+  "location": "Cupertino, CA",
+  "date_added": "2026-11-16",
+  "posting_date": "2026-11-12",
+  "application_link": "https://jobs.apple.com/en-us/details/200693291-0836/software-development-engineer-test-tooling?team=SFTWR",
+  "description": "Software Development Engineer, Test Tooling (Cupertino, CA; Software and Services; role 200693291-0836; posted Nov 12, 2026). Minimum qualification: \"Currently pursuing or recently completed a Bachelor's or Master's degree in Computer Science, Computer Engineering, or a related field.\" Engineers are mentored by experienced engineers and get hands-on experience with real production systems. Weekly hours: 40. Base pay range $129,300-$194,700. Apple accepts applications to this posting on an ongoing basis. Verified live on the employer's posting Nov 16, 2026 (browser rotation). Classification note: the posting does not label itself full-time, internship, or new-grad; it is listed as an early-career full-time role on the strength of the 'currently pursuing or recently completed' degree wording, mentorship, 40-hour week, and full-time pay band.",
+  "degree": "Bachelor's or Master's",
+  "source": "browser_rotation"
  }
 ]
