@@ -826,27 +826,5 @@
   "description": "Aggregator-only (JobLeads) listing; no employer posting could be found or loaded for verification. JobLeads exposes no employer application link or careers link (only its own apply flow). premieragile.com is an Agile/Scrum training and certification company (India + Austin TX office) with no Careers/Jobs section; site search for careers/jobs/hiring returns only blog articles. The aggregator description itself does not match the named employer: responsibilities are SingleStore database work ('Improve fault tolerance of SingleStore clusters', 'Accelerate SQL query performance using techniques like SIMD and LLVM codeGen', 'Write search and costing modules for the query optimizer'), and that wording surfaces no matching job posting anywhere \u2014 employer attribution looks unreliable/misattributed. Aggregator-only text (NOT employer-verified): education 'B.S. Degree in Computer Science, Electrical Engineering, Computer Engineering, or related discipline' (Bachelor's-only); title targets new grads 2027 ('Students graduating in 2026/2027'); sponsorship not stated in posting text; no clearance-related language; salary USD 120,000-180,000, On-site, Full time. Posting date unverified: aggregator shows only '14 days+' while a Google snippet for the same listing said '5 days ago'. Aggregator description is truncated mid-sentence.",
   "verification_blocker": "no employer posting found \u2014 JobLeads exposes no employer link; premieragile.com has no careers section; description (SingleStore DB work) does not match the named employer (Agile training company)",
   "source": "hourly_board_2026-11-12"
- },
- {
-  "company": "EchoStar Corporation",
-  "title": "Early Career - Software Engineer",
-  "location": "Englewood, CO, United States",
-  "posting_date": "Nov 16",
-  "date_added": "2026-11-17",
-  "application_link": "https://jobright.ai/jobs/info/6afc1d0b1e98d304ea7ef286?utm_campaign=Software%20Engineering&utm_source=1103",
-  "description": "Jobright-listed 2026-11-16 (Nov 16) as 'Early Career - Software Engineer', Englewood, CO. Employer is EchoStar Corporation / DISH Network LLC; its careers site (careers.dish.com) and iCIMS job board (jobs.echostar.com) are F5-403-blocked from every available path (live browser incl. environment replacement, script curl, text fetch on /jobs pages) \u2014 no employer posting could be loaded, so degree (BS+MS), sponsorship, and clearance could not be verified. No req number or employer application URL obtained; best link is the Jobright info page. Note: other EchoStar engineering postings commonly state 'Visa sponsorship not available for this role', but that is NOT verified for this posting \u2014 verify before applying.",
-  "verification_blocker": "employer site F5 403 bot-wall \u2014 careers.dish.com and jobs.echostar.com (EchoStar/DISH iCIMS board) both return 'Error 403 - Forbidden / The requested URL was rejected' with no interactive challenge; live-browser check plus environment replacement failed to clear it, and script/text-fetch paths 403 on the /jobs pages",
-  "source": "hourly_board_2026-11-17"
- },
- {
-  "company": "EchoStar Corporation",
-  "title": "Early Career - AI Engineer",
-  "location": "Englewood, CO, United States",
-  "posting_date": "Nov 15",
-  "date_added": "2026-11-17",
-  "application_link": "https://jobright.ai/jobs/info/6afc1ca0755d7cdf657fed39?utm_campaign=Engineering%20and%20Development&utm_source=1103",
-  "description": "Jobright-listed 2026-11-15 (Nov 15) as 'Early Career - AI Engineer', Englewood, CO. Employer is EchoStar Corporation / DISH Network LLC; its careers site (careers.dish.com) and iCIMS job board (jobs.echostar.com) are F5-403-blocked from every available path (live browser incl. environment replacement, script curl, text fetch on /jobs pages) \u2014 no employer posting could be loaded, so degree (BS+MS), sponsorship, and clearance could not be verified. No req number or employer application URL obtained; best link is the Jobright info page. Note: other EchoStar engineering postings commonly state 'Visa sponsorship not available for this role', but that is NOT verified for this posting \u2014 verify before applying.",
-  "verification_blocker": "employer site F5 403 bot-wall \u2014 careers.dish.com and jobs.echostar.com (EchoStar/DISH iCIMS board) both return 'Error 403 - Forbidden / The requested URL was rejected' with no interactive challenge; live-browser check plus environment replacement failed to clear it, and script/text-fetch paths 403 on the /jobs pages",
-  "source": "hourly_board_2026-11-17"
  }
 ]
