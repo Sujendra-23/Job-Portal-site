@@ -826,16 +826,5 @@
   "description": "Aggregator-only (JobLeads) listing; no employer posting could be found or loaded for verification. JobLeads exposes no employer application link or careers link (only its own apply flow). premieragile.com is an Agile/Scrum training and certification company (India + Austin TX office) with no Careers/Jobs section; site search for careers/jobs/hiring returns only blog articles. The aggregator description itself does not match the named employer: responsibilities are SingleStore database work ('Improve fault tolerance of SingleStore clusters', 'Accelerate SQL query performance using techniques like SIMD and LLVM codeGen', 'Write search and costing modules for the query optimizer'), and that wording surfaces no matching job posting anywhere \u2014 employer attribution looks unreliable/misattributed. Aggregator-only text (NOT employer-verified): education 'B.S. Degree in Computer Science, Electrical Engineering, Computer Engineering, or related discipline' (Bachelor's-only); title targets new grads 2027 ('Students graduating in 2026/2027'); sponsorship not stated in posting text; no clearance-related language; salary USD 120,000-180,000, On-site, Full time. Posting date unverified: aggregator shows only '14 days+' while a Google snippet for the same listing said '5 days ago'. Aggregator description is truncated mid-sentence.",
   "verification_blocker": "no employer posting found \u2014 JobLeads exposes no employer link; premieragile.com has no careers section; description (SingleStore DB work) does not match the named employer (Agile training company)",
   "source": "hourly_board_2026-11-12"
- },
- {
-  "company": "Northrop Grumman",
-  "title": "2027 Cyber Software Engineer Intern - San Antonio TX",
-  "location": "San Antonio, TX",
-  "posting_date": "2026-11-16",
-  "date_added": "2026-11-16",
-  "application_link": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257311?s=gh-new-grad-software-engineering-jobs-2027",
-  "description": "2027 Cyber Software Engineer Intern (req R10257311, San Antonio TX) surfaced via zapply 2026-11-16. Employer Workday board down (site-side service interruption, 4 attempts) so degree, sponsorship, clearance and season are UNVERIFIED. Northrop Eightfold portal shows no listing for R10257311 (only full-time Cyber SWE roles) \u2014 not treated as dead; retry the Workday board once restored. Constructed Workday URL (slug unconfirmed): https://ngc.wd5.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/San-Antonio-TX/2027-Cyber-Software-Engineer-Intern_R10257311",
-  "verification_blocker": "employer Workday board unavailable (service interruption)",
-  "source": "hourly_board_2026-11-16"
  }
 ]
