@@ -2737,5 +2737,16 @@
   "description": "Kira - Software Engineer (Entry Level), New York or San Francisco, hybrid (in office 4 days/week, Wednesdays WFH). Verified live on the employer's Ashby board 2026-11-18; employer published 2026-11-18 13:57 PST. Entry-level full-time role for a recent graduate or engineer with 0-2 years of experience; generalist across the stack (product surfaces, backend services/APIs, data). Degree: Bachelor's or Master's degree in Computer Science or a related field. Salary $115,000-$140,000. The posting text does not mention immigration or visa sponsorship, and the only background check mentioned is a standard post-offer criminal, education, and employment history check.",
   "degree": "Bachelor's or Master's",
   "source": "hourly_board_2026-11-18"
+ },
+ {
+  "company": "GlobalFoundries",
+  "title": "AI/ML Device Modeling Engineer (2027 New College Graduate)",
+  "location": "Austin, TX",
+  "date_added": "2026-11-19",
+  "posting_date": "2026-11-19",
+  "application_link": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/AI-Enabled-Device-Modeling_JR-2606083",
+  "description": "GlobalFoundries - AI/ML Device Modeling Engineer (2027 New College Graduate), Austin, TX. New-college-graduate full-time role (#NCGProgramUS) developing AI-enabled methods for semiconductor device modeling: ML-based parameter extraction, surrogate modeling, model calibration, and prediction of device characteristics, combining device physics, measured silicon data, simulation data, and modern AI/ML techniques. Python workflows (NumPy, pandas, SciPy, scikit-learn, PyTorch, TensorFlow, JAX); neural networks, Gaussian processes, physics-informed ML. Education: Graduating with a Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, Computer Science, Data Science, Applied Physics, Physics or related field; 3.0+ GPA required. Expected salary range $58,400-$100,800. Travel up to 10%. Verified live on the employer's Workday board 2026-11-19 (req JR-2606083, Posted Today). The posting text does not mention immigration or visa sponsorship, and contains no clearance-related language.",
+  "degree": "Bachelor's or Master's",
+  "source": "hourly_board_2026-11-19"
  }
 ]
