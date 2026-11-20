@@ -815,5 +815,16 @@
   "description": "Aggregator-only (JobLeads) listing; no employer posting could be found or loaded for verification. JobLeads exposes no employer application link or careers link (only its own apply flow). premieragile.com is an Agile/Scrum training and certification company (India + Austin TX office) with no Careers/Jobs section; site search for careers/jobs/hiring returns only blog articles. The aggregator description itself does not match the named employer: responsibilities are SingleStore database work ('Improve fault tolerance of SingleStore clusters', 'Accelerate SQL query performance using techniques like SIMD and LLVM codeGen', 'Write search and costing modules for the query optimizer'), and that wording surfaces no matching job posting anywhere \u2014 employer attribution looks unreliable/misattributed. Aggregator-only text (NOT employer-verified): education 'B.S. Degree in Computer Science, Electrical Engineering, Computer Engineering, or related discipline' (Bachelor's-only); title targets new grads 2027 ('Students graduating in 2026/2027'); sponsorship not stated in posting text; no clearance-related language; salary USD 120,000-180,000, On-site, Full time. Posting date unverified: aggregator shows only '14 days+' while a Google snippet for the same listing said '5 days ago'. Aggregator description is truncated mid-sentence.",
   "verification_blocker": "no employer posting found \u2014 JobLeads exposes no employer link; premieragile.com has no careers section; description (SingleStore DB work) does not match the named employer (Agile training company)",
   "source": "hourly_board_2026-11-12"
+ },
+ {
+  "company": "Diversified Services Network, Inc.",
+  "title": "(1121223) Embedded Software Engineer- Entry Level role",
+  "location": "Mossville, IL, United States",
+  "posting_date": "Nov 20",
+  "date_added": "2026-11-20",
+  "application_link": "https://jobright.ai/jobs/info/6b00be60dfa58e4c244de203",
+  "description": "Jobright row (posted Nov 20) for an entry-level Embedded Software Engineer in Mossville, IL. The Jobright job page sits behind a Cloudflare human-verification check that did not clear in the live browser, so the posting text (degree, sponsorship, clearance) could not be read. The (1121223) number is the staffing firm's own req format (sibling DSN roles carry the same parenthetical numbering, e.g. (1109691), (1111023)); a search of Caterpillar's own board (careers.caterpillar.com) for 1121223 returned zero results and no 'Embedded Software Engineer - Entry Level' posting in Mossville, so this is a Diversified Services Network (dsnworldwide.com) staffing listing, not a Caterpillar direct posting. DSN's own posting for req 1121223 could not be located.",
+  "verification_blocker": "Jobright page Cloudflare human-verification wall; employer (DSN) posting for req 1121223 not locatable",
+  "source": "hourly_board_2026-11-20"
  }
 ]
