@@ -2781,5 +2781,16 @@
   "description": "Internship, Software Engineer, Energy Engineering (Winter/Spring 2027)\n\nLocation: Palo Alto, CA\nReq. ID: 289796\nJob Type: Intern/Apprentice\n\nWhat to Expect\n\nThe Energy Battery Firmware team works on low-level safety critical battery management and charging software. This role entails developing low level firmware and validation platform infrastructure for Tesla's world class Energy product software and firmware, ranging from design, implementation, through validation and ongoing fleet improvements. Opportunities range from low-latency C/Rust drivers and algorithms all the way up to high level C++ controls logic and Python SIL testing infrastructure.\n\nThis position is expected to start January 2027 and continue through the entire Winter/Spring term (i.e through April/May 2027) or into Summer 2027 if available. Minimum 12 weeks, full-time (40 hours/week), on-site.\n\nGraduation requirement: no graduation-date window stated\n\nDegree: Currently pursuing a degree in Computer Science, Computer Engineering, Electrical Engineering, Physics or related field\n\nWork authorization: the posting's International Students paragraph addresses CPT work authorization only.\n\nSecurity: no clearance-related language appears in the posting.",
   "degree": "Currently pursuing a degree in Computer Science, Computer Engineering, Electrical Engineering, Physics or related field",
   "source": "google_discovery_2026-11-20"
+ },
+ {
+  "company": "Rivian",
+  "title": "Early Career - AI Platform, Autonomy",
+  "location": "Palo Alto, CA",
+  "date_added": "2026-11-20",
+  "posting_date": "",
+  "application_link": "https://careers.rivian.com/careers-home/jobs/37688",
+  "description": "Rivian's Autonomy AI Platform team builds the software that connects vehicle data to trained and evaluated autonomous driving models, spanning data infrastructure, large-scale compute and storage, machine learning infrastructure, evaluation and visualization, and AI tools. As a new graduate software engineer joining full-time in 2027, you will help build and improve production systems used by Autonomy engineers, contributing across design, implementation, testing, and delivery, with mentorship from experienced engineers. Work may span data ingestion and processing, dataset versioning and lineage, simulation and evaluation at scale, distributed training frameworks, distributed compute and storage services, Kubernetes and cloud tooling, and LLM-powered engineering tools. Qualifications: current BS or MS candidate in Computer Science, Electrical Engineering, Robotics, or a related field; strong programming and problem-solving skills in at least one of Python, C++, Go, Java, Rust, or TypeScript. Salary range $129,300-$161,600 for Palo Alto based applicants, plus annual performance bonus and equity eligibility. The posting text does not mention immigration or visa sponsorship, and contains no clearance-related language.",
+  "degree": "BS/MS",
+  "source": "hourly_board_2026-11-20"
  }
 ]
