@@ -14,6 +14,7 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
@@ -26,6 +27,9 @@ jobs:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      published_sha: ${{ steps.snapshot.outputs.published_sha }}
+      collection_time: ${{ steps.snapshot.outputs.collection_time }}
     permissions:
       contents: write
     steps:
@@ -47,6 +51,17 @@ jobs:
         run: python automation/sync_jobs.py
       - name: Safely publish collected data
         run: python automation/publish_collected_data.py
+      - name: Record the publication snapshot
+        id: snapshot
+        run: |
+          python - <<'PYTHON'
+          import json, os, subprocess
+          sha = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
+          status = json.load(open('jobright_public_sync.json'))
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('published_sha=' + sha + '\n')
+              f.write('collection_time=' + status['last_success'] + '\n')
+          PYTHON
       - run: python automation/build_pages.py
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
@@ -54,15 +69,23 @@ jobs:
   deploy:
     needs: sync-and-build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ needs.sync-and-build.outputs.published_sha }}
+          persist-credentials: false
       - name: Configure Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+      - name: Verify live Jobright data
+        run: python3 automation/verify_live_site.py --expected-time "${{ needs.sync-and-build.outputs.collection_time }}"
