@@ -65,11 +65,11 @@ const TABS = [
 ];
 // All role files feed both tabs: full-time roles go to the Full-Time tab,
 // intern/co-op roles go to the Internships tab. Never duplicated.
-// roles_unverified.json feeds ONLY the Unverified Leads tab (user verifies himself).
+// Existing unverified roles and public Jobright leads stay in Unverified Leads.
 const ROLE_FILES = {
   jobright:'roles_jobright.json', top:'roles_top.json', mid:'roles_midsize.json', growth:'roles_growth.json',
   startup:'roles_startup.json', liposts:'roles_linkedin_posts.json',
-  unverified:'roles_unverified.json'
+  jobright_public:'roles_jobright_public.json', unverified:'roles_unverified.json'
 };
 const key = r => r.company + '||' + r.title;
 const isIntern = r => r.employment_type === 'internship' || r.employment_type === 'co-op' || /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
@@ -131,7 +131,7 @@ function rowHtml(r){
   return '<tr data-supported="'+(sponsorshipRank(r)>0?'yes':'no')+'" data-search="'+esc((r.company+' '+r.title).toLowerCase())+'">'+
     '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+postedLine+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+automationDetails(r)+'</td>'+
     '<td class="desc"><span class="preview">'+esc(prev)+'</span><span class="full">'+descHtml+'</span>'+(hasLong?'<br><span class="toggle">Read more</span>':'')+'</td>'+
-    '<td><a class="apply" href="'+esc(r.application_link)+'" target="_blank" rel="noopener">Apply</a></td>'+
+    '<td><a class="apply" href="'+esc(r.application_link || r.source_url)+'" target="_blank" rel="noopener">'+(r.application_link?'Apply':'View listing')+'</a></td>'+
     resumeCell(sUrl,'sujendra','Sujendra',rk)+resumeCell(hUrl,'shruthi','Shruthi',rk)+
     '</tr>';
 }
@@ -170,11 +170,11 @@ function renderEmails(contacts){
 }
 
 function tabRoles(tab){
-  // Unverified Leads tab shows ONLY roles_unverified.json, never mixed with verified tabs.
+  // Public Jobright metadata remains unverified and never enters verified tabs.
   if(tab.kind === 'leads'){
-    return (DATA['unverified'] || []).filter(r => r && r.company && r.title);
+    return [...(DATA['unverified'] || []), ...(DATA['jobright_public'] || [])].filter(r => r && r.company && r.title && automationVisible(r));
   }
-  const all = Object.keys(ROLE_FILES).filter(id => id !== 'unverified').sort((a,b)=>(a==='jobright')-(b==='jobright')).flatMap(id => DATA[id] || []);
+  const all = Object.keys(ROLE_FILES).filter(id => id !== 'unverified' && id !== 'jobright_public').sort((a,b)=>(a==='jobright')-(b==='jobright')).flatMap(id => DATA[id] || []);
   // safety dedupe across files (company+title+location)
   const seen = new Set();
   const uniq = all.filter(r => {
@@ -197,14 +197,13 @@ function render(){
     const roles = tabRoles(tab);
     res = renderRoles(roles);
     document.getElementById('meta').textContent = res.count+' unverified leads';
-    box.innerHTML = '<div class="leads-banner">These roles were found by the automated sweep but <strong>could not be verified</strong> on the employer\'s posting (verification wall, bot block, or JS-only page). Degree, sponsorship, and clearance language are <strong>unchecked</strong> — read the posting yourself before applying.</div>' + res.html;
   } else {
     const roles = tabRoles(tab);
     res = renderRoles(roles);
     const noun = tab.kind === 'intern' ? 'internships/co-ops' : 'roles';
     document.getElementById('meta').textContent = res.count+' '+noun+' across '+res.days+' days';
   }
-  box.innerHTML = res.html;
+  box.innerHTML = (tab.kind==='leads' ? '<div class="leads-banner">These leads have not been verified on the employer’s posting. Confirm the term, degree, experience and work authorization before applying. Public Jobright leads link to the source listing.</div>' : '') + res.html;
   box.querySelectorAll('.desc .toggle').forEach(tg=>{
     tg.onclick = ()=>{
       const cell = tg.closest('.desc');
@@ -244,7 +243,7 @@ async function load(){
 
   document.getElementById('search').oninput = applyFilter;
   document.getElementById('sponsorship-filter').onchange = applyFilter;
-  SYNC_STATUS = await fetch('jobright_sync.json', {cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
+  [SYNC_STATUS, PUBLIC_SYNC_STATUS] = await Promise.all(['jobright_sync.json','jobright_public_sync.json'].map(path=>fetch(path, {cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)));
 
   // ---- applied tracking (per-browser, via localStorage) ----
   const LS_KEY = 'jobportal_applied_v1';

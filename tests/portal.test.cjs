@@ -37,3 +37,11 @@ test('support rank requires explicit current posting evidence', () => {
   assert.equal(run("sponsorshipRank({sponsorship_history:'Sponsored in 2024'})"),0);
   assert.equal(run("sponsorshipRank({opt:'supported'})"),1);
 });
+test('public Jobright leads never enter verified tabs', () => {
+  assert.equal(run("DATA={jobright_public:[{company:'Public',title:'Software Engineer, New Grad 2027',automation_source:'jobright-public-github'}]};tabRoles({kind:'ft'}).length"),0);
+  assert.equal(run("DATA={jobright_public:[{company:'Public',title:'Software Engineer, New Grad 2027',automation_source:'jobright-public-github'}]};tabRoles({kind:'leads'}).length"),1);
+});
+test('public leads use a view-listing link without inventing an employer Apply URL', () => {
+  assert.ok(html.includes("(r.application_link?'Apply':'View listing')"));
+  assert.ok(html.includes('r.application_link || r.source_url'));
+});

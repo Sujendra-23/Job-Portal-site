@@ -6,7 +6,7 @@ import shutil
 
 PUBLIC_DATA = ('roles_top.json', 'roles_midsize.json', 'roles_growth.json', 'roles_startup.json',
                'roles_linkedin_posts.json', 'roles_unverified.json', 'roles_jobright.json',
-               'jobright_sync.json', 'emails.json', 'resumes.json', 'top_companies.json')
+               'jobright_sync.json', 'roles_jobright_public.json', 'jobright_public_sync.json', 'emails.json', 'resumes.json', 'top_companies.json')
 
 def build(root):
     out = root / '_site'

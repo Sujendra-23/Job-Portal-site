@@ -1,6 +1,6 @@
 # Job Portal site
 
-The Jobright authorized-import integration, three-hour workflow, feed contract, permissions, and verification status are documented in [automation/README.md](automation/README.md). Its source access is disabled until collection and republication are authorized.
+Jobright public GitHub job lists are collected every three hours and shown in Unverified Leads. See [active public collection](automation/PUBLIC_COLLECTION.md) for sources, filtering, verification and limits. The separate personalized-feed importer remains disabled; its setup is documented in [automation/README.md](automation/README.md).
 
 Static job portal (GitHub Pages), six tabs.
 
