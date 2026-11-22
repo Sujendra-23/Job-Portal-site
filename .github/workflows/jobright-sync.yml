@@ -45,15 +45,8 @@ jobs:
           JOBRIGHT_FEED_URL: ${{ secrets.JOBRIGHT_FEED_URL }}
           JOBRIGHT_FEED_TOKEN: ${{ secrets.JOBRIGHT_FEED_TOKEN }}
         run: python automation/sync_jobs.py
-      - name: Record collected data
-        run: |
-          git add roles_jobright.json jobright_sync.json roles_jobright_public.json jobright_public_sync.json
-          if ! git diff --cached --quiet; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'Update public Jobright leads'
-            git push origin HEAD:main
-          fi
+      - name: Safely publish collected data
+        run: python automation/publish_collected_data.py
       - run: python automation/build_pages.py
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:

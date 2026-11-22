@@ -6,7 +6,7 @@ const html = fs.readFileSync('index.html','utf8');
 const inline = html.match(/<script>\s*([\s\S]*?)<\/script>/)[1].replace(/load\(\);\s*$/, '');
 const extra = fs.readFileSync('automation/portal-automation.js','utf8');
 function run(code) {
-  const c = {console, document: {createElement: () => ({set textContent(s) {this.innerHTML = String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}})}};
+  const c = {console, document: {createElement: tag => tag === 'textarea' ? ({set innerHTML(s) {this.value=String(s).replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&')}}) : ({set textContent(s) {this.innerHTML = String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}})}};
   vm.createContext(c); vm.runInContext(extra + '\n' + inline, c);
   return vm.runInContext(code,c);
 }
@@ -42,6 +42,14 @@ test('public Jobright leads never enter verified tabs', () => {
   assert.equal(run("DATA={jobright_public:[{company:'Public',title:'Software Engineer, New Grad 2027',automation_source:'jobright-public-github'}]};tabRoles({kind:'leads'}).length"),1);
 });
 test('public leads use a view-listing link without inventing an employer Apply URL', () => {
-  assert.ok(html.includes("(r.application_link?'Apply':'View listing')"));
-  assert.ok(html.includes('r.application_link || r.source_url'));
+  const rendered = run("rowHtml({company:'Public',title:'SWE',description:'Source details',automation_source:'jobright-public-github',application_link:null,source_url:'https://jobright.ai/jobs/info/test'})");
+  assert.ok(rendered.includes('>View listing</a>'));
+  assert.ok(rendered.includes('href="https://jobright.ai/jobs/info/test"'));
+  assert.ok(!rendered.includes('href="null"'));
+});
+
+test('page loads automation helpers and both Jobright data sources', () => {
+  assert.match(html, /<script\s+src="automation\/portal-automation\.js"/);
+  assert.equal(run("ROLE_FILES.jobright_public"), 'roles_jobright_public.json');
+  assert.equal(run("ROLE_FILES.jobright"), 'roles_jobright.json');
 });

@@ -60,3 +60,11 @@ python3 automation/build_pages.py
 The first real collection inspected 776 public table entries and saved 117 new leads after filtering and duplicate checks, including five explicitly marked Spring 2027 internship/co-op leads. No synthetic examples were added to production. All 47 Python checks and eight JavaScript checks passed locally. Browser inspection confirmed public leads, source links, honest eligibility labels, the unverified banner, search, and the existing 207 full-time roles.
 
 `jobright_public_sync.json` records the current source URLs, inspected/matched/added/updated/duplicate counts, rejection reasons and last-success time. Use **Actions → Jobright collection and Pages → Run workflow** to verify an immediate repeat without waiting for the next schedule. Repeated collection should retain the same IDs and first-discovery timestamps and add zero duplicates.
+
+## Concurrent edits and page integration
+
+The automatic save step now uses `automation/publish_collected_data.py`. It commits only the four collection JSON files, fetches the latest main, incorporates compatible intervening commits with a rebase, validates the resulting publication snapshot, and attempts a normal push. If another edit arrives during that interval it refreshes and retries, up to three attempts. It never force-pushes or overwrites conflicting owner changes. A conflict or failed validation stops publication safely.
+
+The page must retain its automation helper script, Jobright entries in ROLE_FILES, public-lead routing, source-link rendering, and status/eligibility controls. Replacing index.html with a copy from before the integration removes those connections; update the current version instead. Tests explicitly check these connections and stop the collector workflow if they are removed. The separate legacy Pages publisher can still publish an owner commit even when these integration tests fail.
+
+Repair verification includes 53 Python checks and nine JavaScript checks, including simulated competing edits, conflict preservation, bounded retries, and refusing unrelated staged changes.
