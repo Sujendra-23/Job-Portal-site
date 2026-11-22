@@ -2,7 +2,9 @@
 
 Implemented against `Sujendra-23/Job-Portal-site`, base commit `15620be7173d2eb7fc89effd03919724cc972de7`.
 
-The code is integrated locally and tested. It has not been pushed, activated in GitHub Actions, or verified on the live deployment. The current GitHub account (`shruthib18122001-commits`) receives HTTP 403 for repository writes.
+Deployment status (November 22, 2026): the tested integration commit `59c0c26` is merged into `main` and deployed to the existing site. [GitHub Actions run 45071787233](https://github.com/Sujendra-23/Job-Portal-site/actions/runs/45071787233) completed tests, Pages artifact build, and deployment successfully. Import and data-commit steps were skipped. Repository variable `JOBRIGHT_IMPORT_AUTHORIZED` is explicitly set to `false`; collection remains disabled pending authorization and a supported feed.
+
+The GitHub account `shruthib18122001-commits` now has repository write access. Pages retains its existing `main`-branch publishing source. An API attempt to select the workflow publisher returned HTTP 404 while read access to Pages succeeded, so a repository owner should select **Settings → Pages → Build and deployment → Source → GitHub Actions** to make the new workflow the sole publisher. This setting change is outstanding; the existing website and the custom workflow deployment both succeeded.
 
 ## Source permission is required
 
@@ -42,7 +44,7 @@ The workflow runs at **00:17, 03:17, 06:17, 09:17, 12:17, 15:17, 18:17, 21:17 UT
 
 A normal push runs tests and deploys the current saved site without fetching the source. A scheduled or manual run requires a configured, authorized feed; an unconfigured run fails with a clear error and preserves data and the current deployment. Imported JSON is committed with `GITHUB_TOKEN`, then deployed **in the same run** because token-created pushes do not normally trigger another workflow. Deployment uses `pages: write` and `id-token: write` only in the deployment job. No personal GitHub token is required in Actions. See [GitHub Pages workflow requirements](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
-6. Run **Jobright authorized import and Pages** manually in Actions. Check tests, import counts, commit, artifact upload and deployment. Confirm new real listings, source links, eligibility evidence and timestamp on the live site. This production verification remains outstanding until access and the feed are provided.
+6. Run **Jobright authorized import and Pages** manually in Actions. Check tests, import counts, commit, artifact upload and deployment. Confirm new real listings, source links, eligibility evidence and timestamp on the live site. Website deployment is verified. Production import verification remains outstanding until authorization and a supported feed are provided.
 
 ## Normalized feed contract, version 1
 
@@ -123,7 +125,7 @@ JOBRIGHT_IMPORT_AUTHORIZED=true python3 automation/sync_jobs.py --input /absolut
 
 For safe experiments, use a disposable clone. A successful import modifies roles_jobright.json and jobright_sync.json in the selected root. The tests use temporary folders and synthetic examples; they do not publish samples.
 
-Validation completed locally: 32 Python checks and six JavaScript checks; full CLI→filtered JSON→Pages artifact integration; failed-import preservation; browser confirmation of imported full-time/co-op routing, eligibility filtering, duplicate suppression, attribution, and timestamp. Baseline preview retained all 207 existing full-time roles. Test listings were removed from the preview afterward. Remote collection, GitHub Actions execution, and live deployment remain unverified because no authorized feed or repository write access is available.
+Validation completed locally: 32 Python checks and six JavaScript checks; full CLI→filtered JSON→Pages artifact integration; failed-import preservation; browser confirmation of imported full-time/co-op routing, eligibility filtering, duplicate suppression, attribution, and timestamp. Baseline preview retained all 207 existing full-time roles. Test listings were removed from the preview afterward. GitHub Actions execution and live deployment succeeded after repository write access was granted. Remote collection remains unverified and disabled because no authorized feed has been established.
 
 ## Troubleshooting
 
