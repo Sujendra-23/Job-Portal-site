@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_success": "2026-11-22T21:42:20.650371+00:00",
+  "last_success": "2026-11-22T21:43:45.098879+00:00",
   "source_type": "Jobright public GitHub lists",
   "sources": [
     "https://github.com/jobright-ai/2026-Software-Engineer-New-Grad",
@@ -8,8 +8,8 @@
   ],
   "inspected": 776,
   "matched": 151,
-  "added": 117,
-  "updated": 17,
+  "added": 0,
+  "updated": 134,
   "duplicates": 17,
   "rejected": {
     "unrelated": 232,
