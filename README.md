@@ -1,5 +1,7 @@
 # Job Portal site
 
+The Jobright authorized-import integration, three-hour workflow, feed contract, permissions, and verification status are documented in [automation/README.md](automation/README.md). Its source access is disabled until collection and republication are authorized.
+
 Static job portal (GitHub Pages), six tabs.
 
 ## Tabs and data files

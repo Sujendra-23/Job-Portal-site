@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+_site/
+.env
+.env.*
+*storage-state*.json
+*storage_state*.json
+*cookies*.json
+exports/
