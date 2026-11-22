@@ -826,16 +826,5 @@
   "description": "Jobright row (posted Nov 20) for an entry-level Embedded Software Engineer in Mossville, IL. The Jobright job page sits behind a Cloudflare human-verification check that did not clear in the live browser, so the posting text (degree, sponsorship, clearance) could not be read. The (1121223) number is the staffing firm's own req format (sibling DSN roles carry the same parenthetical numbering, e.g. (1109691), (1111023)); a search of Caterpillar's own board (careers.caterpillar.com) for 1121223 returned zero results and no 'Embedded Software Engineer - Entry Level' posting in Mossville, so this is a Diversified Services Network (dsnworldwide.com) staffing listing, not a Caterpillar direct posting. DSN's own posting for req 1121223 could not be located.",
   "verification_blocker": "Jobright page Cloudflare human-verification wall; employer (DSN) posting for req 1121223 not locatable",
   "source": "hourly_board_2026-11-20"
- },
- {
-  "company": "ServiceNow",
-  "title": "Software Engineer (Junior)",
-  "location": "Santa Clara, CA",
-  "posting_date": "2026-11-13",
-  "date_added": "2026-11-21",
-  "application_link": "https://mindpal.co/jobs/122544",
-  "description": "MindPal aggregator mirror of an entry-level ServiceNow Software Engineer (AI-native/cloud-native, ServiceNow platform), Santa Clara CA, on-site, $125,700-$194,800/yr, MindPal-published 2026-11-13. No employer req ID, no SmartRecruiters ID, and no degree requirement text on the aggregator page; the employer's live SmartRecruiters board (top-100 postings, checked 2026-11-21) has no matching junior/entry-level SWE in Santa Clara \u2014 the only entry-level-adjacent Santa Clara SWE is the distinct Assoc Software Engineer 744000162837679 (AIUX, released 2026-11-21, Bachelor's-capped, separately ledgered excluded_degree). Employer posting could not be identified or loaded for verification.",
-  "verification_blocker": "Aggregator mirror only (mindpal.co/jobs/122544); no employer posting URL or req ID exposed, and no matching entry-level SWE found on the live ServiceNow SmartRecruiters board.",
-  "source": "google_discovery_2026-11-21"
  }
 ]
