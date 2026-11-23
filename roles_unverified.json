@@ -826,5 +826,27 @@
   "description": "Jobright row (posted Nov 20) for an entry-level Embedded Software Engineer in Mossville, IL. The Jobright job page sits behind a Cloudflare human-verification check that did not clear in the live browser, so the posting text (degree, sponsorship, clearance) could not be read. The (1121223) number is the staffing firm's own req format (sibling DSN roles carry the same parenthetical numbering, e.g. (1109691), (1111023)); a search of Caterpillar's own board (careers.caterpillar.com) for 1121223 returned zero results and no 'Embedded Software Engineer - Entry Level' posting in Mossville, so this is a Diversified Services Network (dsnworldwide.com) staffing listing, not a Caterpillar direct posting. DSN's own posting for req 1121223 could not be located.",
   "verification_blocker": "Jobright page Cloudflare human-verification wall; employer (DSN) posting for req 1121223 not locatable",
   "source": "hourly_board_2026-11-20"
+ },
+ {
+  "company": "Cisco",
+  "title": "Software Engineer Embedded/Network Systems I (Co-Op)",
+  "location": "New York, NY",
+  "posting_date": "",
+  "date_added": "2026-11-22",
+  "application_link": "https://career.io/job/software-engineer-embeddednetwork-systems-i-co-op-new-york-cisco-systems-inc-942809342b91bcdf3d08be5d6168a874",
+  "description": "Cisco evergreen co-op posting (aggregator mirrors only). Season not stated anywhere found; Cisco co-op postings carry evergreen wording ('Applications are accepted until further notice. This exact role may not be open today but could open in the near future.'). Aggregator mirror degree line suggests undergrad-only enrollment ('Currently enrolled in an undergraduate degree program'), but that is mirror text, not employer text. User to verify on careers.cisco.com.",
+  "verification_blocker": "Employer job ID not found: site:careers.cisco.com search (2 attempts) surfaced only sibling co-op postings (Systems Quality Engineer I 2026751, Software Developer Embedded Systems II Canada 2024136), not this role; no employer URL, posting date, season, or degree quote established on employer text.",
+  "source": "google_discovery_2026-11-22"
+ },
+ {
+  "company": "Goldman Sachs",
+  "title": "Software Engineer - Software Engineering",
+  "location": "",
+  "posting_date": "",
+  "date_added": "2026-11-22",
+  "application_link": "https://jobs.codemind.site/jobs/software-engineer-software-engineering-goldman-sachs-6af45e9df5a98a32179e8add",
+  "description": "Goldman Sachs 'Software Engineer - Software Engineering', Dallas TX, Junior, on-site; codemind lists it under 'New Grad Software Engineer Jobs', Degrees: Bachelor's, Master's, posted 10 Nov 2026 (aggregator date). Codemind page carries NO employer link ('The full posting is at the employer's link'). No Goldman SWE-titled row exists in the ledger (only the New Analyst program and an excluded_no_newgrad_marker 'Software Engineer (Engineering division)' from 2026-10-19).",
+  "verification_blocker": "No employer application link on aggregator page; degree/sponsorship/req ID unknown without employer-page read (codemind page has no employer link).",
+  "source": "google_discovery_2026-11-22"
  }
 ]
