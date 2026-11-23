@@ -82,3 +82,15 @@ For these safeguards to control publication, the repository owner must select Se
 GitHub schedules and upstream availability remain external dependencies. The recovery check improves resilience but cannot guarantee exact wall-clock execution during GitHub outages. The portal displays the last successful collection time and an overdue indication, and failed runs remain visible in Actions. No third-party monitoring or notification subscription is configured.
 
 Reliability validation includes 74 Python checks and nine JavaScript checks: overdue/missing/future timestamp handling, active-run suppression, cooldowns, failed-deployment recovery, dispatch targeting, disabled-workflow handling, stale live pages, inconsistent data counts, duplicate IDs, and the previously verified concurrent-edit cases.
+
+## November 23: recovery from a repeatedly replaced old page
+
+The repeated stale-portal failure was traced to index.html being replaced with the exact pre-integration page (Git blob f28097c). That page does not load either Jobright data file. The initial test job then failed before collection; restarting that same job could not repair the source.
+
+`ensure_portal_integration.py` now runs **before tests** and again before collection in the publication checkout. It recognizes that exact old page by SHA-256 and reapplies the stored `portal-integration.patch`. The resulting page must match a second fixed hash. Pages that already have the integration remain untouched; unrecognized custom HTML is never replaced. A dedicated test fixture reproduces the old page, including operation from shallow CI checkouts.
+
+When that repair occurs, the workflow passes PORTAL_REPAIRED=true to the safe publisher. Only the exact expected repaired HTML may be added to the usual collection-data commit. This allows a subsequent stale page replacement to recover automatically on the next workflow run, without modifying owner-maintained role files. It does not remove existing owner edits to job data, contacts or resumes. Unknown custom-page conflicts still stop for human review rather than being overwritten.
+
+The date formatter also accepts timestamp-valued posting dates and handles unknown dates without displaying Invalid Date.
+
+Validation now includes 81 Python and ten JavaScript checks, covering the actual legacy-page regression, idempotent repair, CRLF input, preservation of custom pages and job data, guarded publication of the repaired page, and date rendering. The November 23 source refresh inspected 728 rows, found seven additional matches, and retained 125 public Jobright leads in total.

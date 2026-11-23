@@ -20,6 +20,8 @@ jobs:
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.12'
+      - name: Restore known legacy page integration
+        run: python automation/ensure_portal_integration.py
       - run: python -m unittest discover -s tests -v
       - run: node --test tests/portal.test.cjs
   sync-and-build:
@@ -39,6 +41,9 @@ jobs:
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.12'
+      - name: Restore known legacy page integration
+        id: portal_repair
+        run: python automation/ensure_portal_integration.py
       - name: Collect public Jobright lists
         run: python automation/collect_public_jobright.py
       - name: Import permitted export
@@ -50,6 +55,8 @@ jobs:
           JOBRIGHT_FEED_TOKEN: ${{ secrets.JOBRIGHT_FEED_TOKEN }}
         run: python automation/sync_jobs.py
       - name: Safely publish collected data
+        env:
+          PORTAL_REPAIRED: ${{ steps.portal_repair.outputs.changed }}
         run: python automation/publish_collected_data.py
       - name: Record the publication snapshot
         id: snapshot

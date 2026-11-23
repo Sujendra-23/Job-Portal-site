@@ -53,3 +53,7 @@ test('page loads automation helpers and both Jobright data sources', () => {
   assert.equal(run("ROLE_FILES.jobright_public"), 'roles_jobright_public.json');
   assert.equal(run("ROLE_FILES.jobright"), 'roles_jobright.json');
 });
+test('posting dates accept ISO timestamps and never show Invalid Date', () => {
+  assert.equal(run("fmtDate('2026-11-20T10:00:00Z')"),'November 20, 2026');
+  assert.equal(run("fmtDate('not a date')"),'Date not listed');
+});

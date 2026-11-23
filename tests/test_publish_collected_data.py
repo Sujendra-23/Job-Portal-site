@@ -75,3 +75,19 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(PublishError,'validation failed'):publish(self.worker,validator=reject)
         self.command(self.editor,'pull','--ff-only')
         self.assertEqual((self.editor/'roles_jobright_public.json').read_text(),'[]\n')
+
+    def test_only_verified_automatic_page_repair_can_be_published(self):
+        from automation.ensure_portal_integration import ROOT, ensure
+        baseline=(ROOT/'tests/fixtures/legacy-index.html').read_bytes()
+        (self.worker/'index.html').write_bytes(baseline)
+        self.commit(self.worker,'known legacy page');self.command(self.worker,'push','origin','HEAD:main')
+        ensure(self.worker);self.modify_collection()
+        result=publish(self.worker,validator=lambda r:None,include_page_repair=True)
+        self.assertEqual(result['status'],'published')
+        self.command(self.editor,'pull','--ff-only')
+        self.assertIn('roles_jobright_public.json',(self.editor/'index.html').read_text())
+    def test_custom_page_cannot_be_staged_as_automatic_repair(self):
+        (self.worker/'index.html').write_text('custom page')
+        self.modify_collection()
+        with self.assertRaisesRegex(PublishError,'verified automatic repair'):
+            publish(self.worker,validator=lambda r:None,include_page_repair=True)

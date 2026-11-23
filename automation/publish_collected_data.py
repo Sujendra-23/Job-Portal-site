@@ -1,5 +1,6 @@
 """Publish collected JSON with bounded retries when another editor updates main."""
 import json
+import os
 from pathlib import Path
 import subprocess
 import sys
@@ -23,8 +24,17 @@ def validate_publication(root):
             print(result.stderr, end='', file=sys.stderr)
             raise PublishError('Latest main failed validation; publication stopped without overwriting it')
 
-def publish(root=ROOT, validator=validate_publication, attempts=3):
-    if git(root, 'add', '--', *DATA_FILES).returncode:
+def publish(root=ROOT, validator=validate_publication, attempts=3, include_page_repair=False):
+    allowed = set(DATA_FILES)
+    if include_page_repair:
+        try:
+            from .ensure_portal_integration import expected_repair
+        except ImportError:
+            from ensure_portal_integration import expected_repair
+        if not expected_repair(root/'index.html'):
+            raise PublishError('Refusing to publish a page other than the verified automatic repair')
+        allowed.add('index.html')
+    if git(root, 'add', '--', *sorted(allowed)).returncode:
         raise PublishError('Could not stage collection files')
     diff = git(root, 'diff', '--cached', '--quiet')
     if diff.returncode == 0:
@@ -33,7 +43,7 @@ def publish(root=ROOT, validator=validate_publication, attempts=3):
     if diff.returncode != 1:
         raise PublishError('Could not inspect staged collection files')
     staged = git(root, 'diff', '--cached', '--name-only').stdout.splitlines()
-    if set(staged) - set(DATA_FILES):
+    if set(staged) - allowed:
         raise PublishError('Unrelated staged changes found; refusing to include them in a data commit')
     commit = git(root, '-c', 'user.name=github-actions[bot]', '-c',
                  'user.email=41898282+github-actions[bot]@users.noreply.github.com',
@@ -58,7 +68,7 @@ def publish(root=ROOT, validator=validate_publication, attempts=3):
 
 def main():
     try:
-        print(json.dumps(publish()))
+        print(json.dumps(publish(include_page_repair=os.environ.get('PORTAL_REPAIRED')=='true')))
     except PublishError as e:
         print(json.dumps({'status':'failed','error':str(e)}),file=sys.stderr)
         return 1
