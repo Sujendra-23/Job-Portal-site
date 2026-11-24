@@ -47,9 +47,15 @@
 <body>
 <h1>Job Portal — New Grad 2027</h1>
 <div class="meta" id="meta">Loading…</div>
+<div class="meta" id="automation-meta" role="status"></div>
 <input id="search" type="text" placeholder="Filter by company or title…">
+<label for="sponsorship-filter">Eligibility </label>
+<select id="sponsorship-filter" style="padding:8px;margin-bottom:16px;border:1px solid #ddd;border-radius:6px">
+<option value="all">All listings</option><option value="supported">Posting supports CPT, OPT, or H-1B</option><option value="unknown">Eligibility unknown</option>
+</select>
 <div class="tabs" id="tabs"></div>
 <div id="content"></div>
+<script src="automation/portal-automation.js"></script>
 <script>
 const TABS = [
   { id:'ft',     label:'Full-Time 2027',                  kind:'ft' },
@@ -59,15 +65,15 @@ const TABS = [
 ];
 // All role files feed both tabs: full-time roles go to the Full-Time tab,
 // intern/co-op roles go to the Internships tab. Never duplicated.
-// roles_unverified.json feeds ONLY the Unverified Leads tab (user verifies himself).
+// Collected Jobright roles route by employment type; separately maintained leads keep their own tab.
 const ROLE_FILES = {
-  top:'roles_top.json', mid:'roles_midsize.json', growth:'roles_growth.json',
+  jobright:'roles_jobright.json', top:'roles_top.json', mid:'roles_midsize.json', growth:'roles_growth.json',
   startup:'roles_startup.json', liposts:'roles_linkedin_posts.json',
-  unverified:'roles_unverified.json'
+  jobright_public:'roles_jobright_public.json', unverified:'roles_unverified.json'
 };
 const key = r => r.company + '||' + r.title;
-const isIntern = r => /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
-function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
+const isIntern = r => ['Spring 2027 Internship','Spring 2027 Co-op'].includes(r.category) || r.employment_type === 'internship' || r.employment_type === 'co-op' || /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
+function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML.replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 function decodeHtml(s){
   const t = document.createElement('textarea');
   let prev = s || '', out = prev;
@@ -96,7 +102,10 @@ function formatDesc(raw){
 }
 function fmtDate(iso){
   if(!iso) return 'Date not listed';
-  const d = new Date(iso + 'T12:00:00');
+  const match = String(iso).match(/^(\d{4}-\d{2}-\d{2})(?:$|T| )/);
+  if(!match) return 'Date not listed';
+  const d = new Date(match[1] + 'T12:00:00');
+  if(!Number.isFinite(d.getTime())) return 'Date not listed';
   return d.toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
 }
 
@@ -112,7 +121,7 @@ function resumeCell(u, person, label, rk){
 }
 function rowHtml(r){
   const rk = key(r);
-  const descHtml = formatDesc(r.description||'');
+  const descHtml = r.automation_source ? '<p>'+esc(r.description||'').replace(/\n/g,'<br>')+'</p>' : formatDesc(r.description||'');
   const plain = decodeHtml(r.description||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   const prev = plain.slice(0,280) + (plain.length>280?'…':'');
   const hasLong = plain.length > 280;
@@ -122,10 +131,10 @@ function rowHtml(r){
   const postedLine = r.posting_date
     ? '<br><span style="color:#888;font-size:12px">Posted: '+esc(fmtDate(r.posting_date))+'</span>'
     : '<br><span style="color:#aaa;font-size:12px">Posted date not shown</span>';
-  return '<tr data-search="'+esc((r.company+' '+r.title).toLowerCase())+'">'+
-    '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+postedLine+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+'</td>'+
+  return '<tr data-supported="'+(sponsorshipRank(r)>0?'yes':'no')+'" data-search="'+esc((r.company+' '+r.title).toLowerCase())+'">'+
+    '<td><strong>'+esc(r.company)+'</strong><br><span style="color:#555">'+esc(r.title)+'</span><br><span style="color:#888;font-size:12px">'+esc(r.location||'')+'</span>'+postedLine+(r.degree?'<span class="badge">'+esc(r.degree)+'</span>':'')+automationDetails(r)+'</td>'+
     '<td class="desc"><span class="preview">'+esc(prev)+'</span><span class="full">'+descHtml+'</span>'+(hasLong?'<br><span class="toggle">Read more</span>':'')+'</td>'+
-    '<td><a class="apply" href="'+esc(r.application_link)+'" target="_blank" rel="noopener">Apply</a></td>'+
+    '<td><a class="apply" href="'+esc(r.application_link || r.source_url)+'" target="_blank" rel="noopener">'+(r.application_link?'Apply':'View listing')+'</a></td>'+
     resumeCell(sUrl,'sujendra','Sujendra',rk)+resumeCell(hUrl,'shruthi','Shruthi',rk)+
     '</tr>';
 }
@@ -133,7 +142,7 @@ function renderRoles(roles){
   // Group by DISCOVERY date (date_added) per user rule 2026-10-10 — this is
   // always known and honest. posting_date is shown per-role when verified.
   const groups = {};
-  roles.forEach(r=>{ const d = r.date_added || r.posting_date || ''; (groups[d] = groups[d] || []).push(r); });
+  roles.filter(automationVisible).sort((a,b)=>sponsorshipRank(b)-sponsorshipRank(a)).forEach(r=>{ const d = r.date_added || r.posting_date || ''; (groups[d] = groups[d] || []).push(r); });
   const dates = Object.keys(groups).sort().reverse();
   const todayIso = new Date().toISOString().slice(0,10);
   let html = '';
@@ -164,11 +173,11 @@ function renderEmails(contacts){
 }
 
 function tabRoles(tab){
-  // Unverified Leads tab shows ONLY roles_unverified.json, never mixed with verified tabs.
+  // Tab placement follows the requested role type; evidence/status labels are separate.
   if(tab.kind === 'leads'){
-    return (DATA['unverified'] || []).filter(r => r && r.company && r.title);
+    return (DATA['unverified'] || []).filter(r => r && r.company && r.title && automationVisible(r));
   }
-  const all = Object.keys(ROLE_FILES).filter(id => id !== 'unverified').flatMap(id => DATA[id] || []);
+  const all = Object.keys(ROLE_FILES).filter(id => id !== 'unverified').sort((a,b)=>Number(a.startsWith('jobright'))-Number(b.startsWith('jobright'))).flatMap(id => DATA[id] || []);
   // safety dedupe across files (company+title+location)
   const seen = new Set();
   const uniq = all.filter(r => {
@@ -177,7 +186,8 @@ function tabRoles(tab){
     seen.add(k);
     return true;
   });
-  return tab.kind === 'intern' ? uniq.filter(isIntern) : uniq.filter(r => !isIntern(r));
+  const visible = uniq.filter(automationVisible);
+  return tab.kind === 'intern' ? visible.filter(isIntern) : visible.filter(r => !isIntern(r));
 }
 function render(){
   const tab = TABS.find(t=>t.id===activeTab);
@@ -190,14 +200,13 @@ function render(){
     const roles = tabRoles(tab);
     res = renderRoles(roles);
     document.getElementById('meta').textContent = res.count+' unverified leads';
-    box.innerHTML = '<div class="leads-banner">These roles were found by the automated sweep but <strong>could not be verified</strong> on the employer\'s posting (verification wall, bot block, or JS-only page). Degree, sponsorship, and clearance language are <strong>unchecked</strong> — read the posting yourself before applying.</div>' + res.html;
   } else {
     const roles = tabRoles(tab);
     res = renderRoles(roles);
     const noun = tab.kind === 'intern' ? 'internships/co-ops' : 'roles';
     document.getElementById('meta').textContent = res.count+' '+noun+' across '+res.days+' days';
   }
-  box.innerHTML = res.html;
+  box.innerHTML = (tab.kind==='leads' ? '<div class="leads-banner">These leads have not been verified on the employer’s posting. Confirm the term, degree, experience and work authorization before applying. Public Jobright leads link to the source listing.</div>' : '') + res.html;
   box.querySelectorAll('.desc .toggle').forEach(tg=>{
     tg.onclick = ()=>{
       const cell = tg.closest('.desc');
@@ -206,6 +215,7 @@ function render(){
     };
   });
   paintApplied();
+  paintSyncStatus();
   applyFilter();
 }
 
@@ -225,9 +235,9 @@ async function load(){
   window.__setTab = setTab;
 
   const ids = Object.keys(ROLE_FILES);
-  const fetches = ids.map(id=>fetch(ROLE_FILES[id]).then(r=>r.json()).catch(()=>[]));
-  const emailFetch = fetch('emails.json').then(r=>r.json()).catch(()=>[]);
-  const results = await Promise.all([...fetches, emailFetch, fetch('resumes.json').then(r=>r.json()).catch(()=>({}))]);
+  const fetches = ids.map(id=>fetch(ROLE_FILES[id], {cache:'no-store'}).then(r=>r.json()).catch(()=>[]));
+  const emailFetch = fetch('emails.json', {cache:'no-store'}).then(r=>r.json()).catch(()=>[]);
+  const results = await Promise.all([...fetches, emailFetch, fetch('resumes.json', {cache:'no-store'}).then(r=>r.json()).catch(()=>({}))]);
   RESUMES = results.pop() || {};
   const EMAILS = results.pop() || [];
   DATA = {};
@@ -235,6 +245,8 @@ async function load(){
   DATA['emails'] = EMAILS;
 
   document.getElementById('search').oninput = applyFilter;
+  document.getElementById('sponsorship-filter').onchange = applyFilter;
+  [SYNC_STATUS, PUBLIC_SYNC_STATUS] = await Promise.all(['jobright_sync.json','jobright_public_sync.json'].map(path=>fetch(path, {cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)));
 
   // ---- applied tracking (per-browser, via localStorage) ----
   const LS_KEY = 'jobportal_applied_v1';
@@ -269,7 +281,9 @@ function paintApplied(){
 function applyFilter(){
   const q = document.getElementById('search').value.toLowerCase();
   document.querySelectorAll('#content tr[data-search]').forEach(tr=>{
-    tr.style.display = tr.dataset.search.includes(q)?'':'none';
+    const eligibility = document.getElementById('sponsorship-filter').value;
+    const eligible = !tr.hasAttribute('data-supported') || eligibility==='all' || (eligibility==='supported' ? tr.dataset.supported==='yes' : tr.dataset.supported!=='yes');
+    tr.style.display = tr.dataset.search.includes(q) && eligible ? '' : 'none';
   });
   document.querySelectorAll('#content .day').forEach(sec=>{
     const anyVisible = [...sec.querySelectorAll('tr[data-search]')].some(tr=>tr.style.display!=='none');
