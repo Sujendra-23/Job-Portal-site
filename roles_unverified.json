@@ -826,5 +826,16 @@
   "description": "Jobright row (posted Nov 20) for an entry-level Embedded Software Engineer in Mossville, IL. The Jobright job page sits behind a Cloudflare human-verification check that did not clear in the live browser, so the posting text (degree, sponsorship, clearance) could not be read. The (1121223) number is the staffing firm's own req format (sibling DSN roles carry the same parenthetical numbering, e.g. (1109691), (1111023)); a search of Caterpillar's own board (careers.caterpillar.com) for 1121223 returned zero results and no 'Embedded Software Engineer - Entry Level' posting in Mossville, so this is a Diversified Services Network (dsnworldwide.com) staffing listing, not a Caterpillar direct posting. DSN's own posting for req 1121223 could not be located.",
   "verification_blocker": "Jobright page Cloudflare human-verification wall; employer (DSN) posting for req 1121223 not locatable",
   "source": "hourly_board_2026-11-20"
+ },
+ {
+  "company": "Leidos",
+  "title": "Software Engineering Intern",
+  "location": "Arlington, VA",
+  "posting_date": "2026-11-23",
+  "date_added": "2026-11-23",
+  "application_link": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Arlington-VA/Software-Engineering-Intern_R-00197526",
+  "description": "Software Engineering Intern, Arlington VA, req R-00197526. Employer Workday CXS search confirms the posting is live and \"Posted Today\" 2026-11-23. Full description unreadable: the employer Workday page shows a Cloudflare \"Verify you are human\" check in both script fetch (JS shell) and the live browser, and the Workday CXS detail endpoint 400s from scripts. Season, degree, sponsorship, and clearance are all unverified.",
+  "verification_blocker": "employer site human-verification wall (Cloudflare on Leidos Workday)",
+  "source": "hourly_board_2026-11-23"
  }
 ]
