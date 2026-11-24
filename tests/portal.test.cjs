@@ -37,9 +37,17 @@ test('support rank requires explicit current posting evidence', () => {
   assert.equal(run("sponsorshipRank({sponsorship_history:'Sponsored in 2024'})"),0);
   assert.equal(run("sponsorshipRank({opt:'supported'})"),1);
 });
-test('public Jobright leads never enter verified tabs', () => {
-  assert.equal(run("DATA={jobright_public:[{company:'Public',title:'Software Engineer, New Grad 2027',automation_source:'jobright-public-github'}]};tabRoles({kind:'ft'}).length"),0);
-  assert.equal(run("DATA={jobright_public:[{company:'Public',title:'Software Engineer, New Grad 2027',automation_source:'jobright-public-github'}]};tabRoles({kind:'leads'}).length"),1);
+test('public full-time jobs enter only the full-time tab', () => {
+  assert.equal(run("DATA={jobright_public:[{company:'Public',title:'Software Engineer, New Grad 2027',automation_source:'jobright-public-github',category:'Full-Time 2027',employment_type:'full-time'}]};[tabRoles({kind:'ft'}).length,tabRoles({kind:'intern'}).length,tabRoles({kind:'leads'}).length].join(',')"),'1,0,0');
+});
+test('public Spring internships and co-ops enter only the internship tab', () => {
+  assert.equal(run("DATA={jobright_public:[{company:'Intern',title:'Software Engineer',automation_source:'jobright-public-github',category:'Spring 2027 Internship'},{company:'Coop',title:'Backend Engineer',automation_source:'jobright-public-github',category:'Spring 2027 Co-op'}]};[tabRoles({kind:'ft'}).length,tabRoles({kind:'intern'}).length,tabRoles({kind:'leads'}).length].join(',')"),'0,2,0');
+});
+test('existing curated job takes precedence over a duplicate public job', () => {
+  assert.equal(run("DATA={top:[{company:'Same',title:'Software Engineer',location:'US',description:'curated'}],jobright_public:[{company:'Same',title:'Software Engineer',location:'US',automation_source:'jobright-public-github',category:'Full-Time 2027'}]};tabRoles({kind:'ft'}).map(r=>r.description).join(',')"),'curated');
+});
+test('excluded and expired collected jobs are not routed into any role tab', () => {
+  assert.equal(run("DATA={jobright_public:[{company:'Excluded',title:'Software Engineer',automation_source:'jobright-public-github',filter_status:'excluded'},{company:'Expired',title:'Software Engineer',automation_source:'jobright-public-github',status:'expired'}]};tabRoles({kind:'ft'}).length+tabRoles({kind:'intern'}).length"),0);
 });
 test('public leads use a view-listing link without inventing an employer Apply URL', () => {
   const rendered = run("rowHtml({company:'Public',title:'SWE',description:'Source details',automation_source:'jobright-public-github',application_link:null,source_url:'https://jobright.ai/jobs/info/test'})");

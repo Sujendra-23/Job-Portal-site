@@ -11,14 +11,14 @@ Although their names contain 2026, both lists currently include 2027 opportuniti
 
 ## What appears on the portal
 
-New public matches are saved to `roles_jobright_public.json` and displayed only in **Unverified Leads**. Existing verified job files, contacts, resume links and application tracking stay intact.
+New public matches are saved to `roles_jobright_public.json`. Per the owner’s explicit request, full-time roles appear in **Full-Time 2027** and Spring 2027 internships/co-ops appear in **Spring/Winter 2027 Co-op/Intern**. They are not also displayed in Unverified Leads. Tab placement does not change employer-verification or eligibility status. Existing verified job files, contacts, resume links and application tracking stay intact.
 
 - US locations only, including explicitly US remote listings.
 - Full-time 2027 titles or suitable early-career titles. An undated early-career title is a lead, not confirmation that the role accepts a May 2027 graduate.
 - Internship/co-op titles must explicitly identify Spring/Winter 2027; unknown terms and Summer/Fall internships are excluded.
 - Senior/lead roles and titles explicitly referencing defense, government, citizenship or clearance are excluded.
 - Source IDs and normalized company/title/location prevent repeated imports. Known company aliases and multi-city locations are supported. Existing verified and unverified files are checked before adding a lead. Not all employer aliases/requisitions can be resolved from metadata alone.
-- Eligibility, required experience, degree, employer posting status and direct employer application URLs are **unknown**, because the public tables do not provide this evidence. No sponsor ranking is invented. Public matches cannot be promoted to verified jobs without employer verification.
+- Eligibility, required experience, degree, employer posting status and direct employer application URLs are **unknown**, because the public tables do not provide this evidence. No sponsor ranking is invented. The requested employment-type tabs include these matches with their employer-verification and unknown-eligibility labels intact.
 - Public listings have **View listing** links to Jobright, rather than fabricated employer Apply links.
 - The source's month/day label is retained in the explanation; it is not promoted to a verified employer posting date.
 - First discovery dates are preserved. Records that disappear from these rolling lists remain unverified history; disappearance is not treated as proof of expiration.

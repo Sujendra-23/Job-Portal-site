@@ -9,7 +9,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 PATCH = Path(__file__).with_name('portal-integration.patch')
 LEGACY_SHA256 = '3b9ddbe8cd500c97c49b80ef22f82160071d0b587f8ecf23e4c2be6fd12da218'
-REPAIRED_SHA256 = 'b849ffa28d49d27f4d852f7429b3795da535999975a7aad13d9c61bd19bf72f3'
+REPAIRED_SHA256 = 'b96657098401b6f9fba7f3fb23f2f4374c6d7483add50fb29ea4c312ea92f02c'
 MARKERS = (b'roles_jobright_public.json', b'roles_jobright.json', b'automation/portal-automation.js', b'automation-meta')
 
 class PortalRepairError(RuntimeError):

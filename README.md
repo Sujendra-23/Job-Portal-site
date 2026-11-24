@@ -1,6 +1,6 @@
 # Job Portal site
 
-Jobright public GitHub job lists are collected every three hours and shown in Unverified Leads. See [active public collection](automation/PUBLIC_COLLECTION.md) for sources, filtering, verification and limits. The separate personalized-feed importer remains disabled; its setup is documented in [automation/README.md](automation/README.md).
+Jobright public GitHub job lists are collected every three hours and routed into Full-Time 2027 and Spring/Winter 2027 by employment type. See [active public collection](automation/PUBLIC_COLLECTION.md) for sources, filtering, verification and limits. The separate personalized-feed importer remains disabled; its setup is documented in [automation/README.md](automation/README.md).
 
 Static job portal (GitHub Pages), six tabs.
 

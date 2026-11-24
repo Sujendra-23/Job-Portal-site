@@ -21,7 +21,7 @@ function paintSyncStatus() {
   if (PUBLIC_SYNC_STATUS && PUBLIC_SYNC_STATUS.last_success) {
     const last = new Date(PUBLIC_SYNC_STATUS.last_success);
     const stale = Date.now() - last.getTime() > 7 * 60 * 60 * 1000;
-    el.textContent = 'Jobright public lists checked: ' + last.toLocaleString() + ' · ' + PUBLIC_SYNC_STATUS.visible_public_leads + ' collected leads in Unverified Leads' + (stale ? ' · Update overdue — check GitHub Actions' : '') + ' · Personalized recommendations not connected';
+    el.textContent = 'Jobright public lists checked: ' + last.toLocaleString() + ' · ' + PUBLIC_SYNC_STATUS.visible_public_leads + ' collected jobs in Full-Time and Spring/Winter 2027' + (stale ? ' · Update overdue — check GitHub Actions' : '') + ' · Personalized recommendations not connected';
     return;
   }
   if (!SYNC_STATUS || !SYNC_STATUS.last_success) {

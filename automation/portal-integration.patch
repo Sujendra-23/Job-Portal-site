@@ -1,5 +1,5 @@
 diff --git a/index.html b/index.html
-index f28097c..9d00088 100644
+index f28097c..1a4f916 100644
 --- a/index.html
 +++ b/index.html
 @@ -47,9 +47,15 @@
@@ -23,7 +23,7 @@ index f28097c..9d00088 100644
  // All role files feed both tabs: full-time roles go to the Full-Time tab,
  // intern/co-op roles go to the Internships tab. Never duplicated.
 -// roles_unverified.json feeds ONLY the Unverified Leads tab (user verifies himself).
-+// Existing unverified roles and public Jobright leads stay in Unverified Leads.
++// Collected Jobright roles route by employment type; separately maintained leads keep their own tab.
  const ROLE_FILES = {
 -  top:'roles_top.json', mid:'roles_midsize.json', growth:'roles_growth.json',
 +  jobright:'roles_jobright.json', top:'roles_top.json', mid:'roles_midsize.json', growth:'roles_growth.json',
@@ -34,7 +34,7 @@ index f28097c..9d00088 100644
  const key = r => r.company + '||' + r.title;
 -const isIntern = r => /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
 -function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
-+const isIntern = r => r.employment_type === 'internship' || r.employment_type === 'co-op' || /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
++const isIntern = r => ['Spring 2027 Internship','Spring 2027 Co-op'].includes(r.category) || r.employment_type === 'internship' || r.employment_type === 'co-op' || /\bintern(ship)?\b|\bco-?op\b/i.test(r.title || '');
 +function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML.replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
  function decodeHtml(s){
    const t = document.createElement('textarea');
@@ -88,13 +88,13 @@ index f28097c..9d00088 100644
  
  function tabRoles(tab){
 -  // Unverified Leads tab shows ONLY roles_unverified.json, never mixed with verified tabs.
-+  // Public Jobright metadata remains unverified and never enters verified tabs.
++  // Tab placement follows the requested role type; evidence/status labels are separate.
    if(tab.kind === 'leads'){
 -    return (DATA['unverified'] || []).filter(r => r && r.company && r.title);
-+    return [...(DATA['unverified'] || []), ...(DATA['jobright_public'] || [])].filter(r => r && r.company && r.title && automationVisible(r));
++    return (DATA['unverified'] || []).filter(r => r && r.company && r.title && automationVisible(r));
    }
 -  const all = Object.keys(ROLE_FILES).filter(id => id !== 'unverified').flatMap(id => DATA[id] || []);
-+  const all = Object.keys(ROLE_FILES).filter(id => id !== 'unverified' && id !== 'jobright_public').sort((a,b)=>(a==='jobright')-(b==='jobright')).flatMap(id => DATA[id] || []);
++  const all = Object.keys(ROLE_FILES).filter(id => id !== 'unverified').sort((a,b)=>Number(a.startsWith('jobright'))-Number(b.startsWith('jobright'))).flatMap(id => DATA[id] || []);
    // safety dedupe across files (company+title+location)
    const seen = new Set();
    const uniq = all.filter(r => {
