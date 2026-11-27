@@ -1,24 +1,24 @@
 {
   "status": "success",
-  "last_success": "2026-11-27T20:21:01.474522+00:00",
+  "last_success": "2026-11-27T23:31:59.233470+00:00",
   "source_type": "Jobright public GitHub lists",
   "sources": [
     "https://github.com/jobright-ai/2026-Software-Engineer-New-Grad",
     "https://github.com/jobright-ai/2026-Software-Engineer-Internship"
   ],
-  "inspected": 613,
-  "matched": 124,
-  "added": 2,
-  "updated": 102,
+  "inspected": 618,
+  "matched": 123,
+  "added": 0,
+  "updated": 103,
   "duplicates": 20,
   "rejected": {
-    "unrelated": 206,
-    "outside_us": 89,
+    "outside_us": 88,
     "unconfirmed_early_career": 136,
+    "unrelated": 212,
     "wrong_term": 43,
     "restricted_title": 10,
     "wrong_year": 3,
-    "seniority": 2
+    "seniority": 3
   },
   "visible_public_leads": 187
 }
